@@ -1,0 +1,68 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=C:\Code\ada-gba-test\gba-util\zfp-gba\
+A -mlittle-endian
+A -marm
+A -mthumb-interwork
+A -mfloat-abi=soft
+A -gnatg
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -mcpu=arm7tdmi
+A -march=armv4t
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.memory_compare%b  s-memcom.adb		12d4b511 NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.ads			i-c.ali
+Z system%s		system.ads		system.ali
+
+U system.memory_compare%s  s-memcom.ads		bf2c03ad NE OL PR PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.ads			i-c.ali
+W system%s		system.ads		system.ali
+
+D interfac.ads		20210312172832 8feb4151 interfaces%s
+D i-c.ads		20210312172846 4f430581 interfaces.c%s
+D system.ads		20210323020858 8d2e5a8d system%s
+D s-memcom.ads		20210312154702 7d415ca1 system.memory_compare%s
+D s-memcom.adb		20210312154900 20d6ec31 system.memory_compare%b
+G a e
+G c Z s b [memcmp system__memory_compare 38 13 none]
+X 1 interfac.ads
+38K9*Interfaces 167e15 4|32r6 41r12 5|32r6 32r24
+X 2 i-c.ads
+39K20*C 97e17 4|32w17 41r23 5|32w17 32r35
+73M9*size_t 4|41r25 5|40r53
+X 3 system.ads
+70K9*System 185e11 4|34r9 47r5 5|34r14 78r5
+101N4*Storage_Unit 5|70r25 71r25 72r19
+102N4*Word_Size 5|51r21 53r28 54r28 55r22
+105M9*Word 5|50r31 52r23 52r44
+106M9*Byte 5|44r16 62r16 63r16
+108M9*Address 4|39r12 40r12 5|40r26 40r40 41r15 42r15 43r15 43r26
+115V14*">"{boolean} 5|61r15
+116V14*">="{boolean} 5|51r18
+117V14*"="{boolean} 5|50r52
+X 4 s-memcom.ads
+34K16*Memory_Compare 3|70k9 4|47l12 47e26 5|34b21 78l12 78t26
+38V13*memcmp{integer} 39>7 40>7 41>7 42i<c,memcmp>22 5|40b13 76l8 76t14
+39m7 S1{3|108M9} 5|40b21 41r26
+40m7 S2{3|108M9} 5|40b35 42r26
+41m7 N{2|73M9} 5|40b49 43r35
+X 5 s-memcom.adb
+41m7 S1_A{3|108M9} 50r12 52r35 53m13 53r21 62r28 70m10 70r18
+42m7 S2_A{3|108M9} 50r20 52r56 54m13 54r21 63r28 71m10 71r18
+43m7 C{3|108M9} 51r16 55m13 55r18 61r13 72m10 72r15
+44m7 V1{3|106M9} 62m10 64r13 66r16
+44m11 V2{3|106M9} 63m10 64r18 66r21
+

@@ -1,0 +1,66 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=C:\Code\ada-gba-test\gba-util\zfp-gba\
+A -mlittle-endian
+A -marm
+A -mthumb-interwork
+A -mfloat-abi=soft
+A -gnatg
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -mcpu=arm7tdmi
+A -march=armv4t
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U system.memory_copy%b	s-memcop.adb		f3af110b NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.ads			i-c.ali
+Z system%s		system.ads		system.ali
+
+U system.memory_copy%s	s-memcop.ads		9ca4f51f NE OL PK
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.ads			i-c.ali
+W system%s		system.ads		system.ali
+
+D interfac.ads		20210312172832 8feb4151 interfaces%s
+D i-c.ads		20210312172846 4f430581 interfaces.c%s
+D system.ads		20210323020858 8d2e5a8d system%s
+D s-memcop.ads		20210312151936 5ec9aa13 system.memory_copy%s
+D s-memcop.adb		20210312154634 e225be99 system.memory_copy%b
+G a e
+G c Z s b [memcpy system__memory_copy 40 13 none]
+X 1 interfac.ads
+38K9*Interfaces 167e15 4|35r6 41r42 5|32r6 32r24
+X 2 i-c.ads
+39K20*C 97e17 4|35w17 41r53 5|32w17 32r35
+73M9*size_t 4|41r55 5|41r42
+X 3 system.ads
+70K9*System 185e11 4|37r9 47r5 5|34r14 71r5
+101N4*Storage_Unit 5|63r19 64r19 65r19
+102N4*Word_Size 5|51r21 53r22 54r22 55r22
+105M9*Word 5|50r25 52r13 52r31
+106M9*Byte 5|62r10 62r28
+108M9*Address 4|41r14 41r29 41r70 5|41r14 41r29 41r57 43r11 44r11 45r11 45r22
+115V14*">"{boolean} 5|61r15
+116V14*">="{boolean} 5|51r18
+117V14*"="{boolean} 5|50r46
+X 4 s-memcop.ads
+37K16*Memory_Copy 3|70k9 4|47l12 47e23 5|34b21 71l12 71t23
+40V13*memcpy{3|108M9} 41>7 41>23 41>38 42i<c,memcpy>22 5|40b13 69l8 69t14
+41m7 Dest{3|108M9} 5|41b7 43r22 68r14
+41m23 Src{3|108M9} 5|41b23 44r22
+41m38 N{2|73M9} 5|41b38 45r31
+X 5 s-memcop.adb
+43m7 D{3|108M9} 50r12 52r25 53m13 53r18 62r22 63m10 63r15
+44m7 S{3|108M9} 50r17 52r43 54m13 54r18 62r40 64m10 64r15
+45m7 C{3|108M9} 51r16 55m13 55r18 61r13 65m10 65r15
+

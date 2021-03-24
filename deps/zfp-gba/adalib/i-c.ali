@@ -1,0 +1,59 @@
+V "GNAT Lib v2020"
+A -nostdinc
+A -O2
+A -gnatA
+A --RTS=C:\Code\ada-gba-test\gba-util\zfp-gba\
+A -mlittle-endian
+A -marm
+A -mthumb-interwork
+A -mfloat-abi=soft
+A -gnatg
+A -gnatp
+A -gnatn2
+A -fcallgraph-info=su,da
+A -ffunction-sections
+A -fdata-sections
+A -mcpu=arm7tdmi
+A -march=armv4t
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RR NO_ELABORATION_CODE
+
+U interfaces.c%s	i-c.ads			c0a844d0 NE OL PU PK
+W interfaces%s		interfac.ads		interfac.ali
+
+D interfac.ads		20210312172832 8feb4151 interfaces%s
+D i-c.ads		20210312172846 4f430581 interfaces.c%s
+D system.ads		20210323020858 8d2e5a8d system%s
+G a e
+G c Z s s [char_arrayIP interfaces__c 83 9 none]
+G c Z s s [wchar_arrayIP interfaces__c 95 9 none]
+X 1 interfac.ads
+38K9*Interfaces 167e15 2|39r9 97r5
+X 2 i-c.ads
+39K20*C 1|38k9 2|97l16 97e17
+45N4*CHAR_BIT 58r29 65r31 84r38
+46N4*SCHAR_MIN 57r30
+47N4*SCHAR_MAX 57r43
+48N4*UCHAR_MAX 64r31
+53I9*int<integer> 60r36
+54I9*short<short_integer> 61r36
+55I9*long<long_integer> 62r36
+57I9*signed_char<short_short_integer> 58r8
+60M9*unsigned
+61M9*unsigned_short
+62M9*unsigned_long
+64M9*unsigned_char 65r8 67r26
+67M12*plain_char{64M9}
+69I9*ptrdiff_t<integer>
+73M9*size_t 83r30 95r31
+79E9*char<character> 81r19 81r27 83r58
+81e4*nul{79E9}
+83A9*char_array(79E9)<73M9> 84r8
+90E9*wchar_t<wide_character> 91r8 93r24 93r35 95r59
+93e4*wide_nul{90E9}
+95A9*wchar_array(90E9)<73M9>
+

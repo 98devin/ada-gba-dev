@@ -1,0 +1,66 @@
+
+abstract project GBA_Program is
+
+    for Languages use ("Ada", "Asm_Cpp");
+    for Target use "arm-eabi";
+    for Runtime("Ada") use GBA_Program'Project_Dir & "deps/zfp-gba";
+
+    package Naming is
+        for Casing use "mixedcase";
+        for Dot_Replacement use ".";
+    end Naming;
+
+
+    type Code_Linkage_Mode is
+        ( "EWRAM" -- Link in multiboot mode, putting .text into 256k .ewram 
+        , "ROM"   -- Link in normal mode, putting .text into 32mb read-only segment
+        );
+
+    Code_Linkage : Code_Linkage_Mode := external("codelinkage", "ROM");
+    Linker_File := "";
+
+
+    case Code_Linkage is
+    when "EWRAM" => Linker_File := "gba_mb.ld";
+    when "ROM"   => Linker_File := "gba_cart.ld";
+    end case;
+
+    package Compiler is
+        Default_Arch := "";
+
+        Common_Options :=
+            ( "-march=armv4t" 
+            , "-mthumb-interwork"
+            , "-ffunction-sections"
+            , "-fdata-sections"
+            , "-fomit-frame-pointer"
+            , "-freg-struct-return"
+            );
+
+        Common_Ada_Options :=
+            ( "-gnatp"
+            , "-gnatX"
+            , "-gnatn2"
+            , "-O3"
+            );
+
+        case Code_Linkage is
+        when "EWRAM" => Default_Arch := "-marm";
+        when "ROM"   => Default_Arch := "-mthumb";
+        end case;
+
+        for Default_Switches("Asm_Cpp") use Common_Options;
+        for Default_Switches("Ada") use Common_Options & Common_Ada_Options & Default_Arch;
+
+    end Compiler;
+
+    package Linker is
+        for Required_Switches use
+            ( "-T" & Linker_File
+            , "-nostartfiles"
+            , "-static"
+            , "-Wl,-gc-sections"
+            );
+    end Linker;
+
+end GBA_Program;
