@@ -30,6 +30,7 @@ abstract project GBA_Program is
         Common_Options :=
             ( "-march=armv4t" 
             , "-mthumb-interwork"
+            , "-nostdlib"
             , "-ffunction-sections"
             , "-fdata-sections"
             , "-fomit-frame-pointer"
@@ -58,6 +59,7 @@ abstract project GBA_Program is
         for Required_Switches use
             ( "-T" & Linker_File
             , "-nostartfiles"
+            , "-nostdlib"
             , "-static"
             , "-Wl,-gc-sections"
             , "-g"

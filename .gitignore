@@ -1,5 +1,6 @@
 .vscode/
 bin/
+adalib/
 obj/
 *.exe
 *.o
