@@ -31,35 +31,35 @@ package body GBA.Input is
   function Read_Key_State return Key_Set   is ( not Cast(Key_Input) );
 
 
-  procedure Disable_Interrupt is
+  procedure Disable_Input_Interrupt_Request is
   begin
-    Key_Control.Interrupt_Enabled := False;
+    Key_Control.Interrupt_Requested := False;
   end;
 
-  procedure Enable_Interrupt_If_Key_Pressed(K : Key) is
+  procedure Request_Interrupt_If_Key_Pressed(K : Key) is
     Flags : Key_Flags := To_Flags(K);
   begin
     Key_Control := 
       ( Flags => Flags
-      , Interrupt_Enabled => True
+      , Interrupt_Requested => True
       , Interrupt_Op => Disjunction
       );
   end;
 
-  procedure Enable_Interrupt_If_Any_Pressed(F : Key_Flags) is
+  procedure Request_Interrupt_If_Any_Pressed(F : Key_Flags) is
   begin
     Key_Control :=
       ( Flags => F
-      , Interrupt_Enabled => True
+      , Interrupt_Requested => True
       , Interrupt_Op => Disjunction
       );
   end;
   
-  procedure Enable_Interrupt_If_All_Pressed(F : Key_Flags) is
+  procedure Request_Interrupt_If_All_Pressed(F : Key_Flags) is
   begin
     Key_Control :=
       ( Flags => F
-      , Interrupt_Enabled => True
+      , Interrupt_Requested => True
       , Interrupt_Op => Conjunction
       );
   end;  

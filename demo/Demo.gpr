@@ -1,5 +1,5 @@
 
-with "../gbada/GBADA.gpr";
+with "../GBADA.gpr";
 
 project Demo extends "../GBA_Program.gpr" is
 

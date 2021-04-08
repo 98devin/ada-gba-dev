@@ -6,9 +6,9 @@ package GBA.Input.Buffered is
   
   procedure Update_Key_State;
 
-  function Is_Key_Pressed (K : Key) return Boolean with Inline_Always;
-  function Are_Any_Pressed (F : Key_Flags) return Boolean with Inline_Always;
-  function Are_All_Pressed (F : Key_Flags) return Boolean with Inline_Always;
+  function Is_Key_Down (K : Key) return Boolean with Inline_Always;
+  function Are_Any_Down (F : Key_Flags) return Boolean with Inline_Always;
+  function Are_All_Down (F : Key_Flags) return Boolean with Inline_Always;
 
   function Was_Key_Pressed  (K : Key) return Boolean with Inline_Always;
   function Were_Any_Pressed (F : Key_Flags) return Boolean with Inline_Always;

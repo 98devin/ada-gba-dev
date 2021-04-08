@@ -56,10 +56,10 @@ package GBA.Input is
   function Read_Key_State return Key_Set
     with Inline_Always;
 
-  procedure Disable_Interrupt;
-  procedure Enable_Interrupt_If_Key_Pressed(K : Key);  
-  procedure Enable_Interrupt_If_Any_Pressed(F : Key_Flags);
-  procedure Enable_Interrupt_If_All_Pressed(F : Key_Flags);
+  procedure Disable_Input_Interrupt_Request;
+  procedure Request_Interrupt_If_Key_Pressed(K : Key);  
+  procedure Request_Interrupt_If_Any_Pressed(F : Key_Flags);
+  procedure Request_Interrupt_If_All_Pressed(F : Key_Flags);
 
 private
   
@@ -71,17 +71,17 @@ private
   
   type Key_Control_Data is
     record
-      Flags             : Key_Flags;
-      Interrupt_Enabled : Boolean;
-      Interrupt_Op      : Key_Control_Op;
+      Flags               : Key_Flags;
+      Interrupt_Requested : Boolean;
+      Interrupt_Op        : Key_Control_Op;
     end record
     with Size => 16;
 
   for Key_Control_Data use
     record
-      Flags             at 0 range 0  .. 9;
-      Interrupt_Enabled at 0 range 14 .. 14;
-      Interrupt_Op      at 0 range 15 .. 15;
+      Flags               at 0 range 0  .. 9;
+      Interrupt_Requested at 0 range 14 .. 14;
+      Interrupt_Op        at 0 range 15 .. 15;
     end record;
 
 

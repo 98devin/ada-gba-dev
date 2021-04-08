@@ -1,55 +1,43 @@
 
+with GBA.BIOS;
+with GBA.BIOS.Arm;
+with GBA.BIOS.Memset;
+
+with GBA.Display;
+with GBA.Display.Backgrounds;
+with GBA.Display.Palettes;
+with GBA.Display.Windows;
+
 with GBA.Memory;
 with GBA.Interrupts;
+
+with GBA.Input;
 with GBA.Input.Buffered;
-with GBA.DMA;
 
-with GBA.BIOS;
-use  GBA.BIOS;
-
-with GBA.BIOS.Thumb;
-use  GBA.BIOS.Thumb;
 
 with Interfaces;
-use  Interfaces;
 
-with GBA.BIOS.Memset;
 
 procedure Hello is
 
-  Display_Control : Unsigned_32
-    with Import, Volatile, Address => 16#4000000#;
+  use GBA.BIOS;
+  use GBA.BIOS.Arm;
 
-  Display_Stats : Unsigned_16
-    with Import, Volatile, Address => 16#4000004#;
+  use GBA.Display;
+  use GBA.Display.Palettes;
 
-  Mode_3 : constant := 16#0003#;
-  BG_2   : constant := 16#0400#;
-  VBlank_Enable : constant := 2#1000#;
+  use GBA.Input;
+  use GBA.Input.Buffered;
 
-  type Unsigned_5 is mod 2 ** 5;
-
-  type Color is 
-    record
-      R, G, B : Unsigned_5;
-    end record
-    with Size => 16;
-
-  for Color use
-    record
-      R at 0 range 0  .. 4;
-      G at 0 range 5  .. 9;
-      B at 0 range 10 .. 14;
-    end record;
 
 
   VRAM : array (1 .. 160, 1 .. 240) of Color
     with Import, Volatile, Address => 16#6000000#;
 
 
-  Color_BGS : array (1 .. 2) of Color with Export;
+  Color_BG : aliased Color with Volatile;
 
-  procedure Adjust_Color(Y : Positive) is
+  procedure Adjust_Color (Y : Positive) is
     Color_Palette : constant array (0 .. 3) of Color :=
       ( (19, 23, 19) 
       , (31, 25, 21) 
@@ -57,34 +45,20 @@ procedure Hello is
       , (29,  9, 11)
       );
   begin
-    Color_BGS := (1..2 => Color_Palette(((Y-1) mod 128) / 32));
+    Color_BG := Color_Palette(((Y-1) mod 128) / 32);
   end;
 
   Y_Offset : Natural := 0;
 
-  use GBA.Input;
-  use GBA.Input.Buffered;
-
-  use GBA.DMA;
-
-  Block_Transfer_Info : constant Transfer_Info :=
-    ( Copy_Unit_Size    => Half_Word
-    , Transfer_Count    => 60
-    , Dest_Adjustment   => Increment
-    , Source_Adjustment => Fixed
-    , Repeat            => False
-    , Timing            => Start_Immediately
-    , Enable_Interrupt  => False
-    , Enabled           => True
-    );
-
 begin
-
-  Display_Control := Mode_3 + BG_2;
-  Display_Stats   := @ or VBlank_Enable;
 
   GBA.Interrupts.Enable_Receiving_Interrupts;
   GBA.Interrupts.Enable_Interrupt(GBA.Interrupts.VBlank);
+
+  Set_Display_Mode(Mode_3);
+  Enable_Display_Element(Background_2);
+
+  Request_VBlank_Interrupt;
 
   loop
     Update_Key_State;
@@ -92,29 +66,23 @@ begin
     for Y in VRAM'Range(1) loop
       for X in 1 .. 4 loop
         Adjust_Color(Y + Y_Offset * X);
---        Perform_Transfer
---          ( Channel     => 0
---          , Source      => Color_BG'Address
---          , Destination => VRAM(Y, 1 + (X-1) * 60)'Address
---          , Info        => Block_Transfer_Info       
---          );
         Cpu_Set(
-          Source     => Color_BGS'Address,
+          Source     => Color_BG'Address,
           Dest       => VRAM(Y, 1 + (X-1) * 60)'Address,
-          Unit_Count => 30,
-          Unit_Size  => Word,
+          Unit_Count => 60,
+          Unit_Size  => Half_Word,
           Mode       => Fill
         );
       end loop;
     end loop;
 
-    if Are_Any_Pressed( A_Button or B_Button ) then
+    if Are_Any_Down( A_Button or B_Button ) then
       Y_Offset := @ + 5;
     else
       Y_Offset := @ + 1;
     end if;
 
     Wait_For_VBlank;
-
   end loop;
+
 end;

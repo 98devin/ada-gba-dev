@@ -3,13 +3,12 @@ abstract project GBA_Program is
 
     for Languages use ("Ada", "Asm_Cpp");
     for Target use "arm-eabi";
-    for Runtime("Ada") use GBA_Program'Project_Dir & "deps/zfp-gba";
+    for Runtime("Ada") use GBA_Program'Project_Dir & "zfp-gba";
 
     package Naming is
         for Casing use "mixedcase";
         for Dot_Replacement use ".";
     end Naming;
-
 
     type Code_Linkage_Mode is
         ( "EWRAM" -- Link in multiboot mode, putting .text into 256k .ewram 
@@ -17,8 +16,8 @@ abstract project GBA_Program is
         );
 
     Code_Linkage : Code_Linkage_Mode := external("codelinkage", "ROM");
+    
     Linker_File := "";
-
 
     case Code_Linkage is
     when "EWRAM" => Linker_File := "gba_mb.ld";
@@ -42,10 +41,11 @@ abstract project GBA_Program is
             , "-gnatX"
             , "-gnatn2"
             , "-O3"
+            , "-g"
             );
 
         case Code_Linkage is
-        when "EWRAM" => Default_Arch := "-marm";
+        when "EWRAM" => Default_Arch := "-mthumb";
         when "ROM"   => Default_Arch := "-mthumb";
         end case;
 
@@ -60,6 +60,7 @@ abstract project GBA_Program is
             , "-nostartfiles"
             , "-static"
             , "-Wl,-gc-sections"
+            , "-g"
             );
     end Linker;
 

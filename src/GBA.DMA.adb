@@ -1,16 +1,16 @@
 
 package body GBA.DMA is
 
-  procedure Perform_Transfer
-    ( Channel             : Channel_ID;
-      Source, Destination : Address;
-      Info                : Transfer_Info ) is
+  procedure Setup_DMA_Transfer
+    ( Channel       : Channel_ID;
+      Source, Dest  : Address;
+      Info          : Transfer_Info ) is
   
     Selected_Channel : Channel_Info renames Channel_Array_View(Channel);
   begin
-    Selected_Channel.Source      := Source;
-    Selected_Channel.Destination := Destination;
-    Selected_Channel.DMA_Info    := Info'Update(Enabled => True);
+    Selected_Channel.Source   := Source;
+    Selected_Channel.Dest     := Dest;
+    Selected_Channel.DMA_Info := Info'Update(Enabled => True);
   end;
 
   procedure Stop_Ongoing_Transfer(Channel : Channel_ID) is

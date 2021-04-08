@@ -11,7 +11,7 @@ package body GBA.Input.Buffered is
   end;
 
 
-  function Is_Key_Pressed (K : Key) return Boolean is
+  function Is_Key_Down (K : Key) return Boolean is
     ( (Current_Key_State and To_Flags(K)) /= 0 );
 
   function Was_Key_Pressed (K : Key) return Boolean is
@@ -27,7 +27,7 @@ package body GBA.Input.Buffered is
     ( ((not Current_Key_State) and (not Last_Key_State) and To_Flags(K)) /= 0 );
 
 
-  function Are_Any_Pressed (F : Key_Flags) return Boolean is
+  function Are_Any_Down (F : Key_Flags) return Boolean is
     ( (Current_Key_State and F) /= 0 );
 
   function Were_Any_Pressed (F : Key_Flags) return Boolean is
@@ -43,7 +43,7 @@ package body GBA.Input.Buffered is
     ( ((not Current_Key_State) and (not Last_Key_State) and F) /= 0 );
 
 
-  function Are_All_Pressed (F : Key_Flags) return Boolean is
+  function Are_All_Down (F : Key_Flags) return Boolean is
     ( (Current_Key_State and F) = F );
 
   function Were_All_Pressed (F : Key_Flags) return Boolean is

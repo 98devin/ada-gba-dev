@@ -86,19 +86,19 @@ package GBA.DMA is
       Enabled           at 0 range 16#1F# .. 16#1F#;
     end record;
 
-  type Channel_Info is
+  type Channel_Info is limited
     record
-      Source      : Address       with Volatile;
-      Destination : Address       with Volatile;
-      DMA_Info    : Transfer_Info with Volatile;
+      Source   : Address       with Volatile;
+      Dest     : Address       with Volatile;
+      DMA_Info : Transfer_Info with Volatile;
     end record
     with Size => 96;
 
   for Channel_Info use
     record
-      Source      at 0 range 0  .. 31;
-      Destination at 4 range 0  .. 31;
-      DMA_Info    at 8 range 0  .. 31;
+      Source   at 0 range 0  .. 31;
+      Dest     at 4 range 0  .. 31;
+      DMA_Info at 8 range 0  .. 31;
     end record;
 
 
@@ -134,10 +134,10 @@ package GBA.DMA is
 
   -- Most basic DMA interface routines --
 
-  procedure Perform_Transfer
-    ( Channel             : Channel_ID;
-      Source, Destination : Address;
-      Info                : Transfer_Info )
+  procedure Setup_DMA_Transfer
+    ( Channel      : Channel_ID;
+      Source, Dest : Address;
+      Info         : Transfer_Info )
     with Inline_Always;
 
   function Is_Transfer_Ongoing
@@ -147,7 +147,5 @@ package GBA.DMA is
   procedure Stop_Ongoing_Transfer
     ( Channel : Channel_ID )
     with Inline_Always;
-
-private
 
 end GBA.DMA;
