@@ -1,6 +1,6 @@
 
 with GBA.BIOS;
-with GBA.BIOS.Arm;
+with GBA.BIOS.Thumb;
 with GBA.BIOS.Memset;
 
 with GBA.Display;
@@ -21,7 +21,7 @@ with Interfaces;
 procedure Hello is
 
   use GBA.BIOS;
-  use GBA.BIOS.Arm;
+  use GBA.BIOS.Thumb;
 
   use GBA.Display;
   use GBA.Display.Palettes;
