@@ -5,7 +5,9 @@ with GBA.BIOS.Memset;
 
 with GBA.Display;
 with GBA.Display.Backgrounds;
+
 with GBA.Display.Palettes;
+
 with GBA.Display.Windows;
 
 with GBA.Memory;
@@ -14,7 +16,6 @@ with GBA.Interrupts;
 
 with GBA.Input;
 with GBA.Input.Buffered;
-
 
 with Interfaces;
 
@@ -30,33 +31,30 @@ procedure Hello is
   use GBA.Input;
   use GBA.Input.Buffered;
 
+
   VRAM : array (1 .. 160, 1 .. 240) of Color
     with Import, Volatile, Address => 16#6000000#;
+
+  Color_Palette : Palette_16_Ptr := BG_Palette_16x16(0)'Access;
 
   Color_BG : aliased Color with Volatile;
 
   procedure Adjust_Color (Y : Positive) is
-    Color_Palette : constant array (0 .. 3) of Color :=
-      ( (19, 23, 19) 
-      , (31, 25, 21) 
-      , (31, 16, 15)
-      , (29,  9, 11)
-      );
+    Index : Color_Index_16 := Color_Index_16( (Y-1) mod 128 / 32 );
   begin
-    Color_BG := Color_Palette(((Y-1) mod 128) / 32);
+    Color_BG := Color_Palette(Index);
   end;
 
   Y_Offset : Natural := 0;
 
-  function Allocate_Unsized (B : Boolean) return String is
-    (case B is
-      when True  => "Very Long String Literal",
-      when False => "Wow");
-
-  T : aliased String := Allocate_Unsized(True);
-  F : aliased String := Allocate_Unsized(False);
-
 begin
+
+  Color_Palette(0 .. 3) :=
+    ( (19, 23, 19) 
+    , (31, 25, 21) 
+    , (31, 16, 15)
+    , (29,  9, 11)
+    );
 
   GBA.Interrupts.Enable_Receiving_Interrupts;
   GBA.Interrupts.Enable_Interrupt(GBA.Interrupts.VBlank);

@@ -1,4 +1,9 @@
 
+with GBA.Memory;
+use  GBA.Memory;
+
+use type GBA.Memory.Address;
+
 package GBA.Display.Palettes is
 
   type Palette_Mode is
@@ -34,5 +39,52 @@ package GBA.Display.Palettes is
   type Color_Index_256 is range 0 .. 255
     with Size => 8;
 
+  Transparent_Color_Index : constant := 0;
+
+
+  type Palette_Index_16 is range 0 .. 15
+    with Size => 4;
+
+
+  type Color_Ref is access all Color
+    with Storage_Size => 0;
+
+
+  type Palette_16 is array (Color_Index_16) of Color
+    with Volatile_Components;
+
+  type Palette_16_Ptr is access all Palette_16
+    with Storage_Size => 0;
+
+
+  type Palette_256 is array (Color_Index_256) of Color
+    with Volatile_Components;
+  
+  type Palette_256_Ptr is access all Palette_256
+    with Storage_Size => 0;
+
+  
+  type Palette_16x16 is 
+    array (Palette_Index_16) of aliased Palette_16;
+
+  type Palette_16x16_Ptr is access all Palette_16x16
+    with Storage_Size => 0;
+
+
+
+  BG_Palette_RAM  : constant Address := 16#05000000#;
+  OBJ_Palette_RAM : constant Address := 16#05000200#;
+
+  BG_Palette_256 : aliased Palette_256
+    with Import, Address => BG_Palette_RAM;
+
+  BG_Palette_16x16 : Palette_16x16
+    with Import, Address => BG_Palette_RAM;
+
+  OBJ_Palette_256 : aliased Palette_256
+    with Import, Address => OBJ_Palette_RAM;
+
+  OBJ_Palette_16x16 : Palette_16x16
+    with Import, Address => OBJ_Palette_RAM;
 
 end GBA.Display.Palettes;

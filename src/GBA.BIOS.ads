@@ -132,8 +132,8 @@ package GBA.BIOS is
   for Cpu_Set_Unit_Size use
     ( Half_Word => 0, Word => 1 );
     
-  type Cpu_Set_Unit_Count is 
-    mod 2**21;
+  type Cpu_Set_Unit_Count is mod 2**21
+    with Object_Size => 32;
     
   type Cpu_Set_Config is
     record
