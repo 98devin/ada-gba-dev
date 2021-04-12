@@ -35,6 +35,9 @@ the requirements and features of this library.
 - [x] Compile Ada targeting embedded Arm
     - [x] Freely intermix Arm and Thumb mode.
     - [x] Custom zero-footprint runtime  
+    - [x] Secondary stack for dynamic allocations
+    - [x] Tagged types for polymorphism and OOP
+
       No IO, exceptions, tasking, finalization, standard containers.
       Currently no software floating-point (but Ada supports fixed-point natively).
     
@@ -64,7 +67,7 @@ the requirements and features of this library.
         - [ ] Background registers
         - [ ] Convenient scrolling/transform manipulation
     - [x] Window control registers
-    - [ ] Palette memory
+    - [x] Palette memory
     - [ ] Character/Tile memory
     - [ ] Object attribute memory
     - [ ] Per-graphics-mode interface for backgrounds
