@@ -47,6 +47,13 @@ procedure Hello is
 
   Y_Offset : Natural := 0;
 
+
+  function Return_Unsized return String is
+    ( "Very Long String Argument" ) with No_Inline;
+
+  S : String := Return_Unsized;
+
+
 begin
 
   Color_Palette(0 .. 3) :=

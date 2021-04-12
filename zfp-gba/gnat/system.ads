@@ -161,7 +161,7 @@ private
    Duration_32_Bits          : constant Boolean := True;
    Exit_Status_Supported     : constant Boolean := False;
    Fractional_Fixed_Ops      : constant Boolean := True;
-   Functions_Return_By_DSP   : constant Boolean := False;
+   Functions_Return_By_DSP   : constant Boolean := True;
    Frontend_Layout           : constant Boolean := False;
    Machine_Overflows         : constant Boolean := False;
    Machine_Rounds            : constant Boolean := True;
