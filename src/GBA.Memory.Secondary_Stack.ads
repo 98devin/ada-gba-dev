@@ -1,8 +1,12 @@
 
+pragma Warnings (Off);
+
 with System.Parameters;
 
 with System.Secondary_Stack;
 use  System.Secondary_Stack;
+
+pragma Warnings (On);
 
 use type System.Address;
 
