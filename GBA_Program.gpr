@@ -42,7 +42,7 @@ abstract project GBA_Program is
             , "-gnatX"
             , "-gnatn2"
             , "-O3"
-            , "-g"
+            -- , "-g"
             );
 
         case Code_Linkage is

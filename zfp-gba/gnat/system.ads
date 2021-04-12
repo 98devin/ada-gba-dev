@@ -54,8 +54,6 @@ pragma Restrictions (No_Tasking);
 
 pragma Restrictions (No_Floating_Point);
 pragma Restrictions (No_Anonymous_Allocators);
---  pragma Restrictions (No_Standard_Storage_Pools);
-pragma Restrictions (No_Secondary_Stack);
 pragma Restrictions (No_IO);
 
 pragma Restrictions (No_Implicit_Heap_Allocations);
@@ -163,7 +161,7 @@ private
    Duration_32_Bits          : constant Boolean := True;
    Exit_Status_Supported     : constant Boolean := False;
    Fractional_Fixed_Ops      : constant Boolean := True;
-   Functions_Return_By_DSP   : constant Boolean := True;
+   Functions_Return_By_DSP   : constant Boolean := False;
    Frontend_Layout           : constant Boolean := False;
    Machine_Overflows         : constant Boolean := False;
    Machine_Rounds            : constant Boolean := True;

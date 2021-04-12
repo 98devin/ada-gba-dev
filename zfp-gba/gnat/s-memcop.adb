@@ -44,15 +44,17 @@ package body System.Memory_Copy is
       S : Address := Src;
       C : Address := Address (N);
 
+      Word_Bytes : constant := Word_Size / 8;
+
    begin
       --  Try to copy per word, if alignment constraints are respected
 
       if ((D or S) and (Word'Alignment - 1)) = 0 then
-         while C >= Word_Size loop
+         while C >= Word_Bytes loop
             Word'Deref (D) := Word'Deref (S);
-            D := D + Word_Size;
-            S := S + Word_Size;
-            C := C - Word_Size;
+            D := D + Word_Bytes;
+            S := S + Word_Bytes;
+            C := C - Word_Bytes;
          end loop;
       end if;
 
@@ -60,9 +62,9 @@ package body System.Memory_Copy is
 
       while C > 0 loop
          Byte'Deref (D) := Byte'Deref (S);
-         D := D + Storage_Unit;
-         S := S + Storage_Unit;
-         C := C - Storage_Unit;
+         D := D + 1;
+         S := S + 1;
+         C := C - 1;
       end loop;
 
       return Dest;
