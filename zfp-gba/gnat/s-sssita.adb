@@ -33,30 +33,32 @@ pragma Restrictions (No_Elaboration_Code);
 --  We want to guarantee the absence of elaboration code because the
 --  binder does not handle references to this package.
 
+with System.Parameters;
+
 package body System.Secondary_Stack.Single_Task is
 
    ----------------
    -- Local Data --
    ----------------
 
-   Secondary_Stack : SS_Stack_Ptr := null;
-   --  Pointer to the assigned secondary stack
+   package SP renames System.Parameters;
+
+   type Memory is array (SP.Size_Type range <>) of Byte;
+
+   Stack_Memory : aliased Memory (1 .. SP.Runtime_Default_Sec_Stack_Size)
+      with Alignment => Standard'Maximum_Alignment;
+
+   Secondary_Stack : aliased SS_Stack :=
+      (Start | Top  => Stack_Memory (Stack_Memory'Last)'Address + 1,
+       Size         => SP.Runtime_Default_Sec_Stack_Size);
+
+   Stack : constant SS_Stack_Ptr := Secondary_Stack'Access;
 
    -------------------
    -- Get_Sec_Stack --
    -------------------
 
    function Get_Sec_Stack return SS_Stack_Ptr is
-   begin
-      --  If the pointer to the secondary stack is null then a stack has not
-      --  been allocated. A call to SS_Init will assign the binder generated
-      --  stack and will initialize it.
-
-      if Secondary_Stack = null then
-         SS_Init (Secondary_Stack);
-      end if;
-
-      return Secondary_Stack;
-   end Get_Sec_Stack;
+      (Stack);
 
 end System.Secondary_Stack.Single_Task;

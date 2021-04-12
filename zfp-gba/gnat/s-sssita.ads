@@ -48,7 +48,8 @@ pragma Restrictions (No_Elaboration_Code);
 
 package System.Secondary_Stack.Single_Task is
 
-   function Get_Sec_Stack return SS_Stack_Ptr;
+   function Get_Sec_Stack return SS_Stack_Ptr
+      with Pure_Function, Inline;
    pragma Export (C, Get_Sec_Stack, "__gnat_get_secondary_stack");
    --  Return the pointer of the secondary stack to be used for single-threaded
    --  applications, as expected by System.Secondary_Stack.

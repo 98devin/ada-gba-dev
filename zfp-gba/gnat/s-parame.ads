@@ -53,17 +53,15 @@ package System.Parameters is
    -- Stack Allocation Control --
    ------------------------------
 
-   type Size_Type is range
-     -(2 ** (Integer'(Standard'Address_Size) - 1)) ..
-     +(2 ** (Integer'(Standard'Address_Size) - 1)) - 1;
+   type Size_Type is new Address;
    --  Type used to provide task stack sizes to the runtime. Sized to permit
    --  stack sizes of up to half the total addressable memory space. This may
    --  seem excessively large (even for 32-bit systems), however there are many
    --  instances of users requiring large stack sizes (for example string
    --  processing).
 
-   Unspecified_Size : constant Size_Type := Size_Type'First;
-   --  Value used to indicate that no size type is set
+   Unspecified_Size : constant Size_Type := Size_Type'Last;
+   --  Value used to indicate that no size type is set (maximum size range)
 
    Runtime_Default_Sec_Stack_Size : constant Size_Type := 512;
    --  The run-time chosen default size for secondary stacks that may be

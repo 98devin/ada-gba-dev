@@ -31,11 +31,7 @@
 
 --  This is the HI-E version of this package
 
-with Ada.Unchecked_Conversion;
-
 package body System.Secondary_Stack is
-
-   use type System.Parameters.Size_Type;
 
    function Get_Sec_Stack return SS_Stack_Ptr;
    pragma Import (C, Get_Sec_Stack, "__gnat_get_secondary_stack");
@@ -98,62 +94,34 @@ package body System.Secondary_Stack is
      (Addr         : out Address;
       Storage_Size : SSE.Storage_Count)
    is
-      use type System.Storage_Elements.Storage_Count;
+      use type SSE.Storage_Count;
+      use type SP.Size_Type;
 
-      Max_Align   : constant SS_Ptr := SS_Ptr (Standard'Maximum_Alignment);
-      Mem_Request : SS_Ptr;
+      Max_Align    : constant SSE.Storage_Count := Standard'Maximum_Alignment;
+      Misalign_Amt : constant SSE.Storage_Count := Storage_Size mod Max_Align;
+      Alloc_Amt    : Address;
 
       Stack : constant SS_Stack_Ptr := Get_Sec_Stack;
+
    begin
       --  Round up Storage_Size to the nearest multiple of the max alignment
-      --  value for the target. This ensures efficient stack access. First
-      --  perform a check to ensure that the rounding operation does not
-      --  overflow SS_Ptr.
+      --  value for the target. This ensures efficient stack access.
 
-      if SSE.Storage_Count (SS_Ptr'Last) - Standard'Maximum_Alignment <
-        Storage_Size
-      then
-         raise Storage_Error;
-      end if;
-
-      Mem_Request := ((SS_Ptr (Storage_Size) + Max_Align - 1) / Max_Align) *
-                       Max_Align;
-
-      --  Check if max stack usage is increasing
-
-      if Stack.Max - Stack.Top - Mem_Request < 0  then
-         --  If so, check if the stack is exceeded, noting Stack.Top points to
-         --  the first free byte (so the value of Stack.Top on a fully
-         --  allocated stack will be Stack.Size + 1). The comparison is formed
-         --  to prevent integer overflows.
-
-         if Stack.Size - Stack.Top - Mem_Request < -1 then
-            raise Storage_Error;
-         end if;
-
-         --  Record new max usage
-
-         Stack.Max := Stack.Top + Mem_Request;
+      if Misalign_Amt = 0 then
+         Alloc_Amt := Address (Storage_Size);
+      else
+         Alloc_Amt := Address (Storage_Size - Misalign_Amt + Max_Align);
       end if;
 
       --  Set resulting address and update top of stack pointer
+      Addr      := Stack.Top - Alloc_Amt;
+      Stack.Top := Addr;
 
-      Addr := Stack.Internal_Chunk (Stack.Top)'Address;
-      Stack.Top := Stack.Top + Mem_Request;
+      if SP.Size_Type (Stack.Start - Stack.Top) > Stack.Size then
+         raise Storage_Error;
+      end if;
+
    end SS_Allocate;
-
-   ----------------
-   -- SS_Get_Max --
-   ----------------
-
-   function SS_Get_Max return Long_Long_Integer is
-   begin
-      --  Stack.Max points to the first untouched byte in the stack, thus the
-      --  maximum number of bytes that have been allocated on the stack is one
-      --  less the value of Stack.Max.
-
-      return Long_Long_Integer (Get_Sec_Stack.Max - 1);
-   end SS_Get_Max;
 
    -------------
    -- SS_Init --
@@ -162,82 +130,7 @@ package body System.Secondary_Stack is
    procedure SS_Init
      (Stack : in out SS_Stack_Ptr;
       Size  : SP.Size_Type := SP.Unspecified_Size)
-   is
-      use Parameters;
-
-   begin
-      --  If the size of the secondary stack for a task has been specified via
-      --  the Secondary_Stack_Size aspect, then the compiler has allocated the
-      --  stack at compile time and the task create call will provide a pointer
-      --  to this stack. Otherwise, the task will be allocated a secondary
-      --  stack from the pool of default-sized secondary stacks created by the
-      --  binder.
-
-      if Stack = null then
-         --  Allocate a default-sized stack for the task.
-
-         if Size = Unspecified_Size
-           and then Binder_SS_Count > 0
-           and then Num_Of_Assigned_Stacks < Binder_SS_Count
-         then
-            --  The default-sized secondary stack pool is passed from the
-            --  binder to this package as an Address since it is not possible
-            --  to have a pointer to an array of unconstrained objects. A
-            --  pointer to the pool is obtainable via an unchecked conversion
-            --  to a constrained array of SS_Stacks that mirrors the one used
-            --  by the binder.
-
-            --  However, Ada understandably does not allow a local pointer to
-            --  a stack in the pool to be stored in a pointer outside of this
-            --  scope. While the conversion is safe in this case, since a view
-            --  of a global object is being used, using Unchecked_Access
-            --  would prevent users from specifying the restriction
-            --  No_Unchecked_Access whenever the secondary stack is used. As
-            --  a workaround, the local stack pointer is converted to a global
-            --  pointer via System.Address.
-
-            declare
-               type Stk_Pool_Array is array (1 .. Binder_SS_Count) of
-                 aliased SS_Stack (Default_SS_Size);
-               type Stk_Pool_Access is access Stk_Pool_Array;
-
-               function To_Stack_Pool is new
-                 Ada.Unchecked_Conversion (Address, Stk_Pool_Access);
-
-               pragma Warnings (Off);
-               function To_Global_Ptr is new
-                 Ada.Unchecked_Conversion (Address, SS_Stack_Ptr);
-               pragma Warnings (On);
-               --  Suppress aliasing warning since the pointer we return will
-               --  be the only access to the stack.
-
-               Local_Stk_Address : System.Address;
-
-            begin
-               Num_Of_Assigned_Stacks := Num_Of_Assigned_Stacks + 1;
-
-               Local_Stk_Address :=
-                 To_Stack_Pool
-                   (Default_Sized_SS_Pool) (Num_Of_Assigned_Stacks)'Address;
-               Stack := To_Global_Ptr (Local_Stk_Address);
-            end;
-
-         --  Many run-times unconditionally bring in this package and call
-         --  SS_Init even though the secondary stack is not used by the
-         --  program. In this case return without assigning a stack as it will
-         --  never be used.
-
-         elsif Binder_SS_Count = 0 then
-            return;
-
-         else
-            raise Program_Error;
-         end if;
-      end if;
-
-      Stack.Top := 1;
-      Stack.Max := 1;
-   end SS_Init;
+   is null;
 
    -------------
    -- SS_Mark --
@@ -254,7 +147,7 @@ package body System.Secondary_Stack is
 
    procedure SS_Release (M : Mark_Id) is
    begin
-      Get_Sec_Stack.Top := SS_Ptr (M);
+      Get_Sec_Stack.Top := Address (M);
    end SS_Release;
 
 end System.Secondary_Stack;
