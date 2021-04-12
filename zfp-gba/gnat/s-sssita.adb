@@ -2,11 +2,11 @@
 --                                                                          --
 --                         GNAT COMPILER COMPONENTS                         --
 --                                                                          --
---                    S Y S T E M . P A R A M E T E R S                     --
+--    S Y S T E M . S E C O N D A R Y _ S T A C K . S I N G L E _ T A S K   --
 --                                                                          --
---                                 S p e c                                  --
+--                                 B o d y                                  --
 --                                                                          --
---          Copyright (C) 1992-2020, Free Software Foundation, Inc.         --
+--          Copyright (C) 2005-2020, Free Software Foundation, Inc.         --
 --                                                                          --
 -- GNAT is free software;  you can  redistribute it  and/or modify it under --
 -- terms of the  GNU General Public License as published  by the Free Soft- --
@@ -29,42 +29,36 @@
 --                                                                          --
 ------------------------------------------------------------------------------
 
---  This is a small memory zfp version the package
+pragma Restrictions (No_Elaboration_Code);
+--  We want to guarantee the absence of elaboration code because the
+--  binder does not handle references to this package.
 
---  This package defines some system dependent parameters for GNAT. These
---  are values that are referenced by the runtime library and are therefore
---  relevant to the target machine.
+with System.Parameters;
 
---  The parameters whose value is defined in the spec are not generally
---  expected to be changed. If they are changed, it will be necessary to
---  recompile the run-time library.
+package body System.Secondary_Stack.Single_Task is
 
---  The parameters which are defined by functions can be changed by modifying
---  the body of System.Parameters in file s-parame.adb. A change to this body
---  requires only rebinding and relinking of the application.
+   ----------------
+   -- Local Data --
+   ----------------
 
---  Note: do not introduce any pragma Inline statements into this unit, since
---  otherwise the relinking and rebinding capability would be deactivated.
+   package SP renames System.Parameters;
 
-package System.Parameters is
-   pragma Pure;
+   type Memory is array (SP.Size_Type range <>) of Byte;
 
-   ------------------------------
-   -- Stack Allocation Control --
-   ------------------------------
+   Stack_Memory : aliased Memory (1 .. SP.Runtime_Default_Sec_Stack_Size)
+      with Alignment => Standard'Maximum_Alignment;
 
-   type Size_Type is new Address;
-   --  Type used to provide task stack sizes to the runtime. Sized to permit
-   --  stack sizes of up to half the total addressable memory space. This may
-   --  seem excessively large (even for 32-bit systems), however there are many
-   --  instances of users requiring large stack sizes (for example string
-   --  processing).
+   Secondary_Stack : aliased SS_Stack :=
+      (Start | Top  => Stack_Memory (Stack_Memory'Last)'Address + 1,
+       Size         => SP.Runtime_Default_Sec_Stack_Size);
 
-   Unspecified_Size : constant Size_Type := Size_Type'Last;
-   --  Value used to indicate that no size type is set (maximum size range)
+   Stack : constant SS_Stack_Ptr := Secondary_Stack'Access;
 
-   Runtime_Default_Sec_Stack_Size : constant Size_Type := 512;
-   --  The run-time chosen default size for secondary stacks that may be
-   --  overridden by the user with the use of binder -D switch.
+   -------------------
+   -- Get_Sec_Stack --
+   -------------------
 
-end System.Parameters;
+   function Get_Sec_Stack return SS_Stack_Ptr is
+      (Stack);
+
+end System.Secondary_Stack.Single_Task;

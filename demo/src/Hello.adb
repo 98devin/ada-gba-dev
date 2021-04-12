@@ -9,6 +9,7 @@ with GBA.Display.Palettes;
 with GBA.Display.Windows;
 
 with GBA.Memory;
+with GBA.Memory.Default_Secondary_Stack;
 with GBA.Interrupts;
 
 with GBA.Input;
@@ -29,11 +30,8 @@ procedure Hello is
   use GBA.Input;
   use GBA.Input.Buffered;
 
-
-
   VRAM : array (1 .. 160, 1 .. 240) of Color
     with Import, Volatile, Address => 16#6000000#;
-
 
   Color_BG : aliased Color with Volatile;
 
@@ -49,6 +47,14 @@ procedure Hello is
   end;
 
   Y_Offset : Natural := 0;
+
+  function Allocate_Unsized (B : Boolean) return String is
+    (case B is
+      when True  => "Very Long String Literal",
+      when False => "Wow");
+
+  T : aliased String := Allocate_Unsized(True);
+  F : aliased String := Allocate_Unsized(False);
 
 begin
 
