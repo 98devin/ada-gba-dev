@@ -48,13 +48,6 @@ procedure Hello is
 
   Y_Offset : Natural := 0;
 
-  package Foos is
-
-    type Foo is tagged null record;
-
-  end Foos;
-
-
   function Allocate_Unsized (B : Boolean) return String is
     (case B is
       when True  => "Very Long String Literal",
