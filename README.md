@@ -64,7 +64,7 @@ the requirements and features of this library.
     - [x] Display registers
     - [ ] Backgrounds
         - [x] Types
-        - [ ] Background registers
+        - [x] Background registers
         - [ ] Convenient scrolling/transform manipulation
     - [x] Window control registers
     - [x] Palette memory
