@@ -4,10 +4,6 @@ use  Interfaces;
 
 package GBA.Numerics is
 
-  pragma Preelaborate;
-  
-
-
    Pi : constant :=
     3.14159_26535_89793_23846_26433_83279_50288_41971_69399_37511;
    
@@ -16,6 +12,14 @@ package GBA.Numerics is
 
   type Fixed_2_14 is
     delta 2.0**(-14) range -1.0 .. 1.0
+    with Size => 16;
+
+  type Fixed_20_8 is
+    delta 2.0**(-8) range -2.0**19 .. 2.0**19
+    with Size => 32;
+
+  type Fixed_8_8 is
+    delta 2.0**(-8) range -2.0**7 .. 2.0**7
     with Size => 16;
 
   type Radians_16 is
