@@ -2,7 +2,7 @@
 package GBA.Memory.IO_Registers is
 
   pragma Preelaborate;
-  
+
 
   -- Display Registers --
 
@@ -10,7 +10,7 @@ package GBA.Memory.IO_Registers is
   GREENSWAP : constant := 16#4000002#;
   DISPSTAT  : constant := 16#4000004#;
   VCOUNT    : constant := 16#4000006#;
-  
+
   BG0CNT    : constant := 16#4000008#;
   BG1CNT    : constant := 16#400000A#;
   BG2CNT    : constant := 16#400000C#;
@@ -31,7 +31,7 @@ package GBA.Memory.IO_Registers is
   BG2PD     : constant := 16#4000026#;
   BG2X      : constant := 16#4000028#;
   BG2Y      : constant := 16#400002C#;
-    
+
   BG3PA     : constant := 16#4000030#;
   BG3PB     : constant := 16#4000032#;
   BG3PC     : constant := 16#4000034#;
@@ -45,7 +45,7 @@ package GBA.Memory.IO_Registers is
   WIN1V     : constant := 16#4000046#;
 
   WININ     : constant := 16#4000048#;
-  WINOUT    : constant := 16#400004A#; 
+  WINOUT    : constant := 16#400004A#;
 
   MOSAIC    : constant := 16#400004C#;
 
@@ -59,25 +59,25 @@ package GBA.Memory.IO_Registers is
   SOUND1CNT_L : constant := 16#4000060#;
   SOUND1CNT_H : constant := 16#4000062#;
   SOUND1CNT_X : constant := 16#4000064#;
-  
+
   SOUND2CNT_L : constant := 16#4000068#;
   SOUND2CNT_H : constant := 16#400006C#;
-  
+
   SOUND3CNT_L : constant := 16#4000070#;
   SOUND3CNT_H : constant := 16#4000072#;
   SOUND3CNT_X : constant := 16#4000074#;
-  
+
   SOUND4CNT_L : constant := 16#4000078#;
   SOUND4CNT_H : constant := 16#400007C#;
-  
+
   SOUNDCNT_L  : constant := 16#4000080#;
   SOUNDCNT_H  : constant := 16#4000082#;
   SOUNDCNT_X  : constant := 16#4000084#;
 
   SOUNDBIAS   : constant := 16#4000088#;
-  
+
   WAVE_RAM    : constant := 16#4000090#;
-  
+
   FIFO_A      : constant := 16#40000A0#;
   FIFO_B      : constant := 16#40000A4#;
 
@@ -93,18 +93,18 @@ package GBA.Memory.IO_Registers is
   DMA1DAD   : constant := 16#40000C0#;
   DMA1CNT_L : constant := 16#40000C4#;
   DMA1CNT_H : constant := 16#40000C6#;
-  
+
   DMA2SAD   : constant := 16#40000C8#;
   DMA2DAD   : constant := 16#40000CC#;
   DMA2CNT_L : constant := 16#40000D0#;
   DMA2CNT_H : constant := 16#40000D2#;
-  
+
   DMA3SAD   : constant := 16#40000D4#;
   DMA3DAD   : constant := 16#40000D8#;
   DMA3CNT_L : constant := 16#40000DC#;
   DMA3CNT_H : constant := 16#40000DE#;
 
-  
+
   -- Timer Registers --
 
   TM0CNT_L : constant := 16#4000100#;
@@ -112,10 +112,10 @@ package GBA.Memory.IO_Registers is
 
   TM1CNT_L : constant := 16#4000104#;
   TM1CNT_H : constant := 16#4000106#;
-  
+
   TM2CNT_L : constant := 16#4000108#;
   TM2CNT_H : constant := 16#400010A#;
-  
+
   TM3CNT_L : constant := 16#400010C#;
   TM3CNT_H : constant := 16#400010E#;
 
@@ -129,7 +129,7 @@ package GBA.Memory.IO_Registers is
   SIOMULTI3   : constant := 16#4000126#;
   SIOCNT      : constant := 16#4000128#;
   SIOMLT_SEND : constant := 16#400012A#;
-  SIODATA8    : constant := 16#400012A#;  
+  SIODATA8    : constant := 16#400012A#;
 
 
   -- Keypad Input Registers --
@@ -156,7 +156,5 @@ package GBA.Memory.IO_Registers is
 
   POSTFLG : constant := 16#4000300#;
   HALTCNT : constant := 16#4000301#;
-
-
 
 end GBA.Memory.IO_Registers;

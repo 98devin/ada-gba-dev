@@ -2,9 +2,6 @@
 with Interfaces;
 use  Interfaces;
 
-with GBA.Memory.IO_Registers;
-use  GBA.Memory.IO_Registers;
-
 
 package GBA.Display.Windows is
 
@@ -67,7 +64,7 @@ package GBA.Display.Windows is
 
   Horizontal_Dimensions : array (Rectangular_Window_Region) of Window_Horizontal_Dimensions
     with Import, Volatile_Components, Address => WIN0H;
-  
+
   Vertical_Dimensions   : array (Rectangular_Window_Region) of Window_Vertical_Dimensions
     with Import, Volatile_Components, Address => WIN0V;
 

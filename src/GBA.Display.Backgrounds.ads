@@ -1,9 +1,6 @@
 
 with GBA.Numerics;
 
-with GBA.Memory.IO_Registers;
-use  GBA.Memory.IO_Registers;
-
 with GBA.Display.Palettes;
 use  GBA.Display.Palettes;
 
@@ -39,7 +36,7 @@ package GBA.Display.Backgrounds is
     ( Regular
     , Rotation_Scaling
     );
-  
+
 
   type BG_Size is range 0 ..3
     with Size => 2;
@@ -118,7 +115,7 @@ package GBA.Display.Backgrounds is
       X at 0 range 0 .. 31;
       Y at 4 range 0 .. 31;
     end record;
-    
+
 
   type BG_Transform_Matrix is
     record

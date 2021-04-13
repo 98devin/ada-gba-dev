@@ -1,7 +1,7 @@
 
 package body GBA.DMA.Generic_Interfaces is
-  
-  Use_Full_Word : constant Boolean := 
+
+  Use_Full_Word : constant Boolean :=
     (Element_Type'Size >= 32 and then Element_Type'Size mod 32 = 0);
 
   function Memset_Info ( Count : Transfer_Count_Type ) return Transfer_Info is
@@ -14,7 +14,7 @@ package body GBA.DMA.Generic_Interfaces is
      , Enabled           => True
      , Transfer_Count    => Count * (if Use_Full_Word then Element_Type'Size / 32 else Element_Type'Size / 16)
     ));
-    
+
   function Memcopy_Info ( Length : Transfer_Count_Type ) return Transfer_Info is
     (( Dest_Adjustment   => Increment
      , Source_Adjustment => Increment
@@ -25,7 +25,7 @@ package body GBA.DMA.Generic_Interfaces is
      , Enabled           => True
      , Transfer_Count    => Length * (if Use_Full_Word then Element_Type'Size / 32 else Element_Type'Size / 16)
     ));
-  
+
   procedure Memset ( Channel : Channel_ID; Source, Dest : Address; Count : Transfer_Count_Type ) is
     Info : constant Transfer_Info := Memset_Info(Count);
   begin

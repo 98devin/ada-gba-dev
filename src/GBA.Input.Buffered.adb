@@ -35,10 +35,10 @@ package body GBA.Input.Buffered is
 
   function Were_Any_Released (F : Key_Flags) return Boolean is
     ( ((not Current_Key_State) and Last_Key_State and F) /= 0 );
-  
+
   function Were_Any_Held (F : Key_Flags) return Boolean is
     ( (Current_Key_State and Last_Key_State and F) /= 0 );
-  
+
   function Were_Any_Untouched (F : Key_Flags) return Boolean is
     ( ((not Current_Key_State) and (not Last_Key_State) and F) /= 0 );
 
@@ -51,10 +51,10 @@ package body GBA.Input.Buffered is
 
   function Were_All_Released (F : Key_Flags) return Boolean is
     ( ((not Current_Key_State) and Last_Key_State and F) = F );
-  
+
   function Were_All_Held (F : Key_Flags) return Boolean is
     ( (Current_Key_State and Last_Key_State and F) = F );
-  
+
   function Were_All_Untouched (F : Key_Flags) return Boolean is
     ( ((not Current_Key_State) and (not Last_Key_State) and F) = F );
 

@@ -1,10 +1,4 @@
 
-with GBA.Numerics;
-use  GBA.Numerics;
-
-with Interfaces;
-use  Interfaces;
-
 with System;
 
 with Ada.Unchecked_Conversion;
@@ -20,11 +14,11 @@ package body GBA.BIOS.Extended_Interface is
     , Clear_OAM
     , Reset_SIO_Registers
     , Reset_Sound_Registers
-    , Reset_Other_Registers 
+    , Reset_Other_Registers
     : Boolean := False)
     is
 
-    Flags : Register_RAM_Reset_Flags := 
+    Flags : Register_RAM_Reset_Flags :=
       ( Clear_External_WRAM
       , Clear_Internal_WRAM
       , Clear_Palette
@@ -32,10 +26,10 @@ package body GBA.BIOS.Extended_Interface is
       , Clear_OAM
       , Reset_SIO_Registers
       , Reset_Sound_Registers
-      , Reset_Other_Registers 
+      , Reset_Other_Registers
       );
   begin
-    Register_RAM_Reset(Flags);
+    Register_RAM_Reset (Flags);
   end;
 
 
@@ -45,16 +39,16 @@ package body GBA.BIOS.Extended_Interface is
     end record
     with Size => 64;
 
-  function Conv is new Ada.Unchecked_Conversion(Long_Long_Integer, Div_Mod_Result);
+  function Conv is new Ada.Unchecked_Conversion (Long_Long_Integer, Div_Mod_Result);
 
-  function Divide(Num, Denom : Integer) return Integer is
-    ( Conv(Div_Mod(Num, Denom)).Quotient );
+  function Divide (Num, Denom : Integer) return Integer is
+    ( Conv (Div_Mod (Num, Denom)).Quotient );
 
-  function Remainder(Num, Denom : Integer) return Integer is
-    ( Conv(Div_Mod(Num, Denom)).Remainder );
+  function Remainder (Num, Denom : Integer) return Integer is
+    ( Conv (Div_Mod (Num, Denom)).Remainder );
 
-  procedure Div_Mod(Num, Denom : Integer; Quotient, Remainder : out Integer) is
-    Result : constant Div_Mod_Result := Conv(Div_Mod(Num, Denom));
+  procedure Div_Mod (Num, Denom : Integer; Quotient, Remainder : out Integer) is
+    Result : constant Div_Mod_Result := Conv (Div_Mod (Num, Denom));
   begin
     Quotient  := Result.Quotient;
     Remainder := Result.Remainder;
@@ -73,9 +67,9 @@ package body GBA.BIOS.Extended_Interface is
       , Unit_Size => Unit_Size
       );
   begin
-    Cpu_Set(Source, Dest, Config);
+    Cpu_Set (Source, Dest, Config);
   end;
-  
+
   procedure Cpu_Fast_Set
     ( Source, Dest : Address;
       Word_Count   : Cpu_Set_Unit_Count;
@@ -87,13 +81,13 @@ package body GBA.BIOS.Extended_Interface is
       , Unit_Size  => Word -- not used by cpu_fast_set
       );
   begin
-    Cpu_Fast_Set(Source, Dest, Config);
+    Cpu_Fast_Set (Source, Dest, Config);
   end;
 
-  
+
   procedure Wait_For_Interrupt (Wait_For : Interrupt_Flags) is
   begin
-    Wait_For_Interrupt(True, Wait_For);
+    Wait_For_Interrupt (True, Wait_For);
   end;
 
 end GBA.BIOS.Extended_Interface;

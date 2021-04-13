@@ -6,7 +6,7 @@ with GBA.Memory.IO_Registers;
 
 
 package GBA.DMA is
-  
+
   type Dest_Address_Adjustment is
     ( Increment
     , Decrement
@@ -25,7 +25,7 @@ package GBA.DMA is
   type Source_Address_Adjustment is
     ( Increment
     , Decrement
-    , Fixed 
+    , Fixed
     );
 
   for Source_Address_Adjustment use
@@ -104,7 +104,7 @@ package GBA.DMA is
 
   type Channel_ID is range 0 .. 3;
 
-  
+
   -- Basic access to structured DMA info --
 
   use GBA.Memory.IO_Registers;
@@ -117,17 +117,17 @@ package GBA.DMA is
     );
 
   DMA_Channel_0 : Channel_Info
-    with Import, Address => Channel_Addresses(0);
+    with Import, Address => Channel_Addresses (0);
 
   DMA_Channel_1 : Channel_Info
-    with Import, Address => Channel_Addresses(1);
-  
+    with Import, Address => Channel_Addresses (1);
+
   DMA_Channel_2 : Channel_Info
-    with Import, Address => Channel_Addresses(2);
+    with Import, Address => Channel_Addresses (2);
 
   DMA_Channel_3 : Channel_Info
-    with Import, Address => Channel_Addresses(3);
-  
+    with Import, Address => Channel_Addresses (3);
+
   Channel_Array_View : array (Channel_ID) of Channel_Info
     with Import, Address => DMA0SAD;
 

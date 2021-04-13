@@ -19,7 +19,7 @@ generic
   with procedure Stop       is <>;
 
   with procedure Register_RAM_Reset (Flags : Register_RAM_Reset_Flags) is <>;
-  
+
   with procedure Wait_For_Interrupt
     ( New_Only : Boolean; Wait_For : Interrupt_Flags ) is <>;
 
@@ -27,7 +27,7 @@ generic
 
   with function Div_Mod     (N, D : Integer) return Long_Long_Integer is <>;
   with function Div_Mod_Arm (D, N : Integer) return Long_Long_Integer is <>;
-  
+
   with function Sqrt (N : Unsigned_32) return Unsigned_16 is <>;
   with function Arc_Tan (X, Y : Fixed_2_14) return Radians_16 is <>;
 

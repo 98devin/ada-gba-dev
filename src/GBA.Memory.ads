@@ -4,7 +4,7 @@ with System;
 package GBA.Memory is
 
   pragma Preelaborate;
-  
+
   -- Total addressable memory of 28 bits.
   subtype Address is System.Address
     range 16#0000000# .. 16#FFFFFFF#;
@@ -20,13 +20,13 @@ package GBA.Memory is
 
   subtype Reserved_Internal_WRAM_Adddress is Internal_WRAM_Address
     range 16#3007F00# .. 16#3007FFF#;
-  
+
   subtype IO_Register_Address is Address
     range 16#4000000# .. 16#40003FF#;
-  
+
   subtype Palette_RAM_Address is Address
     range 16#5000000# .. 16#50003FF#;
-  
+
   subtype Video_RAM_Address is Address
     range 16#6000000# .. 16#6017FFF#;
 

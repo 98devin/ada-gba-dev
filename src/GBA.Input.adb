@@ -39,7 +39,7 @@ package body GBA.Input is
   procedure Request_Interrupt_If_Key_Pressed(K : Key) is
     Flags : Key_Flags := To_Flags(K);
   begin
-    Key_Control := 
+    Key_Control :=
       ( Flags => Flags
       , Interrupt_Requested => True
       , Interrupt_Op => Disjunction
@@ -54,7 +54,7 @@ package body GBA.Input is
       , Interrupt_Op => Disjunction
       );
   end;
-  
+
   procedure Request_Interrupt_If_All_Pressed(F : Key_Flags) is
   begin
     Key_Control :=
@@ -62,6 +62,6 @@ package body GBA.Input is
       , Interrupt_Requested => True
       , Interrupt_Op => Conjunction
       );
-  end;  
+  end;
 
 end GBA.Input;

@@ -14,12 +14,12 @@ package GBA.Display.Palettes is
   for Palette_Mode use
     ( Colors_16  => 0
     , Colors_256 => 1
-    ); 
+    );
 
 
   type Unsigned_5 is mod 2**5;
 
-  type Color is 
+  type Color is
     record
       R, G, B : Unsigned_5;
     end record
@@ -59,12 +59,12 @@ package GBA.Display.Palettes is
 
   type Palette_256 is array (Color_Index_256) of Color
     with Volatile_Components;
-  
+
   type Palette_256_Ptr is access all Palette_256
     with Storage_Size => 0;
 
-  
-  type Palette_16x16 is 
+
+  type Palette_16x16 is
     array (Palette_Index_16) of aliased Palette_16;
 
   type Palette_16x16_Ptr is access all Palette_16x16

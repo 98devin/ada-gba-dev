@@ -34,7 +34,7 @@ package GBA.Interrupts is
     , DMA_3                => 11
     , Keypad               => 12
     , Game_Pak             => 13
-    ); 
+    );
 
 
   type Interrupt_Flags is mod 2**14
@@ -75,11 +75,11 @@ package GBA.Interrupts is
 
 
   procedure Disable_Interrupt (ID : Interrupt_ID)
-    with Inline;  
+    with Inline;
 
   procedure Disable_Interrupt (Flags : Interrupt_Flags)
-    with Inline;  
-  
+    with Inline;
+
   procedure Disable_Interrupts_And_Save (Flags : out Interrupt_Flags)
     with Inline;
 
@@ -107,7 +107,7 @@ package GBA.Interrupts is
 
 
 private
-  
+
   procedure Default_Interrupt_Dispatcher
     with Linker_Section => ".iwram";
   pragma Machine_Attribute(Default_Interrupt_Dispatcher, "target", "arm");

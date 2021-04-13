@@ -3,7 +3,7 @@ abstract project GBA_Program is
 
     for Languages use ("Ada", "Asm_Cpp");
     for Target use "arm-eabi";
-    for Runtime("Ada") use GBA_Program'Project_Dir & "zfp-gba";
+    for Runtime ("Ada") use GBA_Program'Project_Dir & "zfp-gba";
 
     package Naming is
         for Casing use "mixedcase";
@@ -11,12 +11,12 @@ abstract project GBA_Program is
     end Naming;
 
     type Code_Linkage_Mode is
-        ( "EWRAM" -- Link in multiboot mode, putting .text into 256k .ewram 
+        ( "EWRAM" -- Link in multiboot mode, putting .text into 256k .ewram
         , "ROM"   -- Link in normal mode, putting .text into 32mb read-only segment
         );
 
-    Code_Linkage : Code_Linkage_Mode := external("codelinkage", "ROM");
-    
+    Code_Linkage : Code_Linkage_Mode := external ("codelinkage", "ROM");
+
     Linker_File := "";
 
     case Code_Linkage is
@@ -28,7 +28,7 @@ abstract project GBA_Program is
         Default_Arch := "";
 
         Common_Options :=
-            ( "-march=armv4t" 
+            ( "-march=armv4t"
             , "-mthumb-interwork"
             , "-nostdlib"
             , "-ffunction-sections"
@@ -37,7 +37,20 @@ abstract project GBA_Program is
             , "-freg-struct-return"
             );
 
+        Ada_Style_Options :=
+            ( "-gnatyN"
+            , "-gnaty2aAbBChiklOprx"
+            );
+
+        Ada_Warning_Options :=
+            ( "-gnatwA"
+            , "-gnatw_a.a.Bc.cDEI.ij.kmO.pqr.rv.wx"
+            , "-gnatwe"
+            );
+
         Common_Ada_Options :=
+            Ada_Warning_Options &
+            Ada_Style_Options   &
             ( "-gnatp"
             , "-gnatX"
             , "-gnatn2"
@@ -50,8 +63,8 @@ abstract project GBA_Program is
         when "ROM"   => Default_Arch := "-mthumb";
         end case;
 
-        for Default_Switches("Asm_Cpp") use Common_Options;
-        for Default_Switches("Ada") use Common_Options & Common_Ada_Options & Default_Arch;
+        for Default_Switches ("Asm_Cpp") use Common_Options;
+        for Default_Switches ("Ada") use Common_Options & Common_Ada_Options & Default_Arch;
 
     end Compiler;
 

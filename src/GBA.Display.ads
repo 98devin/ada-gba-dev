@@ -11,7 +11,7 @@ package GBA.Display is
     , Mode_3  -- 15-bit color 240x160 bitmap
     , Mode_4  --  8-bit color 240x160 bitmap + buffering
     , Mode_5  -- 15-bit color 160x128 bitmap + buffering
-    ) 
+    )
     with Size => 3;
 
   for Video_Mode use
@@ -25,7 +25,7 @@ package GBA.Display is
 
 
   type Character_Mapping_Style is
-    ( Two_Dimensional  -- Each row of tiles spans the same columns of tile data.  
+    ( Two_Dimensional  -- Each row of tiles spans the same columns of tile data.
     , One_Dimensional  -- Each row of tiles immediately succeeds the last row.
     );
 
@@ -55,10 +55,10 @@ package GBA.Display is
     );
 
   for Toggleable_Display_Element use
-    ( Background_0  => 0  
-    , Background_1  => 1 
-    , Background_2  => 2 
-    , Background_3  => 3 
+    ( Background_0  => 0
+    , Background_1  => 1
+    , Background_2  => 2
+    , Background_3  => 3
     , Objects       => 4
     , Window_0      => 5
     , Window_1      => 6
@@ -80,8 +80,8 @@ package GBA.Display is
     with Inline;
 
 
-  type Displayed_Element_Flags is 
-    array (Toggleable_Display_Element range <>) of Boolean 
+  type Displayed_Element_Flags is
+    array (Toggleable_Display_Element range <>) of Boolean
     with Pack;
 
   type Bitmap_Frame_Choice is mod 2;
@@ -111,7 +111,7 @@ package GBA.Display is
   type Display_Status_Info is
     record
       Is_VBlank                : Boolean;
-      Is_HBlank                : Boolean;      
+      Is_HBlank                : Boolean;
       Is_Matching_VCount       : Boolean;
       Request_VBlank_Interrupt : Boolean;
       Request_HBlank_Interrupt : Boolean;

@@ -2,7 +2,7 @@
 package GBA.BIOS is
 
   pragma Preelaborate;
-  
+
   type System_Call is
     ( Soft_Reset              --
     , Register_RAM_Reset      --
@@ -18,9 +18,9 @@ package GBA.BIOS is
     , Cpu_Set                 --
     , Cpu_Fast_Set            --
     , Get_Bios_Checksum       --
-    , BG_Affine_Set           
+    , BG_Affine_Set
     , Obj_Affine_Set
-    
+
     , Bit_Unpack
     , LZ77_Uncomp_Write8      -- for WRAM
     , LZ77_Uncomp_Write16     -- for VRAM
@@ -68,13 +68,13 @@ package GBA.BIOS is
     , BG_Affine_Set           => 16#0E#
     , Obj_Affine_Set          => 16#0F#
     , Bit_Unpack              => 16#10#
-    , LZ77_Uncomp_Write8      => 16#11# 
-    , LZ77_Uncomp_Write16     => 16#12# 
+    , LZ77_Uncomp_Write8      => 16#11#
+    , LZ77_Uncomp_Write16     => 16#12#
     , Huff_Uncomp             => 16#13#
-    , RL_Uncomp_Write8        => 16#14# 
-    , RL_Uncomp_Write16       => 16#15# 
-    , Diff_8_Unfilter_Write8  => 16#16# 
-    , Diff_8_Unfilter_Write16 => 16#17# 
+    , RL_Uncomp_Write8        => 16#14#
+    , RL_Uncomp_Write16       => 16#15#
+    , Diff_8_Unfilter_Write8  => 16#16#
+    , Diff_8_Unfilter_Write16 => 16#17#
     , Diff_16_Unfilter        => 16#18#
     , Sound_Bias              => 16#19#
     , Sound_Driver_Init       => 16#1A#
@@ -131,10 +131,10 @@ package GBA.BIOS is
 
   for Cpu_Set_Unit_Size use
     ( Half_Word => 0, Word => 1 );
-    
+
   type Cpu_Set_Unit_Count is mod 2**21
     with Object_Size => 32;
-    
+
   type Cpu_Set_Config is
     record
       Unit_Count : Cpu_Set_Unit_Count;

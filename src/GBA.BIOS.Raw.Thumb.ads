@@ -23,7 +23,7 @@ package GBA.BIOS.Raw.Thumb is
   procedure Hard_Reset
     with Import, External_Name => IMPORT_PREFIX & "hard_reset";
 
-  procedure Register_RAM_Reset(Flags : Register_RAM_Reset_Flags)
+  procedure Register_RAM_Reset (Flags : Register_RAM_Reset_Flags)
     with Import, External_Name => IMPORT_PREFIX & "register_ram_reset";
 
   procedure Halt
@@ -42,14 +42,14 @@ package GBA.BIOS.Raw.Thumb is
 
   function Div_Mod (Num, Denom : Integer) return Long_Long_Integer
       with Import, Pure_Function, External_Name => IMPORT_PREFIX & "div_mod";
-      
+
   function Div_Mod_Arm (Denom, Num : Integer) return Long_Long_Integer
       with Import, Pure_Function, External_Name => IMPORT_PREFIX & "div_mod_arm";
 
-  function Sqrt(Num : Unsigned_32) return Unsigned_16
+  function Sqrt (Num : Unsigned_32) return Unsigned_16
       with Import, Pure_Function, External_Name => IMPORT_PREFIX & "sqrt";
 
-  function Arc_Tan(X, Y : Fixed_2_14) return Radians_16
+  function Arc_Tan (X, Y : Fixed_2_14) return Radians_16
       with Import, Pure_Function, External_Name => IMPORT_PREFIX & "arc_tan2";
 
 

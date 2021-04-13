@@ -147,7 +147,7 @@ package body GBA.Interrupts is
   end;
 
 begin
-  
+
   -- Register default handler.
   -- Ensures safety of enabling interrupts.
 

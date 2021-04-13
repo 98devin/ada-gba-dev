@@ -14,7 +14,7 @@ package GBA.Input is
     , Down_Direction
     , Left_Shoulder
     , Right_Shoulder
-    ) 
+    )
     with Size => 16;
 
   for Key use
@@ -42,7 +42,7 @@ package GBA.Input is
 
   function To_Flags (K : Key) return Key_Flags
     with Inline_Always;
-  
+
 
   function "or" (K1, K2 : Key) return Key_Flags
     with Pure_Function, Inline_Always;
@@ -52,23 +52,23 @@ package GBA.Input is
 
   function Read_Key_State return Key_Flags
     with Inline_Always;
-    
+
   function Read_Key_State return Key_Set
     with Inline_Always;
 
   procedure Disable_Input_Interrupt_Request;
-  procedure Request_Interrupt_If_Key_Pressed(K : Key);  
+  procedure Request_Interrupt_If_Key_Pressed(K : Key);
   procedure Request_Interrupt_If_Any_Pressed(F : Key_Flags);
   procedure Request_Interrupt_If_All_Pressed(F : Key_Flags);
 
 private
-  
+
   type Key_Control_Op is
     ( Disjunction, Conjunction );
 
   for Key_Control_Op use
     ( Disjunction => 0, Conjunction => 1 );
-  
+
   type Key_Control_Data is
     record
       Flags               : Key_Flags;
