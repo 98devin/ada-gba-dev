@@ -13,16 +13,16 @@ package body GBA.Interrupts is
   -- IO Register Definitions --
 
   Enabled_Master : Boolean
-    with Import, Address => IME;
+    with Import, Volatile, Address => IME;
 
   Enabled_Flags : Interrupt_Flags
-    with Import, Address => IE;
+    with Import, Volatile, Address => IE;
 
   Acknowledge_Flags : Interrupt_Flags
-    with Import, Address => IRF;
+    with Import, Volatile, Address => IRF;
 
   Acknowledge_BIOS_Flags : Interrupt_Flags
-    with Import, Address => 16#3007FF8#;
+    with Import, Volatile, Address => 16#3007FF8#;
 
 
   -- ID to Flags conversions --

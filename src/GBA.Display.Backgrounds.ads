@@ -34,7 +34,7 @@ package GBA.Display.Backgrounds is
 
   type BG_Kind is
     ( Regular
-    , Rotation_Scaling
+    , Affine
     );
 
 
@@ -101,8 +101,6 @@ package GBA.Display.Backgrounds is
   subtype BG_Reference_Point_Coordinate is
     GBA.Numerics.Fixed_20_8;
 
-  subtype BG_Transform_Parameter is
-    GBA.Numerics.Fixed_8_8;
 
   type BG_Reference_Point is
     record
@@ -119,7 +117,7 @@ package GBA.Display.Backgrounds is
 
   type BG_Transform_Matrix is
     record
-      DX, DMX, DY, DMY : BG_Transform_Parameter;
+      DX, DMX, DY, DMY : Affine_Transform_Parameter;
     end record
       with Size => 64;
 
