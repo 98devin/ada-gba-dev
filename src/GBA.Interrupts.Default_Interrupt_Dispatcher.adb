@@ -2,9 +2,6 @@
 with GBA.Numerics;
 use  GBA.Numerics;
 
-with Interfaces;
-use  Interfaces;
-
 
 separate (GBA.Interrupts)
 procedure Default_Interrupt_Dispatcher is
