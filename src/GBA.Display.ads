@@ -1,4 +1,6 @@
 
+with GBA.Numerics;
+
 with GBA.Memory.IO_Registers;
 use  GBA.Memory.IO_Registers;
 
@@ -38,6 +40,8 @@ package GBA.Display is
   type Vertical_Counter_Type is range 0 .. 227
     with Size => 8;
 
+  subtype Affine_Transform_Parameter is
+    GBA.Numerics.Fixed_8_8;
 
   type Display_Priority is range 0 .. 3
     with Size => 2;
@@ -48,21 +52,21 @@ package GBA.Display is
     , Background_1
     , Background_2
     , Background_3
-    , Objects
+    , Object_Sprites
     , Window_0
     , Window_1
     , Object_Window
     );
 
   for Toggleable_Display_Element use
-    ( Background_0  => 0
-    , Background_1  => 1
-    , Background_2  => 2
-    , Background_3  => 3
-    , Objects       => 4
-    , Window_0      => 5
-    , Window_1      => 6
-    , Object_Window => 7
+    ( Background_0    => 0
+    , Background_1    => 1
+    , Background_2    => 2
+    , Background_3    => 3
+    , Object_Sprites  => 4
+    , Window_0        => 5
+    , Window_1        => 6
+    , Object_Window   => 7
     );
 
 

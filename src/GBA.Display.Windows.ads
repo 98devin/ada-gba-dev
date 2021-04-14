@@ -6,7 +6,7 @@ use  Interfaces;
 package GBA.Display.Windows is
 
   subtype Toggleable_Window_Element is
-    Toggleable_Display_Element range Background_0 .. Objects;
+    Toggleable_Display_Element range Background_0 .. Object_Sprites;
 
   type Window_Horizontal_Dimensions is
     record

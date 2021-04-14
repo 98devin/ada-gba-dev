@@ -2,6 +2,10 @@
 with GBA.Numerics;
 use  GBA.Numerics;
 
+with Interfaces;
+use  Interfaces;
+
+
 separate (GBA.Interrupts)
 procedure Default_Interrupt_Dispatcher is
 
@@ -18,15 +22,16 @@ procedure Default_Interrupt_Dispatcher is
 begin
   Disable_Receiving_Interrupts(Enabled);
 
-  Triggered_Flags := Acknowledge_Flags;
+  -- Disabled but requested interrupts need to be masked out.
+  Triggered_Flags := Acknowledge_Flags and Enabled_Flags;
 
-  Priority_Bit := Count_Trailing_Zeros(Integer_16(Triggered_Flags));
-  Priority_ID  := Interrupt_ID'Enum_Val(Priority_Bit);
-  Acknowledge_Interrupt(Priority_ID);
+  Priority_Bit := Count_Trailing_Zeros (Integer_16 (Triggered_Flags));
+  Priority_ID  := Interrupt_ID'Enum_Val (Priority_Bit);
+  Acknowledge_Interrupt (Priority_ID);
 
-  Handler := Handlers(Priority_ID);
+  Handler := Handlers (Priority_ID);
   if Handler /= null then
-    Run_In_System_Mode(Handler);
+    Run_In_System_Mode (Handler);
   end if;
 
   Enable_Receiving_Interrupts(Enabled);
