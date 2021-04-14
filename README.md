@@ -6,7 +6,7 @@ Gameboy Advance software library for the Ada programming language.
 ## Requirements
 
 - An arm-eabi cross compiler for ADA, e.g. GNAT Pro or [GNAT Community Edition 2020](https://www.adacore.com/download/more)
-  
+
   Note that code compiled to run on the GBA uses custom runtime libraries derived from GNAT FSF,
   and opts out of the default Ada standard library. This should mean afaik that even using GNAT
   Community Edition, there is no requirement to license the result under GPL, as all standard
@@ -25,7 +25,7 @@ Gameboy Advance software library for the Ada programming language.
 - If necessary, use `gbafix` to fill in a valid checksum for your `.gba` file.
 
 A sample project to make sure your build environment works and to demonstrate GBADA library features
-is provided in the `demo/` directory. The demo(s) will be expanded and adapted as necessary to fit 
+is provided in the `demo/` directory. The demo(s) will be expanded and adapted as necessary to fit
 the requirements and features of this library.
 
 ---
@@ -34,16 +34,16 @@ the requirements and features of this library.
 
 - [x] Compile Ada targeting embedded Arm
     - [x] Freely intermix Arm and Thumb mode.
-    - [x] Custom zero-footprint runtime  
+    - [x] Custom zero-footprint runtime
     - [x] Secondary stack for dynamic allocations
     - [x] Tagged types for polymorphism and OOP
 
       No IO, exceptions, tasking, finalization, standard containers.
       Currently no software floating-point (but Ada supports fixed-point natively).
-    
+
 
 - [x] All IO Register mnemonics
-- [x] Keypad input 
+- [x] Keypad input
 - [x] (basic) Direct Memory Access control
 - [x] Interrupts
     - [x] Default interrupt handler in Ada + Asm
@@ -69,7 +69,7 @@ the requirements and features of this library.
     - [x] Window control registers
     - [x] Palette memory
     - [ ] Character/Tile memory
-    - [ ] Object attribute memory
+    - [x] Object attribute memory
     - [ ] Per-graphics-mode interface for backgrounds
     - [ ] Convenient HDMA control
 - [ ] Timers
@@ -87,6 +87,7 @@ the requirements and features of this library.
 - [ ] Utilities
     - [ ] General allocation abstractions
     - [ ] IWRAM/EWRAM default heaps
+    - [ ] IWRAM overlays
     - [ ] OAM / VRAM allocation helpers
     - [ ] Text processing
     - [ ] MOD Mixer
