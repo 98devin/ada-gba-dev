@@ -1,4 +1,7 @@
 
+with GBA.Display.Tiles;
+use  GBA.Display.Tiles;
+
 with GBA.Display.Palettes;
 use  GBA.Display.Palettes;
 
@@ -92,9 +95,6 @@ package GBA.Display.Objects is
 
   procedure As_Shape_And_Scale (Size : OBJ_Size; Shape : out OBJ_Shape; Scale : out OBJ_Scale)
     with Inline_Always;
-
-
-  type OBJ_Tile_Index is range 0 .. 1023;
 
 
   type OBJ_Affine_Transform_Index is range 0 .. 31

@@ -1,18 +1,14 @@
 
 with GBA.Numerics;
 
+with GBA.Display.Tiles;
+use  GBA.Display.Tiles;
+
 with GBA.Display.Palettes;
 use  GBA.Display.Palettes;
 
 
 package GBA.Display.Backgrounds is
-
-  type Tile_Block_Index is mod 4
-    with Size => 2;
-
-  type Data_Block_Index is mod 32
-    with Size => 5;
-
 
   type Boundary_Behavior is
     ( Cutoff
@@ -50,7 +46,7 @@ package GBA.Display.Backgrounds is
       Tile_Block    : Tile_Block_Index;
       Enable_Mosaic : Boolean;
       Color_Mode    : Palette_Mode;
-      Data_Block    : Data_Block_Index;
+      Screen_Block  : Screen_Block_Index;
       Boundary_Mode : Boundary_Behavior;
       Size          : BG_Size;
     end record
@@ -62,7 +58,7 @@ package GBA.Display.Backgrounds is
       Tile_Block    at 0 range 2 .. 3;
       Enable_Mosaic at 0 range 6 .. 6;
       Color_Mode    at 0 range 7 .. 7;
-      Data_Block    at 1 range 0 .. 4;
+      Screen_Block  at 1 range 0 .. 4;
       Boundary_Mode at 1 range 5 .. 5;
       Size          at 1 range 6 .. 7;
     end record;
