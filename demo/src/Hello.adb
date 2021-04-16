@@ -4,6 +4,7 @@ with GBA.BIOS.Thumb;
 with GBA.BIOS.Memset;
 
 with GBA.Display;
+with GBA.Display.Tiles;
 with GBA.Display.Backgrounds;
 with GBA.Display.Objects;
 with GBA.Display.Palettes;
