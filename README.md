@@ -68,7 +68,7 @@ the requirements and features of this library.
         - [ ] Convenient scrolling/transform manipulation
     - [x] Window control registers
     - [x] Palette memory
-    - [ ] Character/Tile memory
+    - [x] Character/Tile memory
     - [x] Object attribute memory
     - [ ] Per-graphics-mode interface for backgrounds
     - [ ] Convenient HDMA control
