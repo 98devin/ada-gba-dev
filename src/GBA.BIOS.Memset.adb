@@ -2,7 +2,7 @@
 with System;
 use  System;
 
-with Interfaces;
+with Interfaces.C;
 use  Interfaces;
 
 with GBA.BIOS.Arm;
@@ -10,19 +10,21 @@ use  GBA.BIOS.Arm;
 
 with Ada.Unchecked_Conversion;
 
+use type Interfaces.C.size_t;
 
-procedure GBA.BIOS.Memset
-  ( Dest : in Address; Value : Integer; Num_Bytes : Unsigned_32 ) is
+
+function GBA.BIOS.Memset
+  ( Dest : in Address; Value : Integer; Num_Bytes : C.size_t ) return Address is
 
   function Conv is new Ada.Unchecked_Conversion (Integer, Unsigned_32);
-  function Conv is new Ada.Unchecked_Conversion (Unsigned_32, Cpu_Set_Unit_Count);
-  function Conv is new Ada.Unchecked_Conversion (Unsigned_32, Address);
+  function Conv is new Ada.Unchecked_Conversion (C.size_t, Cpu_Set_Unit_Count);
+  function Conv is new Ada.Unchecked_Conversion (C.size_t, Address);
 
   Value_U32 : Unsigned_32 := Conv (Value);
 
-  Num_Bytes_32 : Unsigned_32 := Num_Bytes and not 2#1111#;
-  Num_Bytes_2  : Unsigned_32 := Num_Bytes and     2#1110#;
-  Num_Bytes_1  : Unsigned_32 := Num_Bytes and     2#0001#;
+  Num_Bytes_32 : C.size_t := Num_Bytes and not 2#1111#;
+  Num_Bytes_2  : C.size_t := Num_Bytes and     2#1110#;
+  Num_Bytes_1  : C.size_t := Num_Bytes and     2#0001#;
 
   Copy_Dest : Address := Dest;
 
@@ -53,4 +55,6 @@ begin
   if Num_Bytes_1 /= 0 then
     Unsigned_8'Deref (Copy_Dest) := Unsigned_8'Mod (Value_U32);
   end if;
+
+  return Dest;
 end;
