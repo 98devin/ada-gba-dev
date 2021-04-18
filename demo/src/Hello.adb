@@ -36,6 +36,8 @@ procedure Hello is
   use GBA.Input;
   use GBA.Input.Buffered;
 
+  use Interfaces;
+
   VRAM : array (1 .. 160, 1 .. 240) of Color
     with Import, Volatile, Address => 16#6000000#;
 
@@ -44,29 +46,25 @@ procedure Hello is
   Color_BG : aliased Color with Volatile;
 
   procedure Adjust_Color (Y : Positive) is
-    Index : Color_Index_16 := Color_Index_16 ((Y - 1) mod 128 / 32);
+    Index : Color_Index_16 := Color_Index_16 ((Y - 1) mod 160 / 32);
   begin
     Color_BG := Color_Palette (Index + 1);
   end;
 
   Y_Offset : Natural := 0;
 
-  function Return_Unsized return String is
-    ("Very Long String Argument") with No_Inline;
-
-  S : String := Return_Unsized;
-
   Origin : BG_Reference_Point := (X => 0.0, Y => 0.0);
   Origin_X_Velocity : Fixed_20_8 := 3.0;
 
 begin
 
-  Color_Palette (0 .. 4) :=
+  Color_Palette (0 .. 5) :=
     ( ( 0,  0,  0)
     , (19, 23, 19)
     , (31, 25, 21)
     , (31, 16, 15)
     , (29,  9, 11)
+    , (15, 31, 16)
     );
 
   GBA.Interrupts.Enable_Receiving_Interrupts;

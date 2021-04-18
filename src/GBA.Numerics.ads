@@ -27,12 +27,92 @@ package GBA.Numerics is
     with Size => 16;
 
 
-  function Count_Trailing_Zeros (I : Integer) return Natural
-    with Linker_Section => ".iwram";
+  function Count_Trailing_Zeros (I : Long_Long_Integer) return Natural
+    with Pure_Function, Inline_Always;
 
-  function Count_Trailing_Zeros (I : Integer_16) return Natural
-    with Linker_Section => ".iwram";
+  function Count_Trailing_Zeros (I : Unsigned_64) return Natural
+    with Pure_Function, Linker_Section => ".iwram.ctz64";
 
   pragma Machine_Attribute (Count_Trailing_Zeros, "target", "arm");
+
+
+  function Count_Trailing_Zeros (I : Integer) return Natural
+    with Pure_Function, Inline_Always;
+
+  function Count_Trailing_Zeros (I : Unsigned_32) return Natural
+    with Pure_Function, Linker_Section => ".iwram.ctz";
+
+  pragma Machine_Attribute (Count_Trailing_Zeros, "target", "arm");
+
+
+  function Count_Trailing_Zeros (I : Integer_16) return Natural
+    with Pure_Function, Inline_Always;
+
+  function Count_Trailing_Zeros (I : Unsigned_16) return Natural
+    with Pure_Function, Linker_Section => ".iwram.ctz16";
+
+  pragma Machine_Attribute (Count_Trailing_Zeros, "target", "arm");
+
+
+
+  function Count_Leading_Zeros (I : Long_Long_Integer) return Natural
+    with Pure_Function, Inline_Always;
+
+  function Count_Leading_Zeros (I : Unsigned_64) return Natural
+    with Pure_Function, Linker_Section => ".iwram.clz64";
+
+  pragma Machine_Attribute (Count_Leading_Zeros, "target", "arm");
+
+
+  function Count_Leading_Zeros (I : Integer) return Natural
+    with Pure_Function, Inline_Always;
+
+  function Count_Leading_Zeros (I : Unsigned_32) return Natural
+    with Pure_Function, Linker_Section => ".iwram.clz";
+
+  pragma Machine_Attribute (Count_Leading_Zeros, "target", "arm");
+
+
+  function Count_Leading_Zeros (I : Integer_16) return Natural
+    with Pure_Function, Inline_Always;
+
+  function Count_Leading_Zeros (I : Unsigned_16) return Natural
+    with Pure_Function, Linker_Section => ".iwram.clz16";
+
+  pragma Machine_Attribute (Count_Leading_Zeros, "target", "arm");
+
+
+private
+
+  -- Private functions so that they will not override any other definitions
+  -- (e.g. BIOS routines, if you prefer those for some reason).
+  -- They are callable via standard operators, since they overwrite the defaults.
+
+  function Div_Mod (N, D : Integer) return Long_Long_Integer
+    with Pure_Function, Inline, Linker_Section => ".iwram.idivmod",
+         Export, External_Name => "__aeabi_idivmod";
+
+  pragma Machine_Attribute (Div_Mod, "target", "arm");
+
+
+  function Div_Mod (N, D : Unsigned_32) return Long_Long_Integer
+    with Pure_Function, Inline, Linker_Section => ".iwram.uidivmod",
+         Export, External_Name => "__aeabi_uidivmod";
+
+  pragma Machine_Attribute (Div_Mod, "target", "arm");
+
+
+  function Divide (N, D : Integer) return Integer
+    with Pure_Function, Inline, Linker_Section => ".iwram.idiv",
+         Export, External_Name => "__aeabi_idiv";
+
+  pragma Machine_Attribute (Divide, "target", "arm");
+
+
+  function Divide (N, D : Unsigned_32) return Unsigned_32
+    with Pure_Function, Inline, Linker_Section => ".iwram.uidiv",
+         Export, External_Name => "__aeabi_uidiv";
+
+  pragma Machine_Attribute (Divide, "target", "arm");
 
 end GBA.Numerics;
