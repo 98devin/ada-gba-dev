@@ -54,17 +54,19 @@ procedure Hello is
   Y_Offset : Natural := 0;
 
   Origin : BG_Reference_Point := (X => 0.0, Y => 0.0);
-  Origin_X_Velocity : Fixed_20_8 := 3.0;
+
+  Theta : Radians_16 := 0.0;
+  Delta_X, Delta_Y : Fixed_Snorm_16;
 
 begin
 
   Color_Palette (0 .. 5) :=
     ( ( 0,  0,  0)
-    , (19, 23, 19)
+    , (19, 26, 21)
     , (31, 25, 21)
     , (31, 16, 15)
     , (29,  9, 11)
-    , (15, 31, 16)
+    , (00, 26, 26)
     );
 
   GBA.Interrupts.Enable_Receiving_Interrupts;
@@ -97,12 +99,10 @@ begin
       Y_Offset := @ + 1;
     end if;
 
-    Origin.X := @ + Origin_X_Velocity;
-    if Origin.X > 0.0 then
-      Origin_X_Velocity := @ - 0.25;
-    else
-      Origin_X_Velocity := @ + 0.25;
-    end if;
+    Sin_Cos_LUT (Theta, Delta_X, Delta_Y);
+    Origin.X := 32.0 * Fixed_20_8 (Delta_X);
+    Origin.Y := 32.0 * Fixed_20_8 (Delta_Y);
+    Theta := @ + (1.0 / 128.0);
 
     Wait_For_VBlank;
 

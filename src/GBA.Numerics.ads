@@ -11,20 +11,90 @@ package GBA.Numerics is
     2.71828_18284_59045_23536_02874_71352_66249_77572_47093_69996;
 
   type Fixed_2_14 is
-    delta 2.0**(-14) range -1.0 .. 1.0
-    with Size => 16;
+    delta 2.0**(-14) range -2.0 .. 2.0 - 2.0**(-14)
+      with Size => 16;
 
   type Fixed_20_8 is
     delta 2.0**(-8) range -2.0**19 .. 2.0**19
-    with Size => 32;
+      with Size => 32;
 
   type Fixed_8_8 is
     delta 2.0**(-8) range -2.0**7 .. 2.0**7 - 2.0**(-8)
-    with Size => 16;
+      with Size => 16;
 
-  type Radians_16 is
-    delta (2.0*Pi) / (2.0**(-16)) range 0.0 .. 2.0*Pi
-    with Size => 16;
+  type Fixed_2_30 is
+    delta 2.0**(-30) range -2.0 .. 2.0 - 2.0**(-30)
+      with Size => 32;
+
+  type Fixed_Unorm_8 is
+    delta 2.0**(-8) range 0.0 .. 1.0 - 2.0**(-8)
+      with Size => 8;
+
+  type Fixed_Unorm_16 is
+    delta 2.0**(-16) range 0.0 .. 1.0 - 2.0**(-16)
+      with Size => 16;
+
+  type Fixed_Unorm_32 is
+    delta 2.0**(-32) range 0.0 .. 1.0 - 2.0**(-32)
+      with Size => 32;
+
+  subtype Fixed_Snorm_16 is
+    Fixed_2_14 range -1.0 .. 1.0;
+
+  subtype Fixed_Snorm_32 is
+    Fixed_2_30 range -1.0 .. 1.0;
+
+
+  -- Consider this to have an implicit unit of 2*Pi.
+  -- Additive operators are defined to be cyclic.
+  type Radians_16 is new Fixed_Unorm_16;
+
+  overriding
+  function "+" (X, Y : Radians_16) return Radians_16
+    with Pure_Function, Inline_Always;
+
+  overriding
+  function "-" (X, Y : Radians_16) return Radians_16
+    with Pure_Function, Inline_Always;
+
+
+  -- Consider this to have an implicit unit of 2*Pi.
+  -- Additive operators are defined to be cyclic.
+  type Radians_32 is new Fixed_Unorm_32;
+
+  overriding
+  function "+" (X, Y : Radians_32) return Radians_32
+    with Pure_Function, Inline_Always;
+
+  overriding
+  function "-" (X, Y : Radians_32) return Radians_32
+    with Pure_Function, Inline_Always;
+
+
+
+  function Sin (Theta : Radians_32) return Fixed_Snorm_32
+    with Pure_Function, Inline_Always;
+
+  function Cos (Theta : Radians_32) return Fixed_Snorm_32
+    with Pure_Function, Inline_Always;
+
+  procedure Sin_Cos (Theta : Radians_32; Sin, Cos : out Fixed_Snorm_32)
+    with Linker_Section => ".iwram.sin_cos";
+
+  pragma Machine_Attribute (Sin_Cos, "target", "arm");
+
+
+  function Sin_LUT (Theta : Radians_16) return Fixed_Snorm_16
+    with Pure_Function, Linker_Section => ".iwram.sin_lut";
+
+  function Cos_LUT (Theta : Radians_16) return Fixed_Snorm_16
+    with Pure_Function, Inline_Always;
+
+  procedure Sin_Cos_LUT (Theta : Radians_16; Sin, Cos : out Fixed_Snorm_16)
+    with Inline_Always;
+
+  pragma Machine_Attribute (Sin_LUT, "target", "arm");
+
 
 
   function Count_Trailing_Zeros (I : Long_Long_Integer) return Natural
