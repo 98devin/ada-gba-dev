@@ -26,3 +26,7 @@
     defn cpu_fast_set,       0x0C
 
     defn get_bios_checksum,  0x0D
+
+    defn bg_affine_set,      0x0E
+
+    defn obj_affine_set,     0x0F

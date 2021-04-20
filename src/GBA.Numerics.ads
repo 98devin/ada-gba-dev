@@ -4,6 +4,8 @@ use  Interfaces;
 
 package GBA.Numerics is
 
+  pragma Preelaborate;
+
   Pi : constant :=
     3.14159_26535_89793_23846_26433_83279_50288_41971_69399_37511;
 
@@ -69,6 +71,25 @@ package GBA.Numerics is
   overriding
   function "-" (X, Y : Radians_32) return Radians_32
     with Pure_Function, Inline_Always;
+
+
+
+  subtype Affine_Transform_Parameter is
+    Fixed_8_8;
+
+  type Affine_Transform_Matrix is
+    record
+      DX, DMX, DY, DMY : Affine_Transform_Parameter;
+    end record
+      with Size => 64;
+
+  for Affine_Transform_Matrix use
+    record
+      DX  at 0 range 0 .. 15;
+      DMX at 2 range 0 .. 15;
+      DY  at 4 range 0 .. 15;
+      DMY at 6 range 0 .. 15;
+    end record;
 
 
 

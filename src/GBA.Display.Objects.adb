@@ -1,6 +1,8 @@
 
 with Ada.Unchecked_Conversion;
 
+with System;
+use type System.Address;
 
 package body GBA.Display.Objects is
 
@@ -34,6 +36,9 @@ package body GBA.Display.Objects is
     Scale := Shape_And_Scale.Scale;
   end;
 
+
+  function Affine_Transform_Address (Ix : OBJ_Affine_Transform_Index) return Address is
+    ( OAM_Address'First + 6 + 32 * Address (Ix) );
 
   function Attributes_Of_Object (ID : OBJ_ID) return OAM_Attributes_Ptr is
   begin

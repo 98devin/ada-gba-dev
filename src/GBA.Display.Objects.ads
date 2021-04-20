@@ -1,12 +1,15 @@
 
+with GBA.Memory;
+use  GBA.Memory;
+
+with GBA.Numerics;
+use  GBA.Numerics;
+
 with GBA.Display.Tiles;
 use  GBA.Display.Tiles;
 
 with GBA.Display.Palettes;
 use  GBA.Display.Palettes;
-
-with GBA.Memory;
-use  GBA.Memory;
 
 
 package GBA.Display.Objects is
@@ -99,6 +102,9 @@ package GBA.Display.Objects is
 
   type OBJ_Affine_Transform_Index is range 0 .. 31
     with Size => 5;
+
+  function Affine_Transform_Address (Ix : OBJ_Affine_Transform_Index) return Address
+    with Pure_Function, Inline_Always;
 
 
   type OBJ_Attributes (Kind : OBJ_Kind := Regular) is
