@@ -290,16 +290,20 @@ package body GBA.Numerics is
     B3 : constant Fixed_2_30 :=  0.4561589075945;
     B5 : constant Fixed_2_30 := -0.0539104694791;
 
-    X2 : constant Fixed_2_30 := X  * X;
-    X3 : constant Fixed_2_30 := X2 * X;
-    X4 : constant Fixed_2_30 := X2 * X2;
-    X5 : constant Fixed_2_30 := X3 * X2;
-    X6 : constant Fixed_2_30 := X3 * X3;
+    X2 : constant Fixed_2_30 := X * X;
 
-    A  : constant Fixed_2_30 := A0 + (A2 * X2) + (A4 * X4) + (A6 * X6);
-    B  : constant Fixed_2_30 := (B1 * X) + (B3 * X3) + (B5 * X5);
-
+    A  : Fixed_2_30 := A6;
+    B  : Fixed_2_30 := B5;
   begin
+    -- Horner's method
+    A := A4 + (X2 * A);
+    A := A2 + (X2 * A);
+    A := A0 + (X2 * A);
+
+    B := B3 + (X2 * B);
+    B := B1 + (X2 * B);
+    B := X * B;
+
     Sin := A - B;
     Cos := A + B;
   end;
