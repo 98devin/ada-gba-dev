@@ -96,6 +96,11 @@ procedure Sprites is
   end;
 
 
+  procedure BIOS_Sin_Cos (Theta : Radians_32; Sin, Cos : out Fixed_8_8)
+    with No_Inline;
+
+  pragma Machine_Attribute (BIOS_Sin_Cos, "target", "arm");
+
   procedure BIOS_Sin_Cos (Theta : Radians_32; Sin, Cos : out Fixed_8_8) is
     Affine_Sin_Cos : Affine_Transform_Matrix;
   begin
@@ -109,7 +114,6 @@ procedure Sprites is
     Sin := Affine_Sin_Cos.DY;
     Cos := Affine_Sin_Cos.DX;
   end;
-
 
   X_Center : constant OBJ_X_Coordinate := 116;
   Y_Center : constant OBJ_Y_Coordinate :=  76;
