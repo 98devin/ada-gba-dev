@@ -2,7 +2,6 @@
 bin/
 adalib/
 obj/
-docs/
 *.exe
 *.o
 *.gba
