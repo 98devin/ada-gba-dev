@@ -28,13 +28,14 @@ abstract project GBA_Program is
         Default_Arch := "";
 
         Common_Options :=
-            ( "-march=armv4t"
+            ( "-mcpu=arm7tdmi"
             , "-mthumb-interwork"
             , "-nostdlib"
             , "-ffunction-sections"
             , "-fdata-sections"
             , "-fomit-frame-pointer"
             , "-freg-struct-return"
+            , "-fstrict-volatile-bitfields"
             );
 
         Ada_Style_Options :=
@@ -55,7 +56,7 @@ abstract project GBA_Program is
             , "-gnatX"
             , "-gnatn2"
             , "-O3"
-            -- , "-g"
+            , "-g"
             );
 
         case Code_Linkage is
@@ -75,6 +76,7 @@ abstract project GBA_Program is
             , "-nostdlib"
             , "-static"
             , "-Wl,-gc-sections"
+            , "-lgcc"
             , "-g"
             );
     end Linker;

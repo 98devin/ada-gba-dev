@@ -175,6 +175,15 @@ package GBA.Numerics is
 
 private
 
+
+
+  function LMul (X, Y : Unsigned_64) return Unsigned_64
+    with Pure_Function, No_Inline, Linker_Section => ".iwram.lmul",
+         Export, External_Name => "__aeabi_lmul";
+
+  pragma Machine_Attribute (LMul, "target", "arm");
+
+
   -- Private functions so that they will not override any other definitions
   -- (e.g. BIOS routines, if you prefer those for some reason).
   -- They are callable via standard operators, since they overwrite the defaults.

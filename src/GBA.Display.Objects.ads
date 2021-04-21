@@ -24,7 +24,8 @@ package GBA.Display.Objects is
   type OBJ_Kind is
     ( Regular
     , Affine
-    ) with Size => 1;
+    )
+    with Size => 1;
 
   for OBJ_Kind use
     ( Regular => 0
@@ -36,7 +37,8 @@ package GBA.Display.Objects is
     ( Normal
     , Transparent
     , Window
-    ) with Size => 2;
+    )
+    with Size => 2;
 
   for OBJ_Mode use
     ( Normal      => 0
@@ -49,7 +51,8 @@ package GBA.Display.Objects is
     ( Square
     , Wide
     , Tall
-    ) with Size => 2;
+    )
+     with Size => 2;
 
   for OBJ_Shape use
     ( Square => 0
