@@ -117,7 +117,6 @@ package GBA.Numerics is
   pragma Machine_Attribute (Sin_LUT, "target", "arm");
 
 
-
   function Count_Trailing_Zeros (I : Long_Long_Integer) return Natural
     with Pure_Function, Inline_Always;
 
