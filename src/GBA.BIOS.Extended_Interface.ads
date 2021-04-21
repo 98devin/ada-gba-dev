@@ -11,6 +11,11 @@ use  GBA.Memory;
 with Interfaces;
 use  Interfaces;
 
+with GBA.Display.Backgrounds;
+use  GBA.Display.Backgrounds;
+
+with GBA.Display.Objects;
+use  GBA.Display.Objects;
 
 with GBA.BIOS.Generic_Interface;
 
@@ -56,13 +61,19 @@ package GBA.BIOS.Extended_Interface is
   function Bios_Checksum return Unsigned_32
     renames Raw.Bios_Checksum;
 
+  procedure Affine_Set_Ext (Parameters : Address; Transform : Address; Count : Integer)
+    renames Raw.Affine_Set_Ext;
+
+  procedure Affine_Set (Parameters : Address; Transform : Address; Count, Stride : Integer)
+    renames Raw.Affine_Set;
+
 
 
   -- More convenient interfaces to Raw functions --
 
-  -- All such routines should be Inline_Always, and delegate to the underlying Raw routine.
+  -- Most routines should be Inline_Always, and delegate to the underlying Raw routine.
 
-  -- Any functionality which needs to compose results from multiple such BIOS calls
+  -- Any functionality which needs to compose results from multiple BIOS calls
   -- should be external to this package, and depend on it either by being generic,
   -- or importing the Arm or Thumb instantiations as required.
 
@@ -94,13 +105,75 @@ package GBA.BIOS.Extended_Interface is
     ( Source, Dest : Address;
       Unit_Count   : Cpu_Set_Unit_Count;
       Mode         : Cpu_Set_Mode;
-      Unit_Size    : Cpu_Set_Unit_Size)
+      Unit_Size    : Cpu_Set_Unit_Size )
     with Inline_Always;
 
   procedure Cpu_Fast_Set
     ( Source, Dest : Address;
       Word_Count   : Cpu_Set_Unit_Count;
-      Mode         : Cpu_Set_Mode)
+      Mode         : Cpu_Set_Mode )
     with Inline_Always;
+
+  --
+  -- Single-matrix affine transform computation
+  --
+
+  procedure Affine_Set
+    ( Parameters : Affine_Parameters;
+      Transform  : out Affine_Transform_Matrix )
+    with Inline_Always;
+
+  procedure Affine_Set
+    ( Parameters : Affine_Parameters;
+      Transform  : OBJ_Affine_Transform_Index )
+    with Inline_Always;
+
+  procedure Affine_Set_Ext
+    ( Parameters : Affine_Parameters_Ext;
+      Transform  : out BG_Transform_Info )
+    with Inline_Always;
+
+  --
+  -- Multiple-matrix affine transform computation
+  --
+
+
+  type OBJ_Affine_Parameter_Array is
+    array (OBJ_Affine_Transform_Index range <>) of Affine_Parameters;
+
+  procedure Affine_Set (Parameters : OBJ_Affine_Parameter_Array)
+    with Inline_Always;
+
+
+  type BG_Affine_Parameter_Ext_Array is
+    array (Affine_BG_ID range <>) of Affine_Parameters_Ext;
+
+  procedure Affine_Set_Ext (Parameters : BG_Affine_Parameter_Ext_Array)
+    with Inline_Always;
+
+
+  type Affine_Parameter_Array is
+    array (Natural range <>) of Affine_Parameters;
+
+  type Affine_Transform_Array is
+    array (Natural range <>) of Affine_Transform_Matrix;
+
+  procedure Affine_Set
+    ( Parameters : Affine_Parameter_Array;
+      Transforms : out Affine_Transform_Array )
+    with Inline_Always;
+
+
+  type Affine_Parameter_Ext_Array is
+    array (Natural range <>) of Affine_Parameters_Ext;
+
+  procedure Affine_Set_Ext
+    ( Parameters : Affine_Parameter_Ext_Array;
+      Transforms : out BG_Transform_Info_Array )
+    with Inline_Always;
+
+
+
+
 
 end GBA.BIOS.Extended_Interface;

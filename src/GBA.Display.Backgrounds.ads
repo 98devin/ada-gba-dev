@@ -1,5 +1,9 @@
 
+with GBA.Memory;
+use  GBA.Memory;
+
 with GBA.Numerics;
+use  GBA.Numerics;
 
 with GBA.Display.Tiles;
 use  GBA.Display.Tiles;
@@ -111,24 +115,9 @@ package GBA.Display.Backgrounds is
     end record;
 
 
-  type BG_Transform_Matrix is
-    record
-      DX, DMX, DY, DMY : Affine_Transform_Parameter;
-    end record
-      with Size => 64;
-
-  for BG_Transform_Matrix use
-    record
-      DX  at 0 range 0 .. 15;
-      DMX at 2 range 0 .. 15;
-      DY  at 4 range 0 .. 15;
-      DMY at 6 range 0 .. 15;
-    end record;
-
-
   type BG_Transform_Info is
     record
-      Affine_Matrix   : BG_Transform_Matrix;
+      Affine_Matrix   : Affine_Transform_Matrix;
       Reference_Point : BG_Reference_Point;
     end record
       with Size => 128;
@@ -139,13 +128,19 @@ package GBA.Display.Backgrounds is
       Reference_Point at 8 range 0 .. 63;
     end record;
 
+  type BG_Transform_Info_Array is
+    array (Natural range <>) of BG_Transform_Info;
+
 
   subtype Affine_BG_ID is BG_ID range BG_2 .. BG_3;
+
+  function Affine_Transform_Address (ID : Affine_BG_ID) return Address
+    with Pure_Function, Inline_Always;
 
   procedure Set_Reference_Point (BG : Affine_BG_ID; Reference_Point : BG_Reference_Point)
     with Inline;
 
-  procedure Set_Affine_Matrix (BG : Affine_BG_ID; Matrix : BG_Transform_Matrix)
+  procedure Set_Affine_Matrix (BG : Affine_BG_ID; Matrix : Affine_Transform_Matrix)
     with Inline;
 
   procedure Set_Transform (BG : Affine_BG_ID; Transform : BG_Transform_Info)

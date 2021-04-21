@@ -40,9 +40,6 @@ package GBA.Display is
   type Vertical_Counter_Type is range 0 .. 227
     with Size => 8;
 
-  subtype Affine_Transform_Parameter is
-    GBA.Numerics.Fixed_8_8;
-
   type Display_Priority is range 0 .. 3
     with Size => 2;
 

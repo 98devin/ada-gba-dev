@@ -29,7 +29,8 @@
 --                                                                          --
 ------------------------------------------------------------------------------
 
-with System; use System;
+with System;       use System;
+with Interfaces;   use Interfaces;
 with Interfaces.C; use Interfaces.C;
 
 package body System.Memory_Set is
@@ -47,27 +48,38 @@ package body System.Memory_Set is
       N  : size_t  := Size;
       CW : Word;
 
+      Word_Bytes : constant := Word_Size / 8;
+      Half_Bytes : constant := Word_Bytes / 2;
+
    begin
+      CW := Word (B);
+      CW := Shift_Left (CW, 8) or CW;
+      CW := Shift_Left (CW, 16) or CW;
+
       --  Try to set per word, if alignment constraints are respected
 
       if (M and (Word'Alignment - 1)) = 0 then
-         CW := Word (B);
-         CW := Shift_Left (CW, 8) or CW;
-         CW := Shift_Left (CW, 16) or CW;
-
-         while N >= Word_Size loop
+         while N >= Word_Bytes loop
             Word'Deref (M) := CW;
-            N := N - Word_Size;
-            D := D + Word_Size;
+            N := N - Word_Bytes;
+            D := D + Word_Bytes;
          end loop;
+      end if;
+
+      if (D and (Unsigned_16'Alignment - 1)) = 0
+         and then N >= Half_Bytes
+      then
+         Unsigned_16'Deref (D) := Unsigned_16'Mod (CW);
+         N := N - Half_Bytes;
+         D := D + Half_Bytes;
       end if;
 
       --  Set the remaining byte per byte
 
       while N > 0 loop
          Byte'Deref (D) := B;
-         N := N - Storage_Unit;
-         D := D + Storage_Unit;
+         N := N - 1;
+         D := D + 1;
       end loop;
 
       return M;

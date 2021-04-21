@@ -2,14 +2,8 @@
 with GBA.Interrupts;
 use  GBA.Interrupts;
 
-with GBA.Numerics;
-use  GBA.Numerics;
-
 with GBA.Memory;
 use  GBA.Memory;
-
-with Interfaces;
-use  Interfaces;
 
 with GBA.BIOS.Generic_Interface;
 
@@ -62,9 +56,14 @@ package GBA.BIOS.Raw.Thumb is
   function Bios_Checksum return Unsigned_32
     with Import, External_Name => IMPORT_PREFIX & "get_bios_checksum";
 
-  -- TODO: Understand exact parameter specifications
-  -- BG_Affine_Set
-  -- Obj_Affine_Set
+
+  procedure Affine_Set_Ext (Parameters : Address; Transform : Address; Count : Integer)
+    with Import, External_Name => IMPORT_PREFIX & "bg_affine_set";
+
+  procedure Affine_Set
+    (Parameters : Address; Transform : Address; Count, Stride : Integer)
+    with Import, External_Name => IMPORT_PREFIX & "obj_affine_set";
+
 
   package Generic_Interface is new GBA.BIOS.Generic_Interface;
 

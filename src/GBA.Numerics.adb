@@ -79,6 +79,12 @@ package body GBA.Numerics is
   end;
 
   --
+  -- Basic redeclaration for lmul in Thumb mode
+  --
+  function LMul (X, Y : Unsigned_64) return Unsigned_64 is
+    ( X * Y );
+
+  --
   -- Look-up table for division optimization.
   --
 

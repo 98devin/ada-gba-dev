@@ -22,12 +22,15 @@ package body GBA.Display.Backgrounds is
   end;
 
 
+  function Affine_Transform_Address (ID : Affine_BG_ID) return Address is
+    ( BG_Transforms (ID)'Address );
+
   procedure Set_Reference_Point (BG : Affine_BG_ID; Reference_Point : BG_Reference_Point) is
   begin
     BG_Transforms (BG).Reference_Point := Reference_Point;
   end;
 
-  procedure Set_Affine_Matrix (BG : Affine_BG_ID; Matrix : BG_Transform_Matrix) is
+  procedure Set_Affine_Matrix (BG : Affine_BG_ID; Matrix : Affine_Transform_Matrix) is
   begin
     BG_Transforms (BG).Affine_Matrix := Matrix;
   end;

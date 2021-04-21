@@ -29,6 +29,8 @@
 --                                                                          --
 ------------------------------------------------------------------------------
 
+with System;       use System;
+with Interfaces;   use Interfaces;
 with Interfaces.C; use Interfaces.C;
 
 package body System.Memory_Copy is
@@ -45,6 +47,7 @@ package body System.Memory_Copy is
       C : Address := Address (N);
 
       Word_Bytes : constant := Word_Size / 8;
+      Half_Bytes : constant := Word_Bytes / 2;
 
    begin
       --  Try to copy per word, if alignment constraints are respected
@@ -56,6 +59,15 @@ package body System.Memory_Copy is
             S := S + Word_Bytes;
             C := C - Word_Bytes;
          end loop;
+      end if;
+
+      if ((D or S) and (Integer_16'Alignment - 1)) = 0
+         and then C >= Half_Bytes
+      then
+         Integer_16'Deref (D) := Integer_16'Deref (S);
+         D := D + Half_Bytes;
+         S := S + Half_Bytes;
+         C := C - Half_Bytes;
       end if;
 
       --  Copy the remaining byte per byte

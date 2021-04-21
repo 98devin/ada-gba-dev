@@ -1,4 +1,11 @@
 
+with Interfaces;
+use  Interfaces;
+
+with GBA.Numerics;
+use  GBA.Numerics;
+
+
 package GBA.BIOS is
 
   pragma Preelaborate;
@@ -18,7 +25,7 @@ package GBA.BIOS is
     , Cpu_Set                 --
     , Cpu_Fast_Set            --
     , Get_Bios_Checksum       --
-    , BG_Affine_Set
+    , Affine_Set_Ext
     , Obj_Affine_Set
 
     , Bit_Unpack
@@ -65,7 +72,7 @@ package GBA.BIOS is
     , Cpu_Set                 => 16#0B#
     , Cpu_Fast_Set            => 16#0C#
     , Get_Bios_Checksum       => 16#0D#
-    , BG_Affine_Set           => 16#0E#
+    , Affine_Set_Ext           => 16#0E#
     , Obj_Affine_Set          => 16#0F#
     , Bit_Unpack              => 16#10#
     , LZ77_Uncomp_Write8      => 16#11#
@@ -150,5 +157,43 @@ package GBA.BIOS is
       Unit_Size  at 0 range 26 .. 26;
     end record;
 
+
+  type Affine_Parameters is
+    record
+      Scale_X, Scale_Y : Fixed_8_8;
+      Angle            : Radians_16;
+    end record
+      with Alignment => 4;
+
+  for Affine_Parameters use
+    record
+      Scale_X at 0 range 0 .. 15;
+      Scale_Y at 2 range 0 .. 15;
+      Angle   at 4 range 0 .. 15;
+    end record;
+
+  type Affine_Parameters_Ptr is access all Affine_Parameters
+    with Storage_Size => 0;
+
+
+  type Affine_Parameters_Ext is
+    record
+      Texture_X, Texture_Y : Fixed_20_8;
+      Screen_X,  Screen_Y  : Integer_16;
+      Scale_X,   Scale_Y   : Fixed_8_8;
+      Angle                : Radians_16;
+    end record
+      with Alignment => 4;
+
+  for Affine_Parameters_Ext use
+    record
+      Texture_X at  0 range 0 .. 31;
+      Texture_Y at  4 range 0 .. 31;
+      Screen_X  at  8 range 0 .. 15;
+      Screen_Y  at 10 range 0 .. 15;
+      Scale_X   at 12 range 0 .. 15;
+      Scale_Y   at 14 range 0 .. 15;
+      Angle     at 16 range 0 .. 15;
+    end record;
 
 end GBA.BIOS;
