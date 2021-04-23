@@ -36,13 +36,32 @@
 --  This package provides the low level memory allocation/deallocation
 --  mechanisms used by GNAT.
 
+with System.Allocation.Arenas;
+with System.Storage_Elements;
+
 package System.Memory is
    pragma Elaborate_Body;
+
+   package SAA renames System.Allocation.Arenas;
+   package SSE renames System.Storage_Elements;
 
    type size_t is mod 2 ** Standard'Address_Size;
    --  Note: the reason we redefine this here instead of using the
    --  definition in Interfaces.C is that we do not want to drag in
    --  all of Interfaces.C just because System.Memory is used.
+
+   Heap_Start : constant Character
+      with Alignment => Standard'Maximum_Alignment;
+   pragma Import (C, Heap_Start, "__eheap_start");
+   --  The address of the variable is the start of the heap
+
+   Heap_End : constant Character
+      with Alignment => Standard'Maximum_Alignment;
+   pragma Import (C, Heap_End, "__eheap_end");
+   --  The address of the variable is the end of the heap
+
+   Heap : SAA.Heap_Arena :=
+      SAA.Create_Arena (Heap_Start'Address, Heap_End'Address);
 
    function Alloc (Size : size_t) return System.Address;
    --  This is the low level allocation routine. Given a size in storage
