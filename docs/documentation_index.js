@@ -120,6 +120,11 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/gba__input__buffered___spec.html"
   },
   {
+    "label": "GBA.Input.Unbuffered",
+    "qualifier": "",
+    "file": "docs/gba__input__unbuffered___spec.html"
+  },
+  {
     "label": "GBA.Interrupts",
     "qualifier": "",
     "file": "docs/gba__interrupts___spec.html"

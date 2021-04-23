@@ -177,11 +177,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L11"
     },
     {
+      "label": "Are_All_Down",
+      "docHref": "docs/gba__input__unbuffered___spec.html#L9C12",
+      "declared": "GBA.Input.Unbuffered",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Input.Unbuffered.ads.html#L9"
+    },
+    {
       "label": "Are_Any_Down",
       "docHref": "docs/gba__input__buffered___spec.html#L10C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L10"
+    },
+    {
+      "label": "Are_Any_Down",
+      "docHref": "docs/gba__input__unbuffered___spec.html#L8C12",
+      "declared": "GBA.Input.Unbuffered",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Input.Unbuffered.ads.html#L8"
     },
     {
       "label": "As_Shape_And_Scale",
@@ -623,6 +637,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L9"
+    },
+    {
+      "label": "Is_Key_Down",
+      "docHref": "docs/gba__input__unbuffered___spec.html#L7C12",
+      "declared": "GBA.Input.Unbuffered",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Input.Unbuffered.ads.html#L7"
     },
     {
       "label": "Is_Transfer_Ongoing",

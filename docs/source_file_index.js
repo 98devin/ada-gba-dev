@@ -84,6 +84,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/GBA.Input.Buffered.ads.html"
   },
   {
+    "label": "GBA.Input.Unbuffered.ads",
+    "srcHref": "srcs/GBA.Input.Unbuffered.ads.html"
+  },
+  {
     "label": "GBA.Interrupts.ads",
     "srcHref": "srcs/GBA.Interrupts.ads.html"
   },
