@@ -226,6 +226,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html#L53"
     },
     {
+      "label": "Channel_Addresses",
+      "docHref": "docs/gba__dma___spec.html#L112C3",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L112"
+    },
+    {
+      "label": "Channel_Array_View",
+      "docHref": "docs/gba__dma___spec.html#L131C3",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L131"
+    },
+    {
       "label": "DISPCNT",
       "docHref": "docs/gba__memory__io_registers___spec.html#L8C3",
       "declared": "GBA.Memory.IO_Registers",
@@ -427,6 +441,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Memory.IO_Registers",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html#L152"
+    },
+    {
+      "label": "IWRAM_Heap_Start",
+      "docHref": "docs/gba__memory__default_heaps___spec.html#L9C3",
+      "declared": "GBA.Memory.Default_Heaps",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Memory.Default_Heaps.ads.html#L9"
     },
     {
       "label": "JOY_RECV",

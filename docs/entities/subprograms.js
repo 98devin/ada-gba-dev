@@ -401,6 +401,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L50"
     },
     {
+      "label": "Create_Arena",
+      "docHref": "docs/gba__allocation___spec.html#L48C12",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L48"
+    },
+    {
+      "label": "Create_Arena",
+      "docHref": "docs/gba__allocation___spec.html#L51C12",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L51"
+    },
+    {
       "label": "Detach_Interrupt_Handler",
       "docHref": "docs/gba__interrupts___spec.html#L102C13",
       "declared": "GBA.Interrupts",
@@ -597,11 +611,67 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L17"
     },
     {
+      "label": "Init_Arena",
+      "docHref": "docs/gba__allocation___spec.html#L54C13",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L54"
+    },
+    {
       "label": "Is_Key_Down",
       "docHref": "docs/gba__input__buffered___spec.html#L9C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L9"
+    },
+    {
+      "label": "Is_Transfer_Ongoing",
+      "docHref": "docs/gba__dma___spec.html#L143C12",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L143"
+    },
+    {
+      "label": "Mark",
+      "docHref": "docs/gba__allocation___spec.html#L34C12",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L34"
+    },
+    {
+      "label": "Mark",
+      "docHref": "docs/gba__allocation___spec.html#L37C12",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L37"
+    },
+    {
+      "label": "Memcopy",
+      "docHref": "docs/gba__dma__generic_interfaces___spec.html#L18C13",
+      "declared": "GBA.DMA.Generic_Interfaces",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html#L18"
+    },
+    {
+      "label": "Memcopy_Info",
+      "docHref": "docs/gba__dma__generic_interfaces___spec.html#L12C12",
+      "declared": "GBA.DMA.Generic_Interfaces",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html#L12"
+    },
+    {
+      "label": "Memset",
+      "docHref": "docs/gba__dma__generic_interfaces___spec.html#L15C13",
+      "declared": "GBA.DMA.Generic_Interfaces",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html#L15"
+    },
+    {
+      "label": "Memset_Info",
+      "docHref": "docs/gba__dma__generic_interfaces___spec.html#L9C12",
+      "declared": "GBA.DMA.Generic_Interfaces",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html#L9"
     },
     {
       "label": "or",
@@ -672,6 +742,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.BIOS.Raw.Thumb",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L20"
+    },
+    {
+      "label": "Release",
+      "docHref": "docs/gba__allocation___spec.html#L41C13",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L41"
+    },
+    {
+      "label": "Release",
+      "docHref": "docs/gba__allocation___spec.html#L44C13",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L44"
     },
     {
       "label": "Remainder",
@@ -786,6 +870,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L88"
     },
     {
+      "label": "Setup_DMA_Transfer",
+      "docHref": "docs/gba__dma___spec.html#L137C13",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L137"
+    },
+    {
       "label": "Sin",
       "docHref": "docs/gba__numerics___spec.html#L96C12",
       "declared": "GBA.Numerics",
@@ -875,6 +966,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.BIOS.Raw.Thumb",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L26"
+    },
+    {
+      "label": "Stop_Ongoing_Transfer",
+      "docHref": "docs/gba__dma___spec.html#L147C13",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L147"
+    },
+    {
+      "label": "Storage_Size",
+      "docHref": "docs/gba__allocation___spec.html#L27C12",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L27"
+    },
+    {
+      "label": "Storage_Size",
+      "docHref": "docs/gba__allocation___spec.html#L30C12",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L30"
     },
     {
       "label": "Tile_Block_Address",

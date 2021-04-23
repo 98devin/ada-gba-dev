@@ -5,6 +5,16 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/gba___spec.html"
   },
   {
+    "label": "GBA.Allocation",
+    "qualifier": "",
+    "file": "docs/gba__allocation___spec.html"
+  },
+  {
+    "label": "GBA.Allocation.Stack_Arena",
+    "qualifier": "(nested)",
+    "file": "docs/gba__allocation___stack_arena___spec.html"
+  },
+  {
     "label": "GBA.BIOS",
     "qualifier": "",
     "file": "docs/gba__bios___spec.html"
@@ -60,6 +70,16 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/gba__bios__thumb___spec.html"
   },
   {
+    "label": "GBA.DMA",
+    "qualifier": "",
+    "file": "docs/gba__dma___spec.html"
+  },
+  {
+    "label": "GBA.DMA.Generic_Interfaces",
+    "qualifier": "",
+    "file": "docs/gba__dma__generic_interfaces___spec.html"
+  },
+  {
     "label": "GBA.Display",
     "qualifier": "",
     "file": "docs/gba__display___spec.html"
@@ -108,6 +128,11 @@ GNATdoc.DocumentationIndex = [
     "label": "GBA.Memory",
     "qualifier": "",
     "file": "docs/gba__memory___spec.html"
+  },
+  {
+    "label": "GBA.Memory.Default_Heaps",
+    "qualifier": "",
+    "file": "docs/gba__memory__default_heaps___spec.html"
   },
   {
     "label": "GBA.Memory.Default_Secondary_Stack",

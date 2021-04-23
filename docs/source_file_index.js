@@ -4,6 +4,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/GBA.ads.html"
   },
   {
+    "label": "GBA.Allocation.ads",
+    "srcHref": "srcs/GBA.Allocation.ads.html"
+  },
+  {
     "label": "GBA.BIOS.ads",
     "srcHref": "srcs/GBA.BIOS.ads.html"
   },
@@ -64,6 +68,14 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/GBA.Display.Windows.ads.html"
   },
   {
+    "label": "GBA.DMA.ads",
+    "srcHref": "srcs/GBA.DMA.ads.html"
+  },
+  {
+    "label": "GBA.DMA.Generic_Interfaces.ads",
+    "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html"
+  },
+  {
     "label": "GBA.Input.ads",
     "srcHref": "srcs/GBA.Input.ads.html"
   },
@@ -78,6 +90,10 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "GBA.Memory.ads",
     "srcHref": "srcs/GBA.Memory.ads.html"
+  },
+  {
+    "label": "GBA.Memory.Default_Heaps.ads",
+    "srcHref": "srcs/GBA.Memory.Default_Heaps.ads.html"
   },
   {
     "label": "GBA.Memory.Default_Secondary_Stack.ads",

@@ -128,6 +128,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L17"
     },
     {
+      "label": "Channel_ID",
+      "docHref": "docs/gba__dma___spec.html#L105C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L105"
+    },
+    {
       "label": "Character_Mapping_Style",
       "docHref": "docs/gba__display___spec.html#L29C8",
       "declared": "GBA.Display",
@@ -168,6 +175,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.BIOS",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.ads.html#L136"
+    },
+    {
+      "label": "Dest_Address_Adjustment",
+      "docHref": "docs/gba__dma___spec.html#L10C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L10"
     },
     {
       "label": "Display_Priority",
@@ -308,6 +322,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Input",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.ads.html#L37"
+    },
+    {
+      "label": "Marker",
+      "docHref": "docs/gba__allocation___spec.html#L22C11",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L22"
     },
     {
       "label": "OAM_Address",
@@ -492,6 +513,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Tiles.ads.html#L21"
     },
     {
+      "label": "Source_Address_Adjustment",
+      "docHref": "docs/gba__dma___spec.html#L25C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L25"
+    },
+    {
       "label": "System_Call",
       "docHref": "docs/gba__bios___spec.html#L13C8",
       "declared": "GBA.BIOS",
@@ -534,6 +562,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Tiles.ads.html#L14"
     },
     {
+      "label": "Timing_Mode",
+      "docHref": "docs/gba__dma___spec.html#L49C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L49"
+    },
+    {
       "label": "Toggleable_Display_Element",
       "docHref": "docs/gba__display___spec.html#L47C8",
       "declared": "GBA.Display",
@@ -546,6 +581,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Windows",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Windows.ads.html#L8"
+    },
+    {
+      "label": "Transfer_Count_Type",
+      "docHref": "docs/gba__dma___spec.html#L62C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L62"
+    },
+    {
+      "label": "Unit_Size",
+      "docHref": "docs/gba__dma___spec.html#L38C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L38"
     },
     {
       "label": "Unsigned_5",

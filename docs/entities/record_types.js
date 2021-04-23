@@ -51,6 +51,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L118"
     },
     {
+      "label": "Channel_Info",
+      "docHref": "docs/gba__dma___spec.html#L89C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L89"
+    },
+    {
       "label": "Color",
       "docHref": "docs/gba__display__palettes___spec.html#L22C8",
       "declared": "GBA.Display.Palettes",
@@ -93,6 +100,62 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.ads.html#L112"
     },
     {
+      "label": "DMA_Channel_0",
+      "docHref": "docs/gba__dma___spec.html#L119C3",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L119"
+    },
+    {
+      "label": "DMA_Channel_1",
+      "docHref": "docs/gba__dma___spec.html#L122C3",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L122"
+    },
+    {
+      "label": "DMA_Channel_2",
+      "docHref": "docs/gba__dma___spec.html#L125C3",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L125"
+    },
+    {
+      "label": "DMA_Channel_3",
+      "docHref": "docs/gba__dma___spec.html#L128C3",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L128"
+    },
+    {
+      "label": "EWRAM_Heap",
+      "docHref": "docs/gba__memory__default_heaps___spec.html#L15C3",
+      "declared": "GBA.Memory.Default_Heaps",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Memory.Default_Heaps.ads.html#L15"
+    },
+    {
+      "label": "Heap_Arena",
+      "docHref": "docs/gba__allocation___spec.html#L23C11",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L23"
+    },
+    {
+      "label": "IWRAM_Heap",
+      "docHref": "docs/gba__memory__default_heaps___spec.html#L12C3",
+      "declared": "GBA.Memory.Default_Heaps",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Memory.Default_Heaps.ads.html#L12"
+    },
+    {
+      "label": "Local_Arena",
+      "docHref": "docs/gba__allocation___spec.html#L24C11",
+      "declared": "GBA.Allocation",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L24"
+    },
+    {
       "label": "OAM_Entry",
       "docHref": "docs/gba__display__objects___spec.html#L175C8",
       "declared": "GBA.Display.Objects",
@@ -126,6 +189,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Tiles.ads.html#L66"
+    },
+    {
+      "label": "Storage",
+      "docHref": "docs/gba__allocation___stack_arena___spec.html#L18C5",
+      "declared": "GBA.Allocation.Stack_Arena",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Allocation.ads.html#L18"
+    },
+    {
+      "label": "Transfer_Info",
+      "docHref": "docs/gba__dma___spec.html#L64C8",
+      "declared": "GBA.DMA",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.DMA.ads.html#L64"
     },
     {
       "label": "Volatile_OBJ_Attributes",
