@@ -85,8 +85,8 @@ the requirements and features of this library.
     - [ ] Low-power halting
     - [ ] Memory layout swapping
 - [ ] Utilities
-    - [ ] General allocation abstractions
-    - [ ] IWRAM/EWRAM default heaps
+    - [x] General allocation abstractions
+    - [x] IWRAM/EWRAM default heaps
     - [ ] IWRAM overlays
     - [ ] OAM / VRAM allocation helpers
     - [ ] Text processing
