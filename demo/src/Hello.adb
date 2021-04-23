@@ -10,7 +10,11 @@ with GBA.Display.Objects;
 with GBA.Display.Palettes;
 with GBA.Display.Windows;
 
+with GBA.Allocation;
+use  GBA.Allocation;
+
 with GBA.Memory;
+with GBA.Memory.Default_Heaps;
 with GBA.Memory.Default_Secondary_Stack;
 
 with GBA.Numerics;
@@ -19,6 +23,7 @@ with GBA.Interrupts;
 
 with GBA.Input;
 with GBA.Input.Buffered;
+
 
 with Interfaces;
 
@@ -57,6 +62,24 @@ procedure Hello is
 
   Theta : Radians_16 := 0.0;
   Delta_X, Delta_Y : Fixed_Snorm_16;
+
+
+  type Heap_Integer is access Integer
+    with Simple_Storage_Pool => GBA.Memory.Default_Heaps.EWRAM_Heap;
+
+  H1 : Heap_Integer := new Integer'(100);
+  H2 : Heap_Integer := new Integer'(200);
+  H3 : Heap_Integer := new Integer'(300);
+
+
+  package Local_Heap is new GBA.Allocation.Stack_Arena (256);
+
+  type Local_Integer is access Integer
+    with Simple_Storage_Pool => Local_Heap.Storage;
+
+  L1 : Local_Integer := new Integer'(400);
+  L2 : Local_Integer := new Integer'(500);
+  L3 : Local_Integer := new Integer'(600);
 
 begin
 
