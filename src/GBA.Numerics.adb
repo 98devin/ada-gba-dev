@@ -63,6 +63,13 @@ package body GBA.Numerics is
   end;
 
   overriding
+  function "-" (X : Radians_16) return Radians_16 is
+    UX : Unsigned_16 := Cast (X);
+  begin
+    return Cast (-UX);
+  end;
+
+  overriding
   function "+" (X, Y : Radians_32) return Radians_32 is
     UX : Unsigned_32 := Cast (X);
     UY : Unsigned_32 := Cast (Y);
@@ -76,6 +83,13 @@ package body GBA.Numerics is
     UY : Unsigned_32 := Cast (Y);
   begin
     return Cast (UX - UY);
+  end;
+
+  overriding
+  function "-" (X : Radians_32) return Radians_32 is
+    UX : Unsigned_32 := Cast (X);
+  begin
+    return Cast (-UX);
   end;
 
   --
@@ -275,6 +289,10 @@ package body GBA.Numerics is
     return C;
   end;
 
+  --
+  -- Fast precise Sin/Cos
+  -- credit: http://www.olliw.eu/2014/fast-functions/
+  --
 
   procedure Sin_Cos_Quadrant (Norm_Theta : Fixed_Snorm_32; Sin, Cos : out Fixed_Snorm_32)
     with Inline_Always is
@@ -332,14 +350,12 @@ package body GBA.Numerics is
     end case;
   end;
 
-
   function Sin (Theta : Radians_32) return Fixed_Snorm_32 is
     S, C : Fixed_Snorm_32;
   begin
     Sin_Cos (Theta, S, C);
     return S;
   end;
-
 
   function Cos (Theta : Radians_32) return Fixed_Snorm_32 is
     S, C : Fixed_Snorm_32;
@@ -348,6 +364,9 @@ package body GBA.Numerics is
     return C;
   end;
 
+  --
+  -- Very fast, slightly less precise Sin/Cos LUT
+  --
 
   function Sin_LUT (Theta : Radians_16) return Fixed_Snorm_16 is
 
@@ -447,6 +466,34 @@ package body GBA.Numerics is
   begin
     Sin := Sin_LUT (Theta);
     Cos := Cos_LUT (Theta);
+  end;
+
+  --
+  -- Fixed-point sqrt in terms of unsigned integer sqrt.
+  --
+
+  function Fixed_Sqrt (F : Fixed) return Fixed is
+    S : constant Unsigned_64 := Unsigned_64'Integer_Value (Fixed'(1.0));
+    U : constant Unsigned_64 := Unsigned_64'Integer_Value (F) * S;
+
+    UHI : Unsigned_32 := Unsigned_32'Mod (Shift_Right (U, 32));
+    ULO : Unsigned_32 := Unsigned_32'Mod (U);
+
+    SLO : Unsigned_16 := Sqrt (ULO);
+  begin
+    if UHI /= 0 then
+      declare
+        SHI   : Unsigned_32 := Unsigned_32 (Sqrt (UHI));
+        SFull : Unsigned_64;
+      begin
+        SHI   := Shift_Left (SHI, 16);
+        SFull := Unsigned_64 (SHI) * Unsigned_64 (SLO);
+        SFull := SFull / S;
+        return Fixed'Fixed_Value (Unsigned_32'Mod (SFull));
+      end;
+    else
+      return Fixed'Fixed_Value (SLO);
+    end if;
   end;
 
 end GBA.Numerics;

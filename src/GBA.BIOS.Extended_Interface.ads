@@ -172,8 +172,4 @@ package GBA.BIOS.Extended_Interface is
       Transforms : out BG_Transform_Info_Array )
     with Inline_Always;
 
-
-
-
-
 end GBA.BIOS.Extended_Interface;

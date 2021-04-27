@@ -59,6 +59,11 @@ package GBA.Numerics is
   function "-" (X, Y : Radians_16) return Radians_16
     with Pure_Function, Inline_Always;
 
+  overriding
+  function "-" (X : Radians_16) return Radians_16
+    with Pure_Function, Inline_Always;
+
+
 
   -- Consider this to have an implicit unit of 2*Pi.
   -- Additive operators are defined to be cyclic.
@@ -71,6 +76,11 @@ package GBA.Numerics is
   overriding
   function "-" (X, Y : Radians_32) return Radians_32
     with Pure_Function, Inline_Always;
+
+  overriding
+  function "-" (X : Radians_32) return Radians_32
+    with Pure_Function, Inline_Always;
+
 
 
 
@@ -91,6 +101,16 @@ package GBA.Numerics is
       DMY at 6 range 0 .. 15;
     end record;
 
+
+  function Sqrt (N : Unsigned_32) return Unsigned_16
+    with Pure_Function, Import, External_Name => "usqrt";
+
+
+  generic
+    type Fixed is delta <>;
+    with function Sqrt (N : Unsigned_32) return Unsigned_16;
+  function Fixed_Sqrt (F : Fixed) return Fixed
+    with Inline_Always;
 
 
   function Sin (Theta : Radians_32) return Fixed_Snorm_32
