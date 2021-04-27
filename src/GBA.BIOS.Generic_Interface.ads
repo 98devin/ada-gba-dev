@@ -36,4 +36,10 @@ generic
 
   with function Bios_Checksum return Unsigned_32 is <>;
 
+  with procedure Affine_Set_Ext
+    (Parameters : Address; Transform : Address; Count : Integer) is <>;
+
+  with procedure Affine_Set
+    (Parameters : Address; Transform : Address; Count, Stride : Integer) is <>;
+
 package GBA.BIOS.Generic_Interface is end;

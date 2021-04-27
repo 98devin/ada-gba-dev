@@ -90,4 +90,86 @@ package body GBA.BIOS.Extended_Interface is
     Wait_For_Interrupt (True, Wait_For);
   end;
 
+
+  --
+  -- Affine set
+  --
+
+  procedure Affine_Set
+    ( Parameters : Affine_Parameters;
+      Transform  : out Affine_Transform_Matrix ) is
+  begin
+    Affine_Set
+      ( Parameters'Address
+      , Transform'Address
+      , Count  => 1
+      , Stride => 2
+      );
+  end;
+
+  procedure Affine_Set
+    ( Parameters : Affine_Parameters;
+      Transform  : OBJ_Affine_Transform_Index ) is
+  begin
+    Affine_Set
+      ( Parameters'Address
+      , Affine_Transform_Address (Transform)
+      , Count  => 1
+      , Stride => 8
+      );
+  end;
+
+  procedure Affine_Set_Ext
+    ( Parameters : Affine_Parameters_Ext;
+      Transform  : out BG_Transform_Info ) is
+  begin
+    Affine_Set_Ext (Parameters'Address, Transform'Address, 1);
+  end;
+
+  procedure Affine_Set (Parameters : OBJ_Affine_Parameter_Array) is
+    Begin_Address : constant Address := Affine_Transform_Address (Parameters'First);
+  begin
+    Affine_Set
+      ( Parameters'Address
+      , Begin_Address
+      , Count  => Parameters'Length
+      , Stride => 8
+      );
+  end;
+
+  procedure Affine_Set_Ext (Parameters : BG_Affine_Parameter_Ext_Array) is
+    Begin_Address : constant Address := Affine_Transform_Address (Parameters'First);
+  begin
+    Affine_Set_Ext
+      ( Parameters'Address
+      , Begin_Address
+      , Count => Parameters'Length
+      );
+  end;
+
+  procedure Affine_Set
+    ( Parameters : Affine_Parameter_Array;
+      Transforms : out Affine_Transform_Array ) is
+    pragma Assert (Parameters'Length = Transforms'Length);
+  begin
+    Affine_Set
+      ( Parameters'Address
+      , Transforms'Address
+      , Count  => Parameters'Length
+      , Stride => 2
+      );
+  end;
+
+  procedure Affine_Set_Ext
+    ( Parameters : Affine_Parameter_Ext_Array;
+      Transforms : out BG_Transform_Info_Array ) is
+    pragma Assert (Parameters'Length = Transforms'Length);
+  begin
+    Affine_Set_Ext
+      ( Parameters'Address
+      , Transforms'Address
+      , Count => Parameters'Length
+      );
+  end;
+
 end GBA.BIOS.Extended_Interface;

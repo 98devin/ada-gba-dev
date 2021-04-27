@@ -58,7 +58,7 @@ the requirements and features of this library.
         - [x] Alternative to default `memset` using CpuSet
         - [ ] Alternative to default `memcpy` using CpuSet
     - [ ] Decompression routines
-    - [ ] BG and OBJ affine matrix computation routines
+    - [x] BG and OBJ affine matrix computation routines
     - [ ] Sound driver functionality
 - [ ] Display control
     - [x] Display registers
@@ -85,8 +85,8 @@ the requirements and features of this library.
     - [ ] Low-power halting
     - [ ] Memory layout swapping
 - [ ] Utilities
-    - [ ] General allocation abstractions
-    - [ ] IWRAM/EWRAM default heaps
+    - [x] General allocation abstractions
+    - [x] IWRAM/EWRAM default heaps
     - [ ] IWRAM overlays
     - [ ] OAM / VRAM allocation helpers
     - [ ] Text processing

@@ -1,6 +1,6 @@
 
 with GBA.BIOS;
-with GBA.BIOS.Thumb;
+with GBA.BIOS.Arm;
 with GBA.BIOS.Memset;
 
 with GBA.Display;
@@ -10,22 +10,29 @@ with GBA.Display.Objects;
 with GBA.Display.Palettes;
 with GBA.Display.Windows;
 
+with GBA.Allocation;
+use  GBA.Allocation;
+
 with GBA.Memory;
+with GBA.Memory.Default_Heaps;
 with GBA.Memory.Default_Secondary_Stack;
 
 with GBA.Numerics;
+with GBA.Numerics.Vectors;
+with GBA.Numerics.Matrices;
 
 with GBA.Interrupts;
 
 with GBA.Input;
 with GBA.Input.Buffered;
 
+
 with Interfaces;
 
 procedure Hello is
 
   use GBA.BIOS;
-  use GBA.BIOS.Thumb;
+  use GBA.BIOS.Arm;
 
   use GBA.Display;
   use GBA.Display.Palettes;
@@ -36,6 +43,8 @@ procedure Hello is
   use GBA.Input;
   use GBA.Input.Buffered;
 
+  use Interfaces;
+
   VRAM : array (1 .. 160, 1 .. 240) of Color
     with Import, Volatile, Address => 16#6000000#;
 
@@ -44,32 +53,30 @@ procedure Hello is
   Color_BG : aliased Color with Volatile;
 
   procedure Adjust_Color (Y : Positive) is
-    Index : Color_Index_16 := Color_Index_16 ((Y - 1) mod 128 / 32);
+    Index : Color_Index_16 := Color_Index_16 ((Y - 1) mod 160 / 32);
   begin
     Color_BG := Color_Palette (Index + 1);
   end;
 
   Y_Offset : Natural := 0;
 
-  function Return_Unsized return String is
-    ("Very Long String Argument") with No_Inline;
-
-  S : String := Return_Unsized;
-
   Origin : BG_Reference_Point := (X => 0.0, Y => 0.0);
-  Origin_X_Velocity : Fixed_20_8 := 3.0;
+
+  Theta : Radians_16 := 0.0;
+  Delta_X, Delta_Y : Fixed_Snorm_16;
 
 begin
 
-  Color_Palette (0 .. 4) :=
+  Color_Palette (0 .. 5) :=
     ( ( 0,  0,  0)
-    , (19, 23, 19)
+    , (19, 26, 21)
     , (31, 25, 21)
     , (31, 16, 15)
     , (29,  9, 11)
+    , (00, 26, 26)
     );
 
-  GBA.Interrupts.Enable_Receiving_Interrupts;
+  -- GBA.Interrupts.Enable_Receiving_Interrupts;
   GBA.Interrupts.Enable_Interrupt (GBA.Interrupts.VBlank);
 
   Request_VBlank_Interrupt;
@@ -99,12 +106,10 @@ begin
       Y_Offset := @ + 1;
     end if;
 
-    Origin.X := @ + Origin_X_Velocity;
-    if Origin.X > 0.0 then
-      Origin_X_Velocity := @ - 0.25;
-    else
-      Origin_X_Velocity := @ + 0.25;
-    end if;
+    Sin_Cos_LUT (Theta, Delta_X, Delta_Y);
+    Origin.X := 32.0 * Fixed_20_8 (Delta_X);
+    Origin.Y := 32.0 * Fixed_20_8 (Delta_Y);
+    Theta := @ + (1.0 / 128.0);
 
     Wait_For_VBlank;
 
