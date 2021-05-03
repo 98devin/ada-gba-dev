@@ -53,8 +53,6 @@ pragma Restrictions (No_Tasking);
 --  Tasking is not supported in this run time
 
 pragma Restrictions (No_Floating_Point);
---  pragma Restrictions (No_Anonymous_Allocators);
---  pragma Restrictions (No_Standard_Allocators_After_Elaboration);
 pragma Restrictions (No_IO);
 
 --  pragma Restrictions (No_Implicit_Heap_Allocations);

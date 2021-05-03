@@ -1,4 +1,6 @@
 
+with GBA.Refs;
+
 with GBA.BIOS;
 with GBA.BIOS.Arm;
 with GBA.BIOS.Memset;
@@ -6,6 +8,7 @@ with GBA.BIOS.Memset;
 with GBA.Display;
 with GBA.Display.Tiles;
 with GBA.Display.Backgrounds;
+with GBA.Display.Backgrounds.Refs;
 with GBA.Display.Objects;
 with GBA.Display.Palettes;
 with GBA.Display.Windows;
@@ -27,7 +30,9 @@ with GBA.Input;
 with GBA.Input.Buffered;
 
 
-with Interfaces;
+with Interfaces; use Interfaces;
+
+with System.Machine_Code; use System.Machine_Code;
 
 procedure Hello is
 
@@ -43,7 +48,7 @@ procedure Hello is
   use GBA.Input;
   use GBA.Input.Buffered;
 
-  use Interfaces;
+  use all type GBA.Refs.BG_Ref;
 
   VRAM : array (1 .. 160, 1 .. 240) of Color
     with Import, Volatile, Address => 16#6000000#;
