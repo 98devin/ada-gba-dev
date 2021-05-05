@@ -11,6 +11,9 @@ use  GBA.Display.Tiles;
 with GBA.Display.Palettes;
 use  GBA.Display.Palettes;
 
+with Interfaces;
+use  Interfaces;
+
 
 package GBA.Display.Backgrounds is
 
@@ -42,7 +45,8 @@ package GBA.Display.Backgrounds is
     with Size => 2;
 
 
-  type BG_Scroll_Offset is mod 2**16;
+  type BG_Scroll_Offset is new Integer_16;
+
 
   type BG_Control_Info is
     record
@@ -74,27 +78,27 @@ package GBA.Display.Backgrounds is
 
   type BG_Offset_Info is
     record
-      Horizontal, Vertical : BG_Scroll_Offset;
+      X, Y : BG_Scroll_Offset;
     end record
       with Size => 32;
 
   for BG_Offset_Info use
     record
-      Horizontal at 0 range 0 .. 15;
-      Vertical   at 2 range 0 .. 15;
+      X at 0 range 0 .. 15;
+      Y at 2 range 0 .. 15;
     end record;
 
 
-  procedure Set_Vertical_Offset (BG : BG_ID; Offset : BG_Scroll_Offset)
+  procedure Set_X_Offset (BG : BG_ID; Value : BG_Scroll_Offset)
     with Inline;
 
-  procedure Set_Horizontal_Offset (BG : BG_ID; Offset : BG_Scroll_Offset)
+  procedure Set_Y_Offset (BG : BG_ID; Value : BG_Scroll_Offset)
     with Inline;
 
-  procedure Set_Offsets (BG : BG_ID; Horizontal, Vertical : BG_Scroll_Offset)
+  procedure Set_Offset (BG : BG_ID; X, Y : BG_Scroll_Offset)
     with Inline;
 
-  procedure Set_Offsets (BG : BG_ID; Offsets : BG_Offset_Info)
+  procedure Set_Offset (BG : BG_ID; Offsets : BG_Offset_Info)
     with Inline;
 
 
@@ -136,6 +140,15 @@ package GBA.Display.Backgrounds is
 
   function Affine_Transform_Address (ID : Affine_BG_ID) return Address
     with Pure_Function, Inline_Always;
+
+  procedure Set_X_Reference (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate)
+    with Inline;
+
+  procedure Set_Y_Reference (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate)
+    with Inline;
+
+  procedure Set_Reference_Point (BG : Affine_BG_ID; X, Y : BG_Reference_Point_Coordinate)
+    with Inline;
 
   procedure Set_Reference_Point (BG : Affine_BG_ID; Reference_Point : BG_Reference_Point)
     with Inline;
