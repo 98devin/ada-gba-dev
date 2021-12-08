@@ -1,6 +1,8 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
 
 with Ada.Unchecked_Conversion;
-
 
 package body GBA.Numerics is
 

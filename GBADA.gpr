@@ -1,3 +1,6 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
 
 project GBADA extends "GBA_Program.gpr" is
 

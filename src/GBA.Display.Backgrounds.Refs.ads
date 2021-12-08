@@ -1,10 +1,13 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
+
 
 limited with GBA.Refs;
 
-
 package GBA.Display.Backgrounds.Refs is
 
-  type BG_Ref (<>) is tagged limited private;
+  type BG_Ref (<>) is abstract tagged limited private;
 
   function ID (This : BG_Ref'Class) return BG_ID
     with Inline;
