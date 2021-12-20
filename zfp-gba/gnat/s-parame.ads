@@ -6,7 +6,7 @@
 --                                                                          --
 --                                 S p e c                                  --
 --                                                                          --
---          Copyright (C) 1992-2020, Free Software Foundation, Inc.         --
+--          Copyright (C) 1992-2019, Free Software Foundation, Inc.         --
 --                                                                          --
 -- GNAT is free software;  you can  redistribute it  and/or modify it under --
 -- terms of the  GNU General Public License as published  by the Free Soft- --
@@ -15,9 +15,9 @@
 -- OUT ANY WARRANTY;  without even the  implied warranty of MERCHANTABILITY --
 -- or FITNESS FOR A PARTICULAR PURPOSE.                                     --
 --                                                                          --
---                                                                          --
---                                                                          --
---                                                                          --
+-- As a special exception under Section 7 of GPL version 3, you are granted --
+-- additional permissions described in the GCC Runtime Library Exception,   --
+-- version 3.1, as published by the Free Software Foundation.               --
 --                                                                          --
 -- You should have received a copy of the GNU General Public License and    --
 -- a copy of the GCC Runtime Library Exception along with this program;     --
@@ -28,8 +28,12 @@
 -- Extensive contributions were provided by Ada Core Technologies Inc.      --
 --                                                                          --
 ------------------------------------------------------------------------------
+-- SweetAda SFP cutted-down version                                         --
+------------------------------------------------------------------------------
+-- GBADA: De-parametrized version                                           --
+------------------------------------------------------------------------------
 
---  This is a small memory zfp version the package
+--  Default version used when no target-specific version is provided
 
 --  This package defines some system dependent parameters for GNAT. These
 --  are values that are referenced by the runtime library and are therefore
@@ -46,25 +50,43 @@
 --  Note: do not introduce any pragma Inline statements into this unit, since
 --  otherwise the relinking and rebinding capability would be deactivated.
 
+pragma Compiler_Unit_Warning;
+
 package System.Parameters is
    pragma Pure;
 
-   ------------------------------
-   -- Stack Allocation Control --
-   ------------------------------
+   ---------------------------------------
+   -- Task And Stack Allocation Control --
+   ---------------------------------------
 
-   type Size_Type is new Address;
+   type Size_Type is range
+     -(2 ** (Integer'(Standard'Address_Size) - 1)) ..
+     +(2 ** (Integer'(Standard'Address_Size) - 1)) - 1;
    --  Type used to provide task stack sizes to the runtime. Sized to permit
    --  stack sizes of up to half the total addressable memory space. This may
    --  seem excessively large (even for 32-bit systems), however there are many
    --  instances of users requiring large stack sizes (for example string
    --  processing).
 
-   Unspecified_Size : constant Size_Type := Size_Type'Last;
-   --  Value used to indicate that no size type is set (maximum size range)
-
-   Runtime_Default_Sec_Stack_Size : constant Size_Type := 512;
+   Runtime_Default_Sec_Stack_Size : constant Size_Type := 1024;
    --  The run-time chosen default size for secondary stacks that may be
-   --  overridden by the user with the use of binder -D switch.
+   --  overriden by the user with the use of binder -D switch.
+
+   Sec_Stack_Dynamic : constant Boolean := False;
+   --  Indicates if secondary stacks can grow and shrink at run-time. If False,
+   --  the size of a secondary stack is fixed at the point of its creation.
+
+   ----------------------------------------------
+   -- Characteristics of types in Interfaces.C --
+   ----------------------------------------------
+
+   long_bits : constant := Long_Integer'Size;
+   --  Number of bits in type long and unsigned_long. The normal convention
+   --  is that this is the same as type Long_Integer, but this may not be true
+   --  of all targets.
+
+   ptr_bits  : constant := Standard'Address_Size;
+   subtype C_Address is System.Address;
+   --  Number of bits in Interfaces.C pointers, normally a standard address
 
 end System.Parameters;

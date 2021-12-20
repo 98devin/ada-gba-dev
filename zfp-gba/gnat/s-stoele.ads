@@ -19,9 +19,9 @@
 -- OUT ANY WARRANTY;  without even the  implied warranty of MERCHANTABILITY --
 -- or FITNESS FOR A PARTICULAR PURPOSE.                                     --
 --                                                                          --
---                                                                          --
---                                                                          --
---                                                                          --
+-- As a special exception under Section 7 of GPL version 3, you are granted --
+-- additional permissions described in the GCC Runtime Library Exception,   --
+-- version 3.1, as published by the Free Software Foundation.               --
 --                                                                          --
 -- You should have received a copy of the GNU General Public License and    --
 -- a copy of the GCC Runtime Library Exception along with this program;     --
@@ -39,6 +39,8 @@
 
 pragma Compiler_Unit_Warning;
 
+with System.Parameters;
+
 package System.Storage_Elements is
    pragma Pure;
    --  Note that we take advantage of the implementation permission to make
@@ -51,9 +53,7 @@ package System.Storage_Elements is
    --  in many cases such a parameter is used to hide read/out access to
    --  objects, and it would be unsafe to treat such functions as pure.
 
-   type Storage_Offset is range
-     -(2 ** (Integer'(Standard'Address_Size) - 1)) ..
-     +(2 ** (Integer'(Standard'Address_Size) - 1)) - Long_Long_Integer'(1);
+   subtype Storage_Offset is System.Parameters.Size_Type;
    --  Note: the reason for the Long_Long_Integer qualification here is to
    --  avoid a bogus ambiguity when this unit is analyzed in an rtsfind
    --  context. It may be possible to remove this in the future, but it is

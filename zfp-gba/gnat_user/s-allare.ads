@@ -1,3 +1,5 @@
+--  Copyright (c) 2021 Devin Hill
+--  zlib License -- see LICENSE for details.
 
 with System.Storage_Elements;
 
@@ -7,8 +9,6 @@ with System.Storage_Elements;
 --
 
 package System.Allocation.Arenas is
-
-   pragma Elaborate_Body;
 
    package SSE renames System.Storage_Elements;
 

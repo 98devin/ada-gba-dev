@@ -1,8 +1,9 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
 
-pragma Assume_No_Invalid_Values (On);
 
 package GBA is
 
-  pragma Pure;
+  pragma Preelaborate;
 
 end GBA;

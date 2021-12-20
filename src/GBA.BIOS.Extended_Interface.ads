@@ -1,3 +1,6 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
 
 with GBA.Interrupts;
 use  GBA.Interrupts;
@@ -171,9 +174,5 @@ package GBA.BIOS.Extended_Interface is
     ( Parameters : Affine_Parameter_Ext_Array;
       Transforms : out BG_Transform_Info_Array )
     with Inline_Always;
-
-
-
-
 
 end GBA.BIOS.Extended_Interface;

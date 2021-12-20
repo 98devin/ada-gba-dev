@@ -1,11 +1,17 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
+
+with GBA.Refs;
 
 with GBA.BIOS;
-with GBA.BIOS.Thumb;
+with GBA.BIOS.Arm;
 with GBA.BIOS.Memset;
 
 with GBA.Display;
 with GBA.Display.Tiles;
 with GBA.Display.Backgrounds;
+with GBA.Display.Backgrounds.Refs;
 with GBA.Display.Objects;
 with GBA.Display.Palettes;
 with GBA.Display.Windows;
@@ -15,22 +21,24 @@ use  GBA.Allocation;
 
 with GBA.Memory;
 with GBA.Memory.Default_Heaps;
-with GBA.Memory.Default_Secondary_Stack;
 
 with GBA.Numerics;
+with GBA.Numerics.Vectors;
+with GBA.Numerics.Matrices;
 
 with GBA.Interrupts;
 
 with GBA.Input;
 with GBA.Input.Buffered;
 
+with Interfaces; use Interfaces;
 
-with Interfaces;
+with System.Machine_Code; use System.Machine_Code;
 
 procedure Hello is
 
   use GBA.BIOS;
-  use GBA.BIOS.Thumb;
+  use GBA.BIOS.Arm;
 
   use GBA.Display;
   use GBA.Display.Palettes;
@@ -41,7 +49,7 @@ procedure Hello is
   use GBA.Input;
   use GBA.Input.Buffered;
 
-  use Interfaces;
+  use all type GBA.Refs.BG_Ref;
 
   VRAM : array (1 .. 160, 1 .. 240) of Color
     with Import, Volatile, Address => 16#6000000#;
@@ -63,24 +71,6 @@ procedure Hello is
   Theta : Radians_16 := 0.0;
   Delta_X, Delta_Y : Fixed_Snorm_16;
 
-
-  type Heap_Integer is access Integer
-    with Simple_Storage_Pool => GBA.Memory.Default_Heaps.EWRAM_Heap;
-
-  H1 : Heap_Integer := new Integer'(100);
-  H2 : Heap_Integer := new Integer'(200);
-  H3 : Heap_Integer := new Integer'(300);
-
-
-  package Local_Heap is new GBA.Allocation.Stack_Arena (256);
-
-  type Local_Integer is access Integer
-    with Simple_Storage_Pool => Local_Heap.Storage;
-
-  L1 : Local_Integer := new Integer'(400);
-  L2 : Local_Integer := new Integer'(500);
-  L3 : Local_Integer := new Integer'(600);
-
 begin
 
   Color_Palette (0 .. 5) :=
@@ -92,7 +82,7 @@ begin
     , (00, 26, 26)
     );
 
-  GBA.Interrupts.Enable_Receiving_Interrupts;
+  -- GBA.Interrupts.Enable_Receiving_Interrupts;
   GBA.Interrupts.Enable_Interrupt (GBA.Interrupts.VBlank);
 
   Request_VBlank_Interrupt;
@@ -129,7 +119,7 @@ begin
 
     Wait_For_VBlank;
 
-    Set_Reference_Point(BG_2, Origin);
+    Set_Reference_Point (BG_2, Origin);
 
   end loop;
 

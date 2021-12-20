@@ -1,3 +1,6 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
 
 package body GBA.DMA is
 
@@ -10,7 +13,7 @@ package body GBA.DMA is
   begin
     Selected_Channel.Source   := Source;
     Selected_Channel.Dest     := Dest;
-    Selected_Channel.DMA_Info := Info'Update (Enabled => True);
+    Selected_Channel.DMA_Info := (Info with delta Enabled => True);
   end;
 
   procedure Stop_Ongoing_Transfer (Channel : Channel_ID) is

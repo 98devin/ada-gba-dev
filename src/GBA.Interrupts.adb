@@ -1,3 +1,6 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
 
 with GBA.Memory.IO_Registers;
 use  GBA.Memory.IO_Registers;

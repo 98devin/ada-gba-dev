@@ -1,7 +1,12 @@
+--  Copyright (c) 2021 Devin Hill
+--  zlib License -- see LICENSE for details.
+
+with System.Parameters;
 
 package body System.Allocation.Arenas is
 
    use SSE;
+   use all type System.Parameters.Size_Type;
 
    procedure Allocate
       (Pool            : in out Heap_Arena;

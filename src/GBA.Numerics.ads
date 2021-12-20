@@ -1,3 +1,6 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
 
 with Interfaces;
 use  Interfaces;
@@ -59,6 +62,11 @@ package GBA.Numerics is
   function "-" (X, Y : Radians_16) return Radians_16
     with Pure_Function, Inline_Always;
 
+  overriding
+  function "-" (X : Radians_16) return Radians_16
+    with Pure_Function, Inline_Always;
+
+
 
   -- Consider this to have an implicit unit of 2*Pi.
   -- Additive operators are defined to be cyclic.
@@ -71,6 +79,11 @@ package GBA.Numerics is
   overriding
   function "-" (X, Y : Radians_32) return Radians_32
     with Pure_Function, Inline_Always;
+
+  overriding
+  function "-" (X : Radians_32) return Radians_32
+    with Pure_Function, Inline_Always;
+
 
 
 
@@ -91,6 +104,16 @@ package GBA.Numerics is
       DMY at 6 range 0 .. 15;
     end record;
 
+
+  function Sqrt (N : Unsigned_32) return Unsigned_16
+    with Pure_Function, Import, External_Name => "usqrt";
+
+
+  generic
+    type Fixed is delta <>;
+    with function Sqrt (N : Unsigned_32) return Unsigned_16;
+  function Fixed_Sqrt (F : Fixed) return Fixed
+    with Inline_Always;
 
 
   function Sin (Theta : Radians_32) return Fixed_Snorm_32
@@ -174,6 +197,13 @@ package GBA.Numerics is
 
 private
 
+  function LDiv0 (V : Long_Long_Integer) return Long_Long_Integer
+    with Pure_Function, Linker_Section => ".iwram.ldiv0",
+      Export, External_Name => "__aeabi_ldiv0";
+
+  function IDiv0 (V : Integer) return Integer
+    with Pure_Function, Linker_Section => ".iwram.idiv0",
+      Export, External_Name => "__aeabi_idiv0";
 
 
   function LMul (X, Y : Unsigned_64) return Unsigned_64
@@ -188,30 +218,15 @@ private
   -- They are callable via standard operators, since they overwrite the defaults.
 
   function Div_Mod (N, D : Integer) return Long_Long_Integer
-    with Pure_Function, Inline, Linker_Section => ".iwram.idivmod",
-         Export, External_Name => "__aeabi_idivmod";
-
-  pragma Machine_Attribute (Div_Mod, "target", "arm");
-
+    with Pure_Function, Import, External_Name => "__aeabi_idivmod";
 
   function Div_Mod (N, D : Unsigned_32) return Long_Long_Integer
-    with Pure_Function, Inline, Linker_Section => ".iwram.uidivmod",
-         Export, External_Name => "__aeabi_uidivmod";
-
-  pragma Machine_Attribute (Div_Mod, "target", "arm");
-
+    with Pure_Function, Import, External_Name => "__aeabi_uidivmod";
 
   function Divide (N, D : Integer) return Integer
-    with Pure_Function, Inline, Linker_Section => ".iwram.idiv",
-         Export, External_Name => "__aeabi_idiv";
-
-  pragma Machine_Attribute (Divide, "target", "arm");
-
+    with Pure_Function, Import, External_Name => "__aeabi_idiv";
 
   function Divide (N, D : Unsigned_32) return Unsigned_32
-    with Pure_Function, Inline, Linker_Section => ".iwram.uidiv",
-         Export, External_Name => "__aeabi_uidiv";
-
-  pragma Machine_Attribute (Divide, "target", "arm");
+    with Pure_Function, Import, External_Name => "__aeabi_uidiv";
 
 end GBA.Numerics;

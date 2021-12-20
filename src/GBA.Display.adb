@@ -1,10 +1,14 @@
+-- Copyright (c) 2021 Devin Hill
+-- zlib License -- see LICENSE for details.
+
 
 package body GBA.Display is
 
   procedure Set_Display_Mode (Mode : Video_Mode; Forced_Blank : Boolean := False) is
   begin
-    Display_Control := Display_Control'Update
-      ( Mode         => Mode
+    Display_Control :=
+      ( Display_Control with delta
+        Mode         => Mode
       , Forced_Blank => Forced_Blank
       );
   end;

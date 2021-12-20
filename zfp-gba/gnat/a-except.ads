@@ -3,11 +3,10 @@
 --                         GNAT RUN-TIME COMPONENTS                         --
 --                                                                          --
 --                       A D A . E X C E P T I O N S                        --
---       (Version for No Exception Handlers/No_Exception_Propagation)       --
 --                                                                          --
 --                                 S p e c                                  --
 --                                                                          --
---          Copyright (C) 1992-2020, Free Software Foundation, Inc.         --
+--          Copyright (C) 1992-2019, Free Software Foundation, Inc.         --
 --                                                                          --
 -- This specification is derived from the Ada Reference Manual for use with --
 -- GNAT. The copyright notice above, and the license provisions that follow --
@@ -20,9 +19,9 @@
 -- OUT ANY WARRANTY;  without even the  implied warranty of MERCHANTABILITY --
 -- or FITNESS FOR A PARTICULAR PURPOSE.                                     --
 --                                                                          --
---                                                                          --
---                                                                          --
---                                                                          --
+-- As a special exception under Section 7 of GPL version 3, you are granted --
+-- additional permissions described in the GCC Runtime Library Exception,   --
+-- version 3.1, as published by the Free Software Foundation.               --
 --                                                                          --
 -- You should have received a copy of the GNU General Public License and    --
 -- a copy of the GCC Runtime Library Exception along with this program;     --
@@ -33,39 +32,42 @@
 -- Extensive contributions were provided by Ada Core Technologies Inc.      --
 --                                                                          --
 ------------------------------------------------------------------------------
+-- SweetAda SFP cutted-down version                                         --
+------------------------------------------------------------------------------
+-- GBADA: Add default last_chance_handler here                              --
+------------------------------------------------------------------------------
 
---  Version is for use when there are no handlers in the partition (i.e. either
---  of Restriction No_Exception_Handlers or No_Exception_Propagation is set).
-
-with System;
+with System.Standard_Library;
 
 package Ada.Exceptions is
    pragma Preelaborate;
-   --  In accordance with Ada 2005 AI-362
+   --  In accordance with Ada 2005 AI-362.
 
    type Exception_Id is private;
    pragma Preelaborable_Initialization (Exception_Id);
 
    Null_Id : constant Exception_Id;
 
-   procedure Raise_Exception (E : Exception_Id; Message : String := "");
-   pragma No_Return (Raise_Exception);
-   --  Unconditionally call __gnat_last_chance_handler.
-   --  Note that the exception is still raised even if E is the null exception
-   --  id. This is a deliberate simplification for this profile (the use of
-   --  Raise_Exception with a null id is very rare in any case, and this way
-   --  we avoid introducing Raise_Exception_Always and we also avoid the if
-   --  test in Raise_Exception).
+   procedure Raise_Exception (E : Exception_Id; Message : String := "")
+      with No_Return;
+   --  Unconditionally call __gnat_last_chance_handler. Message should be a
+   --  null terminated string. Note that the exception is still raised even
+   --  if E is the null exception id. This is a deliberate simplification for
+   --  this profile (the use of Raise_Exception with a null id is very rare in
+   --  any case, and this way we avoid introducing Raise_Exception_Always and
+   --  we also avoid the if test in Raise_Exception).
+
+   procedure Last_Chance_Handler (Msg : System.Address; Line : Integer)
+      with No_Return, Convention => C, Export,
+         External_Name => "__gnat_last_chance_handler";
+
+   pragma Weak_External (Last_Chance_Handler);
 
 private
+   package SSL renames System.Standard_Library;
 
-   ------------------
-   -- Exception_Id --
-   ------------------
+   type Exception_Id is new SSL.Exception_Data_Ptr;
 
-   type Exception_Id is access all System.Address;
    Null_Id : constant Exception_Id := null;
-
-   pragma Inline_Always (Raise_Exception);
 
 end Ada.Exceptions;

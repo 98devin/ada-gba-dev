@@ -15,9 +15,9 @@
 -- OUT ANY WARRANTY;  without even the  implied warranty of MERCHANTABILITY --
 -- or FITNESS FOR A PARTICULAR PURPOSE.                                     --
 --                                                                          --
---                                                                          --
---                                                                          --
---                                                                          --
+-- As a special exception under Section 7 of GPL version 3, you are granted --
+-- additional permissions described in the GCC Runtime Library Exception,   --
+-- version 3.1, as published by the Free Software Foundation.               --
 --                                                                          --
 -- You should have received a copy of the GNU General Public License and    --
 -- a copy of the GCC Runtime Library Exception along with this program;     --
@@ -61,8 +61,8 @@ package Interfaces.C.Extensions is
 
    --  64-bit integer types
 
-   subtype long_long is Long_Long_Integer;
-   type unsigned_long_long is mod 2 ** 64;
+   subtype long_long is Interfaces.C.long_long;
+   subtype unsigned_long_long is Interfaces.C.unsigned_long_long;
 
    --  128-bit integer type available on 64-bit platforms:
    --  typedef int signed_128 __attribute__ ((mode (TI)));

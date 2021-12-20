@@ -5,20 +5,19 @@ Gameboy Advance software library for the Ada programming language.
 
 ## Requirements
 
-- An arm-eabi cross compiler for ADA, e.g. GNAT Pro or [GNAT Community Edition 2020](https://www.adacore.com/download/more)
+- An arm-eabi cross compiler for ADA. Recommended is SweetAda, which should work across all major OS platforms.
+  However it is merely a convenient way to get the latest GCC with Ada + ARM support; if you already have a modern
+  GCC with Ada 2012 compatibility please try it out and let me know to add a mention of compatibility.
 
-  Note that code compiled to run on the GBA uses custom runtime libraries derived from GNAT FSF,
-  and opts out of the default Ada standard library. This should mean afaik that even using GNAT
-  Community Edition, there is no requirement to license the result under GPL, as all standard
-  library files are either not linked or fall under the GCC exceptions.
+  Note that code compiled to run on the GBA uses custom runtime libraries derived from GNAT FSF and SweetAda,
+  and opts out of the default Ada standard library. All elements of the custom runtime library
+  are either licensed under the GPL3 with runtime exception (derived from GCC source), or ZLIB licenses (new/custom code).
 
-  GNAT FSF _should_ also work. I have not tested its support of ARM-eabi and custom runtimes.
-  Development for this project has been primarily on Windows. Linux and GNAT FSF support
-  will be a goal; contributions welcome.
+  The runtime also incorporates work from the excellent AGBABI implementation of `__aeabi` functions to avoid
+  linking with `libc` or `libg++`.
 
 ## Building a GBA project
 
-- Ensure that the files in `linker_scripts/` are visible to your toolchain.
 - Create a `.gpr` project file which extends from `GBA_Program.gpr` provided here.
 - Use `gprbuild` to handle project compilation to an ARM-ELF executable.
 - Use `objcopy -O binary` from your toolchain's binutils to produce a `.gba` binary file from the `.o` file.
@@ -34,12 +33,13 @@ the requirements and features of this library.
 
 - [x] Compile Ada targeting embedded Arm
     - [x] Freely intermix Arm and Thumb mode.
-    - [x] Custom zero-footprint runtime
+    - [x] Custom small-footprint runtime
     - [x] Secondary stack for dynamic allocations
     - [x] Tagged types for polymorphism and OOP
+    - [x] Native Fixed-point math support instead of Floats
 
-      No IO, exceptions, tasking, finalization, standard containers.
-      Currently no software floating-point (but Ada supports fixed-point natively).
+      No IO, exception propagation, tasking, finalization, standard containers.
+      Currently no software floating-point option.
 
 
 - [x] All IO Register mnemonics

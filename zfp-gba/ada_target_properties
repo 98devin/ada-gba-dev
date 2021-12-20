@@ -10,6 +10,7 @@ Float_Size                   32
 Float_Words_BE                0
 Int_Size                     32
 Long_Double_Size             64
+Long_Long_Long_Size          64
 Long_Long_Size               64
 Long_Size                    32
 Maximum_Alignment             8
@@ -23,6 +24,7 @@ Wchar_T_Size                 32
 Words_BE                      0
 
 HF             3  I  16  16
+BF             2  I  16  16
 float          6  I  32  32
 double        15  I  64  64
 long double   15  I  64  64

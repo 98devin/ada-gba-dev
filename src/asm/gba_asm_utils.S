@@ -2,6 +2,7 @@
 
     .text
     .cpu arm7tdmi
+    .balign 2
 
 
     @ Routines to be called to allow easy returning of multiple registers.
@@ -9,22 +10,19 @@
     @ and they will effectively allow returning four register values.
 
     .arm
-    .balign 2
-
     .global return_stub_arm
     .type   return_stub_arm, %function
 
 return_stub_arm:
-    bx lr
+    bx  lr
 
 
     .thumb
-    .balign 2
-
     .global return_stub_thumb
     .type   return_stub_thumb, %function
-
     .thumb_func
 
 return_stub_thumb:
-    bx lr
+    bx  lr
+
+
