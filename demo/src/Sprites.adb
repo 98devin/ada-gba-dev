@@ -12,7 +12,6 @@ with GBA.Display.Palettes;
 with GBA.Display.Tiles;
 
 with GBA.Memory;
-with GBA.Memory.Default_Secondary_Stack;
 
 with GBA.Numerics;
 
@@ -133,8 +132,8 @@ procedure Sprites is
   Color_Palette : Palette_16_Ptr := OBJ_Palette_16x16 (0)'Access;
 
   Theta   : Radians_32 := 0.0;
-  X_Scale : constant := 70.0;
-  Y_Scale : constant := 70.0;
+  X_Scale : constant Fixed_20_8 := 70.0;
+  Y_Scale : constant Fixed_20_8 := 70.0;
 
 begin
 
@@ -173,30 +172,32 @@ begin
       Sin_Cos (Theta, Sin, Cos);
       Set_Position
         ( 0
-        , OBJ_X_Coordinate (Fixed_20_8 (Sin) * X_Scale)
-        , OBJ_Y_Coordinate (Fixed_20_8 (Cos) * Y_Scale)
+        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale))
+        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale))
         );
     end;
 
     declare
       Sin, Cos : Fixed_Snorm_16;
+      One_Third : constant Radians_32 := 1.0 / 3.0;
     begin
-      Sin_Cos_LUT (Radians_16 (Theta + (1.0 / 3.0)), Sin, Cos);
+      Sin_Cos_LUT (Radians_16 (Theta + One_Third), Sin, Cos);
       Set_Position
         ( 1
-        , OBJ_X_Coordinate (Fixed_20_8 (Sin) * X_Scale)
-        , OBJ_Y_Coordinate (Fixed_20_8 (Cos) * Y_Scale)
+        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale))
+        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale))
         );
     end;
 
     declare
       Sin, Cos : Fixed_8_8;
+      Two_Thirds : constant Radians_32 := 2.0 / 3.0;
     begin
-      BIOS_Sin_Cos (Theta + (2.0 / 3.0), Sin, Cos);
+      BIOS_Sin_Cos (Theta + Two_Thirds, Sin, Cos);
       Set_Position
         ( 2
-        , OBJ_X_Coordinate (Fixed_20_8 (Sin) * X_Scale)
-        , OBJ_Y_Coordinate (Fixed_20_8 (Cos) * Y_Scale)
+        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale) / (2 ** 8))
+        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale) / (2 ** 8))
         );
     end;
 

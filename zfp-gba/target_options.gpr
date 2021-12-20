@@ -15,19 +15,22 @@ abstract project Target_Options is
   package Compiler is
      --  COMFLAGS here is common flags (used for C and Ada).
      COMFLAGS := ("-fcallgraph-info=su,da",
+        "-mthumb",
         "-ffunction-sections",
-        "-fdata-sections");
+        "-fdata-sections",
+        "-nostdlib",
+        "-nolibc");
 
      --  Per language flags (COMFLAGS will be added later)
-     ADAFLAGS := ("-gnatg", "-nostdinc");
+     ADAFLAGS := ("-gnatg", "-nostdinc", "-nostdlib", "-nodefaultlibs");
      ASMFLAGS := ("");
-     CFLAGS := ("-DIN_RTS",
+     CFLAGS := ("-DIN_RTS", "-ffreestanding",
         "-Dinhibit_libc", "-Werror", "-Wall");
      case Build is
         when "Production" =>
 	   --  Optimize
-           COMFLAGS := COMFLAGS & ("-O2");
-           ADAFLAGS := ADAFLAGS & ("-gnatp", "-gnatn2");
+           COMFLAGS := COMFLAGS & ("-O3");
+           ADAFLAGS := ADAFLAGS & ("-gnatp", "-flto", "-ffat-lto-objects", "-Wl,-flto");
         when "Debug" =>
 	   --  Disable optimization and add debug symbols
            COMFLAGS := COMFLAGS & ("-O0", "-g");

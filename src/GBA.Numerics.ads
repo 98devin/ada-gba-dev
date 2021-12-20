@@ -197,6 +197,13 @@ package GBA.Numerics is
 
 private
 
+  function LDiv0 (V : Long_Long_Integer) return Long_Long_Integer
+    with Pure_Function, Linker_Section => ".iwram.ldiv0",
+      Export, External_Name => "__aeabi_ldiv0";
+
+  function IDiv0 (V : Integer) return Integer
+    with Pure_Function, Linker_Section => ".iwram.idiv0",
+      Export, External_Name => "__aeabi_idiv0";
 
 
   function LMul (X, Y : Unsigned_64) return Unsigned_64
@@ -211,30 +218,15 @@ private
   -- They are callable via standard operators, since they overwrite the defaults.
 
   function Div_Mod (N, D : Integer) return Long_Long_Integer
-    with Pure_Function, Inline, Linker_Section => ".iwram.idivmod",
-         Export, External_Name => "__aeabi_idivmod";
-
-  pragma Machine_Attribute (Div_Mod, "target", "arm");
-
+    with Pure_Function, Import, External_Name => "__aeabi_idivmod";
 
   function Div_Mod (N, D : Unsigned_32) return Long_Long_Integer
-    with Pure_Function, Inline, Linker_Section => ".iwram.uidivmod",
-         Export, External_Name => "__aeabi_uidivmod";
-
-  pragma Machine_Attribute (Div_Mod, "target", "arm");
-
+    with Pure_Function, Import, External_Name => "__aeabi_uidivmod";
 
   function Divide (N, D : Integer) return Integer
-    with Pure_Function, Inline, Linker_Section => ".iwram.idiv",
-         Export, External_Name => "__aeabi_idiv";
-
-  pragma Machine_Attribute (Divide, "target", "arm");
-
+    with Pure_Function, Import, External_Name => "__aeabi_idiv";
 
   function Divide (N, D : Unsigned_32) return Unsigned_32
-    with Pure_Function, Inline, Linker_Section => ".iwram.uidiv",
-         Export, External_Name => "__aeabi_uidiv";
-
-  pragma Machine_Attribute (Divide, "target", "arm");
+    with Pure_Function, Import, External_Name => "__aeabi_uidiv";
 
 end GBA.Numerics;

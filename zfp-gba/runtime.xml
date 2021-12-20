@@ -26,12 +26,22 @@
          Common_Required_Switches;
    end Compiler;
 
+   for Library_Support use "static_only";
+   for Library_Builder use "${GPRCONFIG_PREFIX}\libexec\gprbuild\gprlib.exe";
+   for Archive_Builder use ("${GPRCONFIG_PREFIX}\bin\arm-sweetada-eabi-ar.exe", "cr");
+
+   Lto_Plugin := "${GPRCONFIG_PREFIX}\libexec\gcc\arm-sweetada-eabi\11.1.0\liblto_plugin.dll";
+
+   package Builder is
+      for Executable_Suffix use "";
+   end Builder;
+
    package Linker is
       for Required_Switches use Linker'Required_Switches &
-         ("-Wl,-L${RUNTIME_DIR(Ada)}/adalib"
+         ("-Wl,-L${RUNTIME_DIR(Ada)}/adalib,-plugin," & Lto_Plugin
          , "-nostartfiles", "-nolibc"
-         , "-L${RUNTIME_DIR(ada)}/ld_user"
-         , "-Tgba_cart.ld"
+         -- , "-L${RUNTIME_DIR(ada)}/ld_user"
+         -- , "-Tgba_cart.ld"
          ) &
          Compiler.Common_Required_Switches;
 

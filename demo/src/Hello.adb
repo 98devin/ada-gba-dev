@@ -21,7 +21,6 @@ use  GBA.Allocation;
 
 with GBA.Memory;
 with GBA.Memory.Default_Heaps;
-with GBA.Memory.Default_Secondary_Stack;
 
 with GBA.Numerics;
 with GBA.Numerics.Vectors;
@@ -31,7 +30,6 @@ with GBA.Interrupts;
 
 with GBA.Input;
 with GBA.Input.Buffered;
-
 
 with Interfaces; use Interfaces;
 

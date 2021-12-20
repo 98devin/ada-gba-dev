@@ -101,6 +101,13 @@ package body GBA.Numerics is
   function LMul (X, Y : Unsigned_64) return Unsigned_64 is
     ( X * Y );
 
+  function LDiv0 (V : Long_Long_Integer) return Long_Long_Integer is
+    ( V );
+
+  function IDiv0 (V : Integer) return Integer is
+    ( V );
+
+
   --
   -- Look-up table for division optimization.
   --
@@ -124,72 +131,72 @@ package body GBA.Numerics is
         7,   7,   6,   6,   5,   5,   4,   4,   3,   3,   2,   2,   1,   1,   0,   0 );
 
 
-  function Divide (N, D : Integer) return Integer is
-    QR : Unsigned_64 := Cast (Div_Mod (N, D));
-  begin
-    return Cast (Unsigned_32'Mod (Shift_Right (QR, 32)));
-  end;
+--  function Divide (N, D : Integer) return Integer is
+--    QR : Unsigned_64 := Cast (Div_Mod (N, D));
+--  begin
+--    return Cast (Unsigned_32'Mod (Shift_Right (QR, 32)));
+--  end;
 
-  function Div_Mod (N, D : Integer) return Long_Long_Integer is
-    N_Abs  : Unsigned_32 := Cast (abs N);
-    D_Abs  : Unsigned_32 := Cast (abs D);
-    QR_Abs : ULL_Parts := Cast (Div_Mod (N_Abs, D_Abs));
-
-    Q, R : Integer;
-  begin
-    if N >= 0 then
-      R := Cast (QR_Abs.Upper);
-    else
-      R := Cast (-QR_Abs.Upper);
-    end if;
-
-    if Cast (D) = D_Abs xor Cast (N) = N_Abs then
-      Q := Cast (-QR_Abs.Lower);
-    else
-      Q := Cast (QR_Abs.Lower);
-    end if;
-
-    return Cast (LL_Parts'(Lower => Q, Upper => R));
-  end;
-
-
-  function Divide (N, D : Unsigned_32) return Unsigned_32 is
-    QR : Unsigned_64 := Cast (Div_Mod (N, D));
-  begin
-    return Unsigned_32'Mod (Shift_Right (QR, 32));
-  end;
+--  function Div_Mod (N, D : Integer) return Long_Long_Integer is
+--    N_Abs  : Unsigned_32 := Cast (abs N);
+--    D_Abs  : Unsigned_32 := Cast (abs D);
+--    QR_Abs : ULL_Parts := Cast (Div_Mod (N_Abs, D_Abs));
+--
+--    Q, R : Integer;
+--  begin
+--    if N >= 0 then
+--      R := Cast (QR_Abs.Upper);
+--    else
+--      R := Cast (-QR_Abs.Upper);
+--    end if;
+--
+--    if Cast (D) = D_Abs xor Cast (N) = N_Abs then
+--      Q := Cast (-QR_Abs.Lower);
+--    else
+--      Q := Cast (QR_Abs.Lower);
+--    end if;
+--
+--    return Cast (LL_Parts'(Lower => Q, Upper => R));
+--  end;
 
 
-  function Div_Mod (N, D : Unsigned_32) return Long_Long_Integer is
-    K  : constant Natural     := Count_Leading_Zeros (D);
-    Ty : constant Unsigned_32 := Shift_Right (Shift_Left (D, K), 23);
-    T  : constant Unsigned_32 := Unsigned_32 (Leading_Nine_Bits (Ty)) + 256;
-    Z  : Unsigned_32 := Shift_Right (Shift_Left (T, 23), 31 - K);
-    Q, R : Unsigned_32;
+--  function Divide (N, D : Unsigned_32) return Unsigned_32 is
+--    QR : Unsigned_64 := Cast (Div_Mod (N, D));
+--  begin
+--    return Unsigned_32'Mod (Shift_Right (QR, 32));
+--  end;
 
-    function UMulH (X, Y : Unsigned_32) return Unsigned_32 is
-      Long : Unsigned_64 := Unsigned_64 (X) * Unsigned_64 (Y);
-    begin
-      return Unsigned_32'Mod (Shift_Right (Long, 32));
-    end;
 
-  begin
-    Z := Z + UMulH (Z, Z * (-D));
-    Z := Z + UMulH (Z, Z * (-D));
-    Q := UMulH (N, Z);
-    R := N - (Q * D);
-
-    if R >= D then
-      R := R - D;
-      Q := Q + 1;
-      if R >= D then
-        R := R - D;
-        Q := Q + 1;
-      end if;
-    end if;
-
-    return Cast (ULL_Parts'(Lower => Q, Upper => R));
-  end Div_Mod;
+--  function Div_Mod (N, D : Unsigned_32) return Long_Long_Integer is
+--    K  : constant Natural     := Count_Leading_Zeros (D);
+--    Ty : constant Unsigned_32 := Shift_Right (Shift_Left (D, K), 23);
+--    T  : constant Unsigned_32 := Unsigned_32 (Leading_Nine_Bits (Ty)) + 256;
+--    Z  : Unsigned_32 := Shift_Right (Shift_Left (T, 23), 31 - K);
+--    Q, R : Unsigned_32;
+--
+--    function UMulH (X, Y : Unsigned_32) return Unsigned_32 is
+--      Long : Unsigned_64 := Unsigned_64 (X) * Unsigned_64 (Y);
+--    begin
+--      return Unsigned_32'Mod (Shift_Right (Long, 32));
+--    end;
+--
+--  begin
+--    Z := Z + UMulH (Z, Z * (-D));
+--    Z := Z + UMulH (Z, Z * (-D));
+--    Q := UMulH (N, Z);
+--    R := N - (Q * D);
+--
+--    if R >= D then
+--      R := R - D;
+--      Q := Q + 1;
+--      if R >= D then
+--        R := R - D;
+--        Q := Q + 1;
+--      end if;
+--    end if;
+--
+--    return Cast (ULL_Parts'(Lower => Q, Upper => R));
+--  end Div_Mod;
 
 
   function Count_Trailing_Zeros (I : Long_Long_Integer) return Natural is

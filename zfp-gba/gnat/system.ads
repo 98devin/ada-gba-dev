@@ -34,29 +34,17 @@
 --                                                                          --
 ------------------------------------------------------------------------------
 
+pragma Restrictions (No_Anonymous_Allocators);
 pragma Restrictions (No_Exception_Propagation);
---  Only local exception handling is supported in this profile
-
 pragma Restrictions (No_Exception_Registration);
---  Disable exception name registration. This capability is not used because
---  it is only required by exception stream attributes which are not supported
---  in this run time.
-
---  pragma Restrictions (No_Implicit_Dynamic_Code);
---  Pointers to nested subprograms are not allowed in this run time, in order
---  to prevent the compiler from building "trampolines".
-
 pragma Restrictions (No_Finalization);
---  Controlled types are not supported in this run time
-
-pragma Restrictions (No_Tasking);
---  Tasking is not supported in this run time
-
 pragma Restrictions (No_Floating_Point);
 pragma Restrictions (No_IO);
-
---  pragma Restrictions (No_Implicit_Heap_Allocations);
 pragma Restrictions (No_Multiple_Elaboration);
+pragma Restrictions (No_Streams);
+--  pragma Restrictions (No_Tagged_Type_Registration);
+pragma Restrictions (No_Tasking);
+pragma Restrictions (No_Unchecked_Deallocation);
 pragma Restrictions (Static_Dispatch_Tables);
 
 pragma Discard_Names;
@@ -157,29 +145,29 @@ private
    Backend_Divide_Checks     : constant Boolean := False;
    Backend_Overflow_Checks   : constant Boolean := True;
 
+   Always_Compatible_Rep     : constant Boolean := True;
    Command_Line_Args         : constant Boolean := False;
    Configurable_Run_Time     : constant Boolean := True;
    Denorm                    : constant Boolean := True;
    Duration_32_Bits          : constant Boolean := True;
    Exit_Status_Supported     : constant Boolean := False;
    Fractional_Fixed_Ops      : constant Boolean := True;
-   Functions_Return_By_DSP   : constant Boolean := True;
+   Frontend_Exceptions       : constant Boolean := False;
    Frontend_Layout           : constant Boolean := False;
+   Functions_Return_By_DSP   : constant Boolean := True;
    Machine_Overflows         : constant Boolean := False;
    Machine_Rounds            : constant Boolean := True;
-   Preallocated_Stacks       : constant Boolean := False;
-   Signed_Zeros              : constant Boolean := True;
+   Preallocated_Stacks       : constant Boolean := True;
+   Signed_Zeros              : constant Boolean := False;
    Stack_Check_Default       : constant Boolean := False;
-   Stack_Check_Probes        : constant Boolean := False;
    Stack_Check_Limits        : constant Boolean := False;
+   Stack_Check_Probes        : constant Boolean := False;
    Support_Aggregates        : constant Boolean := True;
    Support_Composite_Assign  : constant Boolean := True;
    Support_Composite_Compare : constant Boolean := True;
    Support_Long_Shifts       : constant Boolean := True;
-   Always_Compatible_Rep     : constant Boolean := True;
    Suppress_Standard_Library : constant Boolean := True;
    Use_Ada_Main_Program_Name : constant Boolean := False;
-   Frontend_Exceptions       : constant Boolean := False;
    ZCX_By_Default            : constant Boolean := True;
 
 end System;

@@ -6,38 +6,20 @@
 --                                                                          --
 --                                 S p e c                                  --
 --                                                                          --
---          Copyright (C) 1992-2020, Free Software Foundation, Inc.         --
---                                                                          --
 -- This specification is derived from the Ada Reference Manual for use with --
--- GNAT. The copyright notice above, and the license provisions that follow --
--- apply solely to the  contents of the part following the private keyword. --
---                                                                          --
--- GNAT is free software;  you can  redistribute it  and/or modify it under --
--- terms of the  GNU General Public License as published  by the Free Soft- --
--- ware  Foundation;  either version 3,  or (at your option) any later ver- --
--- sion.  GNAT is distributed in the hope that it will be useful, but WITH- --
--- OUT ANY WARRANTY;  without even the  implied warranty of MERCHANTABILITY --
--- or FITNESS FOR A PARTICULAR PURPOSE.                                     --
---                                                                          --
---                                                                          --
---                                                                          --
---                                                                          --
---                                                                          --
--- You should have received a copy of the GNU General Public License and    --
--- a copy of the GCC Runtime Library Exception along with this program;     --
--- see the files COPYING3 and COPYING.RUNTIME respectively.  If not, see    --
--- <http://www.gnu.org/licenses/>.                                          --
---                                                                          --
--- GNAT was originally developed  by the GNAT team at  New York University. --
--- Extensive contributions were provided by Ada Core Technologies Inc.      --
+-- GNAT.  In accordance with the copyright of that document, you can freely --
+-- copy and modify this specification,  provided that if you redistribute a --
+-- modified version,  any changes that you have made are clearly indicated. --
 --                                                                          --
 ------------------------------------------------------------------------------
+-- SweetAda SFP cutted-down version                                         --
+------------------------------------------------------------------------------
+-- GBADA C conversion functions removed                                     --
+------------------------------------------------------------------------------
 
---  This version contains only the type definitions for standard interfacing
---  with C. All functions have been removed from the original spec.
+with System.Parameters;
 
 package Interfaces.C is
-   pragma No_Elaboration_Code_All;
    pragma Pure;
 
    --  Declaration's based on C's <limits.h>
@@ -50,27 +32,36 @@ package Interfaces.C is
    --  Signed and Unsigned Integers. Note that in GNAT, we have ensured that
    --  the standard predefined Ada types correspond to the standard C types
 
+   --  Note: the Integer qualifications used in the declaration of type long
+   --  avoid ambiguities when compiling in the presence of s-auxdec.ads and
+   --  a non-private system.address type.
+
    type int   is new Integer;
    type short is new Short_Integer;
-   type long  is new Long_Integer;
+   type long  is range -(2 ** (System.Parameters.long_bits - Integer'(1)))
+     .. +(2 ** (System.Parameters.long_bits - Integer'(1))) - 1;
+   type long_long is new Long_Long_Integer;
 
    type signed_char is range SCHAR_MIN .. SCHAR_MAX;
    for signed_char'Size use CHAR_BIT;
 
-   type unsigned       is mod 2 ** int'Size;
-   type unsigned_short is mod 2 ** short'Size;
-   type unsigned_long  is mod 2 ** long'Size;
+   type unsigned           is mod 2 ** int'Size;
+   type unsigned_short     is mod 2 ** short'Size;
+   type unsigned_long      is mod 2 ** long'Size;
+   type unsigned_long_long is mod 2 ** long_long'Size;
 
    type unsigned_char is mod (UCHAR_MAX + 1);
    for unsigned_char'Size use CHAR_BIT;
 
-   subtype plain_char is unsigned_char;
+   --  Note: the Integer qualifications used in the declaration of ptrdiff_t
+   --  avoid ambiguities when compiling in the presence of s-auxdec.ads and
+   --  a non-private system.address type.
 
    type ptrdiff_t is
-     range -(2 ** (Standard'Address_Size - 1)) ..
-           +(2 ** (Standard'Address_Size - 1) - 1);
+     range -(2 ** (System.Parameters.ptr_bits - Integer'(1))) ..
+           +(2 ** (System.Parameters.ptr_bits - Integer'(1)) - 1);
 
-   type size_t is mod 2 ** Standard'Address_Size;
+   type size_t is mod 2 ** System.Parameters.ptr_bits;
 
    ----------------------------
    -- Characters and Strings --
@@ -80,8 +71,15 @@ package Interfaces.C is
 
    nul : constant char := char'First;
 
+   function To_C   (Item : Character) return char
+      with Inline_Always;
+   function To_Ada (Item : char)      return Character
+      with Inline_Always;
+
    type char_array is array (size_t range <>) of aliased char;
    for char_array'Component_Size use CHAR_BIT;
+
+   function Is_Nul_Terminated (Item : char_array) return Boolean;
 
    ------------------------------------
    -- Wide Character and Wide String --
@@ -92,6 +90,37 @@ package Interfaces.C is
 
    wide_nul : constant wchar_t := wchar_t'First;
 
+   function To_C   (Item : Wide_Character) return wchar_t
+      with Inline_Always;
+   function To_Ada (Item : wchar_t)        return Wide_Character
+      with Inline_Always;
+
    type wchar_array is array (size_t range <>) of aliased wchar_t;
+
+   function Is_Nul_Terminated (Item : wchar_array) return Boolean;
+
+   type char16_t is new Wide_Character;
+
+   char16_nul : constant char16_t := char16_t'Val (0);
+
+   function To_C   (Item : Wide_Character) return char16_t;
+   function To_Ada (Item : char16_t)       return Wide_Character;
+
+   type char16_array is array (size_t range <>) of aliased char16_t;
+
+   function Is_Nul_Terminated (Item : char16_array) return Boolean;
+
+   type char32_t is new Wide_Wide_Character;
+
+   char32_nul : constant char32_t := char32_t'Val (0);
+
+   function To_C   (Item : Wide_Wide_Character) return char32_t
+      with Inline_Always;
+   function To_Ada (Item : char32_t)            return Wide_Wide_Character
+      with Inline_Always;
+
+   type char32_array is array (size_t range <>) of aliased char32_t;
+
+   function Is_Nul_Terminated (Item : char32_array) return Boolean;
 
 end Interfaces.C;

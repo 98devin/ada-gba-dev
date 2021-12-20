@@ -15,7 +15,7 @@ package GBA.Handles.Backgrounds is
 
   function Kind (BG : BG_Ref) return BG_Kind is abstract;
 
-  function Vertical_Offset (BG : BG_Ref) return
+  function Vertical_Offset (BG : BG_Ref) return BG_Scroll_Offset is abstract;
 
   procedure Set_Vertical_Offset   (BG : BG_Ref; Offset : BG_Scroll_Offset) is abstract;
   procedure Set_Horizontal_Offset (BG : BG_Ref; Offset : BG_Scroll_Offset) is abstract;
