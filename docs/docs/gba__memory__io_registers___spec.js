@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG0CNT",
           "qualifier": "",
-          "line": 13,
+          "line": 16,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -108,7 +108,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG0HOFS",
           "qualifier": "",
-          "line": 18,
+          "line": 21,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -119,7 +119,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -205,7 +205,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG0VOFS",
           "qualifier": "",
-          "line": 19,
+          "line": 22,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -216,7 +216,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -302,7 +302,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG1CNT",
           "qualifier": "",
-          "line": 14,
+          "line": 17,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -313,7 +313,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -399,7 +399,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG1HOFS",
           "qualifier": "",
-          "line": 20,
+          "line": 23,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -410,7 +410,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -496,7 +496,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG1VOFS",
           "qualifier": "",
-          "line": 21,
+          "line": 24,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -507,7 +507,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -593,7 +593,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2CNT",
           "qualifier": "",
-          "line": 15,
+          "line": 18,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -604,7 +604,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -690,7 +690,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2HOFS",
           "qualifier": "",
-          "line": 22,
+          "line": 25,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -701,7 +701,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -787,7 +787,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2PA",
           "qualifier": "",
-          "line": 27,
+          "line": 30,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -798,7 +798,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -884,7 +884,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2PB",
           "qualifier": "",
-          "line": 28,
+          "line": 31,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -895,7 +895,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -981,7 +981,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2PC",
           "qualifier": "",
-          "line": 29,
+          "line": 32,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -992,7 +992,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -1078,7 +1078,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2PD",
           "qualifier": "",
-          "line": 30,
+          "line": 33,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1089,7 +1089,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -1175,7 +1175,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2VOFS",
           "qualifier": "",
-          "line": 23,
+          "line": 26,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1186,7 +1186,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -1272,7 +1272,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2X",
           "qualifier": "",
-          "line": 31,
+          "line": 34,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1283,7 +1283,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1369,7 +1369,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG2Y",
           "qualifier": "",
-          "line": 32,
+          "line": 35,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1380,7 +1380,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -1466,7 +1466,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3CNT",
           "qualifier": "",
-          "line": 16,
+          "line": 19,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1477,7 +1477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -1563,7 +1563,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3HOFS",
           "qualifier": "",
-          "line": 24,
+          "line": 27,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1574,7 +1574,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -1660,7 +1660,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3PA",
           "qualifier": "",
-          "line": 34,
+          "line": 37,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1671,7 +1671,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -1757,7 +1757,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3PB",
           "qualifier": "",
-          "line": 35,
+          "line": 38,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1768,7 +1768,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -1854,7 +1854,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3PC",
           "qualifier": "",
-          "line": 36,
+          "line": 39,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1865,7 +1865,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -1951,7 +1951,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3PD",
           "qualifier": "",
-          "line": 37,
+          "line": 40,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -1962,7 +1962,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -2048,7 +2048,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3VOFS",
           "qualifier": "",
-          "line": 25,
+          "line": 28,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2059,7 +2059,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -2145,7 +2145,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3X",
           "qualifier": "",
-          "line": 38,
+          "line": 41,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2156,7 +2156,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -2242,7 +2242,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG3Y",
           "qualifier": "",
-          "line": 39,
+          "line": 42,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2253,7 +2253,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -2339,7 +2339,7 @@ GNATdoc.Documentation = {
         {
           "label": "BLDALPHA",
           "qualifier": "",
-          "line": 52,
+          "line": 55,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2350,7 +2350,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -2436,7 +2436,7 @@ GNATdoc.Documentation = {
         {
           "label": "BLDCNT",
           "qualifier": "",
-          "line": 51,
+          "line": 54,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2447,7 +2447,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -2533,7 +2533,7 @@ GNATdoc.Documentation = {
         {
           "label": "BLDY",
           "qualifier": "",
-          "line": 53,
+          "line": 56,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2544,7 +2544,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -2630,7 +2630,7 @@ GNATdoc.Documentation = {
         {
           "label": "DISPCNT",
           "qualifier": "",
-          "line": 8,
+          "line": 11,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2641,7 +2641,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 8,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -2727,7 +2727,7 @@ GNATdoc.Documentation = {
         {
           "label": "DISPSTAT",
           "qualifier": "",
-          "line": 10,
+          "line": 13,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2738,7 +2738,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -2824,7 +2824,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA0CNT_H",
           "qualifier": "",
-          "line": 89,
+          "line": 92,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2835,7 +2835,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -2921,7 +2921,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA0CNT_L",
           "qualifier": "",
-          "line": 88,
+          "line": 91,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -2932,7 +2932,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -3018,7 +3018,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA0DAD",
           "qualifier": "",
-          "line": 87,
+          "line": 90,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3029,7 +3029,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -3115,7 +3115,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA0SAD",
           "qualifier": "",
-          "line": 86,
+          "line": 89,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3126,7 +3126,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 86,
+                  "number": 89,
                   "children": [
                     {
                       "kind": "span",
@@ -3212,7 +3212,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA1CNT_H",
           "qualifier": "",
-          "line": 94,
+          "line": 97,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3223,7 +3223,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -3309,7 +3309,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA1CNT_L",
           "qualifier": "",
-          "line": 93,
+          "line": 96,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3320,7 +3320,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -3406,7 +3406,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA1DAD",
           "qualifier": "",
-          "line": 92,
+          "line": 95,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3417,7 +3417,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -3503,7 +3503,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA1SAD",
           "qualifier": "",
-          "line": 91,
+          "line": 94,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3514,7 +3514,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -3600,7 +3600,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA2CNT_H",
           "qualifier": "",
-          "line": 99,
+          "line": 102,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3611,7 +3611,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -3697,7 +3697,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA2CNT_L",
           "qualifier": "",
-          "line": 98,
+          "line": 101,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3708,7 +3708,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -3794,7 +3794,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA2DAD",
           "qualifier": "",
-          "line": 97,
+          "line": 100,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3805,7 +3805,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -3891,7 +3891,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA2SAD",
           "qualifier": "",
-          "line": 96,
+          "line": 99,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3902,7 +3902,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -3988,7 +3988,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA3CNT_H",
           "qualifier": "",
-          "line": 104,
+          "line": 107,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -3999,7 +3999,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 104,
+                  "number": 107,
                   "children": [
                     {
                       "kind": "span",
@@ -4085,7 +4085,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA3CNT_L",
           "qualifier": "",
-          "line": 103,
+          "line": 106,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4096,7 +4096,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 106,
                   "children": [
                     {
                       "kind": "span",
@@ -4182,7 +4182,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA3DAD",
           "qualifier": "",
-          "line": 102,
+          "line": 105,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4193,7 +4193,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 105,
                   "children": [
                     {
                       "kind": "span",
@@ -4279,7 +4279,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA3SAD",
           "qualifier": "",
-          "line": 101,
+          "line": 104,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4290,7 +4290,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 104,
                   "children": [
                     {
                       "kind": "span",
@@ -4376,7 +4376,7 @@ GNATdoc.Documentation = {
         {
           "label": "FIFO_A",
           "qualifier": "",
-          "line": 80,
+          "line": 83,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4387,7 +4387,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -4473,7 +4473,7 @@ GNATdoc.Documentation = {
         {
           "label": "FIFO_B",
           "qualifier": "",
-          "line": 81,
+          "line": 84,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4484,7 +4484,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -4570,7 +4570,7 @@ GNATdoc.Documentation = {
         {
           "label": "GREENSWAP",
           "qualifier": "",
-          "line": 9,
+          "line": 12,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4581,7 +4581,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -4667,7 +4667,7 @@ GNATdoc.Documentation = {
         {
           "label": "HALTCNT",
           "qualifier": "",
-          "line": 157,
+          "line": 160,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4678,7 +4678,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -4764,7 +4764,7 @@ GNATdoc.Documentation = {
         {
           "label": "IE",
           "qualifier": "",
-          "line": 151,
+          "line": 154,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4775,7 +4775,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 151,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -4861,7 +4861,7 @@ GNATdoc.Documentation = {
         {
           "label": "IME",
           "qualifier": "",
-          "line": 154,
+          "line": 157,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4872,7 +4872,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 154,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -4958,7 +4958,7 @@ GNATdoc.Documentation = {
         {
           "label": "IRF",
           "qualifier": "",
-          "line": 152,
+          "line": 155,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -4969,7 +4969,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 152,
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
@@ -5055,7 +5055,7 @@ GNATdoc.Documentation = {
         {
           "label": "JOY_RECV",
           "qualifier": "",
-          "line": 144,
+          "line": 147,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5066,7 +5066,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 147,
                   "children": [
                     {
                       "kind": "span",
@@ -5152,7 +5152,7 @@ GNATdoc.Documentation = {
         {
           "label": "JOY_TRANS",
           "qualifier": "",
-          "line": 145,
+          "line": 148,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5163,7 +5163,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 148,
                   "children": [
                     {
                       "kind": "span",
@@ -5249,7 +5249,7 @@ GNATdoc.Documentation = {
         {
           "label": "JOYCNT",
           "qualifier": "",
-          "line": 143,
+          "line": 146,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5260,7 +5260,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 146,
                   "children": [
                     {
                       "kind": "span",
@@ -5346,7 +5346,7 @@ GNATdoc.Documentation = {
         {
           "label": "JOYSTAT",
           "qualifier": "",
-          "line": 146,
+          "line": 149,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5357,7 +5357,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 149,
                   "children": [
                     {
                       "kind": "span",
@@ -5443,7 +5443,7 @@ GNATdoc.Documentation = {
         {
           "label": "KEYCNT",
           "qualifier": "",
-          "line": 137,
+          "line": 140,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5454,7 +5454,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -5540,7 +5540,7 @@ GNATdoc.Documentation = {
         {
           "label": "KEYINPUT",
           "qualifier": "",
-          "line": 136,
+          "line": 139,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5551,7 +5551,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -5637,7 +5637,7 @@ GNATdoc.Documentation = {
         {
           "label": "MOSAIC",
           "qualifier": "",
-          "line": 49,
+          "line": 52,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5648,7 +5648,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -5734,7 +5734,7 @@ GNATdoc.Documentation = {
         {
           "label": "POSTFLG",
           "qualifier": "",
-          "line": 156,
+          "line": 159,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5745,7 +5745,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 156,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -5831,7 +5831,7 @@ GNATdoc.Documentation = {
         {
           "label": "RCNT",
           "qualifier": "",
-          "line": 142,
+          "line": 145,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5842,7 +5842,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -5928,7 +5928,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIOCNT",
           "qualifier": "",
-          "line": 129,
+          "line": 132,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -5939,7 +5939,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -6025,7 +6025,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIODATA32",
           "qualifier": "",
-          "line": 124,
+          "line": 127,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6036,7 +6036,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 127,
                   "children": [
                     {
                       "kind": "span",
@@ -6122,7 +6122,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIODATA8",
           "qualifier": "",
-          "line": 131,
+          "line": 134,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6133,7 +6133,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -6219,7 +6219,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIOMLT_SEND",
           "qualifier": "",
-          "line": 130,
+          "line": 133,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6230,7 +6230,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 133,
                   "children": [
                     {
                       "kind": "span",
@@ -6316,7 +6316,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIOMULTI0",
           "qualifier": "",
-          "line": 125,
+          "line": 128,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6327,7 +6327,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -6413,7 +6413,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIOMULTI1",
           "qualifier": "",
-          "line": 126,
+          "line": 129,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6424,7 +6424,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -6510,7 +6510,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIOMULTI2",
           "qualifier": "",
-          "line": 127,
+          "line": 130,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6521,7 +6521,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -6607,7 +6607,7 @@ GNATdoc.Documentation = {
         {
           "label": "SIOMULTI3",
           "qualifier": "",
-          "line": 128,
+          "line": 131,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6618,7 +6618,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -6704,7 +6704,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND1CNT_H",
           "qualifier": "",
-          "line": 59,
+          "line": 62,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6715,7 +6715,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -6801,7 +6801,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND1CNT_L",
           "qualifier": "",
-          "line": 58,
+          "line": 61,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6812,7 +6812,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -6898,7 +6898,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND1CNT_X",
           "qualifier": "",
-          "line": 60,
+          "line": 63,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -6909,7 +6909,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -6995,7 +6995,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND2CNT_H",
           "qualifier": "",
-          "line": 63,
+          "line": 66,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7006,7 +7006,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -7092,7 +7092,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND2CNT_L",
           "qualifier": "",
-          "line": 62,
+          "line": 65,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7103,7 +7103,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -7189,7 +7189,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND3CNT_H",
           "qualifier": "",
-          "line": 66,
+          "line": 69,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7200,7 +7200,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -7286,7 +7286,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND3CNT_L",
           "qualifier": "",
-          "line": 65,
+          "line": 68,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7297,7 +7297,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -7383,7 +7383,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND3CNT_X",
           "qualifier": "",
-          "line": 67,
+          "line": 70,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7394,7 +7394,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -7480,7 +7480,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND4CNT_H",
           "qualifier": "",
-          "line": 70,
+          "line": 73,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7491,7 +7491,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -7577,7 +7577,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUND4CNT_L",
           "qualifier": "",
-          "line": 69,
+          "line": 72,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7588,7 +7588,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -7674,7 +7674,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUNDBIAS",
           "qualifier": "",
-          "line": 76,
+          "line": 79,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7685,7 +7685,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -7771,7 +7771,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUNDCNT_H",
           "qualifier": "",
-          "line": 73,
+          "line": 76,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7782,7 +7782,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -7868,7 +7868,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUNDCNT_L",
           "qualifier": "",
-          "line": 72,
+          "line": 75,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7879,7 +7879,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -7965,7 +7965,7 @@ GNATdoc.Documentation = {
         {
           "label": "SOUNDCNT_X",
           "qualifier": "",
-          "line": 74,
+          "line": 77,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -7976,7 +7976,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -8062,7 +8062,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM0CNT_H",
           "qualifier": "",
-          "line": 110,
+          "line": 113,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8073,7 +8073,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 110,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -8159,7 +8159,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM0CNT_L",
           "qualifier": "",
-          "line": 109,
+          "line": 112,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8170,7 +8170,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -8256,7 +8256,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM1CNT_H",
           "qualifier": "",
-          "line": 113,
+          "line": 116,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8267,7 +8267,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 113,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -8353,7 +8353,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM1CNT_L",
           "qualifier": "",
-          "line": 112,
+          "line": 115,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8364,7 +8364,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 115,
                   "children": [
                     {
                       "kind": "span",
@@ -8450,7 +8450,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM2CNT_H",
           "qualifier": "",
-          "line": 116,
+          "line": 119,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8461,7 +8461,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -8547,7 +8547,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM2CNT_L",
           "qualifier": "",
-          "line": 115,
+          "line": 118,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8558,7 +8558,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 118,
                   "children": [
                     {
                       "kind": "span",
@@ -8644,7 +8644,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM3CNT_H",
           "qualifier": "",
-          "line": 119,
+          "line": 122,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8655,7 +8655,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -8741,7 +8741,7 @@ GNATdoc.Documentation = {
         {
           "label": "TM3CNT_L",
           "qualifier": "",
-          "line": 118,
+          "line": 121,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8752,7 +8752,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 121,
                   "children": [
                     {
                       "kind": "span",
@@ -8838,7 +8838,7 @@ GNATdoc.Documentation = {
         {
           "label": "VCOUNT",
           "qualifier": "",
-          "line": 11,
+          "line": 14,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8849,7 +8849,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -8935,7 +8935,7 @@ GNATdoc.Documentation = {
         {
           "label": "WAITCNT",
           "qualifier": "",
-          "line": 153,
+          "line": 156,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -8946,7 +8946,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 153,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -9032,7 +9032,7 @@ GNATdoc.Documentation = {
         {
           "label": "WAVE_RAM",
           "qualifier": "",
-          "line": 78,
+          "line": 81,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -9043,7 +9043,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -9129,7 +9129,7 @@ GNATdoc.Documentation = {
         {
           "label": "WIN0H",
           "qualifier": "",
-          "line": 41,
+          "line": 44,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -9140,7 +9140,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -9226,7 +9226,7 @@ GNATdoc.Documentation = {
         {
           "label": "WIN0V",
           "qualifier": "",
-          "line": 43,
+          "line": 46,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -9237,7 +9237,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -9323,7 +9323,7 @@ GNATdoc.Documentation = {
         {
           "label": "WIN1H",
           "qualifier": "",
-          "line": 42,
+          "line": 45,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -9334,7 +9334,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -9420,7 +9420,7 @@ GNATdoc.Documentation = {
         {
           "label": "WIN1V",
           "qualifier": "",
-          "line": 44,
+          "line": 47,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -9431,7 +9431,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -9517,7 +9517,7 @@ GNATdoc.Documentation = {
         {
           "label": "WININ",
           "qualifier": "",
-          "line": 46,
+          "line": 49,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -9528,7 +9528,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -9614,7 +9614,7 @@ GNATdoc.Documentation = {
         {
           "label": "WINOUT",
           "qualifier": "",
-          "line": 47,
+          "line": 50,
           "column": 3,
           "src": "srcs/GBA.Memory.IO_Registers.ads.html",
           "summary": [
@@ -9625,7 +9625,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",

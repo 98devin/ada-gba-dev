@@ -5,6 +5,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
@@ -13,43 +18,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "pragma"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Assume_No_Invalid_Values"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "On"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
         }
       ]
     },
@@ -62,6 +32,12 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 4,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
       "children": [
         {
           "kind": "span",
@@ -77,7 +53,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA",
-          "href": "docs/gba___spec.html#L4C9"
+          "href": "docs/gba___spec.html#L5C9"
         },
         {
           "kind": "span",
@@ -93,13 +69,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 5,
+      "number": 6,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 6,
+      "number": 7,
       "children": [
         {
           "kind": "span",
@@ -119,7 +95,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Pure"
+          "text": "Preelaborate"
         },
         {
           "kind": "span",
@@ -130,13 +106,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 7,
+      "number": 8,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 8,
+      "number": 9,
       "children": [
         {
           "kind": "span",

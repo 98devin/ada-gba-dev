@@ -5,6 +5,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
@@ -13,23 +18,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "GBA.Memory"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
         }
       ]
     },
@@ -37,26 +27,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 3,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "GBA.Memory"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -82,7 +52,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Numerics"
+          "text": "GBA.Memory"
         },
         {
           "kind": "span",
@@ -108,7 +78,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Numerics"
+          "text": "GBA.Memory"
         },
         {
           "kind": "span",
@@ -140,7 +110,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Display.Tiles"
+          "text": "GBA.Numerics"
         },
         {
           "kind": "span",
@@ -166,7 +136,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Display.Tiles"
+          "text": "GBA.Numerics"
         },
         {
           "kind": "span",
@@ -198,7 +168,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Display.Palettes"
+          "text": "GBA.Display.Tiles"
         },
         {
           "kind": "span",
@@ -224,7 +194,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Display.Palettes"
+          "text": "GBA.Display.Tiles"
         },
         {
           "kind": "span",
@@ -243,11 +213,69 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 14,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "GBA.Display.Palettes"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 15,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "GBA.Display.Palettes"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 16,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 17,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -263,7 +291,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA.Display.Objects",
-          "href": "docs/gba__display__objects___spec.html#L15C21"
+          "href": "docs/gba__display__objects___spec.html#L18C21"
         },
         {
           "kind": "span",
@@ -279,13 +307,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 19,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 20,
       "children": [
         {
           "kind": "span",
@@ -306,7 +334,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_ID",
-          "href": "docs/gba__display__objects___spec.html#L17C8"
+          "href": "docs/gba__display__objects___spec.html#L20C8"
         },
         {
           "kind": "span",
@@ -367,13 +395,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 21,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -394,7 +422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Y_Coordinate",
-          "href": "docs/gba__display__objects___spec.html#L19C8"
+          "href": "docs/gba__display__objects___spec.html#L22C8"
         },
         {
           "kind": "span",
@@ -445,13 +473,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 23,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -472,7 +500,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_X_Coordinate",
-          "href": "docs/gba__display__objects___spec.html#L21C8"
+          "href": "docs/gba__display__objects___spec.html#L24C8"
         },
         {
           "kind": "span",
@@ -523,19 +551,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 25,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 26,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -556,7 +584,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Kind",
-          "href": "docs/gba__display__objects___spec.html#L24C8"
+          "href": "docs/gba__display__objects___spec.html#L27C8"
         },
         {
           "kind": "span",
@@ -572,7 +600,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -593,13 +621,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Regular",
-          "href": "docs/gba__display__objects___spec.html#L25C7"
+          "href": "docs/gba__display__objects___spec.html#L28C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 29,
       "children": [
         {
           "kind": "span",
@@ -620,13 +648,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine",
-          "href": "docs/gba__display__objects___spec.html#L26C7"
+          "href": "docs/gba__display__objects___spec.html#L29C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -642,7 +670,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -668,13 +696,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 32,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -695,7 +723,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Kind",
-          "href": "docs/gba__display__objects___spec.html#L24C8"
+          "href": "docs/gba__display__objects___spec.html#L27C8"
         },
         {
           "kind": "span",
@@ -711,7 +739,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -757,7 +785,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -803,7 +831,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 36,
       "children": [
         {
           "kind": "span",
@@ -824,19 +852,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 37,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 38,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -857,7 +885,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Mode",
-          "href": "docs/gba__display__objects___spec.html#L36C8"
+          "href": "docs/gba__display__objects___spec.html#L39C8"
         },
         {
           "kind": "span",
@@ -873,7 +901,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -894,13 +922,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Normal",
-          "href": "docs/gba__display__objects___spec.html#L37C7"
+          "href": "docs/gba__display__objects___spec.html#L40C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -921,13 +949,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transparent",
-          "href": "docs/gba__display__objects___spec.html#L38C7"
+          "href": "docs/gba__display__objects___spec.html#L41C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -948,13 +976,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Window",
-          "href": "docs/gba__display__objects___spec.html#L39C7"
+          "href": "docs/gba__display__objects___spec.html#L42C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -970,7 +998,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -996,13 +1024,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 45,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -1023,7 +1051,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Mode",
-          "href": "docs/gba__display__objects___spec.html#L36C8"
+          "href": "docs/gba__display__objects___spec.html#L39C8"
         },
         {
           "kind": "span",
@@ -1039,7 +1067,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -1085,7 +1113,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 48,
       "children": [
         {
           "kind": "span",
@@ -1131,7 +1159,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -1177,7 +1205,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1198,19 +1226,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 51,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 52,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 53,
       "children": [
         {
           "kind": "span",
@@ -1231,7 +1259,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Shape",
-          "href": "docs/gba__display__objects___spec.html#L50C8"
+          "href": "docs/gba__display__objects___spec.html#L53C8"
         },
         {
           "kind": "span",
@@ -1247,7 +1275,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -1268,13 +1296,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Square",
-          "href": "docs/gba__display__objects___spec.html#L51C7"
+          "href": "docs/gba__display__objects___spec.html#L54C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -1295,13 +1323,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wide",
-          "href": "docs/gba__display__objects___spec.html#L52C7"
+          "href": "docs/gba__display__objects___spec.html#L55C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -1322,13 +1350,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Tall",
-          "href": "docs/gba__display__objects___spec.html#L53C7"
+          "href": "docs/gba__display__objects___spec.html#L56C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 57,
       "children": [
         {
           "kind": "span",
@@ -1344,7 +1372,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 58,
       "children": [
         {
           "kind": "span",
@@ -1370,13 +1398,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 59,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 60,
       "children": [
         {
           "kind": "span",
@@ -1397,7 +1425,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Shape",
-          "href": "docs/gba__display__objects___spec.html#L50C8"
+          "href": "docs/gba__display__objects___spec.html#L53C8"
         },
         {
           "kind": "span",
@@ -1413,7 +1441,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -1459,7 +1487,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1505,7 +1533,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -1551,7 +1579,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1572,19 +1600,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 65,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 66,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 67,
       "children": [
         {
           "kind": "span",
@@ -1605,7 +1633,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Scale",
-          "href": "docs/gba__display__objects___spec.html#L64C8"
+          "href": "docs/gba__display__objects___spec.html#L67C8"
         },
         {
           "kind": "span",
@@ -1661,7 +1689,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -1687,19 +1715,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 69,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 70,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 71,
       "children": [
         {
           "kind": "span",
@@ -1720,7 +1748,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Size",
-          "href": "docs/gba__display__objects___spec.html#L68C8"
+          "href": "docs/gba__display__objects___spec.html#L71C8"
         },
         {
           "kind": "span",
@@ -1736,7 +1764,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -1757,87 +1785,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Size_8x8",
-          "href": "docs/gba__display__objects___spec.html#L69C7"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 70,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Size_16x16",
-          "href": "docs/gba__display__objects___spec.html#L70C7"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 71,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Size_32x32",
-          "href": "docs/gba__display__objects___spec.html#L71C7"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 72,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Size_64x64",
           "href": "docs/gba__display__objects___spec.html#L72C7"
         }
       ]
@@ -1864,7 +1811,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_16x8",
+          "text": "Size_16x16",
           "href": "docs/gba__display__objects___spec.html#L73C7"
         }
       ]
@@ -1891,7 +1838,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_32x8",
+          "text": "Size_32x32",
           "href": "docs/gba__display__objects___spec.html#L74C7"
         }
       ]
@@ -1918,7 +1865,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_32x16",
+          "text": "Size_64x64",
           "href": "docs/gba__display__objects___spec.html#L75C7"
         }
       ]
@@ -1945,7 +1892,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_64x32",
+          "text": "Size_16x8",
           "href": "docs/gba__display__objects___spec.html#L76C7"
         }
       ]
@@ -1972,7 +1919,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_8x16",
+          "text": "Size_32x8",
           "href": "docs/gba__display__objects___spec.html#L77C7"
         }
       ]
@@ -1999,7 +1946,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_8x32",
+          "text": "Size_32x16",
           "href": "docs/gba__display__objects___spec.html#L78C7"
         }
       ]
@@ -2026,7 +1973,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_16x32",
+          "text": "Size_64x32",
           "href": "docs/gba__display__objects___spec.html#L79C7"
         }
       ]
@@ -2053,7 +2000,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Size_32x64",
+          "text": "Size_8x16",
           "href": "docs/gba__display__objects___spec.html#L80C7"
         }
       ]
@@ -2061,6 +2008,87 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 81,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Size_8x32",
+          "href": "docs/gba__display__objects___spec.html#L81C7"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 82,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Size_16x32",
+          "href": "docs/gba__display__objects___spec.html#L82C7"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 83,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Size_32x64",
+          "href": "docs/gba__display__objects___spec.html#L83C7"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -2096,13 +2124,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 85,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 86,
       "children": [
         {
           "kind": "span",
@@ -2123,7 +2151,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Size",
-          "href": "docs/gba__display__objects___spec.html#L68C8"
+          "href": "docs/gba__display__objects___spec.html#L71C8"
         },
         {
           "kind": "span",
@@ -2139,7 +2167,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 87,
       "children": [
         {
           "kind": "span",
@@ -2200,7 +2228,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 88,
       "children": [
         {
           "kind": "span",
@@ -2261,7 +2289,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 89,
       "children": [
         {
           "kind": "span",
@@ -2322,7 +2350,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 90,
       "children": [
         {
           "kind": "span",
@@ -2383,7 +2411,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 91,
       "children": [
         {
           "kind": "span",
@@ -2444,7 +2472,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 92,
       "children": [
         {
           "kind": "span",
@@ -2505,7 +2533,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 93,
       "children": [
         {
           "kind": "span",
@@ -2566,7 +2594,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -2627,7 +2655,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -2688,7 +2716,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -2749,7 +2777,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -2810,7 +2838,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -2871,7 +2899,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -2892,19 +2920,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 100,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 101,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -2925,7 +2953,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "As_Size",
-          "href": "docs/gba__display__objects___spec.html#L99C12"
+          "href": "docs/gba__display__objects___spec.html#L102C12"
         },
         {
           "kind": "span",
@@ -2941,7 +2969,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Shape",
-          "href": "docs/gba__display__objects___spec.html#L99C21"
+          "href": "docs/gba__display__objects___spec.html#L102C21"
         },
         {
           "kind": "span",
@@ -2962,7 +2990,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Shape",
-          "href": "docs/gba__display__objects___spec.html#L50C8"
+          "href": "docs/gba__display__objects___spec.html#L53C8"
         },
         {
           "kind": "span",
@@ -2978,7 +3006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Scale",
-          "href": "docs/gba__display__objects___spec.html#L99C40"
+          "href": "docs/gba__display__objects___spec.html#L102C40"
         },
         {
           "kind": "span",
@@ -2999,7 +3027,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Scale",
-          "href": "docs/gba__display__objects___spec.html#L64C8"
+          "href": "docs/gba__display__objects___spec.html#L67C8"
         },
         {
           "kind": "span",
@@ -3025,202 +3053,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Size",
-          "href": "docs/gba__display__objects___spec.html#L68C8"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 100,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Inline_Always"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 101,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 102,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "As_Shape_And_Scale",
-          "href": "docs/gba__display__objects___spec.html#L102C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Size",
-          "href": "docs/gba__display__objects___spec.html#L102C33"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OBJ_Size",
-          "href": "docs/gba__display__objects___spec.html#L68C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Shape",
-          "href": "docs/gba__display__objects___spec.html#L102C50"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OBJ_Shape",
-          "href": "docs/gba__display__objects___spec.html#L50C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Scale",
-          "href": "docs/gba__display__objects___spec.html#L102C73"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "out"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OBJ_Scale",
-          "href": "docs/gba__display__objects___spec.html#L64C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
+          "href": "docs/gba__display__objects___spec.html#L71C8"
         }
       ]
     },
@@ -3260,11 +3093,206 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 105,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "As_Shape_And_Scale",
+          "href": "docs/gba__display__objects___spec.html#L105C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Size",
+          "href": "docs/gba__display__objects___spec.html#L105C33"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_Size",
+          "href": "docs/gba__display__objects___spec.html#L71C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Shape",
+          "href": "docs/gba__display__objects___spec.html#L105C50"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_Shape",
+          "href": "docs/gba__display__objects___spec.html#L53C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Scale",
+          "href": "docs/gba__display__objects___spec.html#L105C73"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "out"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_Scale",
+          "href": "docs/gba__display__objects___spec.html#L67C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 106,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 107,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 108,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -3285,7 +3313,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Affine_Transform_Index",
-          "href": "docs/gba__display__objects___spec.html#L106C8"
+          "href": "docs/gba__display__objects___spec.html#L109C8"
         },
         {
           "kind": "span",
@@ -3341,7 +3369,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -3367,13 +3395,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 111,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 112,
       "children": [
         {
           "kind": "span",
@@ -3394,7 +3422,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Transform_Address",
-          "href": "docs/gba__display__objects___spec.html#L109C12"
+          "href": "docs/gba__display__objects___spec.html#L112C12"
         },
         {
           "kind": "span",
@@ -3410,7 +3438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Ix",
-          "href": "docs/gba__display__objects___spec.html#L109C38"
+          "href": "docs/gba__display__objects___spec.html#L112C38"
         },
         {
           "kind": "span",
@@ -3431,7 +3459,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Affine_Transform_Index",
-          "href": "docs/gba__display__objects___spec.html#L106C8"
+          "href": "docs/gba__display__objects___spec.html#L109C8"
         },
         {
           "kind": "span",
@@ -3457,13 +3485,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -3489,19 +3517,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 114,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 115,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -3522,7 +3550,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L113C8"
+          "href": "docs/gba__display__objects___spec.html#L116C8"
         },
         {
           "kind": "span",
@@ -3538,7 +3566,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Kind",
-          "href": "docs/gba__display__objects___spec.html#L113C24"
+          "href": "docs/gba__display__objects___spec.html#L116C24"
         },
         {
           "kind": "span",
@@ -3559,7 +3587,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Kind",
-          "href": "docs/gba__display__objects___spec.html#L24C8"
+          "href": "docs/gba__display__objects___spec.html#L27C8"
         },
         {
           "kind": "span",
@@ -3600,7 +3628,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 117,
       "children": [
         {
           "kind": "span",
@@ -3616,7 +3644,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 118,
       "children": [
         {
           "kind": "span",
@@ -3627,7 +3655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Y",
-          "href": "docs/gba__display__objects___spec.html#L115C7"
+          "href": "docs/gba__display__objects___spec.html#L118C7"
         },
         {
           "kind": "span",
@@ -3648,7 +3676,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Y_Coordinate",
-          "href": "docs/gba__display__objects___spec.html#L19C8"
+          "href": "docs/gba__display__objects___spec.html#L22C8"
         },
         {
           "kind": "span",
@@ -3659,7 +3687,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -3670,7 +3698,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "X",
-          "href": "docs/gba__display__objects___spec.html#L116C7"
+          "href": "docs/gba__display__objects___spec.html#L119C7"
         },
         {
           "kind": "span",
@@ -3691,7 +3719,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_X_Coordinate",
-          "href": "docs/gba__display__objects___spec.html#L21C8"
+          "href": "docs/gba__display__objects___spec.html#L24C8"
         },
         {
           "kind": "span",
@@ -3702,7 +3730,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 120,
       "children": [
         {
           "kind": "span",
@@ -3713,7 +3741,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mode",
-          "href": "docs/gba__display__objects___spec.html#L117C7"
+          "href": "docs/gba__display__objects___spec.html#L120C7"
         },
         {
           "kind": "span",
@@ -3734,7 +3762,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Mode",
-          "href": "docs/gba__display__objects___spec.html#L36C8"
+          "href": "docs/gba__display__objects___spec.html#L39C8"
         },
         {
           "kind": "span",
@@ -3745,7 +3773,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -3756,7 +3784,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Enable_Mosaic",
-          "href": "docs/gba__display__objects___spec.html#L118C7"
+          "href": "docs/gba__display__objects___spec.html#L121C7"
         },
         {
           "kind": "span",
@@ -3787,135 +3815,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Color_Mode",
-          "href": "docs/gba__display__objects___spec.html#L119C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Palette_Mode",
-          "href": "docs/gba__display__palettes___spec.html#L9C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 120,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Shape",
-          "href": "docs/gba__display__objects___spec.html#L120C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OBJ_Shape",
-          "href": "docs/gba__display__objects___spec.html#L50C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 121,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Scale",
-          "href": "docs/gba__display__objects___spec.html#L121C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OBJ_Scale",
-          "href": "docs/gba__display__objects___spec.html#L64C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 122,
       "children": [
         {
@@ -3926,7 +3825,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Tile_Index",
+          "text": "Color_Mode",
           "href": "docs/gba__display__objects___spec.html#L122C7"
         },
         {
@@ -3947,8 +3846,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "OBJ_Tile_Index",
-          "href": "docs/gba__display__tiles___spec.html#L41C8"
+          "text": "Palette_Mode",
+          "href": "docs/gba__display__palettes___spec.html#L12C8"
         },
         {
           "kind": "span",
@@ -3969,13 +3868,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Priority",
+          "text": "Shape",
           "href": "docs/gba__display__objects___spec.html#L123C7"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "      "
+          "text": "         "
         },
         {
           "kind": "span",
@@ -3990,8 +3889,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Display_Priority",
-          "href": "docs/gba__display___spec.html#L43C8"
+          "text": "OBJ_Shape",
+          "href": "docs/gba__display__objects___spec.html#L53C8"
         },
         {
           "kind": "span",
@@ -4012,8 +3911,137 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Palette_Index",
+          "text": "Scale",
           "href": "docs/gba__display__objects___spec.html#L124C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_Scale",
+          "href": "docs/gba__display__objects___spec.html#L67C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 125,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Tile_Index",
+          "href": "docs/gba__display__objects___spec.html#L125C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_Tile_Index",
+          "href": "docs/gba__display__tiles___spec.html#L44C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 126,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Priority",
+          "href": "docs/gba__display__objects___spec.html#L126C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Display_Priority",
+          "href": "docs/gba__display___spec.html#L46C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 127,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Palette_Index",
+          "href": "docs/gba__display__objects___spec.html#L127C7"
         },
         {
           "kind": "span",
@@ -4034,7 +4062,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Palette_Index_16",
-          "href": "docs/gba__display__palettes___spec.html#L45C8"
+          "href": "docs/gba__display__palettes___spec.html#L48C8"
         },
         {
           "kind": "span",
@@ -4055,7 +4083,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -4091,7 +4119,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -4127,7 +4155,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -4138,7 +4166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Disabled",
-          "href": "docs/gba__display__objects___spec.html#L127C9"
+          "href": "docs/gba__display__objects___spec.html#L130C9"
         },
         {
           "kind": "span",
@@ -4164,126 +4192,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 128,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Flip_Horizontal",
-          "href": "docs/gba__display__objects___spec.html#L128C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 129,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "        "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Flip_Vertical",
-          "href": "docs/gba__display__objects___spec.html#L129C9"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Boolean"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 130,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "when"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Affine"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "=>"
         }
       ]
     },
@@ -4299,13 +4207,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Double_Size",
+          "text": "Flip_Horizontal",
           "href": "docs/gba__display__objects___spec.html#L131C9"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "     "
+          "text": " "
         },
         {
           "kind": "span",
@@ -4341,8 +4249,128 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Transform_Index",
+          "text": "Flip_Vertical",
           "href": "docs/gba__display__objects___spec.html#L132C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 133,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "when"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Affine"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 134,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Double_Size",
+          "href": "docs/gba__display__objects___spec.html#L134C9"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 135,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "        "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Transform_Index",
+          "href": "docs/gba__display__objects___spec.html#L135C9"
         },
         {
           "kind": "span",
@@ -4363,7 +4391,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Affine_Transform_Index",
-          "href": "docs/gba__display__objects___spec.html#L106C8"
+          "href": "docs/gba__display__objects___spec.html#L109C8"
         },
         {
           "kind": "span",
@@ -4374,7 +4402,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -4405,7 +4433,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -4431,7 +4459,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -4457,13 +4485,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 139,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -4484,7 +4512,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L113C8"
+          "href": "docs/gba__display__objects___spec.html#L116C8"
         },
         {
           "kind": "span",
@@ -4500,7 +4528,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -4516,7 +4544,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -4597,7 +4625,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -4678,7 +4706,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -4759,7 +4787,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -4840,7 +4868,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -4921,7 +4949,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -5002,7 +5030,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -5083,7 +5111,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -5164,7 +5192,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -5245,7 +5273,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -5326,7 +5354,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -5407,7 +5435,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -5488,7 +5516,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -5569,7 +5597,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -5650,7 +5678,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -5731,7 +5759,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -5812,7 +5840,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -5843,98 +5871,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 157,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 158,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "type"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Volatile_OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L158C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "is"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "new"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L113C8"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 159,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Volatile"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -5965,8 +5903,98 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "OAM_Attributes_Ptr",
+          "text": "Volatile_OBJ_Attributes",
           "href": "docs/gba__display__objects___spec.html#L161C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "new"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_Attributes",
+          "href": "docs/gba__display__objects___spec.html#L116C8"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 162,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Volatile"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 163,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 164,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OAM_Attributes_Ptr",
+          "href": "docs/gba__display__objects___spec.html#L164C8"
         },
         {
           "kind": "span",
@@ -6007,13 +6035,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Volatile_OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L158C8"
+          "href": "docs/gba__display__objects___spec.html#L161C8"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -6039,130 +6067,8 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 164,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 165,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Attributes_Of_Object",
-          "href": "docs/gba__display__objects___spec.html#L165C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "ID",
-          "href": "docs/gba__display__objects___spec.html#L165C34"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OBJ_ID",
-          "href": "docs/gba__display__objects___spec.html#L17C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "OAM_Attributes_Ptr",
-          "href": "docs/gba__display__objects___spec.html#L161C8"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 166,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Pure_Function, Inline_Always"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -6231,7 +6137,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_ID",
-          "href": "docs/gba__display__objects___spec.html#L17C8"
+          "href": "docs/gba__display__objects___spec.html#L20C8"
         },
         {
           "kind": "span",
@@ -6256,8 +6162,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L113C8"
+          "text": "OAM_Attributes_Ptr",
+          "href": "docs/gba__display__objects___spec.html#L164C8"
         }
       ]
     },
@@ -6278,7 +6184,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Inline_Always"
+          "text": " Pure_Function, Inline_Always"
         },
         {
           "kind": "span",
@@ -6305,7 +6211,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "procedure"
+          "text": "function"
         },
         {
           "kind": "span",
@@ -6315,8 +6221,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Set_Object_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L171C13"
+          "text": "Attributes_Of_Object",
+          "href": "docs/gba__display__objects___spec.html#L171C12"
         },
         {
           "kind": "span",
@@ -6332,7 +6238,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "ID",
-          "href": "docs/gba__display__objects___spec.html#L171C36"
+          "href": "docs/gba__display__objects___spec.html#L171C34"
         },
         {
           "kind": "span",
@@ -6353,7 +6259,129 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_ID",
-          "href": "docs/gba__display__objects___spec.html#L17C8"
+          "href": "docs/gba__display__objects___spec.html#L20C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_Attributes",
+          "href": "docs/gba__display__objects___spec.html#L116C8"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 172,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 173,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 174,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Set_Object_Attributes",
+          "href": "docs/gba__display__objects___spec.html#L174C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "ID",
+          "href": "docs/gba__display__objects___spec.html#L174C36"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "OBJ_ID",
+          "href": "docs/gba__display__objects___spec.html#L20C8"
         },
         {
           "kind": "span",
@@ -6369,7 +6397,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Attributes",
-          "href": "docs/gba__display__objects___spec.html#L171C49"
+          "href": "docs/gba__display__objects___spec.html#L174C49"
         },
         {
           "kind": "span",
@@ -6390,7 +6418,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L113C8"
+          "href": "docs/gba__display__objects___spec.html#L116C8"
         },
         {
           "kind": "span",
@@ -6401,7 +6429,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -6427,19 +6455,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 176,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 177,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -6460,7 +6488,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OAM_Entry",
-          "href": "docs/gba__display__objects___spec.html#L175C8"
+          "href": "docs/gba__display__objects___spec.html#L178C8"
         },
         {
           "kind": "span",
@@ -6486,7 +6514,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 179,
       "children": [
         {
           "kind": "span",
@@ -6502,7 +6530,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -6513,7 +6541,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Attributes",
-          "href": "docs/gba__display__objects___spec.html#L177C7"
+          "href": "docs/gba__display__objects___spec.html#L180C7"
         },
         {
           "kind": "span",
@@ -6544,7 +6572,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Volatile_OBJ_Attributes",
-          "href": "docs/gba__display__objects___spec.html#L158C8"
+          "href": "docs/gba__display__objects___spec.html#L161C8"
         },
         {
           "kind": "span",
@@ -6555,7 +6583,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -6566,7 +6594,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform_Parameter",
-          "href": "docs/gba__display__objects___spec.html#L178C7"
+          "href": "docs/gba__display__objects___spec.html#L181C7"
         },
         {
           "kind": "span",
@@ -6597,7 +6625,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Transform_Parameter",
-          "href": "docs/gba__numerics___spec.html#L77C11"
+          "href": "docs/gba__numerics___spec.html#L90C11"
         },
         {
           "kind": "span",
@@ -6623,7 +6651,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 182,
       "children": [
         {
           "kind": "span",
@@ -6649,7 +6677,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -6675,13 +6703,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 184,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 185,
       "children": [
         {
           "kind": "span",
@@ -6702,7 +6730,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OAM_Entry",
-          "href": "docs/gba__display__objects___spec.html#L175C8"
+          "href": "docs/gba__display__objects___spec.html#L178C8"
         },
         {
           "kind": "span",
@@ -6718,7 +6746,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -6734,7 +6762,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -6745,7 +6773,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Attributes",
-          "href": "docs/gba__display__objects___spec.html#L177C7"
+          "href": "docs/gba__display__objects___spec.html#L180C7"
         },
         {
           "kind": "span",
@@ -6816,7 +6844,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 188,
       "children": [
         {
           "kind": "span",
@@ -6897,7 +6925,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 186,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -6928,13 +6956,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 187,
+      "number": 190,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 188,
+      "number": 191,
       "children": [
         {
           "kind": "span",
@@ -6945,7 +6973,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Object_Attribute_Memory",
-          "href": "docs/gba__display__objects___spec.html#L188C3"
+          "href": "docs/gba__display__objects___spec.html#L191C3"
         },
         {
           "kind": "span",
@@ -7026,13 +7054,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OAM_Entry",
-          "href": "docs/gba__display__objects___spec.html#L175C8"
+          "href": "docs/gba__display__objects___spec.html#L178C8"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 189,
+      "number": 192,
       "children": [
         {
           "kind": "span",
@@ -7058,19 +7086,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 190,
+      "number": 193,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 191,
+      "number": 194,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 192,
+      "number": 195,
       "children": [
         {
           "kind": "span",

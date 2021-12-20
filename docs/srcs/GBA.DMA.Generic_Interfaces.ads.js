@@ -5,11 +5,39 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 2,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 4,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
       "children": [
         {
           "kind": "span",
@@ -20,7 +48,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3,
+      "number": 6,
       "children": [
         {
           "kind": "span",
@@ -41,7 +69,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Element_Type",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L3C8"
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L6C8"
         },
         {
           "kind": "span",
@@ -72,13 +100,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 4,
+      "number": 7,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 5,
+      "number": 8,
       "children": [
         {
           "kind": "span",
@@ -94,7 +122,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA.DMA.Generic_Interfaces",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L5C17"
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L8C17"
         },
         {
           "kind": "span",
@@ -110,13 +138,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 6,
+      "number": 9,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 7,
+      "number": 10,
       "children": [
         {
           "kind": "span",
@@ -242,138 +270,6 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 8,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 9,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Memset_Info",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L9C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Count",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L9C26"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Transfer_Count_Type",
-          "href": "docs/gba__dma___spec.html#L62C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Transfer_Info",
-          "href": "docs/gba__dma___spec.html#L64C8"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 10,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Inline, Pure_Function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
       "number": 11,
       "children": [
       ]
@@ -400,7 +296,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Memcopy_Info",
+          "text": "Memset_Info",
           "href": "docs/gba__dma__generic_interfaces___spec.html#L12C12"
         },
         {
@@ -421,8 +317,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Length",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L12C27"
+          "text": "Count",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L12C26"
         },
         {
           "kind": "span",
@@ -443,7 +339,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transfer_Count_Type",
-          "href": "docs/gba__dma___spec.html#L62C8"
+          "href": "docs/gba__dma___spec.html#L65C8"
         },
         {
           "kind": "span",
@@ -474,7 +370,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transfer_Info",
-          "href": "docs/gba__dma___spec.html#L64C8"
+          "href": "docs/gba__dma___spec.html#L67C8"
         }
       ]
     },
@@ -522,7 +418,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "procedure"
+          "text": "function"
         },
         {
           "kind": "span",
@@ -532,13 +428,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Memset",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L15C13"
+          "text": "Memcopy_Info",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L15C12"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": "  "
+          "text": " "
         },
         {
           "kind": "span",
@@ -553,98 +449,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Channel",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L15C23"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Channel_ID",
-          "href": "docs/gba__dma___spec.html#L105C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Source",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L15C45"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Dest",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L15C53"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Count",
-          "href": "docs/gba__dma__generic_interfaces___spec.html#L15C69"
+          "text": "Length",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L15C27"
         },
         {
           "kind": "span",
@@ -665,7 +471,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transfer_Count_Type",
-          "href": "docs/gba__dma___spec.html#L62C8"
+          "href": "docs/gba__dma___spec.html#L65C8"
         },
         {
           "kind": "span",
@@ -676,6 +482,27 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Transfer_Info",
+          "href": "docs/gba__dma___spec.html#L67C8"
         }
       ]
     },
@@ -696,7 +523,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Inline_Always"
+          "text": " Inline, Pure_Function"
         },
         {
           "kind": "span",
@@ -733,13 +560,13 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Memcopy",
+          "text": "Memset",
           "href": "docs/gba__dma__generic_interfaces___spec.html#L18C13"
         },
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " "
+          "text": "  "
         },
         {
           "kind": "span",
@@ -776,7 +603,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Channel_ID",
-          "href": "docs/gba__dma___spec.html#L105C8"
+          "href": "docs/gba__dma___spec.html#L108C8"
         },
         {
           "kind": "span",
@@ -829,7 +656,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -844,7 +671,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Length",
+          "text": "Count",
           "href": "docs/gba__dma__generic_interfaces___spec.html#L18C69"
         },
         {
@@ -866,7 +693,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transfer_Count_Type",
-          "href": "docs/gba__dma___spec.html#L62C8"
+          "href": "docs/gba__dma___spec.html#L65C8"
         },
         {
           "kind": "span",
@@ -915,6 +742,207 @@ GNATdoc.SourceFile = {
     {
       "kind": "line",
       "number": 21,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Memcopy",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L21C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Channel",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L21C23"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Channel_ID",
+          "href": "docs/gba__dma___spec.html#L108C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Source",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L21C45"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L21C53"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Length",
+          "href": "docs/gba__dma__generic_interfaces___spec.html#L21C69"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Transfer_Count_Type",
+          "href": "docs/gba__dma___spec.html#L65C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 22,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 23,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 24,
       "children": [
         {
           "kind": "span",

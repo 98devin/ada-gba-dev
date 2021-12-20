@@ -3,80 +3,80 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "Affine_Parameters_Ptr",
-      "docHref": "docs/gba__bios___spec.html#L175C8",
+      "docHref": "docs/gba__bios___spec.html#L178C8",
       "declared": "GBA.BIOS",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.ads.html#L175"
+      "srcHref": "srcs/GBA.BIOS.ads.html#L178"
     },
     {
       "label": "Color_Ref",
-      "docHref": "docs/gba__display__palettes___spec.html#L49C8",
+      "docHref": "docs/gba__display__palettes___spec.html#L52C8",
       "declared": "GBA.Display.Palettes",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L49"
+      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L52"
     },
     {
       "label": "Interrupt_Handler",
-      "docHref": "docs/gba__interrupts___spec.html#L53C8",
+      "docHref": "docs/gba__interrupts___spec.html#L56C8",
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Interrupts.ads.html#L53"
+      "srcHref": "srcs/GBA.Interrupts.ads.html#L56"
     },
     {
       "label": "OAM_Attributes_Ptr",
-      "docHref": "docs/gba__display__objects___spec.html#L161C8",
+      "docHref": "docs/gba__display__objects___spec.html#L164C8",
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L161"
+      "srcHref": "srcs/GBA.Display.Objects.ads.html#L164"
     },
     {
       "label": "Palette_16_Ptr",
-      "docHref": "docs/gba__display__palettes___spec.html#L56C8",
+      "docHref": "docs/gba__display__palettes___spec.html#L59C8",
       "declared": "GBA.Display.Palettes",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L56"
+      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L59"
     },
     {
       "label": "Palette_16x16_Ptr",
-      "docHref": "docs/gba__display__palettes___spec.html#L70C8",
+      "docHref": "docs/gba__display__palettes___spec.html#L73C8",
       "declared": "GBA.Display.Palettes",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L70"
+      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L73"
     },
     {
       "label": "Palette_256_Ptr",
-      "docHref": "docs/gba__display__palettes___spec.html#L63C8",
+      "docHref": "docs/gba__display__palettes___spec.html#L66C8",
       "declared": "GBA.Display.Palettes",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L63"
+      "srcHref": "srcs/GBA.Display.Palettes.ads.html#L66"
     },
     {
       "label": "Screen_Block_16_Ptr",
-      "docHref": "docs/gba__display__tiles___spec.html#L109C8",
+      "docHref": "docs/gba__display__tiles___spec.html#L112C8",
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L109"
+      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L112"
     },
     {
       "label": "Screen_Block_8_Ptr",
-      "docHref": "docs/gba__display__tiles___spec.html#L121C8",
+      "docHref": "docs/gba__display__tiles___spec.html#L124C8",
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L121"
+      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L124"
     },
     {
       "label": "Tile_Block_4_Ptr",
-      "docHref": "docs/gba__display__tiles___spec.html#L93C8",
+      "docHref": "docs/gba__display__tiles___spec.html#L96C8",
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L93"
+      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L96"
     },
     {
       "label": "Tile_Block_8_Ptr",
-      "docHref": "docs/gba__display__tiles___spec.html#L101C8",
+      "docHref": "docs/gba__display__tiles___spec.html#L104C8",
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L101"
+      "srcHref": "srcs/GBA.Display.Tiles.ads.html#L104"
     }
   ]
 };

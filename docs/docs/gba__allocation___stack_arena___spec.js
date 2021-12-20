@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Storage",
           "qualifier": "",
-          "line": 18,
+          "line": 21,
           "column": 5,
           "src": "srcs/GBA.Allocation.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -53,13 +53,13 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 22,
                   "children": [
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",

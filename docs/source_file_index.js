@@ -52,6 +52,10 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/GBA.Display.Backgrounds.ads.html"
   },
   {
+    "label": "GBA.Display.Backgrounds.Refs.ads",
+    "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html"
+  },
+  {
     "label": "GBA.Display.Objects.ads",
     "srcHref": "srcs/GBA.Display.Objects.ads.html"
   },
@@ -74,6 +78,14 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "GBA.DMA.Generic_Interfaces.ads",
     "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html"
+  },
+  {
+    "label": "GBA.Handles.ads",
+    "srcHref": "srcs/GBA.Handles.ads.html"
+  },
+  {
+    "label": "GBA.Handles.Backgrounds.ads",
+    "srcHref": "srcs/GBA.Handles.Backgrounds.ads.html"
   },
   {
     "label": "GBA.Input.ads",
@@ -100,19 +112,23 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/GBA.Memory.Default_Heaps.ads.html"
   },
   {
-    "label": "GBA.Memory.Default_Secondary_Stack.ads",
-    "srcHref": "srcs/GBA.Memory.Default_Secondary_Stack.ads.html"
-  },
-  {
     "label": "GBA.Memory.IO_Registers.ads",
     "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html"
   },
   {
-    "label": "GBA.Memory.Secondary_Stack.ads",
-    "srcHref": "srcs/GBA.Memory.Secondary_Stack.ads.html"
-  },
-  {
     "label": "GBA.Numerics.ads",
     "srcHref": "srcs/GBA.Numerics.ads.html"
+  },
+  {
+    "label": "GBA.Numerics.Matrices.ads",
+    "srcHref": "srcs/GBA.Numerics.Matrices.ads.html"
+  },
+  {
+    "label": "GBA.Numerics.Vectors.ads",
+    "srcHref": "srcs/GBA.Numerics.Vectors.ads.html"
+  },
+  {
+    "label": "GBA.Refs.ads",
+    "srcHref": "srcs/GBA.Refs.ads.html"
   }
 ];

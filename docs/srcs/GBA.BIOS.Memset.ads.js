@@ -5,6 +5,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
@@ -13,23 +18,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "System"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
         }
       ]
     },
@@ -37,26 +27,6 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 3,
       "children": [
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "use"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "System"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
       ]
     },
     {
@@ -82,7 +52,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Interfaces.C"
+          "text": "System"
         },
         {
           "kind": "span",
@@ -108,7 +78,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Interfaces"
+          "text": "System"
         },
         {
           "kind": "span",
@@ -127,11 +97,69 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 8,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Interfaces.C"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 9,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Interfaces"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 10,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 11,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -147,13 +175,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA.BIOS.Memset",
-          "href": "docs/gba__bios__memset___spec.html#L9C19"
+          "href": "docs/gba__bios__memset___spec.html#L12C19"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -174,7 +202,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dest",
-          "href": "docs/gba__bios__memset___spec.html#L10C5"
+          "href": "docs/gba__bios__memset___spec.html#L13C5"
         },
         {
           "kind": "span",
@@ -220,7 +248,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Value",
-          "href": "docs/gba__bios__memset___spec.html#L10C24"
+          "href": "docs/gba__bios__memset___spec.html#L13C24"
         },
         {
           "kind": "span",
@@ -256,7 +284,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num_Bytes",
-          "href": "docs/gba__bios__memset___spec.html#L10C41"
+          "href": "docs/gba__bios__memset___spec.html#L13C41"
         },
         {
           "kind": "span",
@@ -312,7 +340,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -338,13 +366,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 15,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 16,
       "children": [
         {
           "kind": "span",

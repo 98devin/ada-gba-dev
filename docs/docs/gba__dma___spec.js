@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Channel_Addresses",
           "qualifier": "",
-          "line": 112,
+          "line": 115,
           "column": 3,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 115,
                   "children": [
                     {
                       "kind": "span",
@@ -113,7 +113,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 113,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -159,7 +159,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 114,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -205,7 +205,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 118,
                   "children": [
                     {
                       "kind": "span",
@@ -251,7 +251,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -297,7 +297,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -323,7 +323,7 @@ GNATdoc.Documentation = {
         {
           "label": "Channel_Array_View",
           "qualifier": "",
-          "line": 131,
+          "line": 134,
           "column": 3,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -334,7 +334,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -405,7 +405,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
@@ -441,7 +441,7 @@ GNATdoc.Documentation = {
         {
           "label": "Channel_ID",
           "qualifier": "",
-          "line": 105,
+          "line": 108,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -452,7 +452,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -473,7 +473,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_ID",
-                      "href": "docs/gba__dma___spec.html#L105C8"
+                      "href": "docs/gba__dma___spec.html#L108C8"
                     },
                     {
                       "kind": "span",
@@ -539,7 +539,7 @@ GNATdoc.Documentation = {
         {
           "label": "Dest_Address_Adjustment",
           "qualifier": "",
-          "line": 10,
+          "line": 13,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -550,7 +550,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -571,7 +571,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Dest_Address_Adjustment",
-                      "href": "docs/gba__dma___spec.html#L10C8"
+                      "href": "docs/gba__dma___spec.html#L13C8"
                     },
                     {
                       "kind": "span",
@@ -587,7 +587,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -608,13 +608,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Increment",
-                      "href": "docs/gba__dma___spec.html#L11C7"
+                      "href": "docs/gba__dma___spec.html#L14C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -635,13 +635,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Decrement",
-                      "href": "docs/gba__dma___spec.html#L12C7"
+                      "href": "docs/gba__dma___spec.html#L15C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -662,13 +662,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed",
-                      "href": "docs/gba__dma___spec.html#L13C7"
+                      "href": "docs/gba__dma___spec.html#L16C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -689,13 +689,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Increment_And_Reset",
-                      "href": "docs/gba__dma___spec.html#L14C7"
+                      "href": "docs/gba__dma___spec.html#L17C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -711,7 +711,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/gba__dma___spec.html#L10C8"
+                      "href": "docs/gba__dma___spec.html#L13C8"
                     }
                   ]
                 }
@@ -721,28 +721,28 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Increment",
-              "line": 11,
+              "line": 14,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Decrement",
-              "line": 12,
+              "line": 15,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Fixed",
-              "line": 13,
+              "line": 16,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Increment_And_Reset",
-              "line": 14,
+              "line": 17,
               "column": 7,
               "description": [
               ]
@@ -752,7 +752,7 @@ GNATdoc.Documentation = {
         {
           "label": "Source_Address_Adjustment",
           "qualifier": "",
-          "line": 25,
+          "line": 28,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -763,7 +763,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -784,7 +784,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Source_Address_Adjustment",
-                      "href": "docs/gba__dma___spec.html#L25C8"
+                      "href": "docs/gba__dma___spec.html#L28C8"
                     },
                     {
                       "kind": "span",
@@ -800,7 +800,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -821,13 +821,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Increment",
-                      "href": "docs/gba__dma___spec.html#L26C7"
+                      "href": "docs/gba__dma___spec.html#L29C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -848,13 +848,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Decrement",
-                      "href": "docs/gba__dma___spec.html#L27C7"
+                      "href": "docs/gba__dma___spec.html#L30C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -875,13 +875,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed",
-                      "href": "docs/gba__dma___spec.html#L28C7"
+                      "href": "docs/gba__dma___spec.html#L31C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -897,7 +897,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/gba__dma___spec.html#L25C8"
+                      "href": "docs/gba__dma___spec.html#L28C8"
                     }
                   ]
                 }
@@ -907,21 +907,21 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Increment",
-              "line": 26,
+              "line": 29,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Decrement",
-              "line": 27,
+              "line": 30,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Fixed",
-              "line": 28,
+              "line": 31,
               "column": 7,
               "description": [
               ]
@@ -931,7 +931,7 @@ GNATdoc.Documentation = {
         {
           "label": "Timing_Mode",
           "qualifier": "",
-          "line": 49,
+          "line": 52,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -942,7 +942,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -963,7 +963,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Timing_Mode",
-                      "href": "docs/gba__dma___spec.html#L49C8"
+                      "href": "docs/gba__dma___spec.html#L52C8"
                     },
                     {
                       "kind": "span",
@@ -979,7 +979,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -1000,13 +1000,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start_Immediately",
-                      "href": "docs/gba__dma___spec.html#L50C7"
+                      "href": "docs/gba__dma___spec.html#L53C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -1027,13 +1027,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start_At_VBlank",
-                      "href": "docs/gba__dma___spec.html#L51C7"
+                      "href": "docs/gba__dma___spec.html#L54C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -1054,13 +1054,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Start_At_HBlank",
-                      "href": "docs/gba__dma___spec.html#L52C7"
+                      "href": "docs/gba__dma___spec.html#L55C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -1076,7 +1076,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/gba__dma___spec.html#L49C8"
+                      "href": "docs/gba__dma___spec.html#L52C8"
                     }
                   ]
                 }
@@ -1086,21 +1086,21 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Start_Immediately",
-              "line": 50,
+              "line": 53,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Start_At_VBlank",
-              "line": 51,
+              "line": 54,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Start_At_HBlank",
-              "line": 52,
+              "line": 55,
               "column": 7,
               "description": [
               ]
@@ -1110,7 +1110,7 @@ GNATdoc.Documentation = {
         {
           "label": "Transfer_Count_Type",
           "qualifier": "",
-          "line": 62,
+          "line": 65,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -1121,7 +1121,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -1142,7 +1142,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Count_Type",
-                      "href": "docs/gba__dma___spec.html#L62C8"
+                      "href": "docs/gba__dma___spec.html#L65C8"
                     },
                     {
                       "kind": "span",
@@ -1198,7 +1198,7 @@ GNATdoc.Documentation = {
         {
           "label": "Unit_Size",
           "qualifier": "",
-          "line": 38,
+          "line": 41,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -1209,7 +1209,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -1230,7 +1230,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Unit_Size",
-                      "href": "docs/gba__dma___spec.html#L38C8"
+                      "href": "docs/gba__dma___spec.html#L41C8"
                     },
                     {
                       "kind": "span",
@@ -1246,7 +1246,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -1267,7 +1267,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Half_Word",
-                      "href": "docs/gba__dma___spec.html#L39C7"
+                      "href": "docs/gba__dma___spec.html#L42C7"
                     },
                     {
                       "kind": "span",
@@ -1283,7 +1283,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -1304,7 +1304,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Word",
-                      "href": "docs/gba__dma___spec.html#L40C7"
+                      "href": "docs/gba__dma___spec.html#L43C7"
                     },
                     {
                       "kind": "span",
@@ -1320,7 +1320,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -1336,7 +1336,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/gba__dma___spec.html#L38C8"
+                      "href": "docs/gba__dma___spec.html#L41C8"
                     }
                   ]
                 }
@@ -1346,7 +1346,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Half_Word",
-              "line": 39,
+              "line": 42,
               "column": 7,
               "description": [
                 {
@@ -1362,7 +1362,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Word",
-              "line": 40,
+              "line": 43,
               "column": 7,
               "description": [
                 {
@@ -1386,7 +1386,7 @@ GNATdoc.Documentation = {
         {
           "label": "Channel_Info",
           "qualifier": "",
-          "line": 89,
+          "line": 92,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -1397,7 +1397,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -1418,7 +1418,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_Info",
-                      "href": "docs/gba__dma___spec.html#L89C8"
+                      "href": "docs/gba__dma___spec.html#L92C8"
                     },
                     {
                       "kind": "span",
@@ -1444,7 +1444,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -1460,7 +1460,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -1471,7 +1471,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Source",
-                      "href": "docs/gba__dma___spec.html#L91C7"
+                      "href": "docs/gba__dma___spec.html#L94C7"
                     },
                     {
                       "kind": "span",
@@ -1492,7 +1492,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     },
                     {
                       "kind": "span",
@@ -1518,7 +1518,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -1529,7 +1529,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Dest",
-                      "href": "docs/gba__dma___spec.html#L92C7"
+                      "href": "docs/gba__dma___spec.html#L95C7"
                     },
                     {
                       "kind": "span",
@@ -1550,7 +1550,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     },
                     {
                       "kind": "span",
@@ -1576,7 +1576,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -1587,7 +1587,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Info",
-                      "href": "docs/gba__dma___spec.html#L93C7"
+                      "href": "docs/gba__dma___spec.html#L96C7"
                     },
                     {
                       "kind": "span",
@@ -1608,7 +1608,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Info",
-                      "href": "docs/gba__dma___spec.html#L64C8"
+                      "href": "docs/gba__dma___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -1634,7 +1634,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 94,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -1660,7 +1660,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -1690,33 +1690,33 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Source",
-              "line": 91,
+              "line": 94,
               "column": 7,
               "type": {
                 "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L9C11"
+                "docHref": "docs/gba__memory___spec.html#L12C11"
               },
               "description": [
               ]
             },
             {
               "label": "Dest",
-              "line": 92,
+              "line": 95,
               "column": 7,
               "type": {
                 "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L9C11"
+                "docHref": "docs/gba__memory___spec.html#L12C11"
               },
               "description": [
               ]
             },
             {
               "label": "DMA_Info",
-              "line": 93,
+              "line": 96,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Transfer_Info",
-                "docHref": "docs/gba__dma___spec.html#L64C8"
+                "docHref": "docs/gba__dma___spec.html#L67C8"
               },
               "description": [
               ]
@@ -1726,7 +1726,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Channel_0",
           "qualifier": "",
-          "line": 119,
+          "line": 122,
           "column": 3,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -1737,7 +1737,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -1748,7 +1748,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_0",
-                      "href": "docs/gba__dma___spec.html#L119C3"
+                      "href": "docs/gba__dma___spec.html#L122C3"
                     },
                     {
                       "kind": "span",
@@ -1769,13 +1769,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_Info",
-                      "href": "docs/gba__dma___spec.html#L89C8"
+                      "href": "docs/gba__dma___spec.html#L92C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -1806,7 +1806,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Channel_1",
           "qualifier": "",
-          "line": 122,
+          "line": 125,
           "column": 3,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -1817,7 +1817,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -1828,7 +1828,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_1",
-                      "href": "docs/gba__dma___spec.html#L122C3"
+                      "href": "docs/gba__dma___spec.html#L125C3"
                     },
                     {
                       "kind": "span",
@@ -1849,13 +1849,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_Info",
-                      "href": "docs/gba__dma___spec.html#L89C8"
+                      "href": "docs/gba__dma___spec.html#L92C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -1886,7 +1886,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Channel_2",
           "qualifier": "",
-          "line": 125,
+          "line": 128,
           "column": 3,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -1897,7 +1897,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -1908,7 +1908,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_2",
-                      "href": "docs/gba__dma___spec.html#L125C3"
+                      "href": "docs/gba__dma___spec.html#L128C3"
                     },
                     {
                       "kind": "span",
@@ -1929,13 +1929,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_Info",
-                      "href": "docs/gba__dma___spec.html#L89C8"
+                      "href": "docs/gba__dma___spec.html#L92C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -1966,7 +1966,7 @@ GNATdoc.Documentation = {
         {
           "label": "DMA_Channel_3",
           "qualifier": "",
-          "line": 128,
+          "line": 131,
           "column": 3,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -1977,7 +1977,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -1988,7 +1988,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMA_Channel_3",
-                      "href": "docs/gba__dma___spec.html#L128C3"
+                      "href": "docs/gba__dma___spec.html#L131C3"
                     },
                     {
                       "kind": "span",
@@ -2009,13 +2009,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_Info",
-                      "href": "docs/gba__dma___spec.html#L89C8"
+                      "href": "docs/gba__dma___spec.html#L92C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -2046,7 +2046,7 @@ GNATdoc.Documentation = {
         {
           "label": "Transfer_Info",
           "qualifier": "",
-          "line": 64,
+          "line": 67,
           "column": 8,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -2057,7 +2057,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -2078,7 +2078,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Info",
-                      "href": "docs/gba__dma___spec.html#L64C8"
+                      "href": "docs/gba__dma___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -2094,7 +2094,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -2110,7 +2110,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -2121,7 +2121,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Count",
-                      "href": "docs/gba__dma___spec.html#L66C7"
+                      "href": "docs/gba__dma___spec.html#L69C7"
                     },
                     {
                       "kind": "span",
@@ -2142,135 +2142,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Count_Type",
-                      "href": "docs/gba__dma___spec.html#L62C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 67,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Dest_Adjustment",
-                      "href": "docs/gba__dma___spec.html#L67C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Dest_Address_Adjustment",
-                      "href": "docs/gba__dma___spec.html#L10C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 68,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Source_Adjustment",
-                      "href": "docs/gba__dma___spec.html#L68C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Source_Address_Adjustment",
-                      "href": "docs/gba__dma___spec.html#L25C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 69,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Repeat",
-                      "href": "docs/gba__dma___spec.html#L69C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "            "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
+                      "href": "docs/gba__dma___spec.html#L65C8"
                     },
                     {
                       "kind": "span",
@@ -2291,13 +2163,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Copy_Unit_Size",
+                      "text": "Dest_Adjustment",
                       "href": "docs/gba__dma___spec.html#L70C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -2312,8 +2184,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Unit_Size",
-                      "href": "docs/gba__dma___spec.html#L38C8"
+                      "text": "Dest_Address_Adjustment",
+                      "href": "docs/gba__dma___spec.html#L13C8"
                     },
                     {
                       "kind": "span",
@@ -2334,13 +2206,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timing",
+                      "text": "Source_Adjustment",
                       "href": "docs/gba__dma___spec.html#L71C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "            "
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -2355,8 +2227,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timing_Mode",
-                      "href": "docs/gba__dma___spec.html#L49C8"
+                      "text": "Source_Address_Adjustment",
+                      "href": "docs/gba__dma___spec.html#L28C8"
                     },
                     {
                       "kind": "span",
@@ -2377,13 +2249,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Enable_Interrupt",
+                      "text": "Repeat",
                       "href": "docs/gba__dma___spec.html#L72C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -2419,8 +2291,136 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Enabled",
+                      "text": "Copy_Unit_Size",
                       "href": "docs/gba__dma___spec.html#L73C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unit_Size",
+                      "href": "docs/gba__dma___spec.html#L41C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 74,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timing",
+                      "href": "docs/gba__dma___spec.html#L74C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "            "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timing_Mode",
+                      "href": "docs/gba__dma___spec.html#L52C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable_Interrupt",
+                      "href": "docs/gba__dma___spec.html#L75C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 76,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enabled",
+                      "href": "docs/gba__dma___spec.html#L76C7"
                     },
                     {
                       "kind": "span",
@@ -2451,7 +2451,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -2477,7 +2477,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -2507,71 +2507,39 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Transfer_Count",
-              "line": 66,
+              "line": 69,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Transfer_Count_Type",
-                "docHref": "docs/gba__dma___spec.html#L62C8"
+                "docHref": "docs/gba__dma___spec.html#L65C8"
               },
               "description": [
               ]
             },
             {
               "label": "Dest_Adjustment",
-              "line": 67,
+              "line": 70,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Dest_Address_Adjustment",
-                "docHref": "docs/gba__dma___spec.html#L10C8"
+                "docHref": "docs/gba__dma___spec.html#L13C8"
               },
               "description": [
               ]
             },
             {
               "label": "Source_Adjustment",
-              "line": 68,
+              "line": 71,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Source_Address_Adjustment",
-                "docHref": "docs/gba__dma___spec.html#L25C8"
+                "docHref": "docs/gba__dma___spec.html#L28C8"
               },
               "description": [
               ]
             },
             {
               "label": "Repeat",
-              "line": 69,
-              "column": 7,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Copy_Unit_Size",
-              "line": 70,
-              "column": 7,
-              "type": {
-                "label": "GBA.DMA.Unit_Size",
-                "docHref": "docs/gba__dma___spec.html#L38C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Timing",
-              "line": 71,
-              "column": 7,
-              "type": {
-                "label": "GBA.DMA.Timing_Mode",
-                "docHref": "docs/gba__dma___spec.html#L49C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Enable_Interrupt",
               "line": 72,
               "column": 7,
               "type": {
@@ -2581,8 +2549,40 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Enabled",
+              "label": "Copy_Unit_Size",
               "line": 73,
+              "column": 7,
+              "type": {
+                "label": "GBA.DMA.Unit_Size",
+                "docHref": "docs/gba__dma___spec.html#L41C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Timing",
+              "line": 74,
+              "column": 7,
+              "type": {
+                "label": "GBA.DMA.Timing_Mode",
+                "docHref": "docs/gba__dma___spec.html#L52C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Enable_Interrupt",
+              "line": 75,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Enabled",
+              "line": 76,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2600,7 +2600,7 @@ GNATdoc.Documentation = {
         {
           "label": "Is_Transfer_Ongoing",
           "qualifier": "",
-          "line": 143,
+          "line": 146,
           "column": 12,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -2611,7 +2611,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 146,
                   "children": [
                     {
                       "kind": "span",
@@ -2632,13 +2632,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Is_Transfer_Ongoing",
-                      "href": "docs/gba__dma___spec.html#L143C12"
+                      "href": "docs/gba__dma___spec.html#L146C12"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 147,
                   "children": [
                     {
                       "kind": "span",
@@ -2659,7 +2659,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/gba__dma___spec.html#L144C7"
+                      "href": "docs/gba__dma___spec.html#L147C7"
                     },
                     {
                       "kind": "span",
@@ -2680,7 +2680,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_ID",
-                      "href": "docs/gba__dma___spec.html#L105C8"
+                      "href": "docs/gba__dma___spec.html#L108C8"
                     },
                     {
                       "kind": "span",
@@ -2716,7 +2716,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 148,
                   "children": [
                     {
                       "kind": "span",
@@ -2746,11 +2746,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 144,
+              "line": 147,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Channel_ID",
-                "docHref": "docs/gba__dma___spec.html#L105C8"
+                "docHref": "docs/gba__dma___spec.html#L108C8"
               },
               "description": [
               ]
@@ -2760,7 +2760,7 @@ GNATdoc.Documentation = {
         {
           "label": "Setup_DMA_Transfer",
           "qualifier": "",
-          "line": 137,
+          "line": 140,
           "column": 13,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -2771,7 +2771,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -2792,13 +2792,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Setup_DMA_Transfer",
-                      "href": "docs/gba__dma___spec.html#L137C13"
+                      "href": "docs/gba__dma___spec.html#L140C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -2819,7 +2819,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/gba__dma___spec.html#L138C7"
+                      "href": "docs/gba__dma___spec.html#L141C7"
                     },
                     {
                       "kind": "span",
@@ -2840,7 +2840,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_ID",
-                      "href": "docs/gba__dma___spec.html#L105C8"
+                      "href": "docs/gba__dma___spec.html#L108C8"
                     },
                     {
                       "kind": "span",
@@ -2851,7 +2851,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -2862,7 +2862,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Source",
-                      "href": "docs/gba__dma___spec.html#L139C7"
+                      "href": "docs/gba__dma___spec.html#L142C7"
                     },
                     {
                       "kind": "span",
@@ -2878,7 +2878,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Dest",
-                      "href": "docs/gba__dma___spec.html#L139C15"
+                      "href": "docs/gba__dma___spec.html#L142C15"
                     },
                     {
                       "kind": "span",
@@ -2899,7 +2899,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     },
                     {
                       "kind": "span",
@@ -2910,7 +2910,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -2921,7 +2921,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Info",
-                      "href": "docs/gba__dma___spec.html#L140C7"
+                      "href": "docs/gba__dma___spec.html#L143C7"
                     },
                     {
                       "kind": "span",
@@ -2942,7 +2942,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Info",
-                      "href": "docs/gba__dma___spec.html#L64C8"
+                      "href": "docs/gba__dma___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -2958,7 +2958,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -2988,44 +2988,44 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 138,
+              "line": 141,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Channel_ID",
-                "docHref": "docs/gba__dma___spec.html#L105C8"
+                "docHref": "docs/gba__dma___spec.html#L108C8"
               },
               "description": [
               ]
             },
             {
               "label": "Source",
-              "line": 139,
+              "line": 142,
               "column": 7,
               "type": {
                 "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L9C11"
+                "docHref": "docs/gba__memory___spec.html#L12C11"
               },
               "description": [
               ]
             },
             {
               "label": "Dest",
-              "line": 139,
+              "line": 142,
               "column": 15,
               "type": {
                 "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L9C11"
+                "docHref": "docs/gba__memory___spec.html#L12C11"
               },
               "description": [
               ]
             },
             {
               "label": "Info",
-              "line": 140,
+              "line": 143,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Transfer_Info",
-                "docHref": "docs/gba__dma___spec.html#L64C8"
+                "docHref": "docs/gba__dma___spec.html#L67C8"
               },
               "description": [
               ]
@@ -3035,7 +3035,7 @@ GNATdoc.Documentation = {
         {
           "label": "Stop_Ongoing_Transfer",
           "qualifier": "",
-          "line": 147,
+          "line": 150,
           "column": 13,
           "src": "srcs/GBA.DMA.ads.html",
           "summary": [
@@ -3046,7 +3046,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 147,
+                  "number": 150,
                   "children": [
                     {
                       "kind": "span",
@@ -3067,13 +3067,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Stop_Ongoing_Transfer",
-                      "href": "docs/gba__dma___spec.html#L147C13"
+                      "href": "docs/gba__dma___spec.html#L150C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
@@ -3094,7 +3094,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel",
-                      "href": "docs/gba__dma___spec.html#L148C7"
+                      "href": "docs/gba__dma___spec.html#L151C7"
                     },
                     {
                       "kind": "span",
@@ -3115,7 +3115,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_ID",
-                      "href": "docs/gba__dma___spec.html#L105C8"
+                      "href": "docs/gba__dma___spec.html#L108C8"
                     },
                     {
                       "kind": "span",
@@ -3131,7 +3131,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 149,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -3161,11 +3161,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Channel",
-              "line": 148,
+              "line": 151,
               "column": 7,
               "type": {
                 "label": "GBA.DMA.Channel_ID",
-                "docHref": "docs/gba__dma___spec.html#L105C8"
+                "docHref": "docs/gba__dma___spec.html#L108C8"
               },
               "description": [
               ]

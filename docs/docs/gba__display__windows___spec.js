@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Horizontal_Dimensions",
           "qualifier": "",
-          "line": 65,
+          "line": 68,
           "column": 3,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
@@ -93,7 +93,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -124,7 +124,7 @@ GNATdoc.Documentation = {
         {
           "label": "Vertical_Dimensions",
           "qualifier": "",
-          "line": 68,
+          "line": 71,
           "column": 3,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -135,7 +135,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -206,7 +206,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -237,7 +237,7 @@ GNATdoc.Documentation = {
         {
           "label": "Window_Control",
           "qualifier": "",
-          "line": 71,
+          "line": 74,
           "column": 3,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -248,7 +248,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -319,7 +319,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 75,
                   "children": [
                     {
                       "kind": "span",
@@ -355,7 +355,7 @@ GNATdoc.Documentation = {
         {
           "label": "Irregular_Window_Region",
           "qualifier": "",
-          "line": 61,
+          "line": 64,
           "column": 11,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -366,7 +366,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -387,7 +387,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Irregular_Window_Region",
-                      "href": "docs/gba__display__windows___spec.html#L61C11"
+                      "href": "docs/gba__display__windows___spec.html#L64C11"
                     },
                     {
                       "kind": "span",
@@ -403,7 +403,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -414,7 +414,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_Region",
-                      "href": "docs/gba__display__windows___spec.html#L51C8"
+                      "href": "docs/gba__display__windows___spec.html#L54C8"
                     },
                     {
                       "kind": "span",
@@ -470,7 +470,7 @@ GNATdoc.Documentation = {
         {
           "label": "Rectangular_Window_Region",
           "qualifier": "",
-          "line": 58,
+          "line": 61,
           "column": 11,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -481,7 +481,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -502,7 +502,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Rectangular_Window_Region",
-                      "href": "docs/gba__display__windows___spec.html#L58C11"
+                      "href": "docs/gba__display__windows___spec.html#L61C11"
                     },
                     {
                       "kind": "span",
@@ -518,7 +518,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -529,7 +529,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_Region",
-                      "href": "docs/gba__display__windows___spec.html#L51C8"
+                      "href": "docs/gba__display__windows___spec.html#L54C8"
                     },
                     {
                       "kind": "span",
@@ -585,7 +585,7 @@ GNATdoc.Documentation = {
         {
           "label": "Toggleable_Window_Element",
           "qualifier": "",
-          "line": 8,
+          "line": 11,
           "column": 11,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -596,7 +596,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 8,
+                  "number": 11,
                   "children": [
                     {
                       "kind": "span",
@@ -617,7 +617,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Toggleable_Window_Element",
-                      "href": "docs/gba__display__windows___spec.html#L8C11"
+                      "href": "docs/gba__display__windows___spec.html#L11C11"
                     },
                     {
                       "kind": "span",
@@ -633,7 +633,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -644,7 +644,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Toggleable_Display_Element",
-                      "href": "docs/gba__display___spec.html#L47C8"
+                      "href": "docs/gba__display___spec.html#L50C8"
                     },
                     {
                       "kind": "span",
@@ -700,7 +700,7 @@ GNATdoc.Documentation = {
         {
           "label": "Window_Region",
           "qualifier": "",
-          "line": 51,
+          "line": 54,
           "column": 8,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -711,7 +711,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -732,7 +732,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_Region",
-                      "href": "docs/gba__display__windows___spec.html#L51C8"
+                      "href": "docs/gba__display__windows___spec.html#L54C8"
                     },
                     {
                       "kind": "span",
@@ -748,7 +748,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -769,13 +769,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_0",
-                      "href": "docs/gba__display__windows___spec.html#L52C7"
+                      "href": "docs/gba__display__windows___spec.html#L55C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -796,13 +796,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_1",
-                      "href": "docs/gba__display__windows___spec.html#L53C7"
+                      "href": "docs/gba__display__windows___spec.html#L56C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -823,13 +823,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Outside_Windows",
-                      "href": "docs/gba__display__windows___spec.html#L54C7"
+                      "href": "docs/gba__display__windows___spec.html#L57C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -850,13 +850,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Object_Window",
-                      "href": "docs/gba__display__windows___spec.html#L55C7"
+                      "href": "docs/gba__display__windows___spec.html#L58C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -872,7 +872,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/gba__display__windows___spec.html#L51C8"
+                      "href": "docs/gba__display__windows___spec.html#L54C8"
                     }
                   ]
                 }
@@ -882,28 +882,28 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Window_0",
-              "line": 52,
+              "line": 55,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Window_1",
-              "line": 53,
+              "line": 56,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Outside_Windows",
-              "line": 54,
+              "line": 57,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Object_Window",
-              "line": 55,
+              "line": 58,
               "column": 7,
               "description": [
               ]
@@ -918,7 +918,7 @@ GNATdoc.Documentation = {
         {
           "label": "Window_Display_Control_Info",
           "qualifier": "",
-          "line": 37,
+          "line": 40,
           "column": 8,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -929,7 +929,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -950,7 +950,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_Display_Control_Info",
-                      "href": "docs/gba__display__windows___spec.html#L37C8"
+                      "href": "docs/gba__display__windows___spec.html#L40C8"
                     },
                     {
                       "kind": "span",
@@ -966,7 +966,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -982,7 +982,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -993,7 +993,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Displayed_Elements",
-                      "href": "docs/gba__display__windows___spec.html#L39C7"
+                      "href": "docs/gba__display__windows___spec.html#L42C7"
                     },
                     {
                       "kind": "span",
@@ -1014,7 +1014,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Displayed_Element_Flags",
-                      "href": "docs/gba__display___spec.html#L84C8"
+                      "href": "docs/gba__display___spec.html#L87C8"
                     },
                     {
                       "kind": "span",
@@ -1030,7 +1030,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Toggleable_Window_Element",
-                      "href": "docs/gba__display__windows___spec.html#L8C11"
+                      "href": "docs/gba__display__windows___spec.html#L11C11"
                     },
                     {
                       "kind": "span",
@@ -1046,7 +1046,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -1057,7 +1057,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_Color_Effect",
-                      "href": "docs/gba__display__windows___spec.html#L40C7"
+                      "href": "docs/gba__display__windows___spec.html#L43C7"
                     },
                     {
                       "kind": "span",
@@ -1088,7 +1088,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -1114,7 +1114,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -1144,18 +1144,18 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Displayed_Elements",
-              "line": 39,
+              "line": 42,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Displayed_Element_Flags",
-                "docHref": "docs/gba__display___spec.html#L84C8"
+                "docHref": "docs/gba__display___spec.html#L87C8"
               },
               "description": [
               ]
             },
             {
               "label": "Enable_Color_Effect",
-              "line": 40,
+              "line": 43,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -1168,7 +1168,7 @@ GNATdoc.Documentation = {
         {
           "label": "Window_Horizontal_Dimensions",
           "qualifier": "",
-          "line": 11,
+          "line": 14,
           "column": 8,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -1179,7 +1179,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -1200,7 +1200,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_Horizontal_Dimensions",
-                      "href": "docs/gba__display__windows___spec.html#L11C8"
+                      "href": "docs/gba__display__windows___spec.html#L14C8"
                     },
                     {
                       "kind": "span",
@@ -1216,7 +1216,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -1232,7 +1232,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -1243,7 +1243,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Left_Bound",
-                      "href": "docs/gba__display__windows___spec.html#L13C7"
+                      "href": "docs/gba__display__windows___spec.html#L16C7"
                     },
                     {
                       "kind": "span",
@@ -1259,7 +1259,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Right_Bound",
-                      "href": "docs/gba__display__windows___spec.html#L13C19"
+                      "href": "docs/gba__display__windows___spec.html#L16C19"
                     },
                     {
                       "kind": "span",
@@ -1330,7 +1330,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 14,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -1356,7 +1356,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -1386,7 +1386,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Left_Bound",
-              "line": 13,
+              "line": 16,
               "column": 7,
               "type": {
                 "label": "Unsigned_8"
@@ -1396,7 +1396,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Right_Bound",
-              "line": 13,
+              "line": 16,
               "column": 19,
               "type": {
                 "label": "Unsigned_8"
@@ -1409,7 +1409,7 @@ GNATdoc.Documentation = {
         {
           "label": "Window_Vertical_Dimensions",
           "qualifier": "",
-          "line": 24,
+          "line": 27,
           "column": 8,
           "src": "srcs/GBA.Display.Windows.ads.html",
           "summary": [
@@ -1420,7 +1420,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -1441,7 +1441,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Window_Vertical_Dimensions",
-                      "href": "docs/gba__display__windows___spec.html#L24C8"
+                      "href": "docs/gba__display__windows___spec.html#L27C8"
                     },
                     {
                       "kind": "span",
@@ -1457,7 +1457,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -1473,7 +1473,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -1484,7 +1484,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Upper_Bound",
-                      "href": "docs/gba__display__windows___spec.html#L26C7"
+                      "href": "docs/gba__display__windows___spec.html#L29C7"
                     },
                     {
                       "kind": "span",
@@ -1500,7 +1500,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Lower_Bound",
-                      "href": "docs/gba__display__windows___spec.html#L26C20"
+                      "href": "docs/gba__display__windows___spec.html#L29C20"
                     },
                     {
                       "kind": "span",
@@ -1571,7 +1571,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -1597,7 +1597,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -1627,7 +1627,7 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Upper_Bound",
-              "line": 26,
+              "line": 29,
               "column": 7,
               "type": {
                 "label": "Unsigned_8"
@@ -1637,7 +1637,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Lower_Bound",
-              "line": 26,
+              "line": 29,
               "column": 20,
               "type": {
                 "label": "Unsigned_8"

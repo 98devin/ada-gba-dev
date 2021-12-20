@@ -5,11 +5,39 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 2,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 4,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
       "children": [
         {
           "kind": "span",
@@ -24,7 +52,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "System.Memory"
+          "text": "System.Allocation.Memory"
         },
         {
           "kind": "span",
@@ -35,13 +63,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3,
+      "number": 6,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 4,
+      "number": 7,
       "children": [
         {
           "kind": "span",
@@ -67,7 +95,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 5,
+      "number": 8,
       "children": [
         {
           "kind": "span",
@@ -93,13 +121,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 6,
+      "number": 9,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 7,
+      "number": 10,
       "children": [
         {
           "kind": "span",
@@ -115,7 +143,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA.Memory.Default_Heaps",
-          "href": "docs/gba__memory__default_heaps___spec.html#L7C20"
+          "href": "docs/gba__memory__default_heaps___spec.html#L10C20"
         },
         {
           "kind": "span",
@@ -131,13 +159,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 8,
+      "number": 11,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 9,
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -148,7 +176,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IWRAM_Heap_Start",
-          "href": "docs/gba__memory__default_heaps___spec.html#L9C3"
+          "href": "docs/gba__memory__default_heaps___spec.html#L12C3"
         },
         {
           "kind": "span",
@@ -184,7 +212,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -210,13 +238,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 14,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 15,
       "children": [
         {
           "kind": "span",
@@ -227,7 +255,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IWRAM_Heap",
-          "href": "docs/gba__memory__default_heaps___spec.html#L12C3"
+          "href": "docs/gba__memory__default_heaps___spec.html#L15C3"
         },
         {
           "kind": "span",
@@ -253,7 +281,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -314,7 +342,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Internal_WRAM_Address",
-          "href": "docs/gba__memory___spec.html#L18C11"
+          "href": "docs/gba__memory___spec.html#L21C11"
         },
         {
           "kind": "span",
@@ -340,13 +368,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 17,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -357,7 +385,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EWRAM_Heap",
-          "href": "docs/gba__memory__default_heaps___spec.html#L15C3"
+          "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
         },
         {
           "kind": "span",
@@ -397,8 +425,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "System.Memory.Heap",
-          "href": "docs/gba__memory__default_heaps___spec.html#L15C3"
+          "text": "System.Allocation.Memory.Heap",
+          "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
         },
         {
           "kind": "span",
@@ -409,13 +437,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 19,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 20,
       "children": [
         {
           "kind": "span",

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "All_Interrupts",
           "qualifier": "",
-          "line": 43,
+          "line": 46,
           "column": 3,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -128,7 +128,7 @@ GNATdoc.Documentation = {
         {
           "label": "Interrupt_Flags",
           "qualifier": "",
-          "line": 40,
+          "line": 43,
           "column": 8,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -139,7 +139,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -160,7 +160,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
                     },
                     {
                       "kind": "span",
@@ -206,7 +206,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -237,7 +237,7 @@ GNATdoc.Documentation = {
         {
           "label": "Interrupt_ID",
           "qualifier": "",
-          "line": 4,
+          "line": 7,
           "column": 8,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -248,7 +248,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 4,
+                  "number": 7,
                   "children": [
                     {
                       "kind": "span",
@@ -269,7 +269,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -285,7 +285,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 5,
+                  "number": 8,
                   "children": [
                     {
                       "kind": "span",
@@ -306,87 +306,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "VBlank",
-                      "href": "docs/gba__interrupts___spec.html#L5C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 6,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "HBlank",
-                      "href": "docs/gba__interrupts___spec.html#L6C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 7,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "VCounter_Match",
-                      "href": "docs/gba__interrupts___spec.html#L7C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 8,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Timer_0_Overflow",
                       "href": "docs/gba__interrupts___spec.html#L8C7"
                     }
                   ]
@@ -413,7 +332,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timer_1_Overflow",
+                      "text": "HBlank",
                       "href": "docs/gba__interrupts___spec.html#L9C7"
                     }
                   ]
@@ -440,7 +359,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timer_2_Overflow",
+                      "text": "VCounter_Match",
                       "href": "docs/gba__interrupts___spec.html#L10C7"
                     }
                   ]
@@ -467,7 +386,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timer_3_Overflow",
+                      "text": "Timer_0_Overflow",
                       "href": "docs/gba__interrupts___spec.html#L11C7"
                     }
                   ]
@@ -494,7 +413,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Serial_Communication",
+                      "text": "Timer_1_Overflow",
                       "href": "docs/gba__interrupts___spec.html#L12C7"
                     }
                   ]
@@ -521,7 +440,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_0",
+                      "text": "Timer_2_Overflow",
                       "href": "docs/gba__interrupts___spec.html#L13C7"
                     }
                   ]
@@ -548,7 +467,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_1",
+                      "text": "Timer_3_Overflow",
                       "href": "docs/gba__interrupts___spec.html#L14C7"
                     }
                   ]
@@ -575,7 +494,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_2",
+                      "text": "Serial_Communication",
                       "href": "docs/gba__interrupts___spec.html#L15C7"
                     }
                   ]
@@ -602,7 +521,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "DMA_3",
+                      "text": "DMA_0",
                       "href": "docs/gba__interrupts___spec.html#L16C7"
                     }
                   ]
@@ -629,7 +548,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Keypad",
+                      "text": "DMA_1",
                       "href": "docs/gba__interrupts___spec.html#L17C7"
                     }
                   ]
@@ -656,7 +575,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Game_Pak",
+                      "text": "DMA_2",
                       "href": "docs/gba__interrupts___spec.html#L18C7"
                     }
                   ]
@@ -673,13 +592,94 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_3",
+                      "href": "docs/gba__interrupts___spec.html#L19C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 20,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Keypad",
+                      "href": "docs/gba__interrupts___spec.html#L20C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Game_Pak",
+                      "href": "docs/gba__interrupts___spec.html#L21C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 22,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -709,98 +709,98 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "VBlank",
-              "line": 5,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "HBlank",
-              "line": 6,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "VCounter_Match",
-              "line": 7,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Timer_0_Overflow",
               "line": 8,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Timer_1_Overflow",
+              "label": "HBlank",
               "line": 9,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Timer_2_Overflow",
+              "label": "VCounter_Match",
               "line": 10,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Timer_3_Overflow",
+              "label": "Timer_0_Overflow",
               "line": 11,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Serial_Communication",
+              "label": "Timer_1_Overflow",
               "line": 12,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "DMA_0",
+              "label": "Timer_2_Overflow",
               "line": 13,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "DMA_1",
+              "label": "Timer_3_Overflow",
               "line": 14,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "DMA_2",
+              "label": "Serial_Communication",
               "line": 15,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "DMA_3",
+              "label": "DMA_0",
               "line": 16,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Keypad",
+              "label": "DMA_1",
               "line": 17,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Game_Pak",
+              "label": "DMA_2",
               "line": 18,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_3",
+              "line": 19,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Keypad",
+              "line": 20,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Game_Pak",
+              "line": 21,
               "column": 7,
               "description": [
               ]
@@ -815,7 +815,7 @@ GNATdoc.Documentation = {
         {
           "label": "Interrupt_Handler",
           "qualifier": "",
-          "line": 53,
+          "line": 56,
           "column": 8,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -826,7 +826,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -854,130 +854,6 @@ GNATdoc.Documentation = {
     },
     {
       "entities": [
-        {
-          "label": "Acknowledge_Interrupt",
-          "qualifier": "",
-          "line": 87,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 87,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Acknowledge_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L87C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L87C36"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 88,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 87,
-              "column": 36,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
         {
           "label": "Acknowledge_Interrupt",
           "qualifier": "",
@@ -1028,7 +904,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Flags",
+                      "text": "ID",
                       "href": "docs/gba__interrupts___spec.html#L90C36"
                     },
                     {
@@ -1049,8 +925,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
+                      "text": "Interrupt_ID",
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -1090,12 +966,12 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Flags",
+              "label": "ID",
               "line": 90,
               "column": 36,
               "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L40C8"
+                "label": "GBA.Interrupts.Interrupt_ID",
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
               },
               "description": [
               ]
@@ -1103,9 +979,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Attach_Interrupt_Handler",
+          "label": "Acknowledge_Interrupt",
           "qualifier": "",
-          "line": 94,
+          "line": 93,
           "column": 13,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -1116,7 +992,131 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
+                  "number": 93,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Acknowledge_Interrupt",
+                      "href": "docs/gba__interrupts___spec.html#L93C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flags",
+                      "href": "docs/gba__interrupts___spec.html#L93C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Flags",
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
                   "number": 94,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Flags",
+              "line": 93,
+              "column": 36,
+              "type": {
+                "label": "GBA.Interrupts.Interrupt_Flags",
+                "docHref": "docs/gba__interrupts___spec.html#L43C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Attach_Interrupt_Handler",
+          "qualifier": "",
+          "line": 97,
+          "column": 13,
+          "src": "srcs/GBA.Interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -1137,13 +1137,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Attach_Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L94C13"
+                      "href": "docs/gba__interrupts___spec.html#L97C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -1159,7 +1159,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L95C6"
+                      "href": "docs/gba__interrupts___spec.html#L98C6"
                     },
                     {
                       "kind": "span",
@@ -1180,7 +1180,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -1196,7 +1196,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Handler",
-                      "href": "docs/gba__interrupts___spec.html#L95C25"
+                      "href": "docs/gba__interrupts___spec.html#L98C25"
                     },
                     {
                       "kind": "span",
@@ -1237,7 +1237,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L53C8"
+                      "href": "docs/gba__interrupts___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -1248,7 +1248,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -1278,22 +1278,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ID",
-              "line": 95,
+              "line": 98,
               "column": 6,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
               },
               "description": [
               ]
             },
             {
               "label": "Handler",
-              "line": 95,
+              "line": 98,
               "column": 25,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L53C8"
+                "docHref": "docs/gba__interrupts___spec.html#L56C8"
               },
               "description": [
               ]
@@ -1303,7 +1303,7 @@ GNATdoc.Documentation = {
         {
           "label": "Attach_Interrupt_Handler_And_Save",
           "qualifier": "",
-          "line": 98,
+          "line": 101,
           "column": 13,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -1314,7 +1314,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -1335,13 +1335,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Attach_Interrupt_Handler_And_Save",
-                      "href": "docs/gba__interrupts___spec.html#L98C13"
+                      "href": "docs/gba__interrupts___spec.html#L101C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -1357,7 +1357,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L99C6"
+                      "href": "docs/gba__interrupts___spec.html#L102C6"
                     },
                     {
                       "kind": "span",
@@ -1378,7 +1378,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -1394,7 +1394,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Handler",
-                      "href": "docs/gba__interrupts___spec.html#L99C25"
+                      "href": "docs/gba__interrupts___spec.html#L102C25"
                     },
                     {
                       "kind": "span",
@@ -1435,7 +1435,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L53C8"
+                      "href": "docs/gba__interrupts___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -1451,7 +1451,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Old_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L99C63"
+                      "href": "docs/gba__interrupts___spec.html#L102C63"
                     },
                     {
                       "kind": "span",
@@ -1482,153 +1482,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L53C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 100,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 99,
-              "column": 6,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Handler",
-              "line": 99,
-              "column": 25,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L53C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Old_Handler",
-              "line": 99,
-              "column": 63,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L53C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Detach_Interrupt_Handler",
-          "qualifier": "",
-          "line": 102,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 102,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Detach_Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L102C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L102C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
+                      "href": "docs/gba__interrupts___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -1670,10 +1524,32 @@ GNATdoc.Documentation = {
             {
               "label": "ID",
               "line": 102,
-              "column": 39,
+              "column": 6,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Handler",
+              "line": 102,
+              "column": 25,
+              "type": {
+                "label": "GBA.Interrupts.Interrupt_Handler",
+                "docHref": "docs/gba__interrupts___spec.html#L56C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Old_Handler",
+              "line": 102,
+              "column": 63,
+              "type": {
+                "label": "GBA.Interrupts.Interrupt_Handler",
+                "docHref": "docs/gba__interrupts___spec.html#L56C8"
               },
               "description": [
               ]
@@ -1681,7 +1557,76 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Detach_Interrupt_Handler_And_Save",
+          "label": "Default_Interrupt_Dispatcher",
+          "qualifier": "",
+          "line": 114,
+          "column": 13,
+          "src": "srcs/GBA.Interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 114,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Default_Interrupt_Dispatcher",
+                      "href": "docs/gba__interrupts___spec.html#L114C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 115,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Linker_Section => \".iwram\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Detach_Interrupt_Handler",
           "qualifier": "",
           "line": 105,
           "column": 13,
@@ -1714,7 +1659,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Detach_Interrupt_Handler_And_Save",
+                      "text": "Detach_Interrupt_Handler",
                       "href": "docs/gba__interrupts___spec.html#L105C13"
                     },
                     {
@@ -1731,7 +1676,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L105C48"
+                      "href": "docs/gba__interrupts___spec.html#L105C39"
                     },
                     {
                       "kind": "span",
@@ -1752,54 +1697,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Old_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L105C67"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L53C8"
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -1841,21 +1739,10 @@ GNATdoc.Documentation = {
             {
               "label": "ID",
               "line": 105,
-              "column": 48,
+              "column": 39,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Old_Handler",
-              "line": 105,
-              "column": 67,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L53C8"
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
               },
               "description": [
               ]
@@ -1863,9 +1750,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Disable_Interrupt",
+          "label": "Detach_Interrupt_Handler_And_Save",
           "qualifier": "",
-          "line": 77,
+          "line": 108,
           "column": 13,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -1876,7 +1763,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -1896,8 +1783,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Disable_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L77C13"
+                      "text": "Detach_Interrupt_Handler_And_Save",
+                      "href": "docs/gba__interrupts___spec.html#L108C13"
                     },
                     {
                       "kind": "span",
@@ -1913,7 +1800,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L77C32"
+                      "href": "docs/gba__interrupts___spec.html#L108C48"
                     },
                     {
                       "kind": "span",
@@ -1934,7 +1821,54 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Old_Handler",
+                      "href": "docs/gba__interrupts___spec.html#L108C67"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Handler",
+                      "href": "docs/gba__interrupts___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -1945,7 +1879,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -1975,11 +1909,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ID",
-              "line": 77,
-              "column": 32,
+              "line": 108,
+              "column": 48,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Old_Handler",
+              "line": 108,
+              "column": 67,
+              "type": {
+                "label": "GBA.Interrupts.Interrupt_Handler",
+                "docHref": "docs/gba__interrupts___spec.html#L56C8"
               },
               "description": [
               ]
@@ -2036,7 +1981,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Flags",
+                      "text": "ID",
                       "href": "docs/gba__interrupts___spec.html#L80C32"
                     },
                     {
@@ -2057,8 +2002,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
+                      "text": "Interrupt_ID",
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -2098,12 +2043,12 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Flags",
+              "label": "ID",
               "line": 80,
               "column": 32,
               "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L40C8"
+                "label": "GBA.Interrupts.Interrupt_ID",
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
               },
               "description": [
               ]
@@ -2111,7 +2056,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Disable_Interrupts_And_Save",
+          "label": "Disable_Interrupt",
           "qualifier": "",
           "line": 83,
           "column": 13,
@@ -2144,7 +2089,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Disable_Interrupts_And_Save",
+                      "text": "Disable_Interrupt",
                       "href": "docs/gba__interrupts___spec.html#L83C13"
                     },
                     {
@@ -2161,7 +2106,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Flags",
-                      "href": "docs/gba__interrupts___spec.html#L83C42"
+                      "href": "docs/gba__interrupts___spec.html#L83C32"
                     },
                     {
                       "kind": "span",
@@ -2180,19 +2125,9 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
                     },
                     {
                       "kind": "span",
@@ -2234,10 +2169,10 @@ GNATdoc.Documentation = {
             {
               "label": "Flags",
               "line": 83,
-              "column": 42,
+              "column": 32,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L40C8"
+                "docHref": "docs/gba__interrupts___spec.html#L43C8"
               },
               "description": [
               ]
@@ -2245,9 +2180,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Disable_Receiving_Interrupts",
+          "label": "Disable_Interrupts_And_Save",
           "qualifier": "",
-          "line": 63,
+          "line": 86,
           "column": 13,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -2258,7 +2193,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -2278,14 +2213,66 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Disable_Receiving_Interrupts",
-                      "href": "docs/gba__interrupts___spec.html#L63C13"
+                      "text": "Disable_Interrupts_And_Save",
+                      "href": "docs/gba__interrupts___spec.html#L86C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flags",
+                      "href": "docs/gba__interrupts___spec.html#L86C42"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Flags",
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -2309,6 +2296,19 @@ GNATdoc.Documentation = {
                     }
                   ]
                 }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Flags",
+              "line": 86,
+              "column": 42,
+              "type": {
+                "label": "GBA.Interrupts.Interrupt_Flags",
+                "docHref": "docs/gba__interrupts___spec.html#L43C8"
+              },
+              "description": [
               ]
             }
           ]
@@ -2349,6 +2349,75 @@ GNATdoc.Documentation = {
                       "cssClass": "identifier",
                       "text": "Disable_Receiving_Interrupts",
                       "href": "docs/gba__interrupts___spec.html#L66C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 67,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Disable_Receiving_Interrupts",
+          "qualifier": "",
+          "line": 69,
+          "column": 13,
+          "src": "srcs/GBA.Interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 69,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disable_Receiving_Interrupts",
+                      "href": "docs/gba__interrupts___spec.html#L69C13"
                     },
                     {
                       "kind": "span",
@@ -2364,7 +2433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enabled",
-                      "href": "docs/gba__interrupts___spec.html#L66C43"
+                      "href": "docs/gba__interrupts___spec.html#L69C43"
                     },
                     {
                       "kind": "span",
@@ -2405,7 +2474,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -2435,134 +2504,10 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Enabled",
-              "line": 66,
+              "line": 69,
               "column": 43,
               "type": {
                 "label": "Boolean"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable_Interrupt",
-          "qualifier": "",
-          "line": 70,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 70,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L70C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L70C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 71,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 70,
-              "column": 31,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
               },
               "description": [
               ]
@@ -2619,7 +2564,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Flags",
+                      "text": "ID",
                       "href": "docs/gba__interrupts___spec.html#L73C31"
                     },
                     {
@@ -2640,8 +2585,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
+                      "text": "Interrupt_ID",
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -2681,12 +2626,12 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Flags",
+              "label": "ID",
               "line": 73,
               "column": 31,
               "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L40C8"
+                "label": "GBA.Interrupts.Interrupt_ID",
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
               },
               "description": [
               ]
@@ -2694,9 +2639,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Enable_Receiving_Interrupts",
+          "label": "Enable_Interrupt",
           "qualifier": "",
-          "line": 57,
+          "line": 76,
           "column": 13,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -2707,7 +2652,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -2727,8 +2672,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Enable_Receiving_Interrupts",
-                      "href": "docs/gba__interrupts___spec.html#L57C13"
+                      "text": "Enable_Interrupt",
+                      "href": "docs/gba__interrupts___spec.html#L76C13"
                     },
                     {
                       "kind": "span",
@@ -2743,8 +2688,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Enabled",
-                      "href": "docs/gba__interrupts___spec.html#L57C42"
+                      "text": "Flags",
+                      "href": "docs/gba__interrupts___spec.html#L76C31"
                     },
                     {
                       "kind": "span",
@@ -2764,7 +2709,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Boolean"
+                      "text": "Interrupt_Flags",
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
                     },
                     {
                       "kind": "span",
@@ -2775,7 +2721,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -2804,11 +2750,12 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Enabled",
-              "line": 57,
-              "column": 42,
+              "label": "Flags",
+              "line": 76,
+              "column": 31,
               "type": {
-                "label": "Boolean"
+                "label": "GBA.Interrupts.Interrupt_Flags",
+                "docHref": "docs/gba__interrupts___spec.html#L43C8"
               },
               "description": [
               ]
@@ -2851,6 +2798,47 @@ GNATdoc.Documentation = {
                       "cssClass": "identifier",
                       "text": "Enable_Receiving_Interrupts",
                       "href": "docs/gba__interrupts___spec.html#L60C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enabled",
+                      "href": "docs/gba__interrupts___spec.html#L60C42"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     }
                   ]
                 },
@@ -2882,12 +2870,24 @@ GNATdoc.Documentation = {
                 }
               ]
             }
+          ],
+          "parameters": [
+            {
+              "label": "Enabled",
+              "line": 60,
+              "column": 42,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            }
           ]
         },
         {
-          "label": "or",
+          "label": "Enable_Receiving_Interrupts",
           "qualifier": "",
-          "line": 46,
+          "line": 63,
           "column": 13,
           "src": "srcs/GBA.Interrupts.ads.html",
           "summary": [
@@ -2898,7 +2898,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -2908,7 +2908,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -2918,92 +2918,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "\"or\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I1",
-                      "href": "docs/gba__interrupts___spec.html#L46C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I2",
-                      "href": "docs/gba__interrupts___spec.html#L46C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
+                      "text": "Enable_Receiving_Interrupts",
+                      "href": "docs/gba__interrupts___spec.html#L63C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -3018,7 +2940,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
+                      "text": " Inline"
                     },
                     {
                       "kind": "span",
@@ -3027,30 +2949,6 @@ GNATdoc.Documentation = {
                     }
                   ]
                 }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "I1",
-              "line": 46,
-              "column": 18,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "I2",
-              "line": 46,
-              "column": 22,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
-              },
-              "description": [
               ]
             }
           ]
@@ -3104,34 +3002,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "F",
+                      "text": "I1",
                       "href": "docs/gba__interrupts___spec.html#L49C18"
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": ","
                     },
                     {
                       "kind": "span",
@@ -3141,8 +3018,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "I",
-                      "href": "docs/gba__interrupts___spec.html#L49C39"
+                      "text": "I2",
+                      "href": "docs/gba__interrupts___spec.html#L49C22"
                     },
                     {
                       "kind": "span",
@@ -3163,7 +3040,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L4C8"
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
                     },
                     {
                       "kind": "span",
@@ -3189,7 +3066,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L40C8"
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
                     }
                   ]
                 },
@@ -3224,23 +3101,215 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "F",
+              "label": "I1",
               "line": 49,
               "column": 18,
               "type": {
+                "label": "GBA.Interrupts.Interrupt_ID",
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "I2",
+              "line": 49,
+              "column": 22,
+              "type": {
+                "label": "GBA.Interrupts.Interrupt_ID",
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "or",
+          "qualifier": "",
+          "line": 52,
+          "column": 13,
+          "src": "srcs/GBA.Interrupts.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 52,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "\"or\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "F",
+                      "href": "docs/gba__interrupts___spec.html#L52C18"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Flags",
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "I",
+                      "href": "docs/gba__interrupts___spec.html#L52C39"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_ID",
+                      "href": "docs/gba__interrupts___spec.html#L7C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Flags",
+                      "href": "docs/gba__interrupts___spec.html#L43C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "F",
+              "line": 52,
+              "column": 18,
+              "type": {
                 "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L40C8"
+                "docHref": "docs/gba__interrupts___spec.html#L43C8"
               },
               "description": [
               ]
             },
             {
               "label": "I",
-              "line": 49,
+              "line": 52,
               "column": 39,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L4C8"
+                "docHref": "docs/gba__interrupts___spec.html#L7C8"
               },
               "description": [
               ]

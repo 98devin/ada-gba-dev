@@ -5,11 +5,39 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 2,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 4,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
       "children": [
         {
           "kind": "span",
@@ -25,7 +53,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA.BIOS.Raw",
-          "href": "docs/gba__bios__raw___spec.html#L2C18"
+          "href": "docs/gba__bios__raw___spec.html#L5C18"
         },
         {
           "kind": "span",
@@ -41,13 +69,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3,
+      "number": 6,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 4,
+      "number": 7,
       "children": [
         {
           "kind": "span",
@@ -78,13 +106,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 5,
+      "number": 8,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 6,
+      "number": 9,
       "children": [
         {
           "kind": "span",

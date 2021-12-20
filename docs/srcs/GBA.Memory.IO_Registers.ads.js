@@ -5,11 +5,39 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 2,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 4,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
       "children": [
         {
           "kind": "span",
@@ -25,7 +53,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA.Memory.IO_Registers",
-          "href": "docs/gba__memory__io_registers___spec.html#L2C20"
+          "href": "docs/gba__memory__io_registers___spec.html#L5C20"
         },
         {
           "kind": "span",
@@ -41,13 +69,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3,
+      "number": 6,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 4,
+      "number": 7,
       "children": [
         {
           "kind": "span",
@@ -78,13 +106,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 5,
+      "number": 8,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 6,
+      "number": 9,
       "children": [
         {
           "kind": "span",
@@ -100,13 +128,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 7,
+      "number": 10,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 8,
+      "number": 11,
       "children": [
         {
           "kind": "span",
@@ -117,7 +145,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DISPCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L8C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L11C3"
         },
         {
           "kind": "span",
@@ -148,7 +176,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -194,7 +222,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 9,
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -205,7 +233,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GREENSWAP",
-          "href": "docs/gba__memory__io_registers___spec.html#L9C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L12C3"
         },
         {
           "kind": "span",
@@ -236,7 +264,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -282,7 +310,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 13,
       "children": [
         {
           "kind": "span",
@@ -293,7 +321,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DISPSTAT",
-          "href": "docs/gba__memory__io_registers___spec.html#L10C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L13C3"
         },
         {
           "kind": "span",
@@ -324,7 +352,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -370,7 +398,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 14,
       "children": [
         {
           "kind": "span",
@@ -381,7 +409,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "VCOUNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L11C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L14C3"
         },
         {
           "kind": "span",
@@ -412,7 +440,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -458,13 +486,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 12,
+      "number": 15,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 13,
+      "number": 16,
       "children": [
         {
           "kind": "span",
@@ -475,7 +503,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG0CNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L13C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L16C3"
         },
         {
           "kind": "span",
@@ -506,7 +534,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -552,7 +580,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 14,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -563,7 +591,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG1CNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L14C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L17C3"
         },
         {
           "kind": "span",
@@ -594,7 +622,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -640,7 +668,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 15,
+      "number": 18,
       "children": [
         {
           "kind": "span",
@@ -651,7 +679,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2CNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L15C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L18C3"
         },
         {
           "kind": "span",
@@ -682,7 +710,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -728,7 +756,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 16,
+      "number": 19,
       "children": [
         {
           "kind": "span",
@@ -739,7 +767,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3CNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L16C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L19C3"
         },
         {
           "kind": "span",
@@ -770,7 +798,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -816,13 +844,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 20,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 21,
       "children": [
         {
           "kind": "span",
@@ -833,7 +861,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG0HOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L18C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L21C3"
         },
         {
           "kind": "span",
@@ -864,7 +892,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -910,7 +938,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 22,
       "children": [
         {
           "kind": "span",
@@ -921,7 +949,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG0VOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L19C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L22C3"
         },
         {
           "kind": "span",
@@ -952,7 +980,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -998,7 +1026,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 23,
       "children": [
         {
           "kind": "span",
@@ -1009,7 +1037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG1HOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L20C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L23C3"
         },
         {
           "kind": "span",
@@ -1040,7 +1068,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1086,7 +1114,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 21,
+      "number": 24,
       "children": [
         {
           "kind": "span",
@@ -1097,7 +1125,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG1VOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L21C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L24C3"
         },
         {
           "kind": "span",
@@ -1128,7 +1156,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1174,7 +1202,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 22,
+      "number": 25,
       "children": [
         {
           "kind": "span",
@@ -1185,7 +1213,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2HOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L22C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L25C3"
         },
         {
           "kind": "span",
@@ -1216,7 +1244,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1262,7 +1290,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 23,
+      "number": 26,
       "children": [
         {
           "kind": "span",
@@ -1273,7 +1301,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2VOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L23C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L26C3"
         },
         {
           "kind": "span",
@@ -1304,7 +1332,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1350,7 +1378,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 24,
+      "number": 27,
       "children": [
         {
           "kind": "span",
@@ -1361,7 +1389,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3HOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L24C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L27C3"
         },
         {
           "kind": "span",
@@ -1392,7 +1420,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1438,7 +1466,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 25,
+      "number": 28,
       "children": [
         {
           "kind": "span",
@@ -1449,7 +1477,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3VOFS",
-          "href": "docs/gba__memory__io_registers___spec.html#L25C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L28C3"
         },
         {
           "kind": "span",
@@ -1480,7 +1508,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1526,13 +1554,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 26,
+      "number": 29,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 27,
+      "number": 30,
       "children": [
         {
           "kind": "span",
@@ -1543,7 +1571,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2PA",
-          "href": "docs/gba__memory__io_registers___spec.html#L27C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L30C3"
         },
         {
           "kind": "span",
@@ -1574,7 +1602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1620,7 +1648,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 28,
+      "number": 31,
       "children": [
         {
           "kind": "span",
@@ -1631,7 +1659,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2PB",
-          "href": "docs/gba__memory__io_registers___spec.html#L28C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L31C3"
         },
         {
           "kind": "span",
@@ -1662,7 +1690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1708,7 +1736,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 29,
+      "number": 32,
       "children": [
         {
           "kind": "span",
@@ -1719,7 +1747,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2PC",
-          "href": "docs/gba__memory__io_registers___spec.html#L29C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L32C3"
         },
         {
           "kind": "span",
@@ -1750,7 +1778,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1796,7 +1824,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 30,
+      "number": 33,
       "children": [
         {
           "kind": "span",
@@ -1807,7 +1835,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2PD",
-          "href": "docs/gba__memory__io_registers___spec.html#L30C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L33C3"
         },
         {
           "kind": "span",
@@ -1838,7 +1866,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1884,7 +1912,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 31,
+      "number": 34,
       "children": [
         {
           "kind": "span",
@@ -1895,7 +1923,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2X",
-          "href": "docs/gba__memory__io_registers___spec.html#L31C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L34C3"
         },
         {
           "kind": "span",
@@ -1926,7 +1954,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -1972,7 +2000,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 32,
+      "number": 35,
       "children": [
         {
           "kind": "span",
@@ -1983,7 +2011,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG2Y",
-          "href": "docs/gba__memory__io_registers___spec.html#L32C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L35C3"
         },
         {
           "kind": "span",
@@ -2014,7 +2042,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2060,13 +2088,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 36,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 37,
       "children": [
         {
           "kind": "span",
@@ -2077,7 +2105,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3PA",
-          "href": "docs/gba__memory__io_registers___spec.html#L34C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L37C3"
         },
         {
           "kind": "span",
@@ -2108,7 +2136,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2154,7 +2182,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 38,
       "children": [
         {
           "kind": "span",
@@ -2165,7 +2193,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3PB",
-          "href": "docs/gba__memory__io_registers___spec.html#L35C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L38C3"
         },
         {
           "kind": "span",
@@ -2196,7 +2224,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2242,7 +2270,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 39,
       "children": [
         {
           "kind": "span",
@@ -2253,7 +2281,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3PC",
-          "href": "docs/gba__memory__io_registers___spec.html#L36C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L39C3"
         },
         {
           "kind": "span",
@@ -2284,7 +2312,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2330,7 +2358,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 40,
       "children": [
         {
           "kind": "span",
@@ -2341,7 +2369,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3PD",
-          "href": "docs/gba__memory__io_registers___spec.html#L37C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L40C3"
         },
         {
           "kind": "span",
@@ -2372,7 +2400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2418,7 +2446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 41,
       "children": [
         {
           "kind": "span",
@@ -2429,7 +2457,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3X",
-          "href": "docs/gba__memory__io_registers___spec.html#L38C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L41C3"
         },
         {
           "kind": "span",
@@ -2460,7 +2488,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2506,7 +2534,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -2517,7 +2545,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG3Y",
-          "href": "docs/gba__memory__io_registers___spec.html#L39C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L42C3"
         },
         {
           "kind": "span",
@@ -2548,7 +2576,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2594,13 +2622,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 43,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -2611,7 +2639,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WIN0H",
-          "href": "docs/gba__memory__io_registers___spec.html#L41C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L44C3"
         },
         {
           "kind": "span",
@@ -2642,7 +2670,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2688,7 +2716,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 42,
+      "number": 45,
       "children": [
         {
           "kind": "span",
@@ -2699,7 +2727,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WIN1H",
-          "href": "docs/gba__memory__io_registers___spec.html#L42C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L45C3"
         },
         {
           "kind": "span",
@@ -2730,7 +2758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2776,7 +2804,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 43,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -2787,7 +2815,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WIN0V",
-          "href": "docs/gba__memory__io_registers___spec.html#L43C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L46C3"
         },
         {
           "kind": "span",
@@ -2818,7 +2846,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2864,7 +2892,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 44,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -2875,7 +2903,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WIN1V",
-          "href": "docs/gba__memory__io_registers___spec.html#L44C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L47C3"
         },
         {
           "kind": "span",
@@ -2906,7 +2934,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -2952,13 +2980,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 45,
+      "number": 48,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 46,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -2969,7 +2997,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WININ",
-          "href": "docs/gba__memory__io_registers___spec.html#L46C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L49C3"
         },
         {
           "kind": "span",
@@ -3000,7 +3028,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3046,7 +3074,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 47,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -3057,7 +3085,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WINOUT",
-          "href": "docs/gba__memory__io_registers___spec.html#L47C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L50C3"
         },
         {
           "kind": "span",
@@ -3088,7 +3116,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3134,13 +3162,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 48,
+      "number": 51,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 49,
+      "number": 52,
       "children": [
         {
           "kind": "span",
@@ -3151,7 +3179,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "MOSAIC",
-          "href": "docs/gba__memory__io_registers___spec.html#L49C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L52C3"
         },
         {
           "kind": "span",
@@ -3182,7 +3210,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3228,13 +3256,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 50,
+      "number": 53,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 51,
+      "number": 54,
       "children": [
         {
           "kind": "span",
@@ -3245,7 +3273,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BLDCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L51C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L54C3"
         },
         {
           "kind": "span",
@@ -3276,7 +3304,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3322,7 +3350,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 52,
+      "number": 55,
       "children": [
         {
           "kind": "span",
@@ -3333,7 +3361,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BLDALPHA",
-          "href": "docs/gba__memory__io_registers___spec.html#L52C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L55C3"
         },
         {
           "kind": "span",
@@ -3364,7 +3392,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3410,7 +3438,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 56,
       "children": [
         {
           "kind": "span",
@@ -3421,7 +3449,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BLDY",
-          "href": "docs/gba__memory__io_registers___spec.html#L53C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L56C3"
         },
         {
           "kind": "span",
@@ -3452,7 +3480,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3498,19 +3526,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 57,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 58,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 59,
       "children": [
         {
           "kind": "span",
@@ -3526,13 +3554,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 57,
+      "number": 60,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 58,
+      "number": 61,
       "children": [
         {
           "kind": "span",
@@ -3543,7 +3571,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND1CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L58C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L61C3"
         },
         {
           "kind": "span",
@@ -3574,7 +3602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3620,7 +3648,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 59,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -3631,7 +3659,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND1CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L59C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L62C3"
         },
         {
           "kind": "span",
@@ -3662,7 +3690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3708,7 +3736,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 60,
+      "number": 63,
       "children": [
         {
           "kind": "span",
@@ -3719,7 +3747,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND1CNT_X",
-          "href": "docs/gba__memory__io_registers___spec.html#L60C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L63C3"
         },
         {
           "kind": "span",
@@ -3750,7 +3778,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3796,13 +3824,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 61,
+      "number": 64,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 62,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -3813,7 +3841,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND2CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L62C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L65C3"
         },
         {
           "kind": "span",
@@ -3844,7 +3872,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3890,7 +3918,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 63,
+      "number": 66,
       "children": [
         {
           "kind": "span",
@@ -3901,7 +3929,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND2CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L63C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L66C3"
         },
         {
           "kind": "span",
@@ -3932,7 +3960,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -3978,13 +4006,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 64,
+      "number": 67,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 65,
+      "number": 68,
       "children": [
         {
           "kind": "span",
@@ -3995,7 +4023,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND3CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L65C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L68C3"
         },
         {
           "kind": "span",
@@ -4026,7 +4054,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4072,7 +4100,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 66,
+      "number": 69,
       "children": [
         {
           "kind": "span",
@@ -4083,7 +4111,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND3CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L66C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L69C3"
         },
         {
           "kind": "span",
@@ -4114,7 +4142,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4160,7 +4188,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 67,
+      "number": 70,
       "children": [
         {
           "kind": "span",
@@ -4171,7 +4199,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND3CNT_X",
-          "href": "docs/gba__memory__io_registers___spec.html#L67C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L70C3"
         },
         {
           "kind": "span",
@@ -4202,7 +4230,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4248,13 +4276,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 68,
+      "number": 71,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 69,
+      "number": 72,
       "children": [
         {
           "kind": "span",
@@ -4265,7 +4293,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND4CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L69C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L72C3"
         },
         {
           "kind": "span",
@@ -4296,7 +4324,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4342,7 +4370,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 70,
+      "number": 73,
       "children": [
         {
           "kind": "span",
@@ -4353,7 +4381,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUND4CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L70C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L73C3"
         },
         {
           "kind": "span",
@@ -4384,7 +4412,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4430,13 +4458,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 74,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 75,
       "children": [
         {
           "kind": "span",
@@ -4447,7 +4475,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUNDCNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L72C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L75C3"
         },
         {
           "kind": "span",
@@ -4478,7 +4506,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4524,7 +4552,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 73,
+      "number": 76,
       "children": [
         {
           "kind": "span",
@@ -4535,7 +4563,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUNDCNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L73C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L76C3"
         },
         {
           "kind": "span",
@@ -4566,7 +4594,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4612,7 +4640,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 74,
+      "number": 77,
       "children": [
         {
           "kind": "span",
@@ -4623,7 +4651,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUNDCNT_X",
-          "href": "docs/gba__memory__io_registers___spec.html#L74C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L77C3"
         },
         {
           "kind": "span",
@@ -4654,7 +4682,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4700,13 +4728,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 75,
+      "number": 78,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 79,
       "children": [
         {
           "kind": "span",
@@ -4717,7 +4745,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SOUNDBIAS",
-          "href": "docs/gba__memory__io_registers___spec.html#L76C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L79C3"
         },
         {
           "kind": "span",
@@ -4748,7 +4776,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4794,13 +4822,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 80,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 81,
       "children": [
         {
           "kind": "span",
@@ -4811,7 +4839,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WAVE_RAM",
-          "href": "docs/gba__memory__io_registers___spec.html#L78C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L81C3"
         },
         {
           "kind": "span",
@@ -4842,7 +4870,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4888,13 +4916,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 82,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 83,
       "children": [
         {
           "kind": "span",
@@ -4905,7 +4933,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "FIFO_A",
-          "href": "docs/gba__memory__io_registers___spec.html#L80C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L83C3"
         },
         {
           "kind": "span",
@@ -4936,7 +4964,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -4982,7 +5010,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -4993,7 +5021,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "FIFO_B",
-          "href": "docs/gba__memory__io_registers___spec.html#L81C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L84C3"
         },
         {
           "kind": "span",
@@ -5024,7 +5052,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5070,19 +5098,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 85,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 86,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 87,
       "children": [
         {
           "kind": "span",
@@ -5098,13 +5126,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 88,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 89,
       "children": [
         {
           "kind": "span",
@@ -5115,7 +5143,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA0SAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L86C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L89C3"
         },
         {
           "kind": "span",
@@ -5146,7 +5174,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5192,7 +5220,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 90,
       "children": [
         {
           "kind": "span",
@@ -5203,7 +5231,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA0DAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L87C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L90C3"
         },
         {
           "kind": "span",
@@ -5234,7 +5262,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5280,7 +5308,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 91,
       "children": [
         {
           "kind": "span",
@@ -5291,7 +5319,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA0CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L88C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L91C3"
         },
         {
           "kind": "span",
@@ -5322,7 +5350,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5368,7 +5396,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 92,
       "children": [
         {
           "kind": "span",
@@ -5379,7 +5407,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA0CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L89C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L92C3"
         },
         {
           "kind": "span",
@@ -5410,7 +5438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5456,13 +5484,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 93,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -5473,7 +5501,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA1SAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L91C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L94C3"
         },
         {
           "kind": "span",
@@ -5504,7 +5532,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5550,7 +5578,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -5561,7 +5589,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA1DAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L92C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L95C3"
         },
         {
           "kind": "span",
@@ -5592,7 +5620,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5638,7 +5666,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -5649,7 +5677,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA1CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L93C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L96C3"
         },
         {
           "kind": "span",
@@ -5680,7 +5708,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5726,7 +5754,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -5737,7 +5765,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA1CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L94C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L97C3"
         },
         {
           "kind": "span",
@@ -5768,7 +5796,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5814,13 +5842,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 98,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -5831,7 +5859,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA2SAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L96C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L99C3"
         },
         {
           "kind": "span",
@@ -5862,7 +5890,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5908,7 +5936,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 100,
       "children": [
         {
           "kind": "span",
@@ -5919,7 +5947,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA2DAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L97C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L100C3"
         },
         {
           "kind": "span",
@@ -5950,7 +5978,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -5996,7 +6024,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 101,
       "children": [
         {
           "kind": "span",
@@ -6007,7 +6035,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA2CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L98C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L101C3"
         },
         {
           "kind": "span",
@@ -6038,7 +6066,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6084,7 +6112,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -6095,7 +6123,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA2CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L99C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L102C3"
         },
         {
           "kind": "span",
@@ -6126,7 +6154,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6172,13 +6200,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 103,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 104,
       "children": [
         {
           "kind": "span",
@@ -6189,7 +6217,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA3SAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L101C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L104C3"
         },
         {
           "kind": "span",
@@ -6220,7 +6248,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6266,7 +6294,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 105,
       "children": [
         {
           "kind": "span",
@@ -6277,7 +6305,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA3DAD",
-          "href": "docs/gba__memory__io_registers___spec.html#L102C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L105C3"
         },
         {
           "kind": "span",
@@ -6308,7 +6336,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6354,7 +6382,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -6365,7 +6393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA3CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L103C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L106C3"
         },
         {
           "kind": "span",
@@ -6396,7 +6424,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6442,7 +6470,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 107,
       "children": [
         {
           "kind": "span",
@@ -6453,7 +6481,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "DMA3CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L104C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L107C3"
         },
         {
           "kind": "span",
@@ -6484,7 +6512,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6530,19 +6558,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 108,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 109,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 110,
       "children": [
         {
           "kind": "span",
@@ -6558,13 +6586,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 111,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 112,
       "children": [
         {
           "kind": "span",
@@ -6575,7 +6603,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM0CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L109C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L112C3"
         },
         {
           "kind": "span",
@@ -6606,7 +6634,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6652,7 +6680,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 113,
       "children": [
         {
           "kind": "span",
@@ -6663,7 +6691,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM0CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L110C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L113C3"
         },
         {
           "kind": "span",
@@ -6694,7 +6722,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6740,13 +6768,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 114,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -6757,7 +6785,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM1CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L112C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L115C3"
         },
         {
           "kind": "span",
@@ -6788,7 +6816,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6834,7 +6862,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -6845,7 +6873,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM1CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L113C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L116C3"
         },
         {
           "kind": "span",
@@ -6876,7 +6904,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -6922,13 +6950,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 117,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 118,
       "children": [
         {
           "kind": "span",
@@ -6939,7 +6967,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM2CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L115C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L118C3"
         },
         {
           "kind": "span",
@@ -6970,7 +6998,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7016,7 +7044,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -7027,7 +7055,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM2CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L116C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L119C3"
         },
         {
           "kind": "span",
@@ -7058,7 +7086,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7104,13 +7132,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 120,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -7121,7 +7149,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM3CNT_L",
-          "href": "docs/gba__memory__io_registers___spec.html#L118C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L121C3"
         },
         {
           "kind": "span",
@@ -7152,7 +7180,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7198,7 +7226,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -7209,7 +7237,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "TM3CNT_H",
-          "href": "docs/gba__memory__io_registers___spec.html#L119C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L122C3"
         },
         {
           "kind": "span",
@@ -7240,7 +7268,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7286,19 +7314,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 123,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 124,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -7314,13 +7342,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 126,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -7331,7 +7359,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIODATA32",
-          "href": "docs/gba__memory__io_registers___spec.html#L124C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L127C3"
         },
         {
           "kind": "span",
@@ -7362,7 +7390,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7408,7 +7436,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -7419,7 +7447,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIOMULTI0",
-          "href": "docs/gba__memory__io_registers___spec.html#L125C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L128C3"
         },
         {
           "kind": "span",
@@ -7450,7 +7478,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7496,7 +7524,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -7507,7 +7535,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIOMULTI1",
-          "href": "docs/gba__memory__io_registers___spec.html#L126C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L129C3"
         },
         {
           "kind": "span",
@@ -7538,7 +7566,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7584,7 +7612,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -7595,7 +7623,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIOMULTI2",
-          "href": "docs/gba__memory__io_registers___spec.html#L127C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L130C3"
         },
         {
           "kind": "span",
@@ -7626,7 +7654,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7672,7 +7700,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -7683,7 +7711,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIOMULTI3",
-          "href": "docs/gba__memory__io_registers___spec.html#L128C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L131C3"
         },
         {
           "kind": "span",
@@ -7714,7 +7742,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7760,7 +7788,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -7771,7 +7799,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIOCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L129C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L132C3"
         },
         {
           "kind": "span",
@@ -7802,7 +7830,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7848,7 +7876,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -7859,7 +7887,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIOMLT_SEND",
-          "href": "docs/gba__memory__io_registers___spec.html#L130C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L133C3"
         },
         {
           "kind": "span",
@@ -7890,7 +7918,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -7936,7 +7964,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -7947,7 +7975,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "SIODATA8",
-          "href": "docs/gba__memory__io_registers___spec.html#L131C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L134C3"
         },
         {
           "kind": "span",
@@ -7978,7 +8006,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8024,19 +8052,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 135,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 136,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -8052,13 +8080,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 138,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -8069,7 +8097,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "KEYINPUT",
-          "href": "docs/gba__memory__io_registers___spec.html#L136C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L139C3"
         },
         {
           "kind": "span",
@@ -8100,7 +8128,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8146,7 +8174,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -8157,7 +8185,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "KEYCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L137C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L140C3"
         },
         {
           "kind": "span",
@@ -8188,7 +8216,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8234,19 +8262,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 141,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 142,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -8262,13 +8290,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 144,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -8279,7 +8307,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "RCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L142C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L145C3"
         },
         {
           "kind": "span",
@@ -8310,7 +8338,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8356,7 +8384,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -8367,7 +8395,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JOYCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L143C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L146C3"
         },
         {
           "kind": "span",
@@ -8398,7 +8426,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8444,7 +8472,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -8455,7 +8483,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JOY_RECV",
-          "href": "docs/gba__memory__io_registers___spec.html#L144C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L147C3"
         },
         {
           "kind": "span",
@@ -8486,7 +8514,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8532,7 +8560,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -8543,7 +8571,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JOY_TRANS",
-          "href": "docs/gba__memory__io_registers___spec.html#L145C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L148C3"
         },
         {
           "kind": "span",
@@ -8574,7 +8602,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8620,7 +8648,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -8631,7 +8659,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "JOYSTAT",
-          "href": "docs/gba__memory__io_registers___spec.html#L146C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L149C3"
         },
         {
           "kind": "span",
@@ -8662,7 +8690,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8708,19 +8736,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 150,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 151,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -8736,13 +8764,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 153,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -8753,7 +8781,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IE",
-          "href": "docs/gba__memory__io_registers___spec.html#L151C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L154C3"
         },
         {
           "kind": "span",
@@ -8784,7 +8812,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8830,7 +8858,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -8841,7 +8869,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IRF",
-          "href": "docs/gba__memory__io_registers___spec.html#L152C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L155C3"
         },
         {
           "kind": "span",
@@ -8872,7 +8900,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -8918,7 +8946,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -8929,7 +8957,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "WAITCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L153C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L156C3"
         },
         {
           "kind": "span",
@@ -8960,7 +8988,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -9006,7 +9034,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -9017,7 +9045,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "IME",
-          "href": "docs/gba__memory__io_registers___spec.html#L154C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L157C3"
         },
         {
           "kind": "span",
@@ -9048,7 +9076,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -9094,13 +9122,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 158,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -9111,7 +9139,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "POSTFLG",
-          "href": "docs/gba__memory__io_registers___spec.html#L156C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L159C3"
         },
         {
           "kind": "span",
@@ -9142,7 +9170,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -9188,7 +9216,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -9199,7 +9227,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "HALTCNT",
-          "href": "docs/gba__memory__io_registers___spec.html#L157C3"
+          "href": "docs/gba__memory__io_registers___spec.html#L160C3"
         },
         {
           "kind": "span",
@@ -9230,7 +9258,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Address",
-          "href": "docs/gba__memory___spec.html#L9C11"
+          "href": "docs/gba__memory___spec.html#L12C11"
         },
         {
           "kind": "span",
@@ -9276,13 +9304,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 161,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 162,
       "children": [
         {
           "kind": "span",

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "IWRAM_Heap_Start",
           "qualifier": "",
-          "line": 9,
+          "line": 12,
           "column": 3,
           "src": "srcs/GBA.Memory.Default_Heaps.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -63,7 +63,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -99,7 +99,7 @@ GNATdoc.Documentation = {
         {
           "label": "EWRAM_Heap",
           "qualifier": "",
-          "line": 15,
+          "line": 18,
           "column": 3,
           "src": "srcs/GBA.Memory.Default_Heaps.ads.html",
           "summary": [
@@ -110,7 +110,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -121,7 +121,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EWRAM_Heap",
-                      "href": "docs/gba__memory__default_heaps___spec.html#L15C3"
+                      "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
                     },
                     {
                       "kind": "span",
@@ -161,8 +161,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "System.Memory.Heap",
-                      "href": "docs/gba__memory__default_heaps___spec.html#L15C3"
+                      "text": "System.Allocation.Memory.Heap",
+                      "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
                     },
                     {
                       "kind": "span",
@@ -178,7 +178,7 @@ GNATdoc.Documentation = {
         {
           "label": "IWRAM_Heap",
           "qualifier": "",
-          "line": 12,
+          "line": 15,
           "column": 3,
           "src": "srcs/GBA.Memory.Default_Heaps.ads.html",
           "summary": [
@@ -189,7 +189,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -200,7 +200,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "IWRAM_Heap",
-                      "href": "docs/gba__memory__default_heaps___spec.html#L12C3"
+                      "href": "docs/gba__memory__default_heaps___spec.html#L15C3"
                     },
                     {
                       "kind": "span",
@@ -226,7 +226,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -287,7 +287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Internal_WRAM_Address",
-                      "href": "docs/gba__memory___spec.html#L18C11"
+                      "href": "docs/gba__memory___spec.html#L21C11"
                     },
                     {
                       "kind": "span",

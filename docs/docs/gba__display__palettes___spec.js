@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Palette_16x16",
           "qualifier": "",
-          "line": 81,
+          "line": 84,
           "column": 3,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -53,7 +53,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -84,7 +84,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Palette_256",
           "qualifier": "",
-          "line": 78,
+          "line": 81,
           "column": 3,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -95,7 +95,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -136,7 +136,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -167,7 +167,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Palette_RAM",
           "qualifier": "",
-          "line": 75,
+          "line": 78,
           "column": 3,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -178,7 +178,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -264,7 +264,7 @@ GNATdoc.Documentation = {
         {
           "label": "OBJ_Palette_16x16",
           "qualifier": "",
-          "line": 87,
+          "line": 90,
           "column": 3,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -275,7 +275,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -306,7 +306,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -337,7 +337,7 @@ GNATdoc.Documentation = {
         {
           "label": "OBJ_Palette_256",
           "qualifier": "",
-          "line": 84,
+          "line": 87,
           "column": 3,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -348,7 +348,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -389,7 +389,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -420,7 +420,7 @@ GNATdoc.Documentation = {
         {
           "label": "OBJ_Palette_RAM",
           "qualifier": "",
-          "line": 76,
+          "line": 79,
           "column": 3,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -431,7 +431,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -522,7 +522,7 @@ GNATdoc.Documentation = {
         {
           "label": "Color_Index_16",
           "qualifier": "",
-          "line": 36,
+          "line": 39,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -533,7 +533,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -554,7 +554,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color_Index_16",
-                      "href": "docs/gba__display__palettes___spec.html#L36C8"
+                      "href": "docs/gba__display__palettes___spec.html#L39C8"
                     },
                     {
                       "kind": "span",
@@ -610,7 +610,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -641,7 +641,7 @@ GNATdoc.Documentation = {
         {
           "label": "Color_Index_256",
           "qualifier": "",
-          "line": 39,
+          "line": 42,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -652,7 +652,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -673,7 +673,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color_Index_256",
-                      "href": "docs/gba__display__palettes___spec.html#L39C8"
+                      "href": "docs/gba__display__palettes___spec.html#L42C8"
                     },
                     {
                       "kind": "span",
@@ -729,7 +729,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -760,7 +760,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_16",
           "qualifier": "",
-          "line": 53,
+          "line": 56,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -771,7 +771,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -792,7 +792,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_16",
-                      "href": "docs/gba__display__palettes___spec.html#L53C8"
+                      "href": "docs/gba__display__palettes___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -828,7 +828,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color_Index_16",
-                      "href": "docs/gba__display__palettes___spec.html#L36C8"
+                      "href": "docs/gba__display__palettes___spec.html#L39C8"
                     },
                     {
                       "kind": "span",
@@ -854,13 +854,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color",
-                      "href": "docs/gba__display__palettes___spec.html#L22C8"
+                      "href": "docs/gba__display__palettes___spec.html#L25C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -891,7 +891,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_16x16",
           "qualifier": "",
-          "line": 67,
+          "line": 70,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -902,7 +902,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -923,7 +923,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_16x16",
-                      "href": "docs/gba__display__palettes___spec.html#L67C8"
+                      "href": "docs/gba__display__palettes___spec.html#L70C8"
                     },
                     {
                       "kind": "span",
@@ -939,7 +939,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -965,7 +965,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_Index_16",
-                      "href": "docs/gba__display__palettes___spec.html#L45C8"
+                      "href": "docs/gba__display__palettes___spec.html#L48C8"
                     },
                     {
                       "kind": "span",
@@ -1001,7 +1001,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_16",
-                      "href": "docs/gba__display__palettes___spec.html#L53C8"
+                      "href": "docs/gba__display__palettes___spec.html#L56C8"
                     },
                     {
                       "kind": "span",
@@ -1017,7 +1017,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_256",
           "qualifier": "",
-          "line": 60,
+          "line": 63,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1028,7 +1028,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 60,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -1049,7 +1049,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_256",
-                      "href": "docs/gba__display__palettes___spec.html#L60C8"
+                      "href": "docs/gba__display__palettes___spec.html#L63C8"
                     },
                     {
                       "kind": "span",
@@ -1085,7 +1085,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color_Index_256",
-                      "href": "docs/gba__display__palettes___spec.html#L39C8"
+                      "href": "docs/gba__display__palettes___spec.html#L42C8"
                     },
                     {
                       "kind": "span",
@@ -1111,13 +1111,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color",
-                      "href": "docs/gba__display__palettes___spec.html#L22C8"
+                      "href": "docs/gba__display__palettes___spec.html#L25C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -1148,7 +1148,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_Index_16",
           "qualifier": "",
-          "line": 45,
+          "line": 48,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1159,7 +1159,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 45,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -1180,7 +1180,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_Index_16",
-                      "href": "docs/gba__display__palettes___spec.html#L45C8"
+                      "href": "docs/gba__display__palettes___spec.html#L48C8"
                     },
                     {
                       "kind": "span",
@@ -1236,7 +1236,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -1267,7 +1267,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_Mode",
           "qualifier": "",
-          "line": 9,
+          "line": 12,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1278,7 +1278,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -1299,7 +1299,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_Mode",
-                      "href": "docs/gba__display__palettes___spec.html#L9C8"
+                      "href": "docs/gba__display__palettes___spec.html#L12C8"
                     },
                     {
                       "kind": "span",
@@ -1315,7 +1315,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -1336,7 +1336,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Colors_16",
-                      "href": "docs/gba__display__palettes___spec.html#L10C7"
+                      "href": "docs/gba__display__palettes___spec.html#L13C7"
                     },
                     {
                       "kind": "span",
@@ -1352,7 +1352,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 14,
                   "children": [
                     {
                       "kind": "span",
@@ -1373,7 +1373,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Colors_256",
-                      "href": "docs/gba__display__palettes___spec.html#L11C7"
+                      "href": "docs/gba__display__palettes___spec.html#L14C7"
                     },
                     {
                       "kind": "span",
@@ -1389,7 +1389,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -1405,7 +1405,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/gba__display__palettes___spec.html#L9C8"
+                      "href": "docs/gba__display__palettes___spec.html#L12C8"
                     }
                   ]
                 }
@@ -1415,7 +1415,7 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Colors_16",
-              "line": 10,
+              "line": 13,
               "column": 7,
               "description": [
                 {
@@ -1431,7 +1431,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Colors_256",
-              "line": 11,
+              "line": 14,
               "column": 7,
               "description": [
                 {
@@ -1450,7 +1450,7 @@ GNATdoc.Documentation = {
         {
           "label": "Unsigned_5",
           "qualifier": "",
-          "line": 20,
+          "line": 23,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1461,7 +1461,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -1482,7 +1482,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Unsigned_5",
-                      "href": "docs/gba__display__palettes___spec.html#L20C8"
+                      "href": "docs/gba__display__palettes___spec.html#L23C8"
                     },
                     {
                       "kind": "span",
@@ -1543,7 +1543,7 @@ GNATdoc.Documentation = {
         {
           "label": "Color_Ref",
           "qualifier": "",
-          "line": 49,
+          "line": 52,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1554,7 +1554,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -1575,7 +1575,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color_Ref",
-                      "href": "docs/gba__display__palettes___spec.html#L49C8"
+                      "href": "docs/gba__display__palettes___spec.html#L52C8"
                     },
                     {
                       "kind": "span",
@@ -1616,13 +1616,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color",
-                      "href": "docs/gba__display__palettes___spec.html#L22C8"
+                      "href": "docs/gba__display__palettes___spec.html#L25C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -1653,7 +1653,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_16_Ptr",
           "qualifier": "",
-          "line": 56,
+          "line": 59,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1664,7 +1664,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -1685,7 +1685,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_16_Ptr",
-                      "href": "docs/gba__display__palettes___spec.html#L56C8"
+                      "href": "docs/gba__display__palettes___spec.html#L59C8"
                     },
                     {
                       "kind": "span",
@@ -1726,13 +1726,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_16",
-                      "href": "docs/gba__display__palettes___spec.html#L53C8"
+                      "href": "docs/gba__display__palettes___spec.html#L56C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -1763,7 +1763,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_16x16_Ptr",
           "qualifier": "",
-          "line": 70,
+          "line": 73,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1774,7 +1774,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -1795,7 +1795,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_16x16_Ptr",
-                      "href": "docs/gba__display__palettes___spec.html#L70C8"
+                      "href": "docs/gba__display__palettes___spec.html#L73C8"
                     },
                     {
                       "kind": "span",
@@ -1836,13 +1836,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_16x16",
-                      "href": "docs/gba__display__palettes___spec.html#L67C8"
+                      "href": "docs/gba__display__palettes___spec.html#L70C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -1873,7 +1873,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_256_Ptr",
           "qualifier": "",
-          "line": 63,
+          "line": 66,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1884,7 +1884,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 63,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -1905,7 +1905,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_256_Ptr",
-                      "href": "docs/gba__display__palettes___spec.html#L63C8"
+                      "href": "docs/gba__display__palettes___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
@@ -1946,13 +1946,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_256",
-                      "href": "docs/gba__display__palettes___spec.html#L60C8"
+                      "href": "docs/gba__display__palettes___spec.html#L63C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 67,
                   "children": [
                     {
                       "kind": "span",
@@ -1988,7 +1988,7 @@ GNATdoc.Documentation = {
         {
           "label": "Color",
           "qualifier": "",
-          "line": 22,
+          "line": 25,
           "column": 8,
           "src": "srcs/GBA.Display.Palettes.ads.html",
           "summary": [
@@ -1999,7 +1999,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -2020,7 +2020,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color",
-                      "href": "docs/gba__display__palettes___spec.html#L22C8"
+                      "href": "docs/gba__display__palettes___spec.html#L25C8"
                     },
                     {
                       "kind": "span",
@@ -2036,7 +2036,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -2052,7 +2052,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -2063,7 +2063,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "R",
-                      "href": "docs/gba__display__palettes___spec.html#L24C7"
+                      "href": "docs/gba__display__palettes___spec.html#L27C7"
                     },
                     {
                       "kind": "span",
@@ -2079,7 +2079,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "G",
-                      "href": "docs/gba__display__palettes___spec.html#L24C10"
+                      "href": "docs/gba__display__palettes___spec.html#L27C10"
                     },
                     {
                       "kind": "span",
@@ -2095,7 +2095,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "B",
-                      "href": "docs/gba__display__palettes___spec.html#L24C13"
+                      "href": "docs/gba__display__palettes___spec.html#L27C13"
                     },
                     {
                       "kind": "span",
@@ -2116,7 +2116,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Unsigned_5",
-                      "href": "docs/gba__display__palettes___spec.html#L20C8"
+                      "href": "docs/gba__display__palettes___spec.html#L23C8"
                     },
                     {
                       "kind": "span",
@@ -2127,7 +2127,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -2153,7 +2153,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 29,
                   "children": [
                     {
                       "kind": "span",
@@ -2183,33 +2183,33 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "R",
-              "line": 24,
+              "line": 27,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Palettes.Unsigned_5",
-                "docHref": "docs/gba__display__palettes___spec.html#L20C8"
+                "docHref": "docs/gba__display__palettes___spec.html#L23C8"
               },
               "description": [
               ]
             },
             {
               "label": "G",
-              "line": 24,
+              "line": 27,
               "column": 10,
               "type": {
                 "label": "GBA.Display.Palettes.Unsigned_5",
-                "docHref": "docs/gba__display__palettes___spec.html#L20C8"
+                "docHref": "docs/gba__display__palettes___spec.html#L23C8"
               },
               "description": [
               ]
             },
             {
               "label": "B",
-              "line": 24,
+              "line": 27,
               "column": 13,
               "type": {
                 "label": "GBA.Display.Palettes.Unsigned_5",
-                "docHref": "docs/gba__display__palettes___spec.html#L20C8"
+                "docHref": "docs/gba__display__palettes___spec.html#L23C8"
               },
               "description": [
               ]

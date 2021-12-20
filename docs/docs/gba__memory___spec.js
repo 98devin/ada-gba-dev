@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Address",
           "qualifier": "",
-          "line": 9,
+          "line": 12,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 12,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     },
                     {
                       "kind": "span",
@@ -69,7 +69,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -164,7 +164,7 @@ GNATdoc.Documentation = {
         {
           "label": "BIOS_Address",
           "qualifier": "",
-          "line": 12,
+          "line": 15,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -175,7 +175,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 15,
                   "children": [
                     {
                       "kind": "span",
@@ -196,7 +196,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BIOS_Address",
-                      "href": "docs/gba__memory___spec.html#L12C11"
+                      "href": "docs/gba__memory___spec.html#L15C11"
                     },
                     {
                       "kind": "span",
@@ -217,13 +217,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 13,
+                  "number": 16,
                   "children": [
                     {
                       "kind": "span",
@@ -309,7 +309,7 @@ GNATdoc.Documentation = {
         {
           "label": "External_WRAM_Address",
           "qualifier": "",
-          "line": 15,
+          "line": 18,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -320,7 +320,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -341,7 +341,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "External_WRAM_Address",
-                      "href": "docs/gba__memory___spec.html#L15C11"
+                      "href": "docs/gba__memory___spec.html#L18C11"
                     },
                     {
                       "kind": "span",
@@ -362,13 +362,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -454,7 +454,7 @@ GNATdoc.Documentation = {
         {
           "label": "Internal_WRAM_Address",
           "qualifier": "",
-          "line": 18,
+          "line": 21,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -465,7 +465,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -486,7 +486,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Internal_WRAM_Address",
-                      "href": "docs/gba__memory___spec.html#L18C11"
+                      "href": "docs/gba__memory___spec.html#L21C11"
                     },
                     {
                       "kind": "span",
@@ -507,13 +507,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -599,7 +599,7 @@ GNATdoc.Documentation = {
         {
           "label": "IO_Register_Address",
           "qualifier": "",
-          "line": 24,
+          "line": 27,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -610,7 +610,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -631,7 +631,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "IO_Register_Address",
-                      "href": "docs/gba__memory___spec.html#L24C11"
+                      "href": "docs/gba__memory___spec.html#L27C11"
                     },
                     {
                       "kind": "span",
@@ -652,13 +652,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -744,7 +744,7 @@ GNATdoc.Documentation = {
         {
           "label": "OAM_Address",
           "qualifier": "",
-          "line": 33,
+          "line": 36,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -755,7 +755,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -776,7 +776,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OAM_Address",
-                      "href": "docs/gba__memory___spec.html#L33C11"
+                      "href": "docs/gba__memory___spec.html#L36C11"
                     },
                     {
                       "kind": "span",
@@ -797,13 +797,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -889,7 +889,7 @@ GNATdoc.Documentation = {
         {
           "label": "Palette_RAM_Address",
           "qualifier": "",
-          "line": 27,
+          "line": 30,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -900,7 +900,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -921,7 +921,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_RAM_Address",
-                      "href": "docs/gba__memory___spec.html#L27C11"
+                      "href": "docs/gba__memory___spec.html#L30C11"
                     },
                     {
                       "kind": "span",
@@ -942,13 +942,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -1034,7 +1034,7 @@ GNATdoc.Documentation = {
         {
           "label": "Reserved_Internal_WRAM_Adddress",
           "qualifier": "",
-          "line": 21,
+          "line": 24,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -1045,7 +1045,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -1066,7 +1066,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reserved_Internal_WRAM_Adddress",
-                      "href": "docs/gba__memory___spec.html#L21C11"
+                      "href": "docs/gba__memory___spec.html#L24C11"
                     },
                     {
                       "kind": "span",
@@ -1087,13 +1087,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Internal_WRAM_Address",
-                      "href": "docs/gba__memory___spec.html#L18C11"
+                      "href": "docs/gba__memory___spec.html#L21C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -1179,7 +1179,7 @@ GNATdoc.Documentation = {
         {
           "label": "ROM_Address",
           "qualifier": "",
-          "line": 36,
+          "line": 39,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -1190,7 +1190,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -1211,7 +1211,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ROM_Address",
-                      "href": "docs/gba__memory___spec.html#L36C11"
+                      "href": "docs/gba__memory___spec.html#L39C11"
                     },
                     {
                       "kind": "span",
@@ -1232,13 +1232,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -1324,7 +1324,7 @@ GNATdoc.Documentation = {
         {
           "label": "Video_RAM_Address",
           "qualifier": "",
-          "line": 30,
+          "line": 33,
           "column": 11,
           "src": "srcs/GBA.Memory.ads.html",
           "summary": [
@@ -1335,7 +1335,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -1356,7 +1356,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Video_RAM_Address",
-                      "href": "docs/gba__memory___spec.html#L30C11"
+                      "href": "docs/gba__memory___spec.html#L33C11"
                     },
                     {
                       "kind": "span",
@@ -1377,13 +1377,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",

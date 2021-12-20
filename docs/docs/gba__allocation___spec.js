@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Marker",
           "qualifier": "",
-          "line": 22,
+          "line": 25,
           "column": 11,
           "src": "srcs/GBA.Allocation.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 22,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Marker",
-                      "href": "docs/gba__allocation___spec.html#L22C11"
+                      "href": "docs/gba__allocation___spec.html#L25C11"
                     },
                     {
                       "kind": "span",
@@ -84,7 +84,7 @@ GNATdoc.Documentation = {
         {
           "label": "Heap_Arena",
           "qualifier": "",
-          "line": 23,
+          "line": 26,
           "column": 11,
           "src": "srcs/GBA.Allocation.ads.html",
           "summary": [
@@ -95,7 +95,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -116,7 +116,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Heap_Arena",
-                      "href": "docs/gba__allocation___spec.html#L23C11"
+                      "href": "docs/gba__allocation___spec.html#L26C11"
                     },
                     {
                       "kind": "span",
@@ -152,7 +152,7 @@ GNATdoc.Documentation = {
         {
           "label": "Local_Arena",
           "qualifier": "",
-          "line": 24,
+          "line": 27,
           "column": 11,
           "src": "srcs/GBA.Allocation.ads.html",
           "summary": [
@@ -163,7 +163,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -184,7 +184,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Local_Arena",
-                      "href": "docs/gba__allocation___spec.html#L24C11"
+                      "href": "docs/gba__allocation___spec.html#L27C11"
                     },
                     {
                       "kind": "span",
@@ -222,180 +222,6 @@ GNATdoc.Documentation = {
     },
     {
       "entities": [
-        {
-          "label": "Create_Arena",
-          "qualifier": "",
-          "line": 48,
-          "column": 12,
-          "src": "srcs/GBA.Allocation.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 48,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Create_Arena",
-                      "href": "docs/gba__allocation___spec.html#L48C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Start_Address",
-                      "href": "docs/gba__allocation___spec.html#L48C26"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "End_Address",
-                      "href": "docs/gba__allocation___spec.html#L48C41"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Address"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 49,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Heap_Arena",
-                      "href": "docs/gba__allocation___spec.html#L23C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "System.Allocation.Arenas.Create_Arena"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Start_Address",
-              "line": 48,
-              "column": 26,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "End_Address",
-              "line": 48,
-              "column": 41,
-              "type": {
-                "label": "Address"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
         {
           "label": "Create_Arena",
           "qualifier": "",
@@ -446,8 +272,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Local_Size",
+                      "text": "Start_Address",
                       "href": "docs/gba__allocation___spec.html#L51C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "End_Address",
+                      "href": "docs/gba__allocation___spec.html#L51C41"
                     },
                     {
                       "kind": "span",
@@ -467,7 +309,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "SSE.Storage_Count"
+                      "text": "Address"
                     },
                     {
                       "kind": "span",
@@ -498,8 +340,166 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
+                      "text": "Heap_Arena",
+                      "href": "docs/gba__allocation___spec.html#L26C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "renames"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "System.Allocation.Arenas.Create_Arena"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Start_Address",
+              "line": 51,
+              "column": 26,
+              "type": {
+                "label": "Address"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "End_Address",
+              "line": 51,
+              "column": 41,
+              "type": {
+                "label": "Address"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Create_Arena",
+          "qualifier": "",
+          "line": 54,
+          "column": 12,
+          "src": "srcs/GBA.Allocation.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 54,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Create_Arena",
+                      "href": "docs/gba__allocation___spec.html#L54C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Local_Size",
+                      "href": "docs/gba__allocation___spec.html#L54C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "SSE.Storage_Count"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
                       "text": "Local_Arena",
-                      "href": "docs/gba__allocation___spec.html#L24C11"
+                      "href": "docs/gba__allocation___spec.html#L27C11"
                     },
                     {
                       "kind": "span",
@@ -534,7 +534,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Local_Size",
-              "line": 51,
+              "line": 54,
               "column": 26,
               "type": {
                 "label": "Storage_Count"
@@ -547,7 +547,7 @@ GNATdoc.Documentation = {
         {
           "label": "Init_Arena",
           "qualifier": "",
-          "line": 54,
+          "line": 57,
           "column": 13,
           "src": "srcs/GBA.Allocation.ads.html",
           "summary": [
@@ -558,7 +558,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -579,7 +579,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Init_Arena",
-                      "href": "docs/gba__allocation___spec.html#L54C13"
+                      "href": "docs/gba__allocation___spec.html#L57C13"
                     },
                     {
                       "kind": "span",
@@ -595,7 +595,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pool",
-                      "href": "docs/gba__allocation___spec.html#L54C25"
+                      "href": "docs/gba__allocation___spec.html#L57C25"
                     },
                     {
                       "kind": "span",
@@ -636,7 +636,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Local_Arena",
-                      "href": "docs/gba__allocation___spec.html#L24C11"
+                      "href": "docs/gba__allocation___spec.html#L27C11"
                     },
                     {
                       "kind": "span",
@@ -647,7 +647,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -682,161 +682,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Pool",
-              "line": 54,
+              "line": 57,
               "column": 25,
               "type": {
                 "label": "GBA.Allocation.Local_Arena",
-                "docHref": "docs/gba__allocation___spec.html#L24C11"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Mark",
-          "qualifier": "",
-          "line": 34,
-          "column": 12,
-          "src": "srcs/GBA.Allocation.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 34,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Mark",
-                      "href": "docs/gba__allocation___spec.html#L34C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Pool",
-                      "href": "docs/gba__allocation___spec.html#L34C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Heap_Arena",
-                      "href": "docs/gba__allocation___spec.html#L23C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Marker",
-                      "href": "docs/gba__allocation___spec.html#L22C11"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 35,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "System.Allocation.Arenas.Mark"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Pool",
-              "line": 34,
-              "column": 18,
-              "type": {
-                "label": "GBA.Allocation.Heap_Arena",
-                "docHref": "docs/gba__allocation___spec.html#L23C11"
+                "docHref": "docs/gba__allocation___spec.html#L27C11"
               },
               "description": [
               ]
@@ -914,8 +764,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Local_Arena",
-                      "href": "docs/gba__allocation___spec.html#L24C11"
+                      "text": "Heap_Arena",
+                      "href": "docs/gba__allocation___spec.html#L26C11"
                     },
                     {
                       "kind": "span",
@@ -941,7 +791,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Marker",
-                      "href": "docs/gba__allocation___spec.html#L22C11"
+                      "href": "docs/gba__allocation___spec.html#L25C11"
                     }
                   ]
                 },
@@ -985,8 +835,8 @@ GNATdoc.Documentation = {
               "line": 37,
               "column": 18,
               "type": {
-                "label": "GBA.Allocation.Local_Arena",
-                "docHref": "docs/gba__allocation___spec.html#L24C11"
+                "label": "GBA.Allocation.Heap_Arena",
+                "docHref": "docs/gba__allocation___spec.html#L26C11"
               },
               "description": [
               ]
@@ -994,10 +844,10 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Release",
+          "label": "Mark",
           "qualifier": "",
-          "line": 41,
-          "column": 13,
+          "line": 40,
+          "column": 12,
           "src": "srcs/GBA.Allocation.ads.html",
           "summary": [
           ],
@@ -1007,7 +857,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -1017,7 +867,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "function"
                     },
                     {
                       "kind": "span",
@@ -1027,8 +877,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Release",
-                      "href": "docs/gba__allocation___spec.html#L41C13"
+                      "text": "Mark",
+                      "href": "docs/gba__allocation___spec.html#L40C12"
                     },
                     {
                       "kind": "span",
@@ -1044,7 +894,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pool",
-                      "href": "docs/gba__allocation___spec.html#L41C22"
+                      "href": "docs/gba__allocation___spec.html#L40C18"
                     },
                     {
                       "kind": "span",
@@ -1063,8 +913,14 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "in"
+                      "cssClass": "identifier",
+                      "text": "Local_Arena",
+                      "href": "docs/gba__allocation___spec.html#L27C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     },
                     {
                       "kind": "span",
@@ -1074,44 +930,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Heap_Arena",
-                      "href": "docs/gba__allocation___spec.html#L23C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Mark",
-                      "href": "docs/gba__allocation___spec.html#L41C48"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
+                      "text": "return"
                     },
                     {
                       "kind": "span",
@@ -1122,18 +941,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Marker",
-                      "href": "docs/gba__allocation___spec.html#L22C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "href": "docs/gba__allocation___spec.html#L25C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -1153,7 +967,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "System.Allocation.Arenas.Release"
+                      "text": "System.Allocation.Arenas.Mark"
                     },
                     {
                       "kind": "span",
@@ -1168,22 +982,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Pool",
-              "line": 41,
-              "column": 22,
+              "line": 40,
+              "column": 18,
               "type": {
-                "label": "GBA.Allocation.Heap_Arena",
-                "docHref": "docs/gba__allocation___spec.html#L23C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Mark",
-              "line": 41,
-              "column": 48,
-              "type": {
-                "label": "GBA.Allocation.Marker",
-                "docHref": "docs/gba__allocation___spec.html#L22C11"
+                "label": "GBA.Allocation.Local_Arena",
+                "docHref": "docs/gba__allocation___spec.html#L27C11"
               },
               "description": [
               ]
@@ -1281,8 +1084,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Local_Arena",
-                      "href": "docs/gba__allocation___spec.html#L24C11"
+                      "text": "Heap_Arena",
+                      "href": "docs/gba__allocation___spec.html#L26C11"
                     },
                     {
                       "kind": "span",
@@ -1298,7 +1101,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Mark",
-                      "href": "docs/gba__allocation___spec.html#L44C49"
+                      "href": "docs/gba__allocation___spec.html#L44C48"
                     },
                     {
                       "kind": "span",
@@ -1319,7 +1122,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Marker",
-                      "href": "docs/gba__allocation___spec.html#L22C11"
+                      "href": "docs/gba__allocation___spec.html#L25C11"
                     },
                     {
                       "kind": "span",
@@ -1368,8 +1171,8 @@ GNATdoc.Documentation = {
               "line": 44,
               "column": 22,
               "type": {
-                "label": "GBA.Allocation.Local_Arena",
-                "docHref": "docs/gba__allocation___spec.html#L24C11"
+                "label": "GBA.Allocation.Heap_Arena",
+                "docHref": "docs/gba__allocation___spec.html#L26C11"
               },
               "description": [
               ]
@@ -1377,10 +1180,10 @@ GNATdoc.Documentation = {
             {
               "label": "Mark",
               "line": 44,
-              "column": 49,
+              "column": 48,
               "type": {
                 "label": "GBA.Allocation.Marker",
-                "docHref": "docs/gba__allocation___spec.html#L22C11"
+                "docHref": "docs/gba__allocation___spec.html#L25C11"
               },
               "description": [
               ]
@@ -1388,10 +1191,10 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Storage_Size",
+          "label": "Release",
           "qualifier": "",
-          "line": 27,
-          "column": 12,
+          "line": 47,
+          "column": 13,
           "src": "srcs/GBA.Allocation.ads.html",
           "summary": [
           ],
@@ -1401,7 +1204,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1411,7 +1214,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -1421,8 +1224,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Storage_Size",
-                      "href": "docs/gba__allocation___spec.html#L27C12"
+                      "text": "Release",
+                      "href": "docs/gba__allocation___spec.html#L47C13"
                     },
                     {
                       "kind": "span",
@@ -1438,7 +1241,64 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Pool",
-                      "href": "docs/gba__allocation___spec.html#L27C26"
+                      "href": "docs/gba__allocation___spec.html#L47C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "in"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "out"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Local_Arena",
+                      "href": "docs/gba__allocation___spec.html#L27C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Mark",
+                      "href": "docs/gba__allocation___spec.html#L47C49"
                     },
                     {
                       "kind": "span",
@@ -1458,39 +1318,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Heap_Arena",
-                      "href": "docs/gba__allocation___spec.html#L23C11"
+                      "text": "Marker",
+                      "href": "docs/gba__allocation___spec.html#L25C11"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Storage_Count"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -1510,7 +1350,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "System.Allocation.Arenas.Storage_Size"
+                      "text": "System.Allocation.Arenas.Release"
                     },
                     {
                       "kind": "span",
@@ -1525,11 +1365,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Pool",
-              "line": 27,
-              "column": 26,
+              "line": 47,
+              "column": 22,
               "type": {
-                "label": "GBA.Allocation.Heap_Arena",
-                "docHref": "docs/gba__allocation___spec.html#L23C11"
+                "label": "GBA.Allocation.Local_Arena",
+                "docHref": "docs/gba__allocation___spec.html#L27C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Mark",
+              "line": 47,
+              "column": 49,
+              "type": {
+                "label": "GBA.Allocation.Marker",
+                "docHref": "docs/gba__allocation___spec.html#L25C11"
               },
               "description": [
               ]
@@ -1607,8 +1458,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Local_Arena",
-                      "href": "docs/gba__allocation___spec.html#L24C11"
+                      "text": "Heap_Arena",
+                      "href": "docs/gba__allocation___spec.html#L26C11"
                     },
                     {
                       "kind": "span",
@@ -1677,8 +1528,157 @@ GNATdoc.Documentation = {
               "line": 30,
               "column": 26,
               "type": {
+                "label": "GBA.Allocation.Heap_Arena",
+                "docHref": "docs/gba__allocation___spec.html#L26C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Storage_Size",
+          "qualifier": "",
+          "line": 33,
+          "column": 12,
+          "src": "srcs/GBA.Allocation.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 33,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Storage_Size",
+                      "href": "docs/gba__allocation___spec.html#L33C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Pool",
+                      "href": "docs/gba__allocation___spec.html#L33C26"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Local_Arena",
+                      "href": "docs/gba__allocation___spec.html#L27C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Storage_Count"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 34,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "renames"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "System.Allocation.Arenas.Storage_Size"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Pool",
+              "line": 33,
+              "column": 26,
+              "type": {
                 "label": "GBA.Allocation.Local_Arena",
-                "docHref": "docs/gba__allocation___spec.html#L24C11"
+                "docHref": "docs/gba__allocation___spec.html#L27C11"
               },
               "description": [
               ]
@@ -1692,7 +1692,7 @@ GNATdoc.Documentation = {
       "entities": [
         {
           "label": "Stack_Arena",
-          "href": "../docs/gba__allocation___stack_arena___spec.html#L16C11",
+          "href": "../docs/gba__allocation___stack_arena___spec.html#L19C11",
           "qualifier": "",
           "summary": [
           ],

@@ -5,11 +5,39 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 2,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 3,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 4,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 5,
       "children": [
         {
           "kind": "span",
@@ -35,7 +63,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 3,
+      "number": 6,
       "children": [
         {
           "kind": "span",
@@ -61,13 +89,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 4,
+      "number": 7,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 5,
+      "number": 8,
       "children": [
         {
           "kind": "span",
@@ -83,7 +111,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "GBA.Input.Unbuffered",
-          "href": "docs/gba__input__unbuffered___spec.html#L5C19"
+          "href": "docs/gba__input__unbuffered___spec.html#L8C19"
         },
         {
           "kind": "span",
@@ -99,13 +127,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 6,
+      "number": 9,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 7,
+      "number": 10,
       "children": [
         {
           "kind": "span",
@@ -126,7 +154,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Is_Key_Down",
-          "href": "docs/gba__input__unbuffered___spec.html#L7C12"
+          "href": "docs/gba__input__unbuffered___spec.html#L10C12"
         },
         {
           "kind": "span",
@@ -137,7 +165,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "K",
-          "href": "docs/gba__input__unbuffered___spec.html#L7C24"
+          "href": "docs/gba__input__unbuffered___spec.html#L10C24"
         },
         {
           "kind": "span",
@@ -158,7 +186,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Key",
-          "href": "docs/gba__input___spec.html#L6C8"
+          "href": "docs/gba__input___spec.html#L9C8"
         },
         {
           "kind": "span",
@@ -209,7 +237,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 8,
+      "number": 11,
       "children": [
         {
           "kind": "span",
@@ -230,7 +258,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Are_Any_Down",
-          "href": "docs/gba__input__unbuffered___spec.html#L8C12"
+          "href": "docs/gba__input__unbuffered___spec.html#L11C12"
         },
         {
           "kind": "span",
@@ -241,7 +269,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "F",
-          "href": "docs/gba__input__unbuffered___spec.html#L8C25"
+          "href": "docs/gba__input__unbuffered___spec.html#L11C25"
         },
         {
           "kind": "span",
@@ -262,7 +290,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Key_Flags",
-          "href": "docs/gba__input___spec.html#L34C8"
+          "href": "docs/gba__input___spec.html#L37C8"
         },
         {
           "kind": "span",
@@ -313,7 +341,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 9,
+      "number": 12,
       "children": [
         {
           "kind": "span",
@@ -334,7 +362,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Are_All_Down",
-          "href": "docs/gba__input__unbuffered___spec.html#L9C12"
+          "href": "docs/gba__input__unbuffered___spec.html#L12C12"
         },
         {
           "kind": "span",
@@ -345,7 +373,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "F",
-          "href": "docs/gba__input__unbuffered___spec.html#L9C25"
+          "href": "docs/gba__input__unbuffered___spec.html#L12C25"
         },
         {
           "kind": "span",
@@ -366,7 +394,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Key_Flags",
-          "href": "docs/gba__input___spec.html#L34C8"
+          "href": "docs/gba__input___spec.html#L37C8"
         },
         {
           "kind": "span",
@@ -417,13 +445,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 10,
+      "number": 13,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 11,
+      "number": 14,
       "children": [
         {
           "kind": "span",

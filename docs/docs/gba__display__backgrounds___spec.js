@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Control",
           "qualifier": "",
-          "line": 71,
+          "line": 78,
           "column": 3,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -93,7 +93,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -120,6 +120,252 @@ GNATdoc.Documentation = {
               ]
             }
           ]
+        },
+        {
+          "label": "BG_Offsets",
+          "qualifier": "",
+          "line": 170,
+          "column": 3,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 170,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Offsets"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "array"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_ID"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "of"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Offset_Info"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 171,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, Volatile_Components, Address => BG0HOFS"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "BG_Transforms",
+          "qualifier": "",
+          "line": 173,
+          "column": 3,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 173,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Transforms"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "array"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "of"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Transform_Info"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 174,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, Volatile_Components, Address => BG2PA"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "label": "Constants and variables"
@@ -129,7 +375,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_BG_ID",
           "qualifier": "",
-          "line": 135,
+          "line": 142,
           "column": 11,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -140,7 +386,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -161,7 +407,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L135C11"
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
                     },
                     {
                       "kind": "span",
@@ -182,7 +428,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L28C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
                     },
                     {
                       "kind": "span",
@@ -238,7 +484,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_ID",
           "qualifier": "",
-          "line": 28,
+          "line": 34,
           "column": 8,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -249,7 +495,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -270,7 +516,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L28C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
                     },
                     {
                       "kind": "span",
@@ -286,7 +532,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -307,13 +553,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_0",
-                      "href": "docs/gba__display__backgrounds___spec.html#L29C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L35C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 30,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -334,192 +580,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_1",
-                      "href": "docs/gba__display__backgrounds___spec.html#L30C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 31,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_2",
-                      "href": "docs/gba__display__backgrounds___spec.html#L31C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 32,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_3",
-                      "href": "docs/gba__display__backgrounds___spec.html#L32C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 33,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/gba__display__backgrounds___spec.html#L28C8"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "BG_0",
-              "line": 29,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "BG_1",
-              "line": 30,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "BG_2",
-              "line": 31,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "BG_3",
-              "line": 32,
-              "column": 7,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "BG_Kind",
-          "qualifier": "",
-          "line": 35,
-          "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 35,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Kind",
-                      "href": "docs/gba__display__backgrounds___spec.html#L35C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 36,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Regular",
                       "href": "docs/gba__display__backgrounds___spec.html#L36C7"
                     }
                   ]
@@ -546,7 +606,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Affine",
+                      "text": "BG_2",
                       "href": "docs/gba__display__backgrounds___spec.html#L37C7"
                     }
                   ]
@@ -563,61 +623,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/gba__display__backgrounds___spec.html#L35C8"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Regular",
-              "line": 36,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Affine",
-              "line": 37,
-              "column": 7,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "BG_Reference_Point_Coordinate",
-          "qualifier": "",
-          "line": 101,
-          "column": 11,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 101,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "subtype"
+                      "text": ","
                     },
                     {
                       "kind": "span",
@@ -627,24 +633,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
+                      "text": "BG_3",
+                      "href": "docs/gba__display__backgrounds___spec.html#L38C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -654,110 +650,52 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "GBA.Numerics.Fixed_20_8",
-                      "href": "docs/gba__numerics___spec.html#L19C8"
+                      "text": ")"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ";"
+                      "text": ";",
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
                     }
                   ]
                 }
               ]
             }
-          ]
-        },
-        {
-          "label": "BG_Scroll_Offset",
-          "qualifier": "",
-          "line": 45,
-          "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
           ],
-          "description": [
+          "literals": [
             {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 45,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L45C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "mod"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "2"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "**"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
+              "label": "BG_0",
+              "line": 35,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "BG_1",
+              "line": 36,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "BG_2",
+              "line": 37,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "BG_3",
+              "line": 38,
+              "column": 7,
+              "description": [
               ]
             }
           ]
         },
         {
-          "label": "BG_Size",
+          "label": "BG_Kind",
           "qualifier": "",
           "line": 41,
           "column": 8,
@@ -790,8 +728,306 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Size",
+                      "text": "BG_Kind",
                       "href": "docs/gba__display__backgrounds___spec.html#L41C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Regular",
+                      "href": "docs/gba__display__backgrounds___spec.html#L42C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Affine",
+                      "href": "docs/gba__display__backgrounds___spec.html#L43C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 44,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/gba__display__backgrounds___spec.html#L41C8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Regular",
+              "line": 42,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Affine",
+              "line": 43,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "BG_Reference_Point_Coordinate",
+          "qualifier": "",
+          "line": 108,
+          "column": 11,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 108,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "subtype"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Reference_Point_Coordinate",
+                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 109,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "GBA.Numerics.Fixed_20_8",
+                      "href": "docs/gba__numerics___spec.html#L22C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "BG_Scroll_Offset",
+          "qualifier": "",
+          "line": 51,
+          "column": 8,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 51,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Scroll_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Integer_16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "BG_Size",
+          "qualifier": "",
+          "line": 47,
+          "column": 8,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 47,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Size",
+                      "href": "docs/gba__display__backgrounds___spec.html#L47C8"
                     },
                     {
                       "kind": "span",
@@ -842,7 +1078,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
@@ -873,7 +1109,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Transform_Info_Array",
           "qualifier": "",
-          "line": 131,
+          "line": 138,
           "column": 8,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -884,7 +1120,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -905,7 +1141,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Transform_Info_Array",
-                      "href": "docs/gba__display__backgrounds___spec.html#L131C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L138C8"
                     },
                     {
                       "kind": "span",
@@ -921,7 +1157,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -992,7 +1228,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Transform_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L118C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L125C8"
                     },
                     {
                       "kind": "span",
@@ -1008,7 +1244,7 @@ GNATdoc.Documentation = {
         {
           "label": "Boundary_Behavior",
           "qualifier": "",
-          "line": 17,
+          "line": 23,
           "column": 8,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -1019,7 +1255,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -1040,7 +1276,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Boundary_Behavior",
-                      "href": "docs/gba__display__backgrounds___spec.html#L17C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L23C8"
                     },
                     {
                       "kind": "span",
@@ -1056,7 +1292,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -1077,13 +1313,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cutoff",
-                      "href": "docs/gba__display__backgrounds___spec.html#L18C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L24C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
@@ -1104,13 +1340,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wrap",
-                      "href": "docs/gba__display__backgrounds___spec.html#L19C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L25C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -1150,14 +1386,14 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "Cutoff",
-              "line": 18,
+              "line": 24,
               "column": 7,
               "description": [
               ]
             },
             {
               "label": "Wrap",
-              "line": 19,
+              "line": 25,
               "column": 7,
               "description": [
               ]
@@ -1172,7 +1408,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Control_Info",
           "qualifier": "",
-          "line": 47,
+          "line": 54,
           "column": 8,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -1183,7 +1419,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 54,
                   "children": [
                     {
                       "kind": "span",
@@ -1204,7 +1440,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Control_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L47C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L54C8"
                     },
                     {
                       "kind": "span",
@@ -1220,7 +1456,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 48,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -1236,7 +1472,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -1247,7 +1483,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Priority",
-                      "href": "docs/gba__display__backgrounds___spec.html#L49C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L56C7"
                     },
                     {
                       "kind": "span",
@@ -1268,7 +1504,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Display_Priority",
-                      "href": "docs/gba__display___spec.html#L43C8"
+                      "href": "docs/gba__display___spec.html#L46C8"
                     },
                     {
                       "kind": "span",
@@ -1279,7 +1515,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 57,
                   "children": [
                     {
                       "kind": "span",
@@ -1290,7 +1526,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Tile_Block",
-                      "href": "docs/gba__display__backgrounds___spec.html#L50C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L57C7"
                     },
                     {
                       "kind": "span",
@@ -1311,7 +1547,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Tile_Block_Index",
-                      "href": "docs/gba__display__tiles___spec.html#L18C8"
+                      "href": "docs/gba__display__tiles___spec.html#L21C8"
                     },
                     {
                       "kind": "span",
@@ -1322,7 +1558,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -1333,7 +1569,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Enable_Mosaic",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L58C7"
                     },
                     {
                       "kind": "span",
@@ -1364,7 +1600,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -1375,7 +1611,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Color_Mode",
-                      "href": "docs/gba__display__backgrounds___spec.html#L52C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L59C7"
                     },
                     {
                       "kind": "span",
@@ -1396,7 +1632,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Palette_Mode",
-                      "href": "docs/gba__display__palettes___spec.html#L9C8"
+                      "href": "docs/gba__display__palettes___spec.html#L12C8"
                     },
                     {
                       "kind": "span",
@@ -1407,7 +1643,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -1418,7 +1654,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Screen_Block",
-                      "href": "docs/gba__display__backgrounds___spec.html#L53C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L60C7"
                     },
                     {
                       "kind": "span",
@@ -1439,7 +1675,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Screen_Block_Index",
-                      "href": "docs/gba__display__tiles___spec.html#L21C8"
+                      "href": "docs/gba__display__tiles___spec.html#L24C8"
                     },
                     {
                       "kind": "span",
@@ -1450,7 +1686,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -1461,7 +1697,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Boundary_Mode",
-                      "href": "docs/gba__display__backgrounds___spec.html#L54C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L61C7"
                     },
                     {
                       "kind": "span",
@@ -1482,7 +1718,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Boundary_Behavior",
-                      "href": "docs/gba__display__backgrounds___spec.html#L17C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L23C8"
                     },
                     {
                       "kind": "span",
@@ -1493,7 +1729,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -1504,7 +1740,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Size",
-                      "href": "docs/gba__display__backgrounds___spec.html#L55C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L62C7"
                     },
                     {
                       "kind": "span",
@@ -1525,7 +1761,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Size",
-                      "href": "docs/gba__display__backgrounds___spec.html#L41C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L47C8"
                     },
                     {
                       "kind": "span",
@@ -1536,7 +1772,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 63,
                   "children": [
                     {
                       "kind": "span",
@@ -1562,7 +1798,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -1592,29 +1828,29 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Priority",
-              "line": 49,
+              "line": 56,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Display_Priority",
-                "docHref": "docs/gba__display___spec.html#L43C8"
+                "docHref": "docs/gba__display___spec.html#L46C8"
               },
               "description": [
               ]
             },
             {
               "label": "Tile_Block",
-              "line": 50,
+              "line": 57,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Tiles.Tile_Block_Index",
-                "docHref": "docs/gba__display__tiles___spec.html#L18C8"
+                "docHref": "docs/gba__display__tiles___spec.html#L21C8"
               },
               "description": [
               ]
             },
             {
               "label": "Enable_Mosaic",
-              "line": 51,
+              "line": 58,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -1624,44 +1860,44 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Color_Mode",
-              "line": 52,
+              "line": 59,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Palettes.Palette_Mode",
-                "docHref": "docs/gba__display__palettes___spec.html#L9C8"
+                "docHref": "docs/gba__display__palettes___spec.html#L12C8"
               },
               "description": [
               ]
             },
             {
               "label": "Screen_Block",
-              "line": 53,
+              "line": 60,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Tiles.Screen_Block_Index",
-                "docHref": "docs/gba__display__tiles___spec.html#L21C8"
+                "docHref": "docs/gba__display__tiles___spec.html#L24C8"
               },
               "description": [
               ]
             },
             {
               "label": "Boundary_Mode",
-              "line": 54,
+              "line": 61,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.Boundary_Behavior",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L17C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L23C8"
               },
               "description": [
               ]
             },
             {
               "label": "Size",
-              "line": 55,
+              "line": 62,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Size",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L41C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L47C8"
               },
               "description": [
               ]
@@ -1671,7 +1907,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Offset_Info",
           "qualifier": "",
-          "line": 75,
+          "line": 82,
           "column": 8,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -1682,7 +1918,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -1703,7 +1939,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Offset_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L75C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L82C8"
                     },
                     {
                       "kind": "span",
@@ -1719,7 +1955,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -1735,7 +1971,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -1745,8 +1981,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Horizontal",
-                      "href": "docs/gba__display__backgrounds___spec.html#L77C7"
+                      "text": "X",
+                      "href": "docs/gba__display__backgrounds___spec.html#L84C7"
                     },
                     {
                       "kind": "span",
@@ -1761,8 +1997,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Vertical",
-                      "href": "docs/gba__display__backgrounds___spec.html#L77C19"
+                      "text": "Y",
+                      "href": "docs/gba__display__backgrounds___spec.html#L84C10"
                     },
                     {
                       "kind": "span",
@@ -1783,7 +2019,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L45C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
                     },
                     {
                       "kind": "span",
@@ -1794,7 +2030,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 85,
                   "children": [
                     {
                       "kind": "span",
@@ -1820,7 +2056,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 79,
+                  "number": 86,
                   "children": [
                     {
                       "kind": "span",
@@ -1849,23 +2085,23 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "Horizontal",
-              "line": 77,
+              "label": "X",
+              "line": 84,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L45C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Vertical",
-              "line": 77,
-              "column": 19,
+              "label": "Y",
+              "line": 84,
+              "column": 10,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L45C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
               },
               "description": [
               ]
@@ -1875,7 +2111,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Reference_Point",
           "qualifier": "",
-          "line": 105,
+          "line": 112,
           "column": 8,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -1886,7 +2122,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -1907,7 +2143,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L105C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L112C8"
                     },
                     {
                       "kind": "span",
@@ -1923,7 +2159,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 106,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -1939,7 +2175,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 107,
+                  "number": 114,
                   "children": [
                     {
                       "kind": "span",
@@ -1950,7 +2186,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L107C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L114C7"
                     },
                     {
                       "kind": "span",
@@ -1966,7 +2202,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L107C10"
+                      "href": "docs/gba__display__backgrounds___spec.html#L114C10"
                     },
                     {
                       "kind": "span",
@@ -1987,7 +2223,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C11"
+                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
                     },
                     {
                       "kind": "span",
@@ -1998,7 +2234,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 108,
+                  "number": 115,
                   "children": [
                     {
                       "kind": "span",
@@ -2024,7 +2260,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 109,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -2054,22 +2290,22 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "X",
-              "line": 107,
+              "line": 114,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L101C11"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
               },
               "description": [
               ]
             },
             {
               "label": "Y",
-              "line": 107,
+              "line": 114,
               "column": 10,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L101C11"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
               },
               "description": [
               ]
@@ -2079,7 +2315,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Transform_Info",
           "qualifier": "",
-          "line": 118,
+          "line": 125,
           "column": 8,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -2090,7 +2326,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -2111,7 +2347,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Transform_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L118C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L125C8"
                     },
                     {
                       "kind": "span",
@@ -2127,7 +2363,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -2143,7 +2379,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 127,
                   "children": [
                     {
                       "kind": "span",
@@ -2154,7 +2390,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Matrix",
-                      "href": "docs/gba__display__backgrounds___spec.html#L120C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L127C7"
                     },
                     {
                       "kind": "span",
@@ -2175,7 +2411,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Matrix",
-                      "href": "docs/gba__numerics___spec.html#L80C8"
+                      "href": "docs/gba__numerics___spec.html#L93C8"
                     },
                     {
                       "kind": "span",
@@ -2186,7 +2422,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -2197,7 +2433,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L121C7"
+                      "href": "docs/gba__display__backgrounds___spec.html#L128C7"
                     },
                     {
                       "kind": "span",
@@ -2218,7 +2454,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L105C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L112C8"
                     },
                     {
                       "kind": "span",
@@ -2229,7 +2465,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -2255,7 +2491,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -2285,22 +2521,22 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Affine_Matrix",
-              "line": 120,
+              "line": 127,
               "column": 7,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Matrix",
-                "docHref": "docs/gba__numerics___spec.html#L80C8"
+                "docHref": "docs/gba__numerics___spec.html#L93C8"
               },
               "description": [
               ]
             },
             {
               "label": "Reference_Point",
-              "line": 121,
+              "line": 128,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Reference_Point",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L105C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L112C8"
               },
               "description": [
               ]
@@ -2315,7 +2551,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Transform_Address",
           "qualifier": "",
-          "line": 137,
+          "line": 144,
           "column": 12,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -2326,7 +2562,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -2347,7 +2583,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Address",
-                      "href": "docs/gba__display__backgrounds___spec.html#L137C12"
+                      "href": "docs/gba__display__backgrounds___spec.html#L144C12"
                     },
                     {
                       "kind": "span",
@@ -2363,7 +2599,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L137C38"
+                      "href": "docs/gba__display__backgrounds___spec.html#L144C38"
                     },
                     {
                       "kind": "span",
@@ -2384,7 +2620,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L135C11"
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
                     },
                     {
                       "kind": "span",
@@ -2410,13 +2646,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L9C11"
+                      "href": "docs/gba__memory___spec.html#L12C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 145,
                   "children": [
                     {
                       "kind": "span",
@@ -2446,11 +2682,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "ID",
-              "line": 137,
+              "line": 144,
               "column": 38,
               "type": {
                 "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L135C11"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
               },
               "description": [
               ]
@@ -2460,7 +2696,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Affine_Matrix",
           "qualifier": "",
-          "line": 143,
+          "line": 159,
           "column": 13,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -2471,7 +2707,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 143,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -2492,7 +2728,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Affine_Matrix",
-                      "href": "docs/gba__display__backgrounds___spec.html#L143C13"
+                      "href": "docs/gba__display__backgrounds___spec.html#L159C13"
                     },
                     {
                       "kind": "span",
@@ -2508,7 +2744,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L143C32"
+                      "href": "docs/gba__display__backgrounds___spec.html#L159C32"
                     },
                     {
                       "kind": "span",
@@ -2529,7 +2765,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L135C11"
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
                     },
                     {
                       "kind": "span",
@@ -2545,7 +2781,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Matrix",
-                      "href": "docs/gba__display__backgrounds___spec.html#L143C51"
+                      "href": "docs/gba__display__backgrounds___spec.html#L159C51"
                     },
                     {
                       "kind": "span",
@@ -2566,7 +2802,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Matrix",
-                      "href": "docs/gba__numerics___spec.html#L80C8"
+                      "href": "docs/gba__numerics___spec.html#L93C8"
                     },
                     {
                       "kind": "span",
@@ -2577,7 +2813,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -2607,22 +2843,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "BG",
-              "line": 143,
+              "line": 159,
               "column": 32,
               "type": {
                 "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L135C11"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
               },
               "description": [
               ]
             },
             {
               "label": "Matrix",
-              "line": 143,
+              "line": 159,
               "column": 51,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Matrix",
-                "docHref": "docs/gba__numerics___spec.html#L80C8"
+                "docHref": "docs/gba__numerics___spec.html#L93C8"
               },
               "description": [
               ]
@@ -2630,9 +2866,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Set_Horizontal_Offset",
+          "label": "Set_Offset",
           "qualifier": "",
-          "line": 91,
+          "line": 101,
           "column": 13,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -2643,7 +2879,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -2663,8 +2899,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Set_Horizontal_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L91C13"
+                      "text": "Set_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L101C13"
                     },
                     {
                       "kind": "span",
@@ -2680,7 +2916,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L91C36"
+                      "href": "docs/gba__display__backgrounds___spec.html#L101C25"
                     },
                     {
                       "kind": "span",
@@ -2701,7 +2937,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L28C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
                     },
                     {
                       "kind": "span",
@@ -2716,180 +2952,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L91C48"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L45C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 92,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 91,
-              "column": 36,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L28C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Offset",
-              "line": 91,
-              "column": 48,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L45C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Offsets",
-          "qualifier": "",
-          "line": 94,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 94,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Offsets",
-                      "href": "docs/gba__display__backgrounds___spec.html#L94C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L94C26"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L28C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Horizontal",
-                      "href": "docs/gba__display__backgrounds___spec.html#L94C38"
+                      "text": "X",
+                      "href": "docs/gba__display__backgrounds___spec.html#L101C37"
                     },
                     {
                       "kind": "span",
@@ -2904,8 +2968,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Vertical",
-                      "href": "docs/gba__display__backgrounds___spec.html#L94C50"
+                      "text": "Y",
+                      "href": "docs/gba__display__backgrounds___spec.html#L101C40"
                     },
                     {
                       "kind": "span",
@@ -2926,7 +2990,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L45C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
                     },
                     {
                       "kind": "span",
@@ -2937,7 +3001,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -2967,33 +3031,33 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "BG",
-              "line": 94,
-              "column": 26,
+              "line": 101,
+              "column": 25,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L28C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Horizontal",
-              "line": 94,
-              "column": 38,
+              "label": "X",
+              "line": 101,
+              "column": 37,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L45C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Vertical",
-              "line": 94,
-              "column": 50,
+              "label": "Y",
+              "line": 101,
+              "column": 40,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L45C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
               },
               "description": [
               ]
@@ -3001,9 +3065,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Set_Offsets",
+          "label": "Set_Offset",
           "qualifier": "",
-          "line": 97,
+          "line": 104,
           "column": 13,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -3014,7 +3078,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 104,
                   "children": [
                     {
                       "kind": "span",
@@ -3034,8 +3098,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Set_Offsets",
-                      "href": "docs/gba__display__backgrounds___spec.html#L97C13"
+                      "text": "Set_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L104C13"
                     },
                     {
                       "kind": "span",
@@ -3051,7 +3115,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L97C26"
+                      "href": "docs/gba__display__backgrounds___spec.html#L104C25"
                     },
                     {
                       "kind": "span",
@@ -3072,7 +3136,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L28C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
                     },
                     {
                       "kind": "span",
@@ -3088,7 +3152,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Offsets",
-                      "href": "docs/gba__display__backgrounds___spec.html#L97C38"
+                      "href": "docs/gba__display__backgrounds___spec.html#L104C37"
                     },
                     {
                       "kind": "span",
@@ -3109,7 +3173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Offset_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L75C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L82C8"
                     },
                     {
                       "kind": "span",
@@ -3120,7 +3184,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 105,
                   "children": [
                     {
                       "kind": "span",
@@ -3150,22 +3214,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "BG",
-              "line": 97,
-              "column": 26,
+              "line": 104,
+              "column": 25,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L28C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
               },
               "description": [
               ]
             },
             {
               "label": "Offsets",
-              "line": 97,
-              "column": 38,
+              "line": 104,
+              "column": 37,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Offset_Info",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L75C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L82C8"
               },
               "description": [
               ]
@@ -3175,7 +3239,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Reference_Point",
           "qualifier": "",
-          "line": 140,
+          "line": 153,
           "column": 13,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -3186,7 +3250,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 140,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -3207,7 +3271,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L140C13"
+                      "href": "docs/gba__display__backgrounds___spec.html#L153C13"
                     },
                     {
                       "kind": "span",
@@ -3223,7 +3287,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L140C34"
+                      "href": "docs/gba__display__backgrounds___spec.html#L153C34"
                     },
                     {
                       "kind": "span",
@@ -3244,7 +3308,206 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L135C11"
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X",
+                      "href": "docs/gba__display__backgrounds___spec.html#L153C53"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/gba__display__backgrounds___spec.html#L153C56"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Reference_Point_Coordinate",
+                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 154,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 153,
+              "column": 34,
+              "type": {
+                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "X",
+              "line": 153,
+              "column": 53,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 153,
+              "column": 56,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Reference_Point",
+          "qualifier": "",
+          "line": 156,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 156,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Reference_Point",
+                      "href": "docs/gba__display__backgrounds___spec.html#L156C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L156C34"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Affine_BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
                     },
                     {
                       "kind": "span",
@@ -3260,7 +3523,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L140C53"
+                      "href": "docs/gba__display__backgrounds___spec.html#L156C53"
                     },
                     {
                       "kind": "span",
@@ -3281,7 +3544,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L105C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L112C8"
                     },
                     {
                       "kind": "span",
@@ -3292,7 +3555,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 157,
                   "children": [
                     {
                       "kind": "span",
@@ -3322,22 +3585,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "BG",
-              "line": 140,
+              "line": 156,
               "column": 34,
               "type": {
                 "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L135C11"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
               },
               "description": [
               ]
             },
             {
               "label": "Reference_Point",
-              "line": 140,
+              "line": 156,
               "column": 53,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Reference_Point",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L105C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L112C8"
               },
               "description": [
               ]
@@ -3347,7 +3610,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Transform",
           "qualifier": "",
-          "line": 146,
+          "line": 162,
           "column": 13,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -3358,7 +3621,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 146,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -3379,7 +3642,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Transform",
-                      "href": "docs/gba__display__backgrounds___spec.html#L146C13"
+                      "href": "docs/gba__display__backgrounds___spec.html#L162C13"
                     },
                     {
                       "kind": "span",
@@ -3395,7 +3658,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L146C28"
+                      "href": "docs/gba__display__backgrounds___spec.html#L162C28"
                     },
                     {
                       "kind": "span",
@@ -3416,7 +3679,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L135C11"
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
                     },
                     {
                       "kind": "span",
@@ -3432,7 +3695,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transform",
-                      "href": "docs/gba__display__backgrounds___spec.html#L146C47"
+                      "href": "docs/gba__display__backgrounds___spec.html#L162C47"
                     },
                     {
                       "kind": "span",
@@ -3453,7 +3716,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Transform_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L118C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L125C8"
                     },
                     {
                       "kind": "span",
@@ -3464,7 +3727,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 147,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -3494,22 +3757,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "BG",
-              "line": 146,
+              "line": 162,
               "column": 28,
               "type": {
                 "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L135C11"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
               },
               "description": [
               ]
             },
             {
               "label": "Transform",
-              "line": 146,
+              "line": 162,
               "column": 47,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Transform_Info",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L118C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L125C8"
               },
               "description": [
               ]
@@ -3517,9 +3780,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Set_Vertical_Offset",
+          "label": "Set_X_Offset",
           "qualifier": "",
-          "line": 88,
+          "line": 95,
           "column": 13,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -3530,7 +3793,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -3550,8 +3813,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Set_Vertical_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L88C13"
+                      "text": "Set_X_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L95C13"
                     },
                     {
                       "kind": "span",
@@ -3567,7 +3830,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L88C34"
+                      "href": "docs/gba__display__backgrounds___spec.html#L95C27"
                     },
                     {
                       "kind": "span",
@@ -3588,7 +3851,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L28C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
                     },
                     {
                       "kind": "span",
@@ -3603,8 +3866,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L88C46"
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L95C39"
                     },
                     {
                       "kind": "span",
@@ -3625,7 +3888,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L45C8"
+                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
                     },
                     {
                       "kind": "span",
@@ -3636,7 +3899,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -3666,22 +3929,538 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "BG",
-              "line": 88,
-              "column": 34,
+              "line": 95,
+              "column": 27,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L28C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Offset",
-              "line": 88,
-              "column": 46,
+              "label": "Value",
+              "line": 95,
+              "column": 39,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L45C8"
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_X_Reference",
+          "qualifier": "",
+          "line": 147,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 147,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_X_Reference",
+                      "href": "docs/gba__display__backgrounds___spec.html#L147C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L147C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Affine_BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L147C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Reference_Point_Coordinate",
+                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 148,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 147,
+              "column": 30,
+              "type": {
+                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Value",
+              "line": 147,
+              "column": 49,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Y_Offset",
+          "qualifier": "",
+          "line": 98,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 98,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Y_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L98C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L98C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L98C39"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Scroll_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 99,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 98,
+              "column": 27,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Value",
+              "line": 98,
+              "column": 39,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Y_Reference",
+          "qualifier": "",
+          "line": 150,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 150,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Y_Reference",
+                      "href": "docs/gba__display__backgrounds___spec.html#L150C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L150C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Affine_BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L150C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Reference_Point_Coordinate",
+                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 151,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 150,
+              "column": 30,
+              "type": {
+                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Value",
+              "line": 150,
+              "column": 49,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
               },
               "description": [
               ]

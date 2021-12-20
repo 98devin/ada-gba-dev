@@ -16,8 +16,20 @@ GNATdoc.EntitiesCategoriesIndex = [
     "href": "entities/record_types.html"
   },
   {
+    "label": "Interface Types",
+    "href": "entities/interface_types.html"
+  },
+  {
+    "label": "Tagged Types",
+    "href": "entities/tagged_types.html"
+  },
+  {
     "label": "Subprograms",
     "href": "entities/subprograms.html"
+  },
+  {
+    "label": "Dispatching Subprograms",
+    "href": "entities/methods.html"
   },
   {
     "label": "Packages",

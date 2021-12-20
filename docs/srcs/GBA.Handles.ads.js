@@ -5,6 +5,11 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 1,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Copyright (c) 2021 Devin Hill"
+        }
       ]
     },
     {
@@ -13,23 +18,8 @@ GNATdoc.SourceFile = {
       "children": [
         {
           "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "GBA.Memory.Secondary_Stack"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
+          "cssClass": "comment",
+          "text": "-- zlib License -- see LICENSE for details."
         }
       ]
     },
@@ -56,7 +46,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Memory.Default_Secondary_Stack"
+          "text": "GBA.Handles",
+          "href": "docs/gba__handles___spec.html#L4C13"
         },
         {
           "kind": "span",
@@ -74,6 +65,12 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 5,
       "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 6,
+      "children": [
         {
           "kind": "span",
           "cssClass": "text",
@@ -82,7 +79,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "new"
+          "text": "pragma"
         },
         {
           "kind": "span",
@@ -92,7 +89,39 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "GBA.Memory.Secondary_Stack"
+          "text": "Preelaborate"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 7,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 8,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "GBA.Handles"
         },
         {
           "kind": "span",
@@ -102,5 +131,5 @@ GNATdoc.SourceFile = {
       ]
     }
   ],
-  "label": "GBA.Memory.Default_Secondary_Stack.ads"
+  "label": "GBA.Handles.ads"
 };

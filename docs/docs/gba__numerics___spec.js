@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Transform_Parameter",
           "qualifier": "",
-          "line": 77,
+          "line": 90,
           "column": 11,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Parameter",
-                      "href": "docs/gba__numerics___spec.html#L77C11"
+                      "href": "docs/gba__numerics___spec.html#L90C11"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 78,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -70,7 +70,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_8_8",
-                      "href": "docs/gba__numerics___spec.html#L23C8"
+                      "href": "docs/gba__numerics___spec.html#L26C8"
                     },
                     {
                       "kind": "span",
@@ -86,7 +86,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_20_8",
           "qualifier": "",
-          "line": 19,
+          "line": 22,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -97,7 +97,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 19,
+                  "number": 22,
                   "children": [
                     {
                       "kind": "span",
@@ -118,7 +118,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_20_8",
-                      "href": "docs/gba__numerics___spec.html#L19C8"
+                      "href": "docs/gba__numerics___spec.html#L22C8"
                     },
                     {
                       "kind": "span",
@@ -134,7 +134,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 20,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -250,7 +250,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 21,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -281,7 +281,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_2_14",
           "qualifier": "",
-          "line": 15,
+          "line": 18,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -292,7 +292,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 15,
+                  "number": 18,
                   "children": [
                     {
                       "kind": "span",
@@ -313,7 +313,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_2_14",
-                      "href": "docs/gba__numerics___spec.html#L15C8"
+                      "href": "docs/gba__numerics___spec.html#L18C8"
                     },
                     {
                       "kind": "span",
@@ -329,7 +329,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 16,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -470,7 +470,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 17,
+                  "number": 20,
                   "children": [
                     {
                       "kind": "span",
@@ -501,7 +501,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_2_30",
           "qualifier": "",
-          "line": 27,
+          "line": 30,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -512,7 +512,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 27,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -533,7 +533,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_2_30",
-                      "href": "docs/gba__numerics___spec.html#L27C8"
+                      "href": "docs/gba__numerics___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
@@ -549,7 +549,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 28,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -690,7 +690,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 29,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -721,7 +721,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_8_8",
           "qualifier": "",
-          "line": 23,
+          "line": 26,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -732,7 +732,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 26,
                   "children": [
                     {
                       "kind": "span",
@@ -753,7 +753,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_8_8",
-                      "href": "docs/gba__numerics___spec.html#L23C8"
+                      "href": "docs/gba__numerics___spec.html#L26C8"
                     },
                     {
                       "kind": "span",
@@ -769,7 +769,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 24,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -930,7 +930,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
@@ -961,7 +961,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_Snorm_16",
           "qualifier": "",
-          "line": 43,
+          "line": 46,
           "column": 11,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -972,7 +972,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -993,7 +993,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Snorm_16",
-                      "href": "docs/gba__numerics___spec.html#L43C11"
+                      "href": "docs/gba__numerics___spec.html#L46C11"
                     },
                     {
                       "kind": "span",
@@ -1009,7 +1009,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1020,7 +1020,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_2_14",
-                      "href": "docs/gba__numerics___spec.html#L15C8"
+                      "href": "docs/gba__numerics___spec.html#L18C8"
                     },
                     {
                       "kind": "span",
@@ -1081,7 +1081,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_Snorm_32",
           "qualifier": "",
-          "line": 46,
+          "line": 49,
           "column": 11,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -1092,7 +1092,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -1113,7 +1113,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Snorm_32",
-                      "href": "docs/gba__numerics___spec.html#L46C11"
+                      "href": "docs/gba__numerics___spec.html#L49C11"
                     },
                     {
                       "kind": "span",
@@ -1129,7 +1129,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -1140,7 +1140,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_2_30",
-                      "href": "docs/gba__numerics___spec.html#L27C8"
+                      "href": "docs/gba__numerics___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
@@ -1201,7 +1201,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_Unorm_16",
           "qualifier": "",
-          "line": 35,
+          "line": 38,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -1212,7 +1212,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -1233,7 +1233,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Unorm_16",
-                      "href": "docs/gba__numerics___spec.html#L35C8"
+                      "href": "docs/gba__numerics___spec.html#L38C8"
                     },
                     {
                       "kind": "span",
@@ -1249,7 +1249,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 39,
                   "children": [
                     {
                       "kind": "span",
@@ -1385,7 +1385,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -1416,7 +1416,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_Unorm_32",
           "qualifier": "",
-          "line": 39,
+          "line": 42,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -1427,7 +1427,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 39,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -1448,7 +1448,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Unorm_32",
-                      "href": "docs/gba__numerics___spec.html#L39C8"
+                      "href": "docs/gba__numerics___spec.html#L42C8"
                     },
                     {
                       "kind": "span",
@@ -1464,7 +1464,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -1600,7 +1600,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -1631,7 +1631,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_Unorm_8",
           "qualifier": "",
-          "line": 31,
+          "line": 34,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -1642,7 +1642,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 31,
+                  "number": 34,
                   "children": [
                     {
                       "kind": "span",
@@ -1663,7 +1663,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Unorm_8",
-                      "href": "docs/gba__numerics___spec.html#L31C8"
+                      "href": "docs/gba__numerics___spec.html#L34C8"
                     },
                     {
                       "kind": "span",
@@ -1679,7 +1679,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 35,
                   "children": [
                     {
                       "kind": "span",
@@ -1815,7 +1815,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 36,
                   "children": [
                     {
                       "kind": "span",
@@ -1846,7 +1846,7 @@ GNATdoc.Documentation = {
         {
           "label": "Radians_16",
           "qualifier": "",
-          "line": 52,
+          "line": 55,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -1857,7 +1857,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -1878,7 +1878,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Radians_16",
-                      "href": "docs/gba__numerics___spec.html#L52C8"
+                      "href": "docs/gba__numerics___spec.html#L55C8"
                     },
                     {
                       "kind": "span",
@@ -1909,7 +1909,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Unorm_16",
-                      "href": "docs/gba__numerics___spec.html#L35C8"
+                      "href": "docs/gba__numerics___spec.html#L38C8"
                     },
                     {
                       "kind": "span",
@@ -1938,7 +1938,7 @@ GNATdoc.Documentation = {
         {
           "label": "Radians_32",
           "qualifier": "",
-          "line": 65,
+          "line": 73,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -1949,7 +1949,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -1970,7 +1970,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Radians_32",
-                      "href": "docs/gba__numerics___spec.html#L65C8"
+                      "href": "docs/gba__numerics___spec.html#L73C8"
                     },
                     {
                       "kind": "span",
@@ -2001,7 +2001,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Unorm_32",
-                      "href": "docs/gba__numerics___spec.html#L39C8"
+                      "href": "docs/gba__numerics___spec.html#L42C8"
                     },
                     {
                       "kind": "span",
@@ -2035,7 +2035,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Transform_Matrix",
           "qualifier": "",
-          "line": 80,
+          "line": 93,
           "column": 8,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -2046,7 +2046,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -2067,7 +2067,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Matrix",
-                      "href": "docs/gba__numerics___spec.html#L80C8"
+                      "href": "docs/gba__numerics___spec.html#L93C8"
                     },
                     {
                       "kind": "span",
@@ -2083,7 +2083,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -2099,7 +2099,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 82,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -2110,7 +2110,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DX",
-                      "href": "docs/gba__numerics___spec.html#L82C7"
+                      "href": "docs/gba__numerics___spec.html#L95C7"
                     },
                     {
                       "kind": "span",
@@ -2126,7 +2126,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMX",
-                      "href": "docs/gba__numerics___spec.html#L82C11"
+                      "href": "docs/gba__numerics___spec.html#L95C11"
                     },
                     {
                       "kind": "span",
@@ -2142,7 +2142,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DY",
-                      "href": "docs/gba__numerics___spec.html#L82C16"
+                      "href": "docs/gba__numerics___spec.html#L95C16"
                     },
                     {
                       "kind": "span",
@@ -2158,7 +2158,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "DMY",
-                      "href": "docs/gba__numerics___spec.html#L82C20"
+                      "href": "docs/gba__numerics___spec.html#L95C20"
                     },
                     {
                       "kind": "span",
@@ -2179,7 +2179,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Parameter",
-                      "href": "docs/gba__numerics___spec.html#L77C11"
+                      "href": "docs/gba__numerics___spec.html#L90C11"
                     },
                     {
                       "kind": "span",
@@ -2190,7 +2190,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -2216,7 +2216,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -2246,44 +2246,44 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "DX",
-              "line": 82,
+              "line": 95,
               "column": 7,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Parameter",
-                "docHref": "docs/gba__numerics___spec.html#L77C11"
+                "docHref": "docs/gba__numerics___spec.html#L90C11"
               },
               "description": [
               ]
             },
             {
               "label": "DMX",
-              "line": 82,
+              "line": 95,
               "column": 11,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Parameter",
-                "docHref": "docs/gba__numerics___spec.html#L77C11"
+                "docHref": "docs/gba__numerics___spec.html#L90C11"
               },
               "description": [
               ]
             },
             {
               "label": "DY",
-              "line": 82,
+              "line": 95,
               "column": 16,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Parameter",
-                "docHref": "docs/gba__numerics___spec.html#L77C11"
+                "docHref": "docs/gba__numerics___spec.html#L90C11"
               },
               "description": [
               ]
             },
             {
               "label": "DMY",
-              "line": 82,
+              "line": 95,
               "column": 20,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Parameter",
-                "docHref": "docs/gba__numerics___spec.html#L77C11"
+                "docHref": "docs/gba__numerics___spec.html#L90C11"
               },
               "description": [
               ]
@@ -2298,7 +2298,7 @@ GNATdoc.Documentation = {
         {
           "label": "+",
           "qualifier": "",
-          "line": 55,
+          "line": 58,
           "column": 13,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -2309,7 +2309,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -2323,356 +2323,6 @@ GNATdoc.Documentation = {
                     }
                   ]
                 },
-                {
-                  "kind": "line",
-                  "number": 56,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "\"+\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Radians_16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Radians_16"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 57,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "X",
-              "line": 55,
-              "column": 17,
-              "type": {
-                "label": "GBA.Numerics.Radians_16",
-                "docHref": "docs/gba__numerics___spec.html#L52C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
-              "line": 55,
-              "column": 20,
-              "type": {
-                "label": "GBA.Numerics.Radians_16",
-                "docHref": "docs/gba__numerics___spec.html#L52C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "+",
-          "qualifier": "",
-          "line": 68,
-          "column": 13,
-          "src": "srcs/GBA.Numerics.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 68,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "overriding"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 69,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "\"+\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Radians_32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Radians_32"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 70,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "X",
-              "line": 68,
-              "column": 17,
-              "type": {
-                "label": "GBA.Numerics.Radians_32",
-                "docHref": "docs/gba__numerics___spec.html#L65C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
-              "line": 68,
-              "column": 20,
-              "type": {
-                "label": "GBA.Numerics.Radians_32",
-                "docHref": "docs/gba__numerics___spec.html#L65C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "-",
-          "qualifier": "",
-          "line": 59,
-          "column": 13,
-          "src": "srcs/GBA.Numerics.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
                 {
                   "kind": "line",
                   "number": 59,
@@ -2685,7 +2335,92 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "overriding"
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "\"+\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_16"
                     }
                   ]
                 },
@@ -2696,107 +2431,6 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "\"-\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Radians_16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Radians_16"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 61,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "    "
                     },
                     {
@@ -2822,22 +2456,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "X",
-              "line": 59,
+              "line": 58,
               "column": 17,
               "type": {
                 "label": "GBA.Numerics.Radians_16",
-                "docHref": "docs/gba__numerics___spec.html#L52C8"
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
               },
               "description": [
               ]
             },
             {
               "label": "Y",
-              "line": 59,
+              "line": 58,
               "column": 20,
               "type": {
                 "label": "GBA.Numerics.Radians_16",
-                "docHref": "docs/gba__numerics___spec.html#L52C8"
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
               },
               "description": [
               ]
@@ -2845,9 +2479,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "-",
+          "label": "+",
           "qualifier": "",
-          "line": 72,
+          "line": 76,
           "column": 13,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -2858,7 +2492,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 72,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -2874,7 +2508,530 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 73,
+                  "number": 77,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "\"+\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_32"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 78,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "X",
+              "line": 76,
+              "column": 17,
+              "type": {
+                "label": "GBA.Numerics.Radians_32",
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 76,
+              "column": 20,
+              "type": {
+                "label": "GBA.Numerics.Radians_32",
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "-",
+          "qualifier": "",
+          "line": 62,
+          "column": 13,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 62,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 63,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "\"-\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_16"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 64,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "X",
+              "line": 62,
+              "column": 17,
+              "type": {
+                "label": "GBA.Numerics.Radians_16",
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 62,
+              "column": 20,
+              "type": {
+                "label": "GBA.Numerics.Radians_16",
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "-",
+          "qualifier": "",
+          "line": 66,
+          "column": 13,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 66,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 67,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "\"-\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_16"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 68,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "X",
+              "line": 66,
+              "column": 17,
+              "type": {
+                "label": "GBA.Numerics.Radians_16",
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "-",
+          "qualifier": "",
+          "line": 80,
+          "column": 13,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 80,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -2975,7 +3132,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 74,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -3005,22 +3162,179 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "X",
-              "line": 72,
+              "line": 80,
               "column": 17,
               "type": {
                 "label": "GBA.Numerics.Radians_32",
-                "docHref": "docs/gba__numerics___spec.html#L65C8"
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
               },
               "description": [
               ]
             },
             {
               "label": "Y",
-              "line": 72,
+              "line": 80,
               "column": 20,
               "type": {
                 "label": "GBA.Numerics.Radians_32",
-                "docHref": "docs/gba__numerics___spec.html#L65C8"
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "-",
+          "qualifier": "",
+          "line": 84,
+          "column": 13,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 84,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "overriding"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 85,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "\"-\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_32"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 86,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "X",
+              "line": 84,
+              "column": 17,
+              "type": {
+                "label": "GBA.Numerics.Radians_32",
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
               },
               "description": [
               ]
@@ -3030,7 +3344,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cos",
           "qualifier": "",
-          "line": 99,
+          "line": 122,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -3041,7 +3355,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 122,
                   "children": [
                     {
                       "kind": "span",
@@ -3062,7 +3376,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cos",
-                      "href": "docs/gba__numerics___spec.html#L99C12"
+                      "href": "docs/gba__numerics___spec.html#L122C12"
                     },
                     {
                       "kind": "span",
@@ -3078,7 +3392,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Theta",
-                      "href": "docs/gba__numerics___spec.html#L99C17"
+                      "href": "docs/gba__numerics___spec.html#L122C17"
                     },
                     {
                       "kind": "span",
@@ -3099,7 +3413,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Radians_32",
-                      "href": "docs/gba__numerics___spec.html#L65C8"
+                      "href": "docs/gba__numerics___spec.html#L73C8"
                     },
                     {
                       "kind": "span",
@@ -3125,13 +3439,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Snorm_32",
-                      "href": "docs/gba__numerics___spec.html#L46C11"
+                      "href": "docs/gba__numerics___spec.html#L49C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 100,
+                  "number": 123,
                   "children": [
                     {
                       "kind": "span",
@@ -3161,11 +3475,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Theta",
-              "line": 99,
+              "line": 122,
               "column": 17,
               "type": {
                 "label": "GBA.Numerics.Radians_32",
-                "docHref": "docs/gba__numerics___spec.html#L65C8"
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
               },
               "description": [
               ]
@@ -3175,7 +3489,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cos_LUT",
           "qualifier": "",
-          "line": 111,
+          "line": 134,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -3186,7 +3500,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 111,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -3207,7 +3521,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cos_LUT",
-                      "href": "docs/gba__numerics___spec.html#L111C12"
+                      "href": "docs/gba__numerics___spec.html#L134C12"
                     },
                     {
                       "kind": "span",
@@ -3223,7 +3537,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Theta",
-                      "href": "docs/gba__numerics___spec.html#L111C21"
+                      "href": "docs/gba__numerics___spec.html#L134C21"
                     },
                     {
                       "kind": "span",
@@ -3244,7 +3558,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Radians_16",
-                      "href": "docs/gba__numerics___spec.html#L52C8"
+                      "href": "docs/gba__numerics___spec.html#L55C8"
                     },
                     {
                       "kind": "span",
@@ -3270,13 +3584,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Snorm_16",
-                      "href": "docs/gba__numerics___spec.html#L43C11"
+                      "href": "docs/gba__numerics___spec.html#L46C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 135,
                   "children": [
                     {
                       "kind": "span",
@@ -3306,11 +3620,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Theta",
-              "line": 111,
+              "line": 134,
               "column": 21,
               "type": {
                 "label": "GBA.Numerics.Radians_16",
-                "docHref": "docs/gba__numerics___spec.html#L52C8"
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
               },
               "description": [
               ]
@@ -3320,7 +3634,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "",
-          "line": 148,
+          "line": 171,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -3331,7 +3645,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 171,
                   "children": [
                     {
                       "kind": "span",
@@ -3352,7 +3666,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Leading_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L148C12"
+                      "href": "docs/gba__numerics___spec.html#L171C12"
                     },
                     {
                       "kind": "span",
@@ -3368,7 +3682,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L148C33"
+                      "href": "docs/gba__numerics___spec.html#L171C33"
                     },
                     {
                       "kind": "span",
@@ -3419,7 +3733,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 149,
+                  "number": 172,
                   "children": [
                     {
                       "kind": "span",
@@ -3449,7 +3763,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 148,
+              "line": 171,
               "column": 33,
               "type": {
                 "label": "Long_Long_Integer"
@@ -3462,7 +3776,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "",
-          "line": 151,
+          "line": 174,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -3473,7 +3787,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 151,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -3494,7 +3808,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Leading_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L151C12"
+                      "href": "docs/gba__numerics___spec.html#L174C12"
                     },
                     {
                       "kind": "span",
@@ -3510,7 +3824,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L151C33"
+                      "href": "docs/gba__numerics___spec.html#L174C33"
                     },
                     {
                       "kind": "span",
@@ -3561,7 +3875,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 152,
+                  "number": 175,
                   "children": [
                     {
                       "kind": "span",
@@ -3591,7 +3905,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 151,
+              "line": 174,
               "column": 33,
               "type": {
                 "label": "Unsigned_64"
@@ -3604,7 +3918,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "",
-          "line": 157,
+          "line": 180,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -3615,7 +3929,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 157,
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -3636,7 +3950,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Leading_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L157C12"
+                      "href": "docs/gba__numerics___spec.html#L180C12"
                     },
                     {
                       "kind": "span",
@@ -3652,7 +3966,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L157C33"
+                      "href": "docs/gba__numerics___spec.html#L180C33"
                     },
                     {
                       "kind": "span",
@@ -3703,7 +4017,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -3733,7 +4047,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 157,
+              "line": 180,
               "column": 33,
               "type": {
                 "label": "Integer"
@@ -3746,7 +4060,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "",
-          "line": 160,
+          "line": 183,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -3757,7 +4071,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 160,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -3778,7 +4092,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Leading_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L160C12"
+                      "href": "docs/gba__numerics___spec.html#L183C12"
                     },
                     {
                       "kind": "span",
@@ -3794,7 +4108,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L160C33"
+                      "href": "docs/gba__numerics___spec.html#L183C33"
                     },
                     {
                       "kind": "span",
@@ -3845,7 +4159,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 184,
                   "children": [
                     {
                       "kind": "span",
@@ -3875,7 +4189,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 160,
+              "line": 183,
               "column": 33,
               "type": {
                 "label": "Unsigned_32"
@@ -3888,7 +4202,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "",
-          "line": 166,
+          "line": 189,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -3899,7 +4213,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 166,
+                  "number": 189,
                   "children": [
                     {
                       "kind": "span",
@@ -3920,7 +4234,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Leading_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L166C12"
+                      "href": "docs/gba__numerics___spec.html#L189C12"
                     },
                     {
                       "kind": "span",
@@ -3936,7 +4250,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L166C33"
+                      "href": "docs/gba__numerics___spec.html#L189C33"
                     },
                     {
                       "kind": "span",
@@ -3987,7 +4301,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 167,
+                  "number": 190,
                   "children": [
                     {
                       "kind": "span",
@@ -4017,7 +4331,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 166,
+              "line": 189,
               "column": 33,
               "type": {
                 "label": "Integer_16"
@@ -4030,7 +4344,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "",
-          "line": 169,
+          "line": 192,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -4041,7 +4355,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 169,
+                  "number": 192,
                   "children": [
                     {
                       "kind": "span",
@@ -4062,7 +4376,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Leading_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L169C12"
+                      "href": "docs/gba__numerics___spec.html#L192C12"
                     },
                     {
                       "kind": "span",
@@ -4078,7 +4392,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L169C33"
+                      "href": "docs/gba__numerics___spec.html#L192C33"
                     },
                     {
                       "kind": "span",
@@ -4129,7 +4443,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 170,
+                  "number": 193,
                   "children": [
                     {
                       "kind": "span",
@@ -4159,7 +4473,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 169,
+              "line": 192,
               "column": 33,
               "type": {
                 "label": "Unsigned_16"
@@ -4172,7 +4486,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "",
-          "line": 120,
+          "line": 143,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -4183,7 +4497,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -4204,7 +4518,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Trailing_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L120C12"
+                      "href": "docs/gba__numerics___spec.html#L143C12"
                     },
                     {
                       "kind": "span",
@@ -4220,7 +4534,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L120C34"
+                      "href": "docs/gba__numerics___spec.html#L143C34"
                     },
                     {
                       "kind": "span",
@@ -4271,7 +4585,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -4301,7 +4615,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 120,
+              "line": 143,
               "column": 34,
               "type": {
                 "label": "Long_Long_Integer"
@@ -4314,7 +4628,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "",
-          "line": 123,
+          "line": 146,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -4325,7 +4639,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 146,
                   "children": [
                     {
                       "kind": "span",
@@ -4346,7 +4660,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Trailing_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L123C12"
+                      "href": "docs/gba__numerics___spec.html#L146C12"
                     },
                     {
                       "kind": "span",
@@ -4362,7 +4676,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L123C34"
+                      "href": "docs/gba__numerics___spec.html#L146C34"
                     },
                     {
                       "kind": "span",
@@ -4413,7 +4727,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 147,
                   "children": [
                     {
                       "kind": "span",
@@ -4443,7 +4757,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 123,
+              "line": 146,
               "column": 34,
               "type": {
                 "label": "Unsigned_64"
@@ -4456,7 +4770,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "",
-          "line": 129,
+          "line": 152,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -4467,7 +4781,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -4488,7 +4802,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Trailing_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L129C12"
+                      "href": "docs/gba__numerics___spec.html#L152C12"
                     },
                     {
                       "kind": "span",
@@ -4504,7 +4818,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L129C34"
+                      "href": "docs/gba__numerics___spec.html#L152C34"
                     },
                     {
                       "kind": "span",
@@ -4555,7 +4869,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 153,
                   "children": [
                     {
                       "kind": "span",
@@ -4585,7 +4899,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 129,
+              "line": 152,
               "column": 34,
               "type": {
                 "label": "Integer"
@@ -4598,7 +4912,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "",
-          "line": 132,
+          "line": 155,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -4609,7 +4923,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
@@ -4630,7 +4944,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Trailing_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L132C12"
+                      "href": "docs/gba__numerics___spec.html#L155C12"
                     },
                     {
                       "kind": "span",
@@ -4646,7 +4960,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L132C34"
+                      "href": "docs/gba__numerics___spec.html#L155C34"
                     },
                     {
                       "kind": "span",
@@ -4697,7 +5011,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 133,
+                  "number": 156,
                   "children": [
                     {
                       "kind": "span",
@@ -4727,7 +5041,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 132,
+              "line": 155,
               "column": 34,
               "type": {
                 "label": "Unsigned_32"
@@ -4740,7 +5054,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "",
-          "line": 138,
+          "line": 161,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -4751,7 +5065,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -4772,7 +5086,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Trailing_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L138C12"
+                      "href": "docs/gba__numerics___spec.html#L161C12"
                     },
                     {
                       "kind": "span",
@@ -4788,7 +5102,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L138C34"
+                      "href": "docs/gba__numerics___spec.html#L161C34"
                     },
                     {
                       "kind": "span",
@@ -4839,7 +5153,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 139,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -4869,7 +5183,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 138,
+              "line": 161,
               "column": 34,
               "type": {
                 "label": "Integer_16"
@@ -4882,7 +5196,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "",
-          "line": 141,
+          "line": 164,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -4893,7 +5207,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 141,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -4914,7 +5228,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count_Trailing_Zeros",
-                      "href": "docs/gba__numerics___spec.html#L141C12"
+                      "href": "docs/gba__numerics___spec.html#L164C12"
                     },
                     {
                       "kind": "span",
@@ -4930,7 +5244,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "I",
-                      "href": "docs/gba__numerics___spec.html#L141C34"
+                      "href": "docs/gba__numerics___spec.html#L164C34"
                     },
                     {
                       "kind": "span",
@@ -4981,7 +5295,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 142,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -5011,7 +5325,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "I",
-              "line": 141,
+              "line": 164,
               "column": 34,
               "type": {
                 "label": "Unsigned_16"
@@ -5022,9 +5336,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Sin",
+          "label": "Div_Mod",
           "qualifier": "",
-          "line": 96,
+          "line": 220,
           "column": 12,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -5035,7 +5349,1309 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 220,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Div_Mod",
+                      "href": "docs/gba__numerics___spec.html#L220C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "N",
+                      "href": "docs/gba__numerics___spec.html#L220C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "D",
+                      "href": "docs/gba__numerics___spec.html#L220C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Integer"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Long_Long_Integer"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 221,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Import, External_Name => \"__aeabi_idivmod\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "N",
+              "line": 220,
+              "column": 21,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "D",
+              "line": 220,
+              "column": 24,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Div_Mod",
+          "qualifier": "",
+          "line": 223,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 223,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Div_Mod",
+                      "href": "docs/gba__numerics___spec.html#L223C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "N",
+                      "href": "docs/gba__numerics___spec.html#L223C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "D",
+                      "href": "docs/gba__numerics___spec.html#L223C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned_32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Long_Long_Integer"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 224,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Import, External_Name => \"__aeabi_uidivmod\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "N",
+              "line": 223,
+              "column": 21,
+              "type": {
+                "label": "Unsigned_32"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "D",
+              "line": 223,
+              "column": 24,
+              "type": {
+                "label": "Unsigned_32"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Divide",
+          "qualifier": "",
+          "line": 226,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 226,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Divide",
+                      "href": "docs/gba__numerics___spec.html#L226C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "N",
+                      "href": "docs/gba__numerics___spec.html#L226C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "D",
+                      "href": "docs/gba__numerics___spec.html#L226C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Integer"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 227,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Import, External_Name => \"__aeabi_idiv\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "N",
+              "line": 226,
+              "column": 20,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "D",
+              "line": 226,
+              "column": 23,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Divide",
+          "qualifier": "",
+          "line": 229,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 229,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Divide",
+                      "href": "docs/gba__numerics___spec.html#L229C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "N",
+                      "href": "docs/gba__numerics___spec.html#L229C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "D",
+                      "href": "docs/gba__numerics___spec.html#L229C23"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned_32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned_32"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 230,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Import, External_Name => \"__aeabi_uidiv\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "N",
+              "line": 229,
+              "column": 20,
+              "type": {
+                "label": "Unsigned_32"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "D",
+              "line": 229,
+              "column": 23,
+              "type": {
+                "label": "Unsigned_32"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Fixed_Sqrt",
+          "qualifier": "",
+          "line": 115,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 115,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Fixed_Sqrt",
+                      "href": "docs/gba__numerics___spec.html#L115C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "F",
+                      "href": "docs/gba__numerics___spec.html#L115C24"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Fixed",
+                      "href": "docs/gba__numerics___spec.html#L113C10"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Fixed",
+                      "href": "docs/gba__numerics___spec.html#L113C10"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 116,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "F",
+              "line": 115,
+              "column": 24,
+              "type": {
+                "label": "GBA.Numerics.Fixed_Sqrt.Fixed",
+                "docHref": "docs/gba__numerics___spec.html#L113C10"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "IDiv0",
+          "qualifier": "",
+          "line": 204,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 204,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "IDiv0",
+                      "href": "docs/gba__numerics___spec.html#L204C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "V",
+                      "href": "docs/gba__numerics___spec.html#L204C19"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Integer"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Integer"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 205,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Linker_Section => \".iwram.idiv0\","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 206,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      Export, External_Name => \"__aeabi_idiv0\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "V",
+              "line": 204,
+              "column": 19,
+              "type": {
+                "label": "Integer"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "LDiv0",
+          "qualifier": "",
+          "line": 200,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 200,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "LDiv0",
+                      "href": "docs/gba__numerics___spec.html#L200C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "V",
+                      "href": "docs/gba__numerics___spec.html#L200C19"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Long_Long_Integer"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Long_Long_Integer"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 201,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Linker_Section => \".iwram.ldiv0\","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 202,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      Export, External_Name => \"__aeabi_ldiv0\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "V",
+              "line": 200,
+              "column": 19,
+              "type": {
+                "label": "Long_Long_Integer"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "LMul",
+          "qualifier": "",
+          "line": 209,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 209,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "LMul",
+                      "href": "docs/gba__numerics___spec.html#L209C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "X",
+                      "href": "docs/gba__numerics___spec.html#L209C18"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Y",
+                      "href": "docs/gba__numerics___spec.html#L209C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned_64"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned_64"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 210,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, No_Inline, Linker_Section => \".iwram.lmul\","
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 211,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         Export, External_Name => \"__aeabi_lmul\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "X",
+              "line": 209,
+              "column": 18,
+              "type": {
+                "label": "Unsigned_64"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 209,
+              "column": 21,
+              "type": {
+                "label": "Unsigned_64"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sin",
+          "qualifier": "",
+          "line": 119,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -5056,7 +6672,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sin",
-                      "href": "docs/gba__numerics___spec.html#L96C12"
+                      "href": "docs/gba__numerics___spec.html#L119C12"
                     },
                     {
                       "kind": "span",
@@ -5072,7 +6688,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Theta",
-                      "href": "docs/gba__numerics___spec.html#L96C17"
+                      "href": "docs/gba__numerics___spec.html#L119C17"
                     },
                     {
                       "kind": "span",
@@ -5093,7 +6709,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Radians_32",
-                      "href": "docs/gba__numerics___spec.html#L65C8"
+                      "href": "docs/gba__numerics___spec.html#L73C8"
                     },
                     {
                       "kind": "span",
@@ -5119,13 +6735,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Snorm_32",
-                      "href": "docs/gba__numerics___spec.html#L46C11"
+                      "href": "docs/gba__numerics___spec.html#L49C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 97,
+                  "number": 120,
                   "children": [
                     {
                       "kind": "span",
@@ -5155,11 +6771,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Theta",
-              "line": 96,
+              "line": 119,
               "column": 17,
               "type": {
                 "label": "GBA.Numerics.Radians_32",
-                "docHref": "docs/gba__numerics___spec.html#L65C8"
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
               },
               "description": [
               ]
@@ -5169,7 +6785,7 @@ GNATdoc.Documentation = {
         {
           "label": "Sin_Cos",
           "qualifier": "",
-          "line": 102,
+          "line": 125,
           "column": 13,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -5180,7 +6796,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 125,
                   "children": [
                     {
                       "kind": "span",
@@ -5201,7 +6817,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sin_Cos",
-                      "href": "docs/gba__numerics___spec.html#L102C13"
+                      "href": "docs/gba__numerics___spec.html#L125C13"
                     },
                     {
                       "kind": "span",
@@ -5217,7 +6833,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Theta",
-                      "href": "docs/gba__numerics___spec.html#L102C22"
+                      "href": "docs/gba__numerics___spec.html#L125C22"
                     },
                     {
                       "kind": "span",
@@ -5238,7 +6854,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Radians_32",
-                      "href": "docs/gba__numerics___spec.html#L65C8"
+                      "href": "docs/gba__numerics___spec.html#L73C8"
                     },
                     {
                       "kind": "span",
@@ -5254,7 +6870,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sin",
-                      "href": "docs/gba__numerics___spec.html#L102C42"
+                      "href": "docs/gba__numerics___spec.html#L125C42"
                     },
                     {
                       "kind": "span",
@@ -5270,7 +6886,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cos",
-                      "href": "docs/gba__numerics___spec.html#L102C47"
+                      "href": "docs/gba__numerics___spec.html#L125C47"
                     },
                     {
                       "kind": "span",
@@ -5301,7 +6917,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Snorm_32",
-                      "href": "docs/gba__numerics___spec.html#L46C11"
+                      "href": "docs/gba__numerics___spec.html#L49C11"
                     },
                     {
                       "kind": "span",
@@ -5312,7 +6928,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 103,
+                  "number": 126,
                   "children": [
                     {
                       "kind": "span",
@@ -5342,33 +6958,33 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Theta",
-              "line": 102,
+              "line": 125,
               "column": 22,
               "type": {
                 "label": "GBA.Numerics.Radians_32",
-                "docHref": "docs/gba__numerics___spec.html#L65C8"
+                "docHref": "docs/gba__numerics___spec.html#L73C8"
               },
               "description": [
               ]
             },
             {
               "label": "Sin",
-              "line": 102,
+              "line": 125,
               "column": 42,
               "type": {
                 "label": "GBA.Numerics.Fixed_Snorm_32",
-                "docHref": "docs/gba__numerics___spec.html#L46C11"
+                "docHref": "docs/gba__numerics___spec.html#L49C11"
               },
               "description": [
               ]
             },
             {
               "label": "Cos",
-              "line": 102,
+              "line": 125,
               "column": 47,
               "type": {
                 "label": "GBA.Numerics.Fixed_Snorm_32",
-                "docHref": "docs/gba__numerics___spec.html#L46C11"
+                "docHref": "docs/gba__numerics___spec.html#L49C11"
               },
               "description": [
               ]
@@ -5378,7 +6994,7 @@ GNATdoc.Documentation = {
         {
           "label": "Sin_Cos_LUT",
           "qualifier": "",
-          "line": 114,
+          "line": 137,
           "column": 13,
           "src": "srcs/GBA.Numerics.ads.html",
           "summary": [
@@ -5389,7 +7005,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 114,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -5410,7 +7026,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sin_Cos_LUT",
-                      "href": "docs/gba__numerics___spec.html#L114C13"
+                      "href": "docs/gba__numerics___spec.html#L137C13"
                     },
                     {
                       "kind": "span",
@@ -5426,7 +7042,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Theta",
-                      "href": "docs/gba__numerics___spec.html#L114C26"
+                      "href": "docs/gba__numerics___spec.html#L137C26"
                     },
                     {
                       "kind": "span",
@@ -5447,7 +7063,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Radians_16",
-                      "href": "docs/gba__numerics___spec.html#L52C8"
+                      "href": "docs/gba__numerics___spec.html#L55C8"
                     },
                     {
                       "kind": "span",
@@ -5463,7 +7079,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sin",
-                      "href": "docs/gba__numerics___spec.html#L114C46"
+                      "href": "docs/gba__numerics___spec.html#L137C46"
                     },
                     {
                       "kind": "span",
@@ -5479,7 +7095,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cos",
-                      "href": "docs/gba__numerics___spec.html#L114C51"
+                      "href": "docs/gba__numerics___spec.html#L137C51"
                     },
                     {
                       "kind": "span",
@@ -5510,7 +7126,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Fixed_Snorm_16",
-                      "href": "docs/gba__numerics___spec.html#L43C11"
+                      "href": "docs/gba__numerics___spec.html#L46C11"
                     },
                     {
                       "kind": "span",
@@ -5521,7 +7137,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -5551,33 +7167,33 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Theta",
-              "line": 114,
+              "line": 137,
               "column": 26,
               "type": {
                 "label": "GBA.Numerics.Radians_16",
-                "docHref": "docs/gba__numerics___spec.html#L52C8"
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
               },
               "description": [
               ]
             },
             {
               "label": "Sin",
-              "line": 114,
+              "line": 137,
               "column": 46,
               "type": {
                 "label": "GBA.Numerics.Fixed_Snorm_16",
-                "docHref": "docs/gba__numerics___spec.html#L43C11"
+                "docHref": "docs/gba__numerics___spec.html#L46C11"
               },
               "description": [
               ]
             },
             {
               "label": "Cos",
-              "line": 114,
+              "line": 137,
               "column": 51,
               "type": {
                 "label": "GBA.Numerics.Fixed_Snorm_16",
-                "docHref": "docs/gba__numerics___spec.html#L43C11"
+                "docHref": "docs/gba__numerics___spec.html#L46C11"
               },
               "description": [
               ]
@@ -5586,6 +7202,151 @@ GNATdoc.Documentation = {
         },
         {
           "label": "Sin_LUT",
+          "qualifier": "",
+          "line": 131,
+          "column": 12,
+          "src": "srcs/GBA.Numerics.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 131,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sin_LUT",
+                      "href": "docs/gba__numerics___spec.html#L131C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Theta",
+                      "href": "docs/gba__numerics___spec.html#L131C21"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Radians_16",
+                      "href": "docs/gba__numerics___spec.html#L55C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Fixed_Snorm_16",
+                      "href": "docs/gba__numerics___spec.html#L46C11"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 132,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pure_Function, Linker_Section => \".iwram.sin_lut\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Theta",
+              "line": 131,
+              "column": 21,
+              "type": {
+                "label": "GBA.Numerics.Radians_16",
+                "docHref": "docs/gba__numerics___spec.html#L55C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sqrt",
           "qualifier": "",
           "line": 108,
           "column": 12,
@@ -5618,7 +7379,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Sin_LUT",
+                      "text": "Sqrt",
                       "href": "docs/gba__numerics___spec.html#L108C12"
                     },
                     {
@@ -5634,8 +7395,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Theta",
-                      "href": "docs/gba__numerics___spec.html#L108C21"
+                      "text": "N",
+                      "href": "docs/gba__numerics___spec.html#L108C18"
                     },
                     {
                       "kind": "span",
@@ -5655,8 +7416,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Radians_16",
-                      "href": "docs/gba__numerics___spec.html#L52C8"
+                      "text": "Unsigned_32"
                     },
                     {
                       "kind": "span",
@@ -5681,8 +7441,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Fixed_Snorm_16",
-                      "href": "docs/gba__numerics___spec.html#L43C11"
+                      "text": "Unsigned_16"
                     }
                   ]
                 },
@@ -5703,7 +7462,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Pure_Function, Linker_Section => \".iwram.sin_lut\""
+                      "text": " Pure_Function, Import, External_Name => \"usqrt\""
                     },
                     {
                       "kind": "span",
@@ -5717,12 +7476,11 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "Theta",
+              "label": "N",
               "line": 108,
-              "column": 21,
+              "column": 18,
               "type": {
-                "label": "GBA.Numerics.Radians_16",
-                "docHref": "docs/gba__numerics___spec.html#L52C8"
+                "label": "Unsigned_32"
               },
               "description": [
               ]

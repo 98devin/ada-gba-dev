@@ -9,9 +9,87 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
+          "label": "Key_Input",
+          "qualifier": "",
+          "line": 93,
+          "column": 3,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 93,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Input"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Flags"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 94,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, Volatile, Address => KEYINPUT"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Constants and variables"
+    },
+    {
+      "entities": [
+        {
           "label": "Key",
           "qualifier": "",
-          "line": 6,
+          "line": 9,
           "column": 8,
           "src": "srcs/GBA.Input.ads.html",
           "summary": [
@@ -22,7 +100,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 6,
+                  "number": 9,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +121,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key",
-                      "href": "docs/gba__input___spec.html#L6C8"
+                      "href": "docs/gba__input___spec.html#L9C8"
                     },
                     {
                       "kind": "span",
@@ -59,7 +137,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 7,
+                  "number": 10,
                   "children": [
                     {
                       "kind": "span",
@@ -80,87 +158,6 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "A_Button",
-                      "href": "docs/gba__input___spec.html#L7C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 8,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "B_Button",
-                      "href": "docs/gba__input___spec.html#L8C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 9,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Select_Button",
-                      "href": "docs/gba__input___spec.html#L9C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 10,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Start_Button",
                       "href": "docs/gba__input___spec.html#L10C7"
                     }
                   ]
@@ -187,7 +184,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Right_Direction",
+                      "text": "B_Button",
                       "href": "docs/gba__input___spec.html#L11C7"
                     }
                   ]
@@ -214,7 +211,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Left_Direction",
+                      "text": "Select_Button",
                       "href": "docs/gba__input___spec.html#L12C7"
                     }
                   ]
@@ -241,7 +238,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Up_Direction",
+                      "text": "Start_Button",
                       "href": "docs/gba__input___spec.html#L13C7"
                     }
                   ]
@@ -268,7 +265,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Down_Direction",
+                      "text": "Right_Direction",
                       "href": "docs/gba__input___spec.html#L14C7"
                     }
                   ]
@@ -295,7 +292,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Left_Shoulder",
+                      "text": "Left_Direction",
                       "href": "docs/gba__input___spec.html#L15C7"
                     }
                   ]
@@ -322,7 +319,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Right_Shoulder",
+                      "text": "Up_Direction",
                       "href": "docs/gba__input___spec.html#L16C7"
                     }
                   ]
@@ -339,13 +336,94 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Down_Direction",
+                      "href": "docs/gba__input___spec.html#L17C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
                   "number": 18,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Left_Shoulder",
+                      "href": "docs/gba__input___spec.html#L18C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 19,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Right_Shoulder",
+                      "href": "docs/gba__input___spec.html#L19C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 20,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 21,
                   "children": [
                     {
                       "kind": "span",
@@ -375,70 +453,70 @@ GNATdoc.Documentation = {
           "literals": [
             {
               "label": "A_Button",
-              "line": 7,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "B_Button",
-              "line": 8,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Select_Button",
-              "line": 9,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Start_Button",
               "line": 10,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Right_Direction",
+              "label": "B_Button",
               "line": 11,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Left_Direction",
+              "label": "Select_Button",
               "line": 12,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Up_Direction",
+              "label": "Start_Button",
               "line": 13,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Down_Direction",
+              "label": "Right_Direction",
               "line": 14,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Left_Shoulder",
+              "label": "Left_Direction",
               "line": 15,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Right_Shoulder",
+              "label": "Up_Direction",
               "line": 16,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Down_Direction",
+              "line": 17,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Left_Shoulder",
+              "line": 18,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Right_Shoulder",
+              "line": 19,
               "column": 7,
               "description": [
               ]
@@ -446,9 +524,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Key_Flags",
+          "label": "Key_Control_Op",
           "qualifier": "",
-          "line": 34,
+          "line": 69,
           "column": 8,
           "src": "srcs/GBA.Input.ads.html",
           "summary": [
@@ -459,7 +537,135 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 69,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Control_Op",
+                      "href": "docs/gba__input___spec.html#L69C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 70,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Disjunction",
+                      "href": "docs/gba__input___spec.html#L70C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Conjunction",
+                      "href": "docs/gba__input___spec.html#L70C20"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/gba__input___spec.html#L69C8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Disjunction",
+              "line": 70,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Conjunction",
+              "line": 70,
+              "column": 20,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Key_Flags",
+          "qualifier": "",
+          "line": 37,
+          "column": 8,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 37,
                   "children": [
                     {
                       "kind": "span",
@@ -480,7 +686,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
+                      "href": "docs/gba__input___spec.html#L37C8"
                     },
                     {
                       "kind": "span",
@@ -526,7 +732,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 38,
                   "children": [
                     {
                       "kind": "span",
@@ -557,7 +763,7 @@ GNATdoc.Documentation = {
         {
           "label": "Key_Set",
           "qualifier": "",
-          "line": 37,
+          "line": 40,
           "column": 8,
           "src": "srcs/GBA.Input.ads.html",
           "summary": [
@@ -568,7 +774,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 40,
                   "children": [
                     {
                       "kind": "span",
@@ -589,7 +795,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key_Set",
-                      "href": "docs/gba__input___spec.html#L37C8"
+                      "href": "docs/gba__input___spec.html#L40C8"
                     },
                     {
                       "kind": "span",
@@ -625,7 +831,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key",
-                      "href": "docs/gba__input___spec.html#L6C8"
+                      "href": "docs/gba__input___spec.html#L9C8"
                     },
                     {
                       "kind": "span",
@@ -656,7 +862,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -690,9 +896,377 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
+          "label": "Key_Control",
+          "qualifier": "",
+          "line": 96,
+          "column": 3,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 96,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Control",
+                      "href": "docs/gba__input___spec.html#L96C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Control_Data",
+                      "href": "docs/gba__input___spec.html#L75C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 97,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, Volatile, Address => KEYCNT"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Key_Control_Data",
+          "qualifier": "",
+          "line": 75,
+          "column": 8,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Control_Data",
+                      "href": "docs/gba__input___spec.html#L75C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 76,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 77,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Flags",
+                      "href": "docs/gba__input___spec.html#L77C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "               "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Flags",
+                      "href": "docs/gba__input___spec.html#L37C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 78,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Requested",
+                      "href": "docs/gba__input___spec.html#L78C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 79,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Interrupt_Op",
+                      "href": "docs/gba__input___spec.html#L79C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Control_Op",
+                      "href": "docs/gba__input___spec.html#L69C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 80,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 81,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Flags",
+              "line": 77,
+              "column": 7,
+              "type": {
+                "label": "GBA.Input.Key_Flags",
+                "docHref": "docs/gba__input___spec.html#L37C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Interrupt_Requested",
+              "line": 78,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Interrupt_Op",
+              "line": 79,
+              "column": 7,
+              "type": {
+                "label": "GBA.Input.Key_Control_Op",
+                "docHref": "docs/gba__input___spec.html#L69C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Record types"
+    },
+    {
+      "entities": [
+        {
           "label": "Disable_Input_Interrupt_Request",
           "qualifier": "",
-          "line": 59,
+          "line": 62,
           "column": 13,
           "src": "srcs/GBA.Input.ads.html",
           "summary": [
@@ -703,7 +1277,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 59,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -724,7 +1298,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Disable_Input_Interrupt_Request",
-                      "href": "docs/gba__input___spec.html#L59C13"
+                      "href": "docs/gba__input___spec.html#L62C13"
                     },
                     {
                       "kind": "span",
@@ -733,177 +1307,6 @@ GNATdoc.Documentation = {
                     }
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "or",
-          "qualifier": "",
-          "line": 47,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 47,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "\"or\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "K1",
-                      "href": "docs/gba__input___spec.html#L47C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "K2",
-                      "href": "docs/gba__input___spec.html#L47C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L6C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 48,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "K1",
-              "line": 47,
-              "column": 18,
-              "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L6C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "K2",
-              "line": 47,
-              "column": 22,
-              "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L6C8"
-              },
-              "description": [
               ]
             }
           ]
@@ -957,34 +1360,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "F",
+                      "text": "K1",
                       "href": "docs/gba__input___spec.html#L50C18"
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": ","
                     },
                     {
                       "kind": "span",
@@ -994,8 +1376,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "K",
-                      "href": "docs/gba__input___spec.html#L50C33"
+                      "text": "K2",
+                      "href": "docs/gba__input___spec.html#L50C22"
                     },
                     {
                       "kind": "span",
@@ -1016,7 +1398,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key",
-                      "href": "docs/gba__input___spec.html#L6C8"
+                      "href": "docs/gba__input___spec.html#L9C8"
                     },
                     {
                       "kind": "span",
@@ -1042,7 +1424,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
+                      "href": "docs/gba__input___spec.html#L37C8"
                     }
                   ]
                 },
@@ -1077,23 +1459,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "F",
+              "label": "K1",
               "line": 50,
               "column": 18,
               "type": {
-                "label": "GBA.Input.Key_Flags",
-                "docHref": "docs/gba__input___spec.html#L34C8"
+                "label": "GBA.Input.Key",
+                "docHref": "docs/gba__input___spec.html#L9C8"
               },
               "description": [
               ]
             },
             {
-              "label": "K",
+              "label": "K2",
               "line": 50,
-              "column": 33,
+              "column": 22,
               "type": {
                 "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L6C8"
+                "docHref": "docs/gba__input___spec.html#L9C8"
               },
               "description": [
               ]
@@ -1101,10 +1483,10 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Read_Key_State",
+          "label": "or",
           "qualifier": "",
           "line": 53,
-          "column": 12,
+          "column": 13,
           "src": "srcs/GBA.Input.ads.html",
           "summary": [
           ],
@@ -1134,8 +1516,86 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Read_Key_State",
-                      "href": "docs/gba__input___spec.html#L53C12"
+                      "text": "\"or\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "F",
+                      "href": "docs/gba__input___spec.html#L53C18"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Flags",
+                      "href": "docs/gba__input___spec.html#L37C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "K",
+                      "href": "docs/gba__input___spec.html#L53C33"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key",
+                      "href": "docs/gba__input___spec.html#L9C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     },
                     {
                       "kind": "span",
@@ -1156,7 +1616,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
+                      "href": "docs/gba__input___spec.html#L37C8"
                     }
                   ]
                 },
@@ -1177,7 +1637,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Inline_Always"
+                      "text": " Pure_Function, Inline_Always"
                     },
                     {
                       "kind": "span",
@@ -1186,6 +1646,30 @@ GNATdoc.Documentation = {
                     }
                   ]
                 }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "F",
+              "line": 53,
+              "column": 18,
+              "type": {
+                "label": "GBA.Input.Key_Flags",
+                "docHref": "docs/gba__input___spec.html#L37C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "K",
+              "line": 53,
+              "column": 33,
+              "type": {
+                "label": "GBA.Input.Key",
+                "docHref": "docs/gba__input___spec.html#L9C8"
+              },
+              "description": [
               ]
             }
           ]
@@ -1245,7 +1729,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Set",
+                      "text": "Key_Flags",
                       "href": "docs/gba__input___spec.html#L37C8"
                     }
                   ]
@@ -1281,303 +1765,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Request_Interrupt_If_All_Pressed",
+          "label": "Read_Key_State",
           "qualifier": "",
-          "line": 62,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 62,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Request_Interrupt_If_All_Pressed",
-                      "href": "docs/gba__input___spec.html#L62C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "F",
-                      "href": "docs/gba__input___spec.html#L62C46"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "F",
-              "line": 62,
-              "column": 46,
-              "type": {
-                "label": "GBA.Input.Key_Flags",
-                "docHref": "docs/gba__input___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Request_Interrupt_If_Any_Pressed",
-          "qualifier": "",
-          "line": 61,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 61,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Request_Interrupt_If_Any_Pressed",
-                      "href": "docs/gba__input___spec.html#L61C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "F",
-                      "href": "docs/gba__input___spec.html#L61C46"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "F",
-              "line": 61,
-              "column": 46,
-              "type": {
-                "label": "GBA.Input.Key_Flags",
-                "docHref": "docs/gba__input___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Request_Interrupt_If_Key_Pressed",
-          "qualifier": "",
-          "line": 60,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 60,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Request_Interrupt_If_Key_Pressed",
-                      "href": "docs/gba__input___spec.html#L60C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "K",
-                      "href": "docs/gba__input___spec.html#L60C46"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L6C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "K",
-              "line": 60,
-              "column": 46,
-              "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L6C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "To_Flags",
-          "qualifier": "",
-          "line": 40,
+          "line": 59,
           "column": 12,
           "src": "srcs/GBA.Input.ads.html",
           "summary": [
@@ -1588,7 +1778,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -1608,50 +1798,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "To_Flags",
-                      "href": "docs/gba__input___spec.html#L40C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "S",
-                      "href": "docs/gba__input___spec.html#L40C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Set",
-                      "href": "docs/gba__input___spec.html#L37C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": "Read_Key_State",
+                      "href": "docs/gba__input___spec.html#L59C12"
                     },
                     {
                       "kind": "span",
@@ -1671,14 +1819,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
+                      "text": "Key_Set",
+                      "href": "docs/gba__input___spec.html#L40C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -1704,15 +1852,296 @@ GNATdoc.Documentation = {
                 }
               ]
             }
+          ]
+        },
+        {
+          "label": "Request_Interrupt_If_All_Pressed",
+          "qualifier": "",
+          "line": 65,
+          "column": 13,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 65,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Request_Interrupt_If_All_Pressed",
+                      "href": "docs/gba__input___spec.html#L65C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "F",
+                      "href": "docs/gba__input___spec.html#L65C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Flags",
+                      "href": "docs/gba__input___spec.html#L37C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
           ],
           "parameters": [
             {
-              "label": "S",
-              "line": 40,
-              "column": 22,
+              "label": "F",
+              "line": 65,
+              "column": 46,
               "type": {
-                "label": "GBA.Input.Key_Set",
+                "label": "GBA.Input.Key_Flags",
                 "docHref": "docs/gba__input___spec.html#L37C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Request_Interrupt_If_Any_Pressed",
+          "qualifier": "",
+          "line": 64,
+          "column": 13,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 64,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Request_Interrupt_If_Any_Pressed",
+                      "href": "docs/gba__input___spec.html#L64C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "F",
+                      "href": "docs/gba__input___spec.html#L64C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Flags",
+                      "href": "docs/gba__input___spec.html#L37C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "F",
+              "line": 64,
+              "column": 46,
+              "type": {
+                "label": "GBA.Input.Key_Flags",
+                "docHref": "docs/gba__input___spec.html#L37C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Request_Interrupt_If_Key_Pressed",
+          "qualifier": "",
+          "line": 63,
+          "column": 13,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 63,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Request_Interrupt_If_Key_Pressed",
+                      "href": "docs/gba__input___spec.html#L63C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "K",
+                      "href": "docs/gba__input___spec.html#L63C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key",
+                      "href": "docs/gba__input___spec.html#L9C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "K",
+              "line": 63,
+              "column": 46,
+              "type": {
+                "label": "GBA.Input.Key",
+                "docHref": "docs/gba__input___spec.html#L9C8"
               },
               "description": [
               ]
@@ -1769,7 +2198,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "K",
+                      "text": "S",
                       "href": "docs/gba__input___spec.html#L43C22"
                     },
                     {
@@ -1790,8 +2219,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L6C8"
+                      "text": "Key_Set",
+                      "href": "docs/gba__input___spec.html#L40C8"
                     },
                     {
                       "kind": "span",
@@ -1817,7 +2246,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L34C8"
+                      "href": "docs/gba__input___spec.html#L37C8"
                     }
                   ]
                 },
@@ -1852,12 +2281,157 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "K",
+              "label": "S",
               "line": 43,
               "column": 22,
               "type": {
+                "label": "GBA.Input.Key_Set",
+                "docHref": "docs/gba__input___spec.html#L40C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "To_Flags",
+          "qualifier": "",
+          "line": 46,
+          "column": 12,
+          "src": "srcs/GBA.Input.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "function"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "To_Flags",
+                      "href": "docs/gba__input___spec.html#L46C12"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "K",
+                      "href": "docs/gba__input___spec.html#L46C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key",
+                      "href": "docs/gba__input___spec.html#L9C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "return"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Key_Flags",
+                      "href": "docs/gba__input___spec.html#L37C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 47,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "K",
+              "line": 46,
+              "column": 22,
+              "type": {
                 "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L6C8"
+                "docHref": "docs/gba__input___spec.html#L9C8"
               },
               "description": [
               ]
