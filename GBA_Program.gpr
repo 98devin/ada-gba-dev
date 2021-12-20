@@ -27,12 +27,6 @@ abstract project GBA_Program is
     when "ROM"   => Linker_File := GBA_Program'Project_Dir & "link_scripts/gba_cart.ld";
     end case;
 
-    package Builder is
-
-        Global_Compilation_Switches := ();
-
-    end Builder;
-
     package Compiler is
         Default_Arch := "";
 

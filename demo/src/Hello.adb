@@ -119,7 +119,7 @@ begin
 
     Wait_For_VBlank;
 
-    Set_Reference_Point(BG_2, Origin);
+    Set_Reference_Point (BG_2, Origin);
 
   end loop;
 
