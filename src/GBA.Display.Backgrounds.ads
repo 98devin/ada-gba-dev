@@ -92,16 +92,16 @@ package GBA.Display.Backgrounds is
     end record;
 
 
-  procedure Set_X_Offset (BG : BG_ID; Value : BG_Scroll_Offset)
-    with Inline;
-
-  procedure Set_Y_Offset (BG : BG_ID; Value : BG_Scroll_Offset)
-    with Inline;
-
   procedure Set_Offset (BG : BG_ID; X, Y : BG_Scroll_Offset)
     with Inline;
 
   procedure Set_Offset (BG : BG_ID; Offsets : BG_Offset_Info)
+    with Inline;
+
+  procedure Set_Offset_X (BG : BG_ID; Value : BG_Scroll_Offset)
+    with Inline;
+
+  procedure Set_Offset_Y (BG : BG_ID; Value : BG_Scroll_Offset)
     with Inline;
 
 
@@ -144,10 +144,10 @@ package GBA.Display.Backgrounds is
   function Affine_Transform_Address (ID : Affine_BG_ID) return Address
     with Pure_Function, Inline_Always;
 
-  procedure Set_X_Reference (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate)
+  procedure Set_Reference_X (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate)
     with Inline;
 
-  procedure Set_Y_Reference (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate)
+  procedure Set_Reference_Y (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate)
     with Inline;
 
   procedure Set_Reference_Point (BG : Affine_BG_ID; X, Y : BG_Reference_Point_Coordinate)

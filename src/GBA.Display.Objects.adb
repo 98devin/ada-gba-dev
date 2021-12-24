@@ -44,19 +44,21 @@ package body GBA.Display.Objects is
     ( OAM_Address'First + 6 + 32 * Address (Ix) );
 
   function Attributes_Of_Object (ID : OBJ_ID) return OAM_Attributes_Ptr is
+    Attributes : Volatile_OBJ_Attributes renames Object_Attribute_Memory (Integer (ID)).Attributes;
   begin
-    return Object_Attribute_Memory (Integer (ID)).Attributes'Access;
+    return Attributes'Unchecked_Access;
   end;
 
   function Attributes_Of_Object (ID : OBJ_ID) return OBJ_Attributes is
+    Attributes : Volatile_OBJ_Attributes renames Object_Attribute_Memory (Integer (ID)).Attributes;
   begin
-    return OBJ_Attributes (Object_Attribute_Memory (Integer (ID)).Attributes);
+    return OBJ_Attributes (Attributes);
   end;
 
   procedure Set_Object_Attributes (ID : OBJ_ID; Attributes : OBJ_Attributes) is
+    Curr_Attributes : Volatile_OBJ_Attributes renames Object_Attribute_Memory (Integer (ID)).Attributes;
   begin
-    Object_Attribute_Memory (Integer (ID)).Attributes :=
-      Volatile_OBJ_Attributes (Attributes);
+    Curr_Attributes := Volatile_OBJ_Attributes (Attributes);
   end;
 
 end GBA.Display.Objects;

@@ -42,10 +42,10 @@ package GBA.Display.Backgrounds.Refs is
     (This : in out Reg_BG_Ref'Class; X, Y : BG_Scroll_Offset)
     with Inline_Always;
 
-  procedure Set_X_Offset
+  procedure Set_Offset_X
     (This : in out Reg_BG_Ref'Class; Value : BG_Scroll_Offset);
 
-  procedure Set_Y_Offset
+  procedure Set_Offset_Y
     (This : in out Reg_BG_Ref'Class; Value : BG_Scroll_Offset);
 
   procedure Move_Offset
@@ -72,10 +72,10 @@ package GBA.Display.Backgrounds.Refs is
   procedure Set_Reference_Point
     (This : in out Aff_BG_Ref'Class; X, Y : BG_Reference_Point_Coordinate);
 
-  procedure Set_X_Reference
+  procedure Set_Reference_X
     (This : in out Aff_BG_Ref'Class; Value : BG_Reference_Point_Coordinate);
 
-  procedure Set_Y_Reference
+  procedure Set_Reference_Y
     (This : in out Aff_BG_Ref'Class; Value : BG_Reference_Point_Coordinate);
 
   procedure Move_Reference_Point
