@@ -4,12 +4,12 @@
 
 package body GBA.Display.Backgrounds is
 
-  procedure Set_X_Offset (BG : BG_ID; Value : BG_Scroll_Offset) is
+  procedure Set_Offset_X (BG : BG_ID; Value : BG_Scroll_Offset) is
   begin
     BG_Offsets (BG).X := Value;
   end;
 
-  procedure Set_Y_Offset (BG : BG_ID; Value : BG_Scroll_Offset) is
+  procedure Set_Offset_Y (BG : BG_ID; Value : BG_Scroll_Offset) is
   begin
     BG_Offsets (BG).Y := Value;
   end;
@@ -28,12 +28,12 @@ package body GBA.Display.Backgrounds is
   function Affine_Transform_Address (ID : Affine_BG_ID) return Address is
     ( BG_Transforms (ID)'Address );
 
-  procedure Set_X_Reference (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate) is
+  procedure Set_Reference_X (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate) is
   begin
     BG_Transforms (BG).Reference_Point.X := Value;
   end;
 
-  procedure Set_Y_Reference (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate) is
+  procedure Set_Reference_Y (BG : Affine_BG_ID; Value : BG_Reference_Point_Coordinate) is
   begin
     BG_Transforms (BG).Reference_Point.Y := Value;
   end;

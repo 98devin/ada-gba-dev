@@ -46,6 +46,7 @@ pragma Restrictions (No_Streams);
 pragma Restrictions (No_Tasking);
 pragma Restrictions (No_Unchecked_Deallocation);
 pragma Restrictions (Static_Dispatch_Tables);
+pragma Profile (Ravenscar);
 
 pragma Discard_Names;
 --  Disable explicitly the generation of names associated with entities in
@@ -64,6 +65,8 @@ package System is
 
    type Name is (SYSTEM_NAME_GNAT);
    System_Name : constant Name := SYSTEM_NAME_GNAT;
+
+   Run_Time_Name : constant String := "GBA Runtime";
 
    --  System-Dependent Named Numbers
 
@@ -145,7 +148,7 @@ private
    Backend_Divide_Checks     : constant Boolean := False;
    Backend_Overflow_Checks   : constant Boolean := True;
 
-   Always_Compatible_Rep     : constant Boolean := True;
+   Always_Compatible_Rep     : constant Boolean := False;
    Command_Line_Args         : constant Boolean := False;
    Configurable_Run_Time     : constant Boolean := True;
    Denorm                    : constant Boolean := True;
@@ -154,7 +157,7 @@ private
    Fractional_Fixed_Ops      : constant Boolean := True;
    Frontend_Exceptions       : constant Boolean := False;
    Frontend_Layout           : constant Boolean := False;
-   Functions_Return_By_DSP   : constant Boolean := True;
+   Functions_Return_By_DSP   : constant Boolean := False;
    Machine_Overflows         : constant Boolean := False;
    Machine_Rounds            : constant Boolean := True;
    Preallocated_Stacks       : constant Boolean := True;

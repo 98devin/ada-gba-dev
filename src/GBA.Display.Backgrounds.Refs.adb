@@ -55,14 +55,14 @@ package body GBA.Display.Backgrounds.Refs is
     Refresh_Offset_Register (This);
   end;
 
-  procedure Set_X_Offset
+  procedure Set_Offset_X
     (This : in out Reg_BG_Ref'Class; Value : BG_Scroll_Offset) is
   begin
     This.Offset.X := Value;
     Refresh_Offset_Register (This);
   end;
 
-  procedure Set_Y_Offset
+  procedure Set_Offset_Y
     (This : in out Reg_BG_Ref'Class; Value : BG_Scroll_Offset) is
   begin
     This.Offset.Y := Value;
@@ -132,18 +132,18 @@ package body GBA.Display.Backgrounds.Refs is
     Refresh_Reference_Point (This);
   end;
 
-  procedure Set_X_Reference
+  procedure Set_Reference_X
     (This : in out Aff_BG_Ref'Class; Value : BG_Reference_Point_Coordinate) is
   begin
     This.Transform_Info.Reference_Point.X := Value;
-    Set_X_Reference (This.ID, Value);
+    Set_Reference_X (This.ID, Value);
   end;
 
-  procedure Set_Y_Reference
+  procedure Set_Reference_Y
     (This : in out Aff_BG_Ref'Class; Value : BG_Reference_Point_Coordinate) is
   begin
     This.Transform_Info.Reference_Point.Y := Value;
-    Set_Y_Reference (This.ID, Value);
+    Set_Reference_Y (This.ID, Value);
   end;
 
   procedure Move_Reference_Point

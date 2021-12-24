@@ -191,4 +191,49 @@ package System.Standard_Library is
    pragma Export (C, Tasking_Error_Def,    "tasking_error");
    pragma Export (C, Abort_Signal_Def,     "_abort_signal");
 
+   --  Binder variables
+
+   main_priority : Integer
+      with Export, External_Name => "__gl_main_priority";
+   time_slice_val : Integer
+      with Export, External_Name => "__gl_time_slice_val";
+   wc_encoding : Integer
+      with Export, External_Name => "__gl_wc_encoding";
+   locking_policy : Integer
+      with Export, External_Name => "__gl_locking_policy";
+   queuing_policy : Integer
+      with Export, External_Name => "__gl_queuing_policy";
+   task_dispatching_policy : Integer
+      with Export, External_Name => "__gl_task_dispatching_policy";
+   priority_specific_dispatching : Integer
+      with Export, External_Name => "__gl_priority_specific_dispatching";
+   num_specific_dispatching : Integer
+      with Export, External_Name => "__gl_num_specific_dispatching";
+   main_cpu : Integer
+      with Export, External_Name => "__gl_main_cpu";
+   interrupt_states : Integer
+      with Export, External_Name => "__gl_interrupt_states";
+   num_interrupt_states : Integer
+      with Export, External_Name => "__gl_num_interrupt_states";
+   unreserve_all_interrupts : Integer
+      with Export, External_Name => "__gl_unreserve_all_interrupts";
+   detect_blocking : Integer
+      with Export, External_Name => "__gl_detect_blocking";
+   default_stack_size : Integer
+      with Export, External_Name => "__gl_default_stack_size";
+
+   procedure GNAT_Initialize is null
+      with Export, External_Name => "__gnat_initialize";
+
+   procedure GNAT_Finalize is null
+      with Export, External_Name => "__gnat_finalize";
+
+   procedure GNAT_Runtime_Initialize is null
+      with Export, External_Name => "__gnat_runtime_initialize";
+
+   procedure GNAT_Runtime_Finalize is null
+      with Export, External_Name => "__gnat_runtime_finalize";
+
+   procedure Adafinal is null;
+
 end System.Standard_Library;

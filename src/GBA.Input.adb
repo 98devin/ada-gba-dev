@@ -40,7 +40,7 @@ package body GBA.Input is
   end;
 
   procedure Request_Interrupt_If_Key_Pressed(K : Key) is
-    Flags : Key_Flags := To_Flags(K);
+    Flags : Key_Flags := To_Flags (K);
   begin
     Key_Control :=
       ( Flags => Flags

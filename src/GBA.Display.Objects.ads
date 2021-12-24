@@ -162,7 +162,7 @@ package GBA.Display.Objects is
     with Volatile;
 
   type OAM_Attributes_Ptr is access all Volatile_OBJ_Attributes
-    with Storage_Size => 0;
+    with Storage_Size => 0, Volatile;
 
 
   function Attributes_Of_Object (ID : OBJ_ID) return OAM_Attributes_Ptr
@@ -178,9 +178,9 @@ package GBA.Display.Objects is
   type OAM_Entry is limited
     record
       Attributes          : aliased Volatile_OBJ_Attributes;
-      Transform_Parameter : aliased Affine_Transform_Parameter with Volatile;
+      Transform_Parameter : aliased Affine_Transform_Parameter;
     end record
-      with Size => 64;
+      with Size => 64, Volatile;
 
   for OAM_Entry use
     record
@@ -189,7 +189,7 @@ package GBA.Display.Objects is
     end record;
 
   Object_Attribute_Memory : array (0 .. 127) of OAM_Entry
-    with Import, Address => OAM_Address'First;
+    with Import, Volatile_Components, Address => OAM_Address'First;
 
 
 end GBA.Display.Objects;

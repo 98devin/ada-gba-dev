@@ -3,6 +3,6 @@
 
 
 procedure Hello
-  with Linker_Section => ".iwram";
+  with Linker_Section => ".iwram", No_Return;
 
 pragma Machine_Attribute (Hello, "target", "arm");
