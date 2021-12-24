@@ -6056,7 +6056,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Storage_Size => 0"
+          "text": " Storage_Size => 0, Volatile"
         },
         {
           "kind": "span",
@@ -6629,21 +6629,6 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Volatile"
-        },
-        {
-          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -6692,7 +6677,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Size => 64"
+          "text": " Size => 64, Volatile"
         },
         {
           "kind": "span",
@@ -7075,7 +7060,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Import, Address => OAM_Address'First"
+          "text": " Import, Volatile_Components, Address => OAM_Address'First"
         },
         {
           "kind": "span",

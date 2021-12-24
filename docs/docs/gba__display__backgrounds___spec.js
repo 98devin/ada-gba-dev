@@ -2868,7 +2868,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Offset",
           "qualifier": "",
-          "line": 101,
+          "line": 95,
           "column": 13,
           "src": "srcs/GBA.Display.Backgrounds.ads.html",
           "summary": [
@@ -2879,7 +2879,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -2900,7 +2900,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Set_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C13"
+                      "href": "docs/gba__display__backgrounds___spec.html#L95C13"
                     },
                     {
                       "kind": "span",
@@ -2916,7 +2916,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C25"
+                      "href": "docs/gba__display__backgrounds___spec.html#L95C25"
                     },
                     {
                       "kind": "span",
@@ -2953,7 +2953,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C37"
+                      "href": "docs/gba__display__backgrounds___spec.html#L95C37"
                     },
                     {
                       "kind": "span",
@@ -2969,7 +2969,362 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C40"
+                      "href": "docs/gba__display__backgrounds___spec.html#L95C40"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Scroll_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 96,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 95,
+              "column": 25,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "X",
+              "line": 95,
+              "column": 37,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Y",
+              "line": 95,
+              "column": 40,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Offset",
+          "qualifier": "",
+          "line": 98,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 98,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L98C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L98C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Offsets",
+                      "href": "docs/gba__display__backgrounds___spec.html#L98C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Offset_Info",
+                      "href": "docs/gba__display__backgrounds___spec.html#L82C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 99,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 98,
+              "column": 25,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Offsets",
+              "line": 98,
+              "column": 37,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Offset_Info",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L82C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Offset_X",
+          "qualifier": "",
+          "line": 101,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 101,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Offset_X",
+                      "href": "docs/gba__display__backgrounds___spec.html#L101C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L101C27"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L101C39"
                     },
                     {
                       "kind": "span",
@@ -3032,7 +3387,7 @@ GNATdoc.Documentation = {
             {
               "label": "BG",
               "line": 101,
-              "column": 25,
+              "column": 27,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_ID",
                 "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
@@ -3041,20 +3396,9 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "X",
+              "label": "Value",
               "line": 101,
-              "column": 37,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
-              "line": 101,
-              "column": 40,
+              "column": 39,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
                 "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
@@ -3065,7 +3409,7 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Set_Offset",
+          "label": "Set_Offset_Y",
           "qualifier": "",
           "line": 104,
           "column": 13,
@@ -3098,7 +3442,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Set_Offset",
+                      "text": "Set_Offset_Y",
                       "href": "docs/gba__display__backgrounds___spec.html#L104C13"
                     },
                     {
@@ -3115,7 +3459,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L104C25"
+                      "href": "docs/gba__display__backgrounds___spec.html#L104C27"
                     },
                     {
                       "kind": "span",
@@ -3151,8 +3495,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Offsets",
-                      "href": "docs/gba__display__backgrounds___spec.html#L104C37"
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L104C39"
                     },
                     {
                       "kind": "span",
@@ -3172,8 +3516,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Offset_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L82C8"
+                      "text": "BG_Scroll_Offset",
+                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
                     },
                     {
                       "kind": "span",
@@ -3215,7 +3559,7 @@ GNATdoc.Documentation = {
             {
               "label": "BG",
               "line": 104,
-              "column": 25,
+              "column": 27,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_ID",
                 "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
@@ -3224,12 +3568,12 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Offsets",
+              "label": "Value",
               "line": 104,
-              "column": 37,
+              "column": 39,
               "type": {
-                "label": "GBA.Display.Backgrounds.BG_Offset_Info",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L82C8"
+                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
               },
               "description": [
               ]
@@ -3608,6 +3952,350 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "Set_Reference_X",
+          "qualifier": "",
+          "line": 147,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 147,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Reference_X",
+                      "href": "docs/gba__display__backgrounds___spec.html#L147C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L147C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Affine_BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L147C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Reference_Point_Coordinate",
+                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 148,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 147,
+              "column": 30,
+              "type": {
+                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Value",
+              "line": 147,
+              "column": 49,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Reference_Y",
+          "qualifier": "",
+          "line": 150,
+          "column": 13,
+          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 150,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Reference_Y",
+                      "href": "docs/gba__display__backgrounds___spec.html#L150C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG",
+                      "href": "docs/gba__display__backgrounds___spec.html#L150C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Affine_BG_ID",
+                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/gba__display__backgrounds___spec.html#L150C49"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "BG_Reference_Point_Coordinate",
+                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 151,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "BG",
+              "line": 150,
+              "column": 30,
+              "type": {
+                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Value",
+              "line": 150,
+              "column": 49,
+              "type": {
+                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
+                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "Set_Transform",
           "qualifier": "",
           "line": 162,
@@ -3773,694 +4461,6 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Transform_Info",
                 "docHref": "docs/gba__display__backgrounds___spec.html#L125C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_X_Offset",
-          "qualifier": "",
-          "line": 95,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 95,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_X_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L95C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L95C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L95C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 96,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 95,
-              "column": 27,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 95,
-              "column": 39,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_X_Reference",
-          "qualifier": "",
-          "line": 147,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 147,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_X_Reference",
-                      "href": "docs/gba__display__backgrounds___spec.html#L147C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L147C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L147C49"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 148,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 147,
-              "column": 30,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 147,
-              "column": 49,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Y_Offset",
-          "qualifier": "",
-          "line": 98,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 98,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Y_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L98C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L98C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L98C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 99,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 98,
-              "column": 27,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 98,
-              "column": 39,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Y_Reference",
-          "qualifier": "",
-          "line": 150,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 150,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Y_Reference",
-                      "href": "docs/gba__display__backgrounds___spec.html#L150C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L150C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L150C49"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 151,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 150,
-              "column": 30,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 150,
-              "column": 49,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
               },
               "description": [
               ]

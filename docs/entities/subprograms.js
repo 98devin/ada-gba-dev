@@ -611,7 +611,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Attributes_Of_Object",
-      "docHref": "docs/gba__display__objects___body.html#L51C12",
+      "docHref": "docs/gba__display__objects___body.html#L52C12",
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "(body)"
     },
@@ -1964,7 +1964,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Object_Attributes",
-      "docHref": "docs/gba__display__objects___body.html#L56C13",
+      "docHref": "docs/gba__display__objects___body.html#L58C13",
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "(body)"
     },
@@ -1989,17 +1989,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Offset",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L101C13",
+      "docHref": "docs/gba__display__backgrounds___spec.html#L95C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L101"
+      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L95"
     },
     {
       "label": "Set_Offset",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L104C13",
+      "docHref": "docs/gba__display__backgrounds___spec.html#L98C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L104"
+      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L98"
     },
     {
       "label": "Set_Offset",
@@ -2026,6 +2026,58 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L41"
+    },
+    {
+      "label": "Set_Offset_X",
+      "docHref": "docs/gba__display__backgrounds___body.html#L7C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Offset_X",
+      "docHref": "docs/gba__display__backgrounds___spec.html#L101C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L101"
+    },
+    {
+      "label": "Set_Offset_X",
+      "docHref": "docs/gba__display__backgrounds__refs___body.html#L58C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Offset_X",
+      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L45C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L45"
+    },
+    {
+      "label": "Set_Offset_Y",
+      "docHref": "docs/gba__display__backgrounds___body.html#L12C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Offset_Y",
+      "docHref": "docs/gba__display__backgrounds___spec.html#L104C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L104"
+    },
+    {
+      "label": "Set_Offset_Y",
+      "docHref": "docs/gba__display__backgrounds__refs___body.html#L65C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Offset_Y",
+      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L48C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L48"
     },
     {
       "label": "Set_Priority",
@@ -2093,6 +2145,58 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L72"
     },
     {
+      "label": "Set_Reference_X",
+      "docHref": "docs/gba__display__backgrounds___body.html#L31C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Reference_X",
+      "docHref": "docs/gba__display__backgrounds___spec.html#L147C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L147"
+    },
+    {
+      "label": "Set_Reference_X",
+      "docHref": "docs/gba__display__backgrounds__refs___body.html#L135C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Reference_X",
+      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L75C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L75"
+    },
+    {
+      "label": "Set_Reference_Y",
+      "docHref": "docs/gba__display__backgrounds___body.html#L36C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Reference_Y",
+      "docHref": "docs/gba__display__backgrounds___spec.html#L150C13",
+      "declared": "GBA.Display.Backgrounds",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L150"
+    },
+    {
+      "label": "Set_Reference_Y",
+      "docHref": "docs/gba__display__backgrounds__refs___body.html#L142C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Reference_Y",
+      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L78C13",
+      "declared": "GBA.Display.Backgrounds.Refs",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L78"
+    },
+    {
       "label": "Set_Transform",
       "docHref": "docs/gba__display__backgrounds___body.html#L56C13",
       "declared": "GBA.Display.Backgrounds",
@@ -2104,110 +2208,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L162"
-    },
-    {
-      "label": "Set_X_Offset",
-      "docHref": "docs/gba__display__backgrounds___body.html#L7C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_X_Offset",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L95C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L95"
-    },
-    {
-      "label": "Set_X_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L58C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_X_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L45C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L45"
-    },
-    {
-      "label": "Set_X_Reference",
-      "docHref": "docs/gba__display__backgrounds___body.html#L31C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_X_Reference",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L147C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L147"
-    },
-    {
-      "label": "Set_X_Reference",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L135C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_X_Reference",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L75C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L75"
-    },
-    {
-      "label": "Set_Y_Offset",
-      "docHref": "docs/gba__display__backgrounds___body.html#L12C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Y_Offset",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L98C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L98"
-    },
-    {
-      "label": "Set_Y_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L65C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Y_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L48C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L48"
-    },
-    {
-      "label": "Set_Y_Reference",
-      "docHref": "docs/gba__display__backgrounds___body.html#L36C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Y_Reference",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L150C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L150"
-    },
-    {
-      "label": "Set_Y_Reference",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L142C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Y_Reference",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L78C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L78"
     },
     {
       "label": "Setup_DMA_Transfer",

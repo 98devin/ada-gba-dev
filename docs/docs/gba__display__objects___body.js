@@ -877,7 +877,7 @@ GNATdoc.Documentation = {
         {
           "label": "Attributes_Of_Object",
           "qualifier": "(body)",
-          "line": 51,
+          "line": 52,
           "column": 12,
           "summary": [
           ],
@@ -887,7 +887,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -1003,7 +1003,7 @@ GNATdoc.Documentation = {
         {
           "label": "Set_Object_Attributes",
           "qualifier": "(body)",
-          "line": 56,
+          "line": 58,
           "column": 13,
           "summary": [
           ],
@@ -1013,7 +1013,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",

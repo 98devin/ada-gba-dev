@@ -1797,7 +1797,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Set_X_Offset",
+          "text": "Set_Offset_X",
           "href": "docs/gba__display__backgrounds__refs___spec.html#L45C13"
         }
       ]
@@ -1950,7 +1950,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Set_Y_Offset",
+          "text": "Set_Offset_Y",
           "href": "docs/gba__display__backgrounds__refs___spec.html#L48C13"
         }
       ]
@@ -3235,7 +3235,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Set_X_Reference",
+          "text": "Set_Reference_X",
           "href": "docs/gba__display__backgrounds__refs___spec.html#L75C13"
         }
       ]
@@ -3388,7 +3388,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Set_Y_Reference",
+          "text": "Set_Reference_Y",
           "href": "docs/gba__display__backgrounds__refs___spec.html#L78C13"
         }
       ]
