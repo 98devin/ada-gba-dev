@@ -54,3 +54,11 @@ __aeabi_idiv:
     @ Erase the sign bits from the return address, and return
     bic     r12, #3 << 30
     bx      r12
+
+    .section .iwram.__aeabi_idiv0, "ax", %progbits
+    .align 2
+    .arm
+    .global __aeabi_idiv0
+    .weak   __aeabi_idiv0
+__aeabi_idiv0:
+    bx lr

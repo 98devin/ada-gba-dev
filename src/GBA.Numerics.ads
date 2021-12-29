@@ -194,39 +194,4 @@ package GBA.Numerics is
 
   pragma Machine_Attribute (Count_Leading_Zeros, "target", "arm");
 
-
-private
-
-  function LDiv0 (V : Long_Long_Integer) return Long_Long_Integer
-    with Pure_Function, Linker_Section => ".iwram.ldiv0",
-      Export, External_Name => "__aeabi_ldiv0";
-
-  function IDiv0 (V : Integer) return Integer
-    with Pure_Function, Linker_Section => ".iwram.idiv0",
-      Export, External_Name => "__aeabi_idiv0";
-
-
-  function LMul (X, Y : Unsigned_64) return Unsigned_64
-    with Pure_Function, No_Inline, Linker_Section => ".iwram.lmul",
-         Export, External_Name => "__aeabi_lmul";
-
-  pragma Machine_Attribute (LMul, "target", "arm");
-
-
-  -- Private functions so that they will not override any other definitions
-  -- (e.g. BIOS routines, if you prefer those for some reason).
-  -- They are callable via standard operators, since they overwrite the defaults.
-
-  function Div_Mod (N, D : Integer) return Long_Long_Integer
-    with Pure_Function, Import, External_Name => "__aeabi_idivmod";
-
-  function Div_Mod (N, D : Unsigned_32) return Long_Long_Integer
-    with Pure_Function, Import, External_Name => "__aeabi_uidivmod";
-
-  function Divide (N, D : Integer) return Integer
-    with Pure_Function, Import, External_Name => "__aeabi_idiv";
-
-  function Divide (N, D : Unsigned_32) return Unsigned_32
-    with Pure_Function, Import, External_Name => "__aeabi_uidiv";
-
 end GBA.Numerics;

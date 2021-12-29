@@ -1,0 +1,117 @@
+@ Copyright (c) 2021 Devin Hill
+@ zlib License -- see LICENSE for details.
+
+  .section .crt0, "ax"
+  .align 2
+
+  .arm
+  .cpu arm7tdmi
+  .global _start
+
+@ _start will begin at address zero,
+@ and will be followed by the mandatory cartridge header data.
+_start:
+  b boot_entry
+
+  .space 156    @ Nintendo Logo
+  .space 16     @ Game Title (12) + Game Code (4)
+  .ascii "01"   @ Maker Code
+  .byte  0x96   @ Required Value
+  .byte  0x00   @ Unit Code
+  .byte  0x00   @ Device Type
+  .space 7      @ Reserved Area
+  .byte  0x00   @ Software Version
+  .space 1      @ Header Checksum (should be gbafix'd)
+  .space 2      @ Reserved Area
+
+@ In multiboot mode, an extended header follows.
+@ If the boot entry is not overridden for multiboot, we will
+@ simply skip over it as well.
+
+boot_entry:
+  b rom_boot_entry
+
+  .space 1      @ Boot Mode (Overwritten by BIOS)
+  .space 1      @ Slave ID Number (Overwritten by BIOS)
+  .space 26     @ Reserved Area
+
+@ Joybus mode is not supported.
+@ We loop indefinitely if booted from this address.
+
+joy_boot_entry:
+  b joy_boot_entry
+
+@ All entry points start in System Mode.
+@ We also need to initialize the stack pointer
+@ for IRQs, so we do this first.
+
+rom_boot_entry:
+
+  @ Set mode to IRQ
+  mov r0, #0b00010010
+  msr cpsr, r0
+
+  @ Initialize IRQ stack
+  ldr sp, =__sp_irq
+
+  @ Set mode to System
+  mov r0, #0b00011111
+  msr cpsr, r0
+
+  @ Initialize System/User stack
+  ldr sp, =__sp_usr
+
+  @ Change to thumb mode to save space
+  add r0, pc, #1
+  bx r0
+
+  .thumb
+
+
+  @ Initialize segments from ROM
+
+  ldr r0, =__iwram_start
+  ldr r1, =__iwram_start__
+  ldr r2, =__iwram_end__
+  sub r2, r1
+  bl memcpy_word
+
+  ldr r0, =__ewram_start
+  ldr r1, =__e
+  
+
+  
+
+  @ r0 : dest
+  @ r1 : len in words
+memclr_word:
+  mov r2, #0
+
+  @ r0 : dest
+  @ r1 : len in words
+  @ r2 : fill
+memset_word:
+  cmp r2, #0
+  beq 0f
+
+  stmia r0!, {r2}
+  sub r1, #1
+  bne memset_word
+
+0:
+  bx lr
+
+  @ r0 : dst
+  @ r1 : src
+  @ r2 : len in words
+memcpy_word:
+  cmp r2, #0
+  beq 0f
+
+  ldmia r1!, {r3}
+  stmia r0!, {r3}
+  sub r2, #1
+  bne memcpy_word
+
+0:
+  bx lr

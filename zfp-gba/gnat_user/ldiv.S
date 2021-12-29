@@ -76,3 +76,12 @@ __aeabi_ldiv:
     @ Erase the sign bits from the return address, and return
     bic     r12, #0xF << 28
     bx      r12
+
+
+    .section .iwram.__aeabi_ldiv0, "ax", %progbits
+    .align 2
+    .arm
+    .global __aeabi_ldiv0
+    .weak   __aeabi_ldiv0
+__aeabi_ldiv0:
+    bx lr

@@ -66,8 +66,8 @@ abstract project GBA_Program is
             ( "-gnatp"
             , "-gnatj80"
             , "-gnatX"
-            , "-gnatn"
-            , "-O3"
+            -- , "-gnatn"
+            , "-O2"
             , "-g"
             );
 

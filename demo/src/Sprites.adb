@@ -172,8 +172,8 @@ begin
       Sin_Cos (Theta, Sin, Cos);
       Set_Position
         ( 0
-        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale))
-        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale))
+        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale) / (2 ** 8))
+        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale) / (2 ** 8))
         );
     end;
 
@@ -184,8 +184,8 @@ begin
       Sin_Cos_LUT (Radians_16 (Theta + One_Third), Sin, Cos);
       Set_Position
         ( 1
-        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale))
-        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale))
+        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale) / (2 ** 8))
+        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale) / (2 ** 8))
         );
     end;
 
