@@ -14,8 +14,6 @@ with GBA.Timers;
 with Interfaces;
 use  Interfaces;
 
-
-
 procedure Timer_Test is
 
   use GBA.BIOS;
@@ -24,8 +22,12 @@ procedure Timer_Test is
   use GBA.Display.Backgrounds;
   use GBA.Display.Palettes;
   use GBA.Display.Tiles;
+  use GBA.Interrupts;
   use GBA.Memory;
   use GBA.Timers;
+
+  procedure Wait_For_Interrupt_C (New_Only : Integer_32; Flags : Interrupt_Flags)
+    with Inline_Always, Import, External_Name => "bios_arm__wait_for_interrupt";
 
   Color_Palette : Palette_16 renames BG_Palette_16x16 (0);
 
@@ -111,7 +113,8 @@ begin
       end loop;
     end;
 
-    Wait_For_VBlank;
+    -- Wait_For_VBlank;
+    Wait_For_Interrupt_C (0, 1);
   end loop;
 
 end Timer_Test;

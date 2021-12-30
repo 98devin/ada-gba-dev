@@ -1,9 +1,9 @@
-
+@ Copyright (c) 2021 Devin Hill
+@ zlib License -- see LICENSE for details.
 
     .text
     .cpu arm7tdmi
     .balign 2
-
 
     @ Routines to be called to allow easy returning of multiple registers.
     @ For example, these can be imported as `void (int, int, int, int)`

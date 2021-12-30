@@ -1,3 +1,5 @@
+@ Copyright (c) 2021 Devin Hill
+@ zlib License -- see LICENSE for details.
 
     .arm
     .align
@@ -23,7 +25,7 @@ gba_run_handler_in_system_mode:
     mov      lr, pc
     bx       r0
     pop     {lr}
-    
+
     mov     r0, #0
     mov     r1, #0x4000000
     strb    r0, [r1, #208] @ clear IME again (safety) (?)
@@ -36,5 +38,5 @@ gba_run_handler_in_system_mode:
 
     @ Restore original spsr, lr
     pop     {r2, lr}
-    msr     spsr, r2 
+    msr     spsr, r2
     bx      lr
