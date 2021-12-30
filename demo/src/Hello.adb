@@ -85,6 +85,7 @@ begin
   -- GBA.Interrupts.Enable_Receiving_Interrupts;
   GBA.Interrupts.Enable_Interrupt (GBA.Interrupts.VBlank);
 
+
   Request_VBlank_Interrupt;
   Wait_For_VBlank;
 
@@ -97,6 +98,7 @@ begin
     for Y in VRAM'Range (1) loop
       for X in 1 .. 4 loop
         Adjust_Color (Y + Y_Offset * X);
+        -- VRAM (Y, 1 + (X - 1) * 60 .. 1 + X * 60) := (others => Color_BG);
         Cpu_Set
           ( Source     => Color_BG'Address
           , Dest       => VRAM (Y, 1 + (X-1) * 60)'Address

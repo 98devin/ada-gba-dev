@@ -1,3 +1,5 @@
+@ Copyright (c) 2021 Devin Hill
+@ zlib License -- see LICENSE for details.
 
     @
     @ GBA.Numerics fast pure-assembly routines.

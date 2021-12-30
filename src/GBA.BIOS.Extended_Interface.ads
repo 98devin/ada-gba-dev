@@ -29,48 +29,55 @@ package GBA.BIOS.Extended_Interface is
 
   -- Reexport functionality from Raw interface --
 
-  procedure Soft_Reset renames Raw.Soft_Reset;
-  procedure Hard_Reset renames Raw.Hard_Reset;
-  procedure Halt       renames Raw.Halt;
-  procedure Stop       renames Raw.Stop;
+  -- Marked Inline_Always so that link-time optimization
+  -- takes place and reduces these to a pure `svc` instruction.
+  -- This eliminates the overhead of a function call to BIOS routines.
+
+  -- Unfortunately, due to the numeric code of the interrupts
+  -- being different in ARM and THUMB mode, we still need to have
+  -- two versions of this package. We share as much as possible by
+  -- making them instances of this same generic package.
+
+  procedure Soft_Reset renames Raw.Soft_Reset with Inline_Always;
+  procedure Hard_Reset renames Raw.Hard_Reset with Inline_Always;
+  procedure Halt       renames Raw.Halt       with Inline_Always;
+  procedure Stop       renames Raw.Stop       with Inline_Always;
 
   procedure Register_RAM_Reset (Flags : Register_RAM_Reset_Flags)
-    renames Raw.Register_RAM_Reset;
+    renames Raw.Register_RAM_Reset with Inline_Always;
 
   procedure Wait_For_Interrupt (New_Only : Boolean; Wait_For : Interrupt_Flags)
-    renames Raw.Wait_For_Interrupt;
+    renames Raw.Wait_For_Interrupt with Inline_Always;
 
   procedure Wait_For_VBlank
-    renames Raw.Wait_For_VBlank;
+    renames Raw.Wait_For_VBlank with Inline_Always;
 
   function Div_Mod (N, D : Integer) return Long_Long_Integer
-    renames Raw.Div_Mod;
+    renames Raw.Div_Mod with Inline_Always;
 
   function Div_Mod_Arm (D, N : Integer) return Long_Long_Integer
-    renames Raw.Div_Mod_Arm;
+    renames Raw.Div_Mod_Arm with Inline_Always;
 
   function Sqrt (N : Unsigned_32) return Unsigned_16
-    renames Raw.Sqrt;
+    renames Raw.Sqrt with Inline_Always;
 
   function Arc_Tan (X, Y : Fixed_2_14) return Radians_16
-    renames Raw.Arc_Tan;
+    renames Raw.Arc_Tan with Inline_Always;
 
   procedure Cpu_Set (S, D : Address; Config : Cpu_Set_Config)
-    renames Raw.Cpu_Set;
+    renames Raw.Cpu_Set with Inline_Always;
 
   procedure Cpu_Fast_Set (S, D : Address; Config : Cpu_Set_Config)
-    renames Raw.Cpu_Fast_Set;
+    renames Raw.Cpu_Fast_Set with Inline_Always;
 
   function Bios_Checksum return Unsigned_32
-    renames Raw.Bios_Checksum;
+    renames Raw.Bios_Checksum with Inline_Always;
 
   procedure Affine_Set_Ext (Parameters : Address; Transform : Address; Count : Integer)
-    renames Raw.Affine_Set_Ext;
+    renames Raw.Affine_Set_Ext with Inline_Always;
 
   procedure Affine_Set (Parameters : Address; Transform : Address; Count, Stride : Integer)
-    renames Raw.Affine_Set;
-
-
+    renames Raw.Affine_Set with Inline_Always;
 
   -- More convenient interfaces to Raw functions --
 

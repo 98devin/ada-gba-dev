@@ -6,4 +6,5 @@ obj/
 *.o
 *.gba
 *.ps1
+*.fish
 *.zip

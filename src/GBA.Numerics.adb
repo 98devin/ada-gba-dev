@@ -95,20 +95,6 @@ package body GBA.Numerics is
   end;
 
   --
-  -- Redeclaration for __aeabi_lmul in Thumb mode
-  --
-
-  function LMul (X, Y : Unsigned_64) return Unsigned_64 is
-    ( X * Y );
-
-  function LDiv0 (V : Long_Long_Integer) return Long_Long_Integer is
-    ( V );
-
-  function IDiv0 (V : Integer) return Integer is
-    ( V );
-
-
-  --
   -- Look-up table for division optimization.
   --
 

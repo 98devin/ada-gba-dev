@@ -64,7 +64,7 @@ package GBA.Input is
   procedure Request_Interrupt_If_Any_Pressed(F : Key_Flags);
   procedure Request_Interrupt_If_All_Pressed(F : Key_Flags);
 
-private
+  -- Unsafe Interface --
 
   type Key_Control_Op is
     ( Disjunction, Conjunction );
@@ -72,7 +72,7 @@ private
   for Key_Control_Op use
     ( Disjunction => 0, Conjunction => 1 );
 
-  type Key_Control_Data is
+  type Key_Control_Info is
     record
       Flags               : Key_Flags;
       Interrupt_Requested : Boolean;
@@ -80,20 +80,19 @@ private
     end record
     with Size => 16;
 
-  for Key_Control_Data use
+  for Key_Control_Info use
     record
       Flags               at 0 range 0  .. 9;
       Interrupt_Requested at 0 range 14 .. 14;
       Interrupt_Op        at 0 range 15 .. 15;
     end record;
 
-
   use GBA.Memory.IO_Registers;
 
   Key_Input : Key_Flags
-    with Import, Volatile, Address => KEYINPUT;
+    with Import, Address => KEYINPUT;
 
-  Key_Control : Key_Control_Data
-    with Import, Volatile, Address => KEYCNT;
+  Key_Control : Key_Control_Info
+    with Import, Address => KEYCNT;
 
 end GBA.Input;

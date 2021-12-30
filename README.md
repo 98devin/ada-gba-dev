@@ -12,6 +12,7 @@ Gameboy Advance software library for the Ada programming language.
   Note that code compiled to run on the GBA uses custom runtime libraries derived from GNAT FSF and SweetAda,
   and opts out of the default Ada standard library. All elements of the custom runtime library
   are either licensed under the GPL3 with runtime exception (derived from GCC source), or ZLIB licenses (new/custom code).
+  The `gba_crt0.s` file is licensed under MPL 2.0; a new implementation is under development if this is a problem for you.
 
   The runtime also incorporates work from the excellent AGBABI implementation of `__aeabi` functions to avoid
   linking with `libc` or `libg++`.
@@ -34,13 +35,12 @@ the requirements and features of this library.
 - [x] Compile Ada targeting embedded Arm
     - [x] Freely intermix Arm and Thumb mode.
     - [x] Custom small-footprint runtime
-    - [x] Secondary stack for dynamic allocations
+    - [x] Secondary stack for easy dynamic allocations
     - [x] Tagged types for polymorphism and OOP
-    - [x] Native Fixed-point math support instead of Floats
+    - [x] Native fixed-point math support instead of Floats
 
       No IO, exception propagation, tasking, finalization, standard containers.
       Currently no software floating-point option.
-
 
 - [x] All IO Register mnemonics
 - [x] Keypad input
@@ -72,12 +72,16 @@ the requirements and features of this library.
     - [x] Object attribute memory
     - [ ] Per-graphics-mode interface for backgrounds
     - [ ] Convenient HDMA control
-- [ ] Timers
+- [x] Timers
+    - [x] Timer control registers
+    - [x] Some helper functions for clarity
 - [ ] Audio
     - [ ] Audio control registers
     - [ ] DMA-to-FIFO interface
 - [ ] Serial Communications
 - [ ] Gamepak EEPROM / Flash ROM
+    - [x] Manual access
+    - [ ] Helper procedures for safe usage
 - [ ] Special Add-ons (solar, tilt, rumble, etc.)
 - [ ] Undocumented goodies
     - [x] Greenswap
@@ -92,6 +96,9 @@ the requirements and features of this library.
     - [ ] Text processing
     - [ ] MOD Mixer
 - [ ] Documentation and comments
+    - [x] Gnatdoc-built index of files and declarations
+    - [ ] More detailed explanations of all library functions
+    - [ ] Walkthrough document for examples and getting started
 
 
 ## Notes
@@ -102,3 +109,6 @@ Thanks to the sources of information used to construct this library, including
 - Cowbite
 - Community help (GBADev)
 - etc.
+
+The great AGBABI library is used here to provide efficient implementations
+of some built-in functions (math, memory copies, etc.)

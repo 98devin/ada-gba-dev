@@ -4,6 +4,7 @@
 
 with GBA.BIOS;
 with GBA.BIOS.Arm;
+with GBA.BIOS.Thumb;
 
 with GBA.Display;
 with GBA.Display.Backgrounds;
@@ -75,6 +76,8 @@ procedure Sprites is
   Tile_Blue_ID  : constant OBJ_Tile_Index := 2;
   Tile_Green_ID : constant OBJ_Tile_Index := 3;
 
+  function Initial_Attributes_State (Tile : OBJ_Tile_Index) return OBJ_Attributes;
+  pragma Machine_Attribute (Initial_Attributes_State, "target", "thumb");
 
   function Initial_Attributes_State (Tile : OBJ_Tile_Index)
     return OBJ_Attributes is
@@ -95,18 +98,18 @@ procedure Sprites is
       , Flip_Horizontal => False
       , Flip_Vertical   => False
       );
-  end;
+  end Initial_Attributes_State;
 
 
   procedure BIOS_Sin_Cos (Theta : Radians_32; Sin, Cos : out Fixed_8_8)
     with No_Inline;
 
-  pragma Machine_Attribute (BIOS_Sin_Cos, "target", "arm");
+  pragma Machine_Attribute (BIOS_Sin_Cos, "target", "thumb");
 
   procedure BIOS_Sin_Cos (Theta : Radians_32; Sin, Cos : out Fixed_8_8) is
     Affine_Sin_Cos : Affine_Transform_Matrix;
   begin
-    Affine_Set
+    GBA.BIOS.Thumb.Affine_Set
       ( Transform  => Affine_Sin_Cos
       , Parameters =>
         ( Scale_X | Scale_Y => 1.0
@@ -120,7 +123,8 @@ procedure Sprites is
   X_Center : constant OBJ_X_Coordinate := 116;
   Y_Center : constant OBJ_Y_Coordinate :=  76;
 
-  procedure Set_Position (ID : OBJ_ID; X : OBJ_X_Coordinate; Y : OBJ_Y_Coordinate) is
+  procedure Set_Position (ID : OBJ_ID; X : OBJ_X_Coordinate; Y : OBJ_Y_Coordinate)
+    with Linker_Section => ".iwram" is
     Attrs : OBJ_Attributes := Attributes_Of_Object (ID);
   begin
     Attrs.X := X_Center + X;
@@ -172,8 +176,8 @@ begin
       Sin_Cos (Theta, Sin, Cos);
       Set_Position
         ( 0
-        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale))
-        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale))
+        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale) / (2 ** 8))
+        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale) / (2 ** 8))
         );
     end;
 
@@ -184,8 +188,8 @@ begin
       Sin_Cos_LUT (Radians_16 (Theta + One_Third), Sin, Cos);
       Set_Position
         ( 1
-        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale))
-        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale))
+        , OBJ_X_Coordinate (Integer (Fixed_20_8 (Sin) * X_Scale) / (2 ** 8))
+        , OBJ_Y_Coordinate (Integer (Fixed_20_8 (Cos) * Y_Scale) / (2 ** 8))
         );
     end;
 

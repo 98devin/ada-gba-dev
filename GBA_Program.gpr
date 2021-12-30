@@ -66,8 +66,8 @@ abstract project GBA_Program is
             ( "-gnatp"
             , "-gnatj80"
             , "-gnatX"
-            , "-gnatn"
-            , "-O3"
+            -- , "-gnatn"
+            , "-O2"
             , "-g"
             );
 
@@ -76,7 +76,8 @@ abstract project GBA_Program is
         when "ROM"   => Default_Arch := "-mthumb";
         end case;
 
-        for Default_Switches ("Asm_Cpp") use Common_Options & ("-ffreestanding");
+        for Default_Switches ("C") use Common_Options & ("-O2", "-g", "-ffreestanding");
+        for Default_Switches ("Asm_Cpp") use Common_Options & ("-g", "-ffreestanding");
         for Default_Switches ("Ada") use Common_Options & Common_Ada_Options & Default_Arch;
 
     end Compiler;
@@ -91,6 +92,7 @@ abstract project GBA_Program is
             , "-static"
             , "-T" & Linker_File
             , "-Wl,-gc-sections,-flto"
+            , "-Wno-lto-type-mismatch"
             , "-g3"
             );
     end Linker;

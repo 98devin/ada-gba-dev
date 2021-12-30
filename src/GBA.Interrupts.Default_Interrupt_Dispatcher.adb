@@ -35,4 +35,4 @@ begin
   end if;
 
   Enable_Receiving_Interrupts(Enabled);
-end;
+end Default_Interrupt_Dispatcher;
