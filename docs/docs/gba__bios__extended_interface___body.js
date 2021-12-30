@@ -375,7 +375,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 125,
+              "line": 132,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Affine_Parameters",
@@ -386,7 +386,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 126,
+              "line": 133,
               "column": 7,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Matrix",
@@ -549,7 +549,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 130,
+              "line": 137,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Affine_Parameters",
@@ -560,7 +560,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 131,
+              "line": 138,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Objects.OBJ_Affine_Transform_Index",
@@ -640,7 +640,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OBJ_Affine_Parameter_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L144C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
                     },
                     {
                       "kind": "span",
@@ -665,11 +665,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 147,
+              "line": 154,
               "column": 25,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.OBJ_Affine_Parameter_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L144C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L151C8"
               },
               "description": [
               ]
@@ -756,7 +756,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Parameter_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L165C8"
                     },
                     {
                       "kind": "span",
@@ -808,7 +808,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L161C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L168C8"
                     },
                     {
                       "kind": "span",
@@ -838,22 +838,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 165,
+              "line": 172,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.Affine_Parameter_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L158C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L165C8"
               },
               "description": [
               ]
             },
             {
               "label": "Transforms",
-              "line": 166,
+              "line": 173,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.Affine_Transform_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L161C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L168C8"
               },
               "description": [
               ]
@@ -1022,7 +1022,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 135,
+              "line": 142,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Affine_Parameters_Ext",
@@ -1033,7 +1033,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 136,
+              "line": 143,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Transform_Info",
@@ -1113,7 +1113,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Affine_Parameter_Ext_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
                     },
                     {
                       "kind": "span",
@@ -1138,11 +1138,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 154,
+              "line": 161,
               "column": 29,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.BG_Affine_Parameter_Ext_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L151C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L158C8"
               },
               "description": [
               ]
@@ -1229,7 +1229,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Parameter_Ext_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L170C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L177C8"
                     },
                     {
                       "kind": "span",
@@ -1311,18 +1311,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 174,
+              "line": 181,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.Affine_Parameter_Ext_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L170C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L177C8"
               },
               "description": [
               ]
             },
             {
               "label": "Transforms",
-              "line": 175,
+              "line": 182,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Transform_Info_Array",
@@ -1537,7 +1537,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Source",
-              "line": 115,
+              "line": 122,
               "column": 7,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -1548,7 +1548,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Dest",
-              "line": 115,
+              "line": 122,
               "column": 15,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -1559,7 +1559,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Word_Count",
-              "line": 116,
+              "line": 123,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Unit_Count",
@@ -1570,7 +1570,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Mode",
-              "line": 117,
+              "line": 124,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Mode",
@@ -1827,7 +1827,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Source",
-              "line": 108,
+              "line": 115,
               "column": 7,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -1838,7 +1838,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Dest",
-              "line": 108,
+              "line": 115,
               "column": 15,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -1849,7 +1849,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Unit_Count",
-              "line": 109,
+              "line": 116,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Unit_Count",
@@ -1860,7 +1860,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Mode",
-              "line": 110,
+              "line": 117,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Mode",
@@ -1871,7 +1871,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Unit_Size",
-              "line": 111,
+              "line": 118,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Unit_Size",
@@ -2050,7 +2050,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Num",
-              "line": 104,
+              "line": 111,
               "column": 22,
               "type": {
                 "label": "Integer"
@@ -2060,7 +2060,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Denom",
-              "line": 104,
+              "line": 111,
               "column": 27,
               "type": {
                 "label": "Integer"
@@ -2070,7 +2070,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Quotient",
-              "line": 104,
+              "line": 111,
               "column": 44,
               "type": {
                 "label": "Integer"
@@ -2080,7 +2080,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Remainder",
-              "line": 104,
+              "line": 111,
               "column": 54,
               "type": {
                 "label": "Integer"
@@ -2534,7 +2534,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Clear_External_WRAM",
-              "line": 84,
+              "line": 91,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2544,7 +2544,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_Internal_WRAM",
-              "line": 85,
+              "line": 92,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2554,7 +2554,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_Palette",
-              "line": 86,
+              "line": 93,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2564,7 +2564,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_VRAM",
-              "line": 87,
+              "line": 94,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2574,7 +2574,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_OAM",
-              "line": 88,
+              "line": 95,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2584,7 +2584,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reset_SIO_Registers",
-              "line": 89,
+              "line": 96,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2594,7 +2594,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reset_Sound_Registers",
-              "line": 90,
+              "line": 97,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2604,7 +2604,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reset_Other_Registers",
-              "line": 91,
+              "line": 98,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -2834,7 +2834,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Wait_For",
-              "line": 95,
+              "line": 102,
               "column": 33,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_Flags",

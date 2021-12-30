@@ -355,7 +355,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "text",
-          "text": " Export, External_Name => \"memset\", Linker_Section => \".iwram\""
+          "text": " Linker_Section => \".iwram\""
         },
         {
           "kind": "span",

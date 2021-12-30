@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Parameter_Array",
           "qualifier": "",
-          "line": 158,
+          "line": 165,
           "column": 8,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 158,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -43,7 +43,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Parameter_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L165C8"
                     },
                     {
                       "kind": "span",
@@ -59,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 159,
+                  "number": 166,
                   "children": [
                     {
                       "kind": "span",
@@ -146,7 +146,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Parameter_Ext_Array",
           "qualifier": "",
-          "line": 170,
+          "line": 177,
           "column": 8,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -157,7 +157,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 170,
+                  "number": 177,
                   "children": [
                     {
                       "kind": "span",
@@ -178,7 +178,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Parameter_Ext_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L170C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L177C8"
                     },
                     {
                       "kind": "span",
@@ -194,7 +194,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 171,
+                  "number": 178,
                   "children": [
                     {
                       "kind": "span",
@@ -281,7 +281,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Transform_Array",
           "qualifier": "",
-          "line": 161,
+          "line": 168,
           "column": 8,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -292,7 +292,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 161,
+                  "number": 168,
                   "children": [
                     {
                       "kind": "span",
@@ -313,7 +313,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L161C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L168C8"
                     },
                     {
                       "kind": "span",
@@ -329,7 +329,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 162,
+                  "number": 169,
                   "children": [
                     {
                       "kind": "span",
@@ -416,7 +416,7 @@ GNATdoc.Documentation = {
         {
           "label": "BG_Affine_Parameter_Ext_Array",
           "qualifier": "",
-          "line": 151,
+          "line": 158,
           "column": 8,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -427,7 +427,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 151,
+                  "number": 158,
                   "children": [
                     {
                       "kind": "span",
@@ -448,7 +448,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Affine_Parameter_Ext_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
                     },
                     {
                       "kind": "span",
@@ -464,7 +464,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 152,
+                  "number": 159,
                   "children": [
                     {
                       "kind": "span",
@@ -552,7 +552,7 @@ GNATdoc.Documentation = {
         {
           "label": "OBJ_Affine_Parameter_Array",
           "qualifier": "",
-          "line": 144,
+          "line": 151,
           "column": 8,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -563,7 +563,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 144,
+                  "number": 151,
                   "children": [
                     {
                       "kind": "span",
@@ -584,7 +584,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OBJ_Affine_Parameter_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L144C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
                     },
                     {
                       "kind": "span",
@@ -600,7 +600,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 145,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -693,7 +693,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set",
           "qualifier": "",
-          "line": 70,
+          "line": 79,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -704,7 +704,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 79,
                   "children": [
                     {
                       "kind": "span",
@@ -725,7 +725,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L70C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L79C13"
                     },
                     {
                       "kind": "span",
@@ -741,7 +741,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L70C25"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L79C25"
                     },
                     {
                       "kind": "span",
@@ -778,7 +778,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transform",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L70C47"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L79C47"
                     },
                     {
                       "kind": "span",
@@ -815,7 +815,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L70C68"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L79C68"
                     },
                     {
                       "kind": "span",
@@ -831,7 +831,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Stride",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L70C75"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L79C75"
                     },
                     {
                       "kind": "span",
@@ -862,7 +862,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -886,6 +886,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -897,7 +912,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 70,
+              "line": 79,
               "column": 25,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -908,7 +923,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 70,
+              "line": 79,
               "column": 47,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -919,7 +934,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 70,
+              "line": 79,
               "column": 68,
               "type": {
                 "label": "Integer"
@@ -929,7 +944,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Stride",
-              "line": 70,
+              "line": 79,
               "column": 75,
               "type": {
                 "label": "Integer"
@@ -942,7 +957,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set",
           "qualifier": "",
-          "line": 124,
+          "line": 131,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -953,7 +968,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -974,13 +989,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L124C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L131C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -1001,7 +1016,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L125C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L132C7"
                     },
                     {
                       "kind": "span",
@@ -1033,7 +1048,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 133,
                   "children": [
                     {
                       "kind": "span",
@@ -1044,7 +1059,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transform",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L126C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L133C7"
                     },
                     {
                       "kind": "span",
@@ -1091,7 +1106,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 134,
                   "children": [
                     {
                       "kind": "span",
@@ -1121,7 +1136,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 125,
+              "line": 132,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Affine_Parameters",
@@ -1132,7 +1147,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 126,
+              "line": 133,
               "column": 7,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Matrix",
@@ -1146,7 +1161,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set",
           "qualifier": "",
-          "line": 129,
+          "line": 136,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -1157,7 +1172,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 136,
                   "children": [
                     {
                       "kind": "span",
@@ -1178,13 +1193,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L129C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L136C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 137,
                   "children": [
                     {
                       "kind": "span",
@@ -1205,7 +1220,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L130C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L137C7"
                     },
                     {
                       "kind": "span",
@@ -1237,7 +1252,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -1248,7 +1263,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transform",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L131C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L138C7"
                     },
                     {
                       "kind": "span",
@@ -1285,7 +1300,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 132,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -1315,7 +1330,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 130,
+              "line": 137,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Affine_Parameters",
@@ -1326,7 +1341,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 131,
+              "line": 138,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Objects.OBJ_Affine_Transform_Index",
@@ -1340,7 +1355,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set",
           "qualifier": "",
-          "line": 147,
+          "line": 154,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -1351,7 +1366,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 147,
+                  "number": 154,
                   "children": [
                     {
                       "kind": "span",
@@ -1372,7 +1387,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L147C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L154C13"
                     },
                     {
                       "kind": "span",
@@ -1388,7 +1403,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L147C25"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L154C25"
                     },
                     {
                       "kind": "span",
@@ -1409,7 +1424,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OBJ_Affine_Parameter_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L144C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
                     },
                     {
                       "kind": "span",
@@ -1420,7 +1435,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 148,
+                  "number": 155,
                   "children": [
                     {
                       "kind": "span",
@@ -1450,11 +1465,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 147,
+              "line": 154,
               "column": 25,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.OBJ_Affine_Parameter_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L144C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L151C8"
               },
               "description": [
               ]
@@ -1464,7 +1479,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set",
           "qualifier": "",
-          "line": 164,
+          "line": 171,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -1475,7 +1490,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 164,
+                  "number": 171,
                   "children": [
                     {
                       "kind": "span",
@@ -1496,13 +1511,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L164C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L171C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 165,
+                  "number": 172,
                   "children": [
                     {
                       "kind": "span",
@@ -1523,7 +1538,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L165C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L172C7"
                     },
                     {
                       "kind": "span",
@@ -1544,7 +1559,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Parameter_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L165C8"
                     },
                     {
                       "kind": "span",
@@ -1555,7 +1570,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 166,
+                  "number": 173,
                   "children": [
                     {
                       "kind": "span",
@@ -1566,7 +1581,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transforms",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L166C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L173C7"
                     },
                     {
                       "kind": "span",
@@ -1597,7 +1612,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Transform_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L161C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L168C8"
                     },
                     {
                       "kind": "span",
@@ -1613,7 +1628,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 167,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -1643,22 +1658,22 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 165,
+              "line": 172,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.Affine_Parameter_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L158C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L165C8"
               },
               "description": [
               ]
             },
             {
               "label": "Transforms",
-              "line": 166,
+              "line": 173,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.Affine_Transform_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L161C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L168C8"
               },
               "description": [
               ]
@@ -1668,7 +1683,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set_Ext",
           "qualifier": "(renaming)",
-          "line": 67,
+          "line": 76,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -1679,7 +1694,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 76,
                   "children": [
                     {
                       "kind": "span",
@@ -1700,7 +1715,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set_Ext",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L67C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L76C13"
                     },
                     {
                       "kind": "span",
@@ -1716,7 +1731,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L67C29"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L76C29"
                     },
                     {
                       "kind": "span",
@@ -1753,7 +1768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transform",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L67C51"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L76C51"
                     },
                     {
                       "kind": "span",
@@ -1790,7 +1805,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Count",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L67C72"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L76C72"
                     },
                     {
                       "kind": "span",
@@ -1821,7 +1836,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 68,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -1845,6 +1860,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -1856,7 +1886,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 67,
+              "line": 76,
               "column": 29,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -1867,7 +1897,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 67,
+              "line": 76,
               "column": 51,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -1878,7 +1908,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Count",
-              "line": 67,
+              "line": 76,
               "column": 72,
               "type": {
                 "label": "Integer"
@@ -1891,7 +1921,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set_Ext",
           "qualifier": "",
-          "line": 134,
+          "line": 141,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -1902,7 +1932,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 134,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -1923,13 +1953,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set_Ext",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L134C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L141C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 135,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -1950,7 +1980,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L135C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L142C7"
                     },
                     {
                       "kind": "span",
@@ -1982,7 +2012,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 136,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -1993,7 +2023,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transform",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L136C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L143C7"
                     },
                     {
                       "kind": "span",
@@ -2040,7 +2070,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 137,
+                  "number": 144,
                   "children": [
                     {
                       "kind": "span",
@@ -2070,7 +2100,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 135,
+              "line": 142,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Affine_Parameters_Ext",
@@ -2081,7 +2111,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Transform",
-              "line": 136,
+              "line": 143,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Transform_Info",
@@ -2095,7 +2125,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set_Ext",
           "qualifier": "",
-          "line": 154,
+          "line": 161,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -2106,7 +2136,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 154,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -2127,7 +2157,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set_Ext",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L154C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L161C13"
                     },
                     {
                       "kind": "span",
@@ -2143,7 +2173,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L154C29"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L161C29"
                     },
                     {
                       "kind": "span",
@@ -2164,7 +2194,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "BG_Affine_Parameter_Ext_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
                     },
                     {
                       "kind": "span",
@@ -2175,7 +2205,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 155,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -2205,11 +2235,11 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 154,
+              "line": 161,
               "column": 29,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.BG_Affine_Parameter_Ext_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L151C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L158C8"
               },
               "description": [
               ]
@@ -2219,7 +2249,7 @@ GNATdoc.Documentation = {
         {
           "label": "Affine_Set_Ext",
           "qualifier": "",
-          "line": 173,
+          "line": 180,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -2230,7 +2260,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 173,
+                  "number": 180,
                   "children": [
                     {
                       "kind": "span",
@@ -2251,13 +2281,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Set_Ext",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L173C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L180C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 174,
+                  "number": 181,
                   "children": [
                     {
                       "kind": "span",
@@ -2278,7 +2308,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Parameters",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L174C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L181C7"
                     },
                     {
                       "kind": "span",
@@ -2299,7 +2329,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Affine_Parameter_Ext_Array",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L170C8"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L177C8"
                     },
                     {
                       "kind": "span",
@@ -2310,7 +2340,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 175,
+                  "number": 182,
                   "children": [
                     {
                       "kind": "span",
@@ -2321,7 +2351,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transforms",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L175C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L182C7"
                     },
                     {
                       "kind": "span",
@@ -2368,7 +2398,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 176,
+                  "number": 183,
                   "children": [
                     {
                       "kind": "span",
@@ -2398,18 +2428,18 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Parameters",
-              "line": 174,
+              "line": 181,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Extended_Interface.Affine_Parameter_Ext_Array",
-                "docHref": "docs/gba__bios__extended_interface___spec.html#L170C8"
+                "docHref": "docs/gba__bios__extended_interface___spec.html#L177C8"
               },
               "description": [
               ]
             },
             {
               "label": "Transforms",
-              "line": 175,
+              "line": 182,
               "column": 7,
               "type": {
                 "label": "GBA.Display.Backgrounds.BG_Transform_Info_Array",
@@ -2423,7 +2453,7 @@ GNATdoc.Documentation = {
         {
           "label": "Arc_Tan",
           "qualifier": "(renaming)",
-          "line": 55,
+          "line": 64,
           "column": 12,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -2434,7 +2464,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 64,
                   "children": [
                     {
                       "kind": "span",
@@ -2455,7 +2485,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Arc_Tan",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L55C12"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L64C12"
                     },
                     {
                       "kind": "span",
@@ -2471,7 +2501,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "X",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L55C21"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L64C21"
                     },
                     {
                       "kind": "span",
@@ -2487,7 +2517,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Y",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L55C24"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L64C24"
                     },
                     {
                       "kind": "span",
@@ -2540,7 +2570,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 65,
                   "children": [
                     {
                       "kind": "span",
@@ -2564,6 +2594,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -2575,7 +2620,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "X",
-              "line": 55,
+              "line": 64,
               "column": 21,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_14",
@@ -2586,7 +2631,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Y",
-              "line": 55,
+              "line": 64,
               "column": 24,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_14",
@@ -2600,7 +2645,7 @@ GNATdoc.Documentation = {
         {
           "label": "Bios_Checksum",
           "qualifier": "(renaming)",
-          "line": 64,
+          "line": 73,
           "column": 12,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -2611,7 +2656,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 73,
                   "children": [
                     {
                       "kind": "span",
@@ -2632,7 +2677,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Bios_Checksum",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L64C12"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L73C12"
                     },
                     {
                       "kind": "span",
@@ -2658,7 +2703,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 74,
                   "children": [
                     {
                       "kind": "span",
@@ -2682,6 +2727,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -2694,7 +2754,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cpu_Fast_Set",
           "qualifier": "(renaming)",
-          "line": 61,
+          "line": 70,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -2705,7 +2765,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 61,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -2726,7 +2786,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cpu_Fast_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L61C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L70C13"
                     },
                     {
                       "kind": "span",
@@ -2742,7 +2802,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "S",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L61C27"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L70C27"
                     },
                     {
                       "kind": "span",
@@ -2758,7 +2818,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "D",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L61C30"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L70C30"
                     },
                     {
                       "kind": "span",
@@ -2795,7 +2855,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Config",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L61C43"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L70C43"
                     },
                     {
                       "kind": "span",
@@ -2827,7 +2887,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 62,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -2851,6 +2911,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -2862,7 +2937,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "S",
-              "line": 61,
+              "line": 70,
               "column": 27,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -2873,7 +2948,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "D",
-              "line": 61,
+              "line": 70,
               "column": 30,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -2884,7 +2959,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Config",
-              "line": 61,
+              "line": 70,
               "column": 43,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Config",
@@ -2897,6 +2972,500 @@ GNATdoc.Documentation = {
         },
         {
           "label": "Cpu_Fast_Set",
+          "qualifier": "",
+          "line": 121,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 121,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Cpu_Fast_Set",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L121C13"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 122,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Source",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L122C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L122C15"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 123,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Word_Count",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L123C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Cpu_Set_Unit_Count",
+                      "href": "docs/gba__bios___spec.html#L145C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 124,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Mode",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L124C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Cpu_Set_Mode",
+                      "href": "docs/gba__bios___spec.html#L133C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 125,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Source",
+              "line": 122,
+              "column": 7,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 122,
+              "column": 15,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Word_Count",
+              "line": 123,
+              "column": 7,
+              "type": {
+                "label": "GBA.BIOS.Cpu_Set_Unit_Count",
+                "docHref": "docs/gba__bios___spec.html#L145C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Mode",
+              "line": 124,
+              "column": 7,
+              "type": {
+                "label": "GBA.BIOS.Cpu_Set_Mode",
+                "docHref": "docs/gba__bios___spec.html#L133C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Cpu_Set",
+          "qualifier": "(renaming)",
+          "line": 67,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 67,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Cpu_Set",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L67C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "S",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L67C22"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "D",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L67C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Config",
+                      "href": "docs/gba__bios__extended_interface___spec.html#L67C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Cpu_Set_Config",
+                      "href": "docs/gba__bios___spec.html#L148C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 68,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "renames"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Raw.Cpu_Set"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "S",
+              "line": 67,
+              "column": 22,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "D",
+              "line": 67,
+              "column": 25,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Config",
+              "line": 67,
+              "column": 38,
+              "type": {
+                "label": "GBA.BIOS.Cpu_Set_Config",
+                "docHref": "docs/gba__bios___spec.html#L148C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Cpu_Set",
           "qualifier": "",
           "line": 114,
           "column": 13,
@@ -2929,7 +3498,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Cpu_Fast_Set",
+                      "text": "Cpu_Set",
                       "href": "docs/gba__bios__extended_interface___spec.html#L114C13"
                     }
                   ]
@@ -3015,7 +3584,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Word_Count",
+                      "text": "Unit_Count",
                       "href": "docs/gba__bios__extended_interface___spec.html#L116C7"
                     },
                     {
@@ -3084,13 +3653,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
                     }
                   ]
                 },
@@ -3101,487 +3665,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Source",
-              "line": 115,
-              "column": 7,
-              "type": {
-                "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L12C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Dest",
-              "line": 115,
-              "column": 15,
-              "type": {
-                "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L12C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Word_Count",
-              "line": 116,
-              "column": 7,
-              "type": {
-                "label": "GBA.BIOS.Cpu_Set_Unit_Count",
-                "docHref": "docs/gba__bios___spec.html#L145C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Mode",
-              "line": 117,
-              "column": 7,
-              "type": {
-                "label": "GBA.BIOS.Cpu_Set_Mode",
-                "docHref": "docs/gba__bios___spec.html#L133C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Cpu_Set",
-          "qualifier": "(renaming)",
-          "line": 58,
-          "column": 13,
-          "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 58,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cpu_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L58C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "S",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L58C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "D",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L58C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L12C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Config",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L58C38"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cpu_Set_Config",
-                      "href": "docs/gba__bios___spec.html#L148C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 59,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "renames"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Raw.Cpu_Set"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "S",
-              "line": 58,
-              "column": 22,
-              "type": {
-                "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L12C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "D",
-              "line": 58,
-              "column": 25,
-              "type": {
-                "label": "GBA.Memory.Address",
-                "docHref": "docs/gba__memory___spec.html#L12C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Config",
-              "line": 58,
-              "column": 38,
-              "type": {
-                "label": "GBA.BIOS.Cpu_Set_Config",
-                "docHref": "docs/gba__bios___spec.html#L148C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Cpu_Set",
-          "qualifier": "",
-          "line": 107,
-          "column": 13,
-          "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 107,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cpu_Set",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L107C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 108,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Source",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L108C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Dest",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L108C15"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L12C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 109,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Unit_Count",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L109C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "   "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cpu_Set_Unit_Count",
-                      "href": "docs/gba__bios___spec.html#L145C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 110,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Mode",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L110C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "         "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Cpu_Set_Mode",
-                      "href": "docs/gba__bios___spec.html#L133C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 111,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Unit_Size",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L111C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L118C7"
                     },
                     {
                       "kind": "span",
@@ -3618,7 +3708,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 112,
+                  "number": 119,
                   "children": [
                     {
                       "kind": "span",
@@ -3648,7 +3738,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Source",
-              "line": 108,
+              "line": 115,
               "column": 7,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -3659,7 +3749,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Dest",
-              "line": 108,
+              "line": 115,
               "column": 15,
               "type": {
                 "label": "GBA.Memory.Address",
@@ -3670,7 +3760,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Unit_Count",
-              "line": 109,
+              "line": 116,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Unit_Count",
@@ -3681,7 +3771,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Mode",
-              "line": 110,
+              "line": 117,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Mode",
@@ -3692,7 +3782,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Unit_Size",
-              "line": 111,
+              "line": 118,
               "column": 7,
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Unit_Size",
@@ -3706,7 +3796,7 @@ GNATdoc.Documentation = {
         {
           "label": "Div_Mod",
           "qualifier": "(renaming)",
-          "line": 46,
+          "line": 55,
           "column": 12,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -3717,7 +3807,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 55,
                   "children": [
                     {
                       "kind": "span",
@@ -3738,7 +3828,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Div_Mod",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L46C12"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L55C12"
                     },
                     {
                       "kind": "span",
@@ -3754,7 +3844,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "N",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L46C21"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L55C21"
                     },
                     {
                       "kind": "span",
@@ -3770,7 +3860,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "D",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L46C24"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L55C24"
                     },
                     {
                       "kind": "span",
@@ -3821,7 +3911,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 56,
                   "children": [
                     {
                       "kind": "span",
@@ -3845,6 +3935,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -3856,7 +3961,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "N",
-              "line": 46,
+              "line": 55,
               "column": 21,
               "type": {
                 "label": "Integer"
@@ -3866,7 +3971,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "D",
-              "line": 46,
+              "line": 55,
               "column": 24,
               "type": {
                 "label": "Integer"
@@ -3879,7 +3984,7 @@ GNATdoc.Documentation = {
         {
           "label": "Div_Mod",
           "qualifier": "",
-          "line": 104,
+          "line": 111,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -3890,7 +3995,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 104,
+                  "number": 111,
                   "children": [
                     {
                       "kind": "span",
@@ -3911,7 +4016,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Div_Mod",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L104C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L111C13"
                     },
                     {
                       "kind": "span",
@@ -3927,7 +4032,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Num",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L104C22"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L111C22"
                     },
                     {
                       "kind": "span",
@@ -3943,7 +4048,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Denom",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L104C27"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L111C27"
                     },
                     {
                       "kind": "span",
@@ -3979,7 +4084,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Quotient",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L104C44"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L111C44"
                     },
                     {
                       "kind": "span",
@@ -3995,7 +4100,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Remainder",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L104C54"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L111C54"
                     },
                     {
                       "kind": "span",
@@ -4036,7 +4141,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 105,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -4066,7 +4171,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Num",
-              "line": 104,
+              "line": 111,
               "column": 22,
               "type": {
                 "label": "Integer"
@@ -4076,7 +4181,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Denom",
-              "line": 104,
+              "line": 111,
               "column": 27,
               "type": {
                 "label": "Integer"
@@ -4086,7 +4191,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Quotient",
-              "line": 104,
+              "line": 111,
               "column": 44,
               "type": {
                 "label": "Integer"
@@ -4096,7 +4201,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Remainder",
-              "line": 104,
+              "line": 111,
               "column": 54,
               "type": {
                 "label": "Integer"
@@ -4109,7 +4214,7 @@ GNATdoc.Documentation = {
         {
           "label": "Div_Mod_Arm",
           "qualifier": "(renaming)",
-          "line": 49,
+          "line": 58,
           "column": 12,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -4120,7 +4225,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 49,
+                  "number": 58,
                   "children": [
                     {
                       "kind": "span",
@@ -4141,7 +4246,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Div_Mod_Arm",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L49C12"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L58C12"
                     },
                     {
                       "kind": "span",
@@ -4157,7 +4262,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "D",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L49C25"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L58C25"
                     },
                     {
                       "kind": "span",
@@ -4173,7 +4278,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "N",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L49C28"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L58C28"
                     },
                     {
                       "kind": "span",
@@ -4224,7 +4329,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 50,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -4248,6 +4353,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -4259,7 +4379,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "D",
-              "line": 49,
+              "line": 58,
               "column": 25,
               "type": {
                 "label": "Integer"
@@ -4269,7 +4389,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "N",
-              "line": 49,
+              "line": 58,
               "column": 28,
               "type": {
                 "label": "Integer"
@@ -4282,7 +4402,7 @@ GNATdoc.Documentation = {
         {
           "label": "Divide",
           "qualifier": "",
-          "line": 98,
+          "line": 105,
           "column": 12,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -4293,7 +4413,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 98,
+                  "number": 105,
                   "children": [
                     {
                       "kind": "span",
@@ -4314,7 +4434,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Divide",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L98C12"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L105C12"
                     },
                     {
                       "kind": "span",
@@ -4330,7 +4450,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Num",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L98C20"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L105C20"
                     },
                     {
                       "kind": "span",
@@ -4346,7 +4466,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Denom",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L98C25"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L105C25"
                     },
                     {
                       "kind": "span",
@@ -4397,7 +4517,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 99,
+                  "number": 106,
                   "children": [
                     {
                       "kind": "span",
@@ -4427,7 +4547,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Num",
-              "line": 98,
+              "line": 105,
               "column": 20,
               "type": {
                 "label": "Integer"
@@ -4437,7 +4557,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Denom",
-              "line": 98,
+              "line": 105,
               "column": 25,
               "type": {
                 "label": "Integer"
@@ -4450,7 +4570,7 @@ GNATdoc.Documentation = {
         {
           "label": "Halt",
           "qualifier": "(renaming)",
-          "line": 34,
+          "line": 43,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -4461,7 +4581,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -4482,7 +4602,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Halt",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L34C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L43C13"
                     },
                     {
                       "kind": "span",
@@ -4506,6 +4626,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -4518,7 +4653,7 @@ GNATdoc.Documentation = {
         {
           "label": "Hard_Reset",
           "qualifier": "(renaming)",
-          "line": 33,
+          "line": 42,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -4529,7 +4664,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 33,
+                  "number": 42,
                   "children": [
                     {
                       "kind": "span",
@@ -4550,7 +4685,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Hard_Reset",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L33C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L42C13"
                     },
                     {
                       "kind": "span",
@@ -4574,6 +4709,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -4586,7 +4736,7 @@ GNATdoc.Documentation = {
         {
           "label": "Register_RAM_Reset",
           "qualifier": "(renaming)",
-          "line": 37,
+          "line": 46,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -4597,7 +4747,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 37,
+                  "number": 46,
                   "children": [
                     {
                       "kind": "span",
@@ -4618,7 +4768,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Register_RAM_Reset",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L37C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L46C13"
                     },
                     {
                       "kind": "span",
@@ -4634,7 +4784,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Flags",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L37C33"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L46C33"
                     },
                     {
                       "kind": "span",
@@ -4666,7 +4816,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 38,
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -4690,6 +4840,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -4701,7 +4866,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Flags",
-              "line": 37,
+              "line": 46,
               "column": 33,
               "type": {
                 "label": "GBA.BIOS.Register_RAM_Reset_Flags",
@@ -4715,7 +4880,7 @@ GNATdoc.Documentation = {
         {
           "label": "Register_RAM_Reset",
           "qualifier": "",
-          "line": 83,
+          "line": 90,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -4726,7 +4891,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 83,
+                  "number": 90,
                   "children": [
                     {
                       "kind": "span",
@@ -4747,13 +4912,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Register_RAM_Reset",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L83C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L90C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 84,
+                  "number": 91,
                   "children": [
                     {
                       "kind": "span",
@@ -4774,13 +4939,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clear_External_WRAM",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L84C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L91C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 85,
+                  "number": 92,
                   "children": [
                     {
                       "kind": "span",
@@ -4801,13 +4966,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clear_Internal_WRAM",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L85C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L92C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 86,
+                  "number": 93,
                   "children": [
                     {
                       "kind": "span",
@@ -4828,13 +4993,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clear_Palette",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L86C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L93C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 87,
+                  "number": 94,
                   "children": [
                     {
                       "kind": "span",
@@ -4855,13 +5020,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clear_VRAM",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L87C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L94C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 88,
+                  "number": 95,
                   "children": [
                     {
                       "kind": "span",
@@ -4882,13 +5047,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Clear_OAM",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L88C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L95C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 89,
+                  "number": 96,
                   "children": [
                     {
                       "kind": "span",
@@ -4909,13 +5074,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_SIO_Registers",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L89C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L96C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 90,
+                  "number": 97,
                   "children": [
                     {
                       "kind": "span",
@@ -4936,13 +5101,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Sound_Registers",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L90C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L97C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 91,
+                  "number": 98,
                   "children": [
                     {
                       "kind": "span",
@@ -4963,13 +5128,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Reset_Other_Registers",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L91C7"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L98C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -5020,7 +5185,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 100,
                   "children": [
                     {
                       "kind": "span",
@@ -5050,7 +5215,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Clear_External_WRAM",
-              "line": 84,
+              "line": 91,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5060,7 +5225,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_Internal_WRAM",
-              "line": 85,
+              "line": 92,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5070,7 +5235,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_Palette",
-              "line": 86,
+              "line": 93,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5080,7 +5245,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_VRAM",
-              "line": 87,
+              "line": 94,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5090,7 +5255,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Clear_OAM",
-              "line": 88,
+              "line": 95,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5100,7 +5265,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reset_SIO_Registers",
-              "line": 89,
+              "line": 96,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5110,7 +5275,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reset_Sound_Registers",
-              "line": 90,
+              "line": 97,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5120,7 +5285,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Reset_Other_Registers",
-              "line": 91,
+              "line": 98,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -5133,7 +5298,7 @@ GNATdoc.Documentation = {
         {
           "label": "Remainder",
           "qualifier": "",
-          "line": 101,
+          "line": 108,
           "column": 12,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -5144,7 +5309,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 101,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -5165,7 +5330,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Remainder",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L101C12"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L108C12"
                     },
                     {
                       "kind": "span",
@@ -5181,7 +5346,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Num",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L101C23"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L108C23"
                     },
                     {
                       "kind": "span",
@@ -5197,7 +5362,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Denom",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L101C28"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L108C28"
                     },
                     {
                       "kind": "span",
@@ -5248,7 +5413,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 102,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -5278,7 +5443,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Num",
-              "line": 101,
+              "line": 108,
               "column": 23,
               "type": {
                 "label": "Integer"
@@ -5288,7 +5453,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Denom",
-              "line": 101,
+              "line": 108,
               "column": 28,
               "type": {
                 "label": "Integer"
@@ -5301,7 +5466,7 @@ GNATdoc.Documentation = {
         {
           "label": "Soft_Reset",
           "qualifier": "",
-          "line": 32,
+          "line": 41,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -5312,7 +5477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 32,
+                  "number": 41,
                   "children": [
                     {
                       "kind": "span",
@@ -5333,7 +5498,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Soft_Reset",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L32C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L41C13"
                     },
                     {
                       "kind": "span",
@@ -5357,6 +5522,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -5369,7 +5549,7 @@ GNATdoc.Documentation = {
         {
           "label": "Sqrt",
           "qualifier": "(renaming)",
-          "line": 52,
+          "line": 61,
           "column": 12,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -5380,7 +5560,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 52,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -5401,7 +5581,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sqrt",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L52C12"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L61C12"
                     },
                     {
                       "kind": "span",
@@ -5417,7 +5597,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "N",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L52C18"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L61C18"
                     },
                     {
                       "kind": "span",
@@ -5468,7 +5648,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 62,
                   "children": [
                     {
                       "kind": "span",
@@ -5492,6 +5672,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -5503,7 +5698,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "N",
-              "line": 52,
+              "line": 61,
               "column": 18,
               "type": {
                 "label": "Unsigned_32"
@@ -5516,7 +5711,7 @@ GNATdoc.Documentation = {
         {
           "label": "Stop",
           "qualifier": "(renaming)",
-          "line": 35,
+          "line": 44,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -5527,7 +5722,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -5548,7 +5743,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Stop",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L35C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L44C13"
                     },
                     {
                       "kind": "span",
@@ -5572,6 +5767,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -5584,7 +5794,7 @@ GNATdoc.Documentation = {
         {
           "label": "Wait_For_Interrupt",
           "qualifier": "(renaming)",
-          "line": 40,
+          "line": 49,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -5595,7 +5805,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 40,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -5616,7 +5826,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_For_Interrupt",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L40C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L49C13"
                     },
                     {
                       "kind": "span",
@@ -5632,7 +5842,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "New_Only",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L40C33"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L49C33"
                     },
                     {
                       "kind": "span",
@@ -5668,7 +5878,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_For",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L40C53"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L49C53"
                     },
                     {
                       "kind": "span",
@@ -5700,7 +5910,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -5724,6 +5934,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -5735,7 +5960,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "New_Only",
-              "line": 40,
+              "line": 49,
               "column": 33,
               "type": {
                 "label": "Boolean"
@@ -5745,7 +5970,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Wait_For",
-              "line": 40,
+              "line": 49,
               "column": 53,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_Flags",
@@ -5759,7 +5984,7 @@ GNATdoc.Documentation = {
         {
           "label": "Wait_For_Interrupt",
           "qualifier": "",
-          "line": 95,
+          "line": 102,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -5770,7 +5995,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 95,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -5791,7 +6016,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_For_Interrupt",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L95C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L102C13"
                     },
                     {
                       "kind": "span",
@@ -5807,7 +6032,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_For",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L95C33"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L102C33"
                     },
                     {
                       "kind": "span",
@@ -5839,7 +6064,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 96,
+                  "number": 103,
                   "children": [
                     {
                       "kind": "span",
@@ -5869,7 +6094,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Wait_For",
-              "line": 95,
+              "line": 102,
               "column": 33,
               "type": {
                 "label": "GBA.Interrupts.Interrupt_Flags",
@@ -5883,7 +6108,7 @@ GNATdoc.Documentation = {
         {
           "label": "Wait_For_VBlank",
           "qualifier": "(renaming)",
-          "line": 43,
+          "line": 52,
           "column": 13,
           "src": "srcs/GBA.BIOS.Extended_Interface.ads.html",
           "summary": [
@@ -5894,7 +6119,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 52,
                   "children": [
                     {
                       "kind": "span",
@@ -5915,13 +6140,13 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Wait_For_VBlank",
-                      "href": "docs/gba__bios__extended_interface___spec.html#L43C13"
+                      "href": "docs/gba__bios__extended_interface___spec.html#L52C13"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 53,
                   "children": [
                     {
                       "kind": "span",
@@ -5942,6 +6167,21 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Raw.Wait_For_VBlank"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
                     },
                     {
                       "kind": "span",

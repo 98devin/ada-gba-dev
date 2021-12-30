@@ -339,38 +339,38 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L70C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L79C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L70"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L79"
     },
     {
       "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L124C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L131C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L124"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L131"
     },
     {
       "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L129C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L136C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L129"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L136"
     },
     {
       "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L147C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L154C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L147"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L154"
     },
     {
       "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L164C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L171C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L164"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L171"
     },
     {
       "label": "Affine_Set",
@@ -406,31 +406,31 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Affine_Set_Ext",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L67C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L76C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L67"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L76"
     },
     {
       "label": "Affine_Set_Ext",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L134C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L141C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L134"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L141"
     },
     {
       "label": "Affine_Set_Ext",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L154C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L161C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L154"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L161"
     },
     {
       "label": "Affine_Set_Ext",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L173C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L180C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L173"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L180"
     },
     {
       "label": "Affine_Set_Ext",
@@ -474,10 +474,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Arc_Tan",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L55C12",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L64C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L55"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L64"
     },
     {
       "label": "Arc_Tan",
@@ -631,10 +631,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Bios_Checksum",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L64C12",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L73C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L64"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L73"
     },
     {
       "label": "Bios_Checksum",
@@ -665,7 +665,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cos",
-      "docHref": "docs/gba__numerics___body.html#L369C12",
+      "docHref": "docs/gba__numerics___body.html#L355C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -678,7 +678,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cos_LUT",
-      "docHref": "docs/gba__numerics___body.html#L471C12",
+      "docHref": "docs/gba__numerics___body.html#L457C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -691,37 +691,37 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L256C12",
+      "docHref": "docs/gba__numerics___body.html#L242C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L259C12",
+      "docHref": "docs/gba__numerics___body.html#L245C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L271C12",
+      "docHref": "docs/gba__numerics___body.html#L257C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L274C12",
+      "docHref": "docs/gba__numerics___body.html#L260C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L286C12",
+      "docHref": "docs/gba__numerics___body.html#L272C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L289C12",
+      "docHref": "docs/gba__numerics___body.html#L275C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -769,37 +769,37 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L202C12",
+      "docHref": "docs/gba__numerics___body.html#L188C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L205C12",
+      "docHref": "docs/gba__numerics___body.html#L191C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L221C12",
+      "docHref": "docs/gba__numerics___body.html#L207C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L224C12",
+      "docHref": "docs/gba__numerics___body.html#L210C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L239C12",
+      "docHref": "docs/gba__numerics___body.html#L225C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L242C12",
+      "docHref": "docs/gba__numerics___body.html#L228C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -853,17 +853,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cpu_Fast_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L61C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L70C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L61"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L70"
     },
     {
       "label": "Cpu_Fast_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L114C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L121C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L114"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L121"
     },
     {
       "label": "Cpu_Fast_Set",
@@ -887,17 +887,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cpu_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L58C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L67C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L58"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L67"
     },
     {
       "label": "Cpu_Set",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L107C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L114C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L107"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L114"
     },
     {
       "label": "Cpu_Set",
@@ -1065,17 +1065,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Div_Mod",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L46C12",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L55C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L46"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L55"
     },
     {
       "label": "Div_Mod",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L104C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L111C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L104"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L111"
     },
     {
       "label": "Div_Mod",
@@ -1092,25 +1092,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L40"
     },
     {
-      "label": "Div_Mod",
-      "docHref": "docs/gba__numerics___spec.html#L220C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Numerics.ads.html#L220"
-    },
-    {
-      "label": "Div_Mod",
-      "docHref": "docs/gba__numerics___spec.html#L223C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Numerics.ads.html#L223"
-    },
-    {
       "label": "Div_Mod_Arm",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L49C12",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L58C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L49"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L58"
     },
     {
       "label": "Div_Mod_Arm",
@@ -1134,24 +1120,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Divide",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L98C12",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L105C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L98"
-    },
-    {
-      "label": "Divide",
-      "docHref": "docs/gba__numerics___spec.html#L226C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Numerics.ads.html#L226"
-    },
-    {
-      "label": "Divide",
-      "docHref": "docs/gba__numerics___spec.html#L229C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Numerics.ads.html#L229"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L105"
     },
     {
       "label": "Dot",
@@ -1270,7 +1242,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Fixed_Sqrt",
-      "docHref": "docs/gba__numerics___body.html#L484C12",
+      "docHref": "docs/gba__numerics___body.html#L470C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -1308,11 +1280,24 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L21"
     },
     {
+      "label": "Get_Count",
+      "docHref": "docs/gba__timers___body.html#L7C12",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Get_Count",
+      "docHref": "docs/gba__timers___spec.html#L71C12",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L71"
+    },
+    {
       "label": "Halt",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L34C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L43C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L34"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L43"
     },
     {
       "label": "Halt",
@@ -1330,10 +1315,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Hard_Reset",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L33C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L42C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L33"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L42"
     },
     {
       "label": "Hard_Reset",
@@ -1361,19 +1346,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L12"
-    },
-    {
-      "label": "IDiv0",
-      "docHref": "docs/gba__numerics___body.html#L107C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "IDiv0",
-      "docHref": "docs/gba__numerics___spec.html#L204C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Numerics.ads.html#L204"
     },
     {
       "label": "Init_Arena",
@@ -1433,32 +1405,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.DMA.ads.html#L146"
-    },
-    {
-      "label": "LDiv0",
-      "docHref": "docs/gba__numerics___body.html#L104C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "LDiv0",
-      "docHref": "docs/gba__numerics___spec.html#L200C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Numerics.ads.html#L200"
-    },
-    {
-      "label": "LMul",
-      "docHref": "docs/gba__numerics___body.html#L101C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "LMul",
-      "docHref": "docs/gba__numerics___spec.html#L209C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Numerics.ads.html#L209"
     },
     {
       "label": "Mark",
@@ -1766,17 +1712,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Register_RAM_Reset",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L37C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L46C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L37"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L46"
     },
     {
       "label": "Register_RAM_Reset",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L83C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L90C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L83"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L90"
     },
     {
       "label": "Register_RAM_Reset",
@@ -1814,10 +1760,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Remainder",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L101C12",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L108C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L101"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L108"
     },
     {
       "label": "Request_HBlank_Interrupt",
@@ -1961,6 +1907,19 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.ads.html#L73"
+    },
+    {
+      "label": "Set_Initial_Value",
+      "docHref": "docs/gba__timers___body.html#L10C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Initial_Value",
+      "docHref": "docs/gba__timers___spec.html#L74C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L74"
     },
     {
       "label": "Set_Object_Attributes",
@@ -2197,6 +2156,32 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L78"
     },
     {
+      "label": "Set_Timer_Increment_Type",
+      "docHref": "docs/gba__timers___body.html#L27C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Timer_Increment_Type",
+      "docHref": "docs/gba__timers___spec.html#L83C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L83"
+    },
+    {
+      "label": "Set_Timer_Scale",
+      "docHref": "docs/gba__timers___body.html#L22C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Set_Timer_Scale",
+      "docHref": "docs/gba__timers___spec.html#L80C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L80"
+    },
+    {
       "label": "Set_Transform",
       "docHref": "docs/gba__display__backgrounds___body.html#L56C13",
       "declared": "GBA.Display.Backgrounds",
@@ -2224,7 +2209,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sin",
-      "docHref": "docs/gba__numerics___body.html#L362C12",
+      "docHref": "docs/gba__numerics___body.html#L348C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -2237,7 +2222,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sin_Cos",
-      "docHref": "docs/gba__numerics___body.html#L338C13",
+      "docHref": "docs/gba__numerics___body.html#L324C13",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -2250,7 +2235,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sin_Cos_LUT",
-      "docHref": "docs/gba__numerics___body.html#L474C13",
+      "docHref": "docs/gba__numerics___body.html#L460C13",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -2263,13 +2248,13 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sin_Cos_Quadrant",
-      "docHref": "docs/gba__numerics___spec.html#L306C13",
+      "docHref": "docs/gba__numerics___spec.html#L292C13",
       "declared": "GBA.Numerics",
       "declared_qualifier": ""
     },
     {
       "label": "Sin_LUT",
-      "docHref": "docs/gba__numerics___body.html#L380C12",
+      "docHref": "docs/gba__numerics___body.html#L366C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "(body)"
     },
@@ -2282,10 +2267,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Soft_Reset",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L32C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L41C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L32"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L41"
     },
     {
       "label": "Soft_Reset",
@@ -2303,10 +2288,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sqrt",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L52C12",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L61C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L52"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L61"
     },
     {
       "label": "Sqrt",
@@ -2330,11 +2315,24 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.ads.html#L108"
     },
     {
+      "label": "Start_Timer",
+      "docHref": "docs/gba__timers___body.html#L15C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "(body)"
+    },
+    {
+      "label": "Start_Timer",
+      "docHref": "docs/gba__timers___spec.html#L77C13",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L77"
+    },
+    {
       "label": "Stop",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L35C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L44C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L35"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L44"
     },
     {
       "label": "Stop",
@@ -2502,17 +2500,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Wait_For_Interrupt",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L40C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L49C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L40"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L49"
     },
     {
       "label": "Wait_For_Interrupt",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L95C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L102C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L95"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L102"
     },
     {
       "label": "Wait_For_Interrupt",
@@ -2530,10 +2528,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Wait_For_VBlank",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L43C13",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L52C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L43"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L52"
     },
     {
       "label": "Wait_For_VBlank",

@@ -177,13 +177,13 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Key_Control",
-      "docHref": "docs/gba__input___spec.html#L96C3",
+      "docHref": "docs/gba__input___spec.html#L95C3",
       "declared": "GBA.Input",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Input.ads.html#L96"
+      "srcHref": "srcs/GBA.Input.ads.html#L95"
     },
     {
-      "label": "Key_Control_Data",
+      "label": "Key_Control_Info",
       "docHref": "docs/gba__input___spec.html#L75C8",
       "declared": "GBA.Input",
       "declared_qualifier": "",
@@ -263,6 +263,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Allocation.Stack_Arena",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Allocation.ads.html#L21"
+    },
+    {
+      "label": "Timer",
+      "docHref": "docs/gba__timers___spec.html#L59C8",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L59"
+    },
+    {
+      "label": "Timer_Control_Info",
+      "docHref": "docs/gba__timers___spec.html#L41C8",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L41"
     },
     {
       "label": "Transfer_Info",

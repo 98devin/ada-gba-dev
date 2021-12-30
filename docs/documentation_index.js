@@ -268,5 +268,15 @@ GNATdoc.DocumentationIndex = [
     "label": "GBA.Refs",
     "qualifier": "",
     "file": "docs/gba__refs___spec.html"
+  },
+  {
+    "label": "GBA.Timers",
+    "qualifier": "",
+    "file": "docs/gba__timers___spec.html"
+  },
+  {
+    "label": "GBA.Timers",
+    "qualifier": "(body)",
+    "file": "docs/gba__timers___body.html"
   }
 ];

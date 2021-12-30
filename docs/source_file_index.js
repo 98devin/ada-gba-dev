@@ -130,5 +130,9 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "GBA.Refs.ads",
     "srcHref": "srcs/GBA.Refs.ads.html"
+  },
+  {
+    "label": "GBA.Timers.ads",
+    "srcHref": "srcs/GBA.Timers.ads.html"
   }
 ];

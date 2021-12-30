@@ -594,6 +594,130 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Marked Inline_Always so that link-time optimization"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 33,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- takes place and reduces these to a pure `svc` instruction."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 34,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- This eliminates the overhead of a function call to BIOS routines."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 35,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 36,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- Unfortunately, due to the numeric code of the interrupts"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 37,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- being different in ARM and THUMB mode, we still need to have"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 38,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- two versions of this package. We share as much as possible by"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 39,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- making them instances of this same generic package."
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 40,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 41,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
           "cssClass": "keyword",
           "text": "procedure"
         },
@@ -606,7 +730,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Soft_Reset",
-          "href": "docs/gba__bios__extended_interface___spec.html#L32C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L41C13"
         },
         {
           "kind": "span",
@@ -630,6 +754,26 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -637,7 +781,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 33,
+      "number": 42,
       "children": [
         {
           "kind": "span",
@@ -658,7 +802,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Hard_Reset",
-          "href": "docs/gba__bios__extended_interface___spec.html#L33C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L42C13"
         },
         {
           "kind": "span",
@@ -682,6 +826,26 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -689,7 +853,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 34,
+      "number": 43,
       "children": [
         {
           "kind": "span",
@@ -710,7 +874,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Halt",
-          "href": "docs/gba__bios__extended_interface___spec.html#L34C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L43C13"
         },
         {
           "kind": "span",
@@ -734,6 +898,26 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -741,7 +925,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 35,
+      "number": 44,
       "children": [
         {
           "kind": "span",
@@ -762,7 +946,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Stop",
-          "href": "docs/gba__bios__extended_interface___spec.html#L35C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L44C13"
         },
         {
           "kind": "span",
@@ -786,6 +970,26 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": "       "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -793,13 +997,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 36,
+      "number": 45,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 37,
+      "number": 46,
       "children": [
         {
           "kind": "span",
@@ -820,7 +1024,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Register_RAM_Reset",
-          "href": "docs/gba__bios__extended_interface___spec.html#L37C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L46C13"
         },
         {
           "kind": "span",
@@ -836,7 +1040,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Flags",
-          "href": "docs/gba__bios__extended_interface___spec.html#L37C33"
+          "href": "docs/gba__bios__extended_interface___spec.html#L46C33"
         },
         {
           "kind": "span",
@@ -868,7 +1072,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 38,
+      "number": 47,
       "children": [
         {
           "kind": "span",
@@ -892,6 +1096,26 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -899,13 +1123,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 39,
+      "number": 48,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 40,
+      "number": 49,
       "children": [
         {
           "kind": "span",
@@ -926,7 +1150,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wait_For_Interrupt",
-          "href": "docs/gba__bios__extended_interface___spec.html#L40C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L49C13"
         },
         {
           "kind": "span",
@@ -942,7 +1166,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "New_Only",
-          "href": "docs/gba__bios__extended_interface___spec.html#L40C33"
+          "href": "docs/gba__bios__extended_interface___spec.html#L49C33"
         },
         {
           "kind": "span",
@@ -978,7 +1202,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wait_For",
-          "href": "docs/gba__bios__extended_interface___spec.html#L40C53"
+          "href": "docs/gba__bios__extended_interface___spec.html#L49C53"
         },
         {
           "kind": "span",
@@ -1010,7 +1234,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 41,
+      "number": 50,
       "children": [
         {
           "kind": "span",
@@ -1034,172 +1258,13 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 42,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 43,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Wait_For_VBlank",
-          "href": "docs/gba__bios__extended_interface___spec.html#L43C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 44,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Raw.Wait_For_VBlank"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 45,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 46,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Div_Mod",
-          "href": "docs/gba__bios__extended_interface___spec.html#L46C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "N",
-          "href": "docs/gba__bios__extended_interface___spec.html#L46C21"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "D",
-          "href": "docs/gba__bios__extended_interface___spec.html#L46C24"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Integer"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
           "cssClass": "text",
           "text": " "
         },
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "return"
+          "text": "with"
         },
         {
           "kind": "span",
@@ -1209,174 +1274,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Long_Long_Integer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 47,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Raw.Div_Mod"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 48,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 49,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Div_Mod_Arm",
-          "href": "docs/gba__bios__extended_interface___spec.html#L49C12"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "D",
-          "href": "docs/gba__bios__extended_interface___spec.html#L49C25"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "N",
-          "href": "docs/gba__bios__extended_interface___spec.html#L49C28"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Integer"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "return"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Long_Long_Integer"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 50,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Raw.Div_Mod_Arm"
+          "text": "Inline_Always"
         },
         {
           "kind": "span",
@@ -1403,6 +1301,90 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Wait_For_VBlank",
+          "href": "docs/gba__bios__extended_interface___spec.html#L52C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 53,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Wait_For_VBlank"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 54,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 55,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
           "text": "function"
         },
         {
@@ -1413,8 +1395,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Sqrt",
-          "href": "docs/gba__bios__extended_interface___spec.html#L52C12"
+          "text": "Div_Mod",
+          "href": "docs/gba__bios__extended_interface___spec.html#L55C12"
         },
         {
           "kind": "span",
@@ -1430,7 +1412,329 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "N",
-          "href": "docs/gba__bios__extended_interface___spec.html#L52C18"
+          "href": "docs/gba__bios__extended_interface___spec.html#L55C21"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "D",
+          "href": "docs/gba__bios__extended_interface___spec.html#L55C24"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Integer"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Long_Long_Integer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 56,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Div_Mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 57,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 58,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Div_Mod_Arm",
+          "href": "docs/gba__bios__extended_interface___spec.html#L58C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "D",
+          "href": "docs/gba__bios__extended_interface___spec.html#L58C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "N",
+          "href": "docs/gba__bios__extended_interface___spec.html#L58C28"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Integer"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Long_Long_Integer"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 59,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Div_Mod_Arm"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 60,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 61,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Sqrt",
+          "href": "docs/gba__bios__extended_interface___spec.html#L61C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "N",
+          "href": "docs/gba__bios__extended_interface___spec.html#L61C18"
         },
         {
           "kind": "span",
@@ -1481,7 +1785,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 53,
+      "number": 62,
       "children": [
         {
           "kind": "span",
@@ -1505,6 +1809,26 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -1512,13 +1836,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 54,
+      "number": 63,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 55,
+      "number": 64,
       "children": [
         {
           "kind": "span",
@@ -1539,7 +1863,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Arc_Tan",
-          "href": "docs/gba__bios__extended_interface___spec.html#L55C12"
+          "href": "docs/gba__bios__extended_interface___spec.html#L64C12"
         },
         {
           "kind": "span",
@@ -1555,7 +1879,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "X",
-          "href": "docs/gba__bios__extended_interface___spec.html#L55C21"
+          "href": "docs/gba__bios__extended_interface___spec.html#L64C21"
         },
         {
           "kind": "span",
@@ -1571,7 +1895,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Y",
-          "href": "docs/gba__bios__extended_interface___spec.html#L55C24"
+          "href": "docs/gba__bios__extended_interface___spec.html#L64C24"
         },
         {
           "kind": "span",
@@ -1624,7 +1948,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 56,
+      "number": 65,
       "children": [
         {
           "kind": "span",
@@ -1648,369 +1972,13 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 57,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 58,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L58C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "S",
-          "href": "docs/gba__bios__extended_interface___spec.html#L58C22"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "D",
-          "href": "docs/gba__bios__extended_interface___spec.html#L58C25"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Address",
-          "href": "docs/gba__memory___spec.html#L12C11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Config",
-          "href": "docs/gba__bios__extended_interface___spec.html#L58C38"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Set_Config",
-          "href": "docs/gba__bios___spec.html#L148C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 59,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Raw.Cpu_Set"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 60,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 61,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Fast_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L61C13"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "S",
-          "href": "docs/gba__bios__extended_interface___spec.html#L61C27"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "D",
-          "href": "docs/gba__bios__extended_interface___spec.html#L61C30"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Address",
-          "href": "docs/gba__memory___spec.html#L12C11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Config",
-          "href": "docs/gba__bios__extended_interface___spec.html#L61C43"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Set_Config",
-          "href": "docs/gba__bios___spec.html#L148C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 62,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Raw.Cpu_Fast_Set"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 63,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 64,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "function"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Bios_Checksum",
-          "href": "docs/gba__bios__extended_interface___spec.html#L64C12"
-        },
-        {
-          "kind": "span",
           "cssClass": "text",
           "text": " "
         },
         {
           "kind": "span",
           "cssClass": "keyword",
-          "text": "return"
+          "text": "with"
         },
         {
           "kind": "span",
@@ -2020,33 +1988,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Unsigned_32"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 65,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "renames"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Raw.Bios_Checksum"
+          "text": "Inline_Always"
         },
         {
           "kind": "span",
@@ -2083,7 +2025,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Affine_Set_Ext",
+          "text": "Cpu_Set",
           "href": "docs/gba__bios__extended_interface___spec.html#L67C13"
         },
         {
@@ -2099,8 +2041,24 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L67C29"
+          "text": "S",
+          "href": "docs/gba__bios__extended_interface___spec.html#L67C22"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "D",
+          "href": "docs/gba__bios__extended_interface___spec.html#L67C25"
         },
         {
           "kind": "span",
@@ -2136,8 +2094,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L67C51"
+          "text": "Config",
+          "href": "docs/gba__bios__extended_interface___spec.html#L67C38"
         },
         {
           "kind": "span",
@@ -2157,44 +2115,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Address",
-          "href": "docs/gba__memory___spec.html#L12C11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Count",
-          "href": "docs/gba__bios__extended_interface___spec.html#L67C72"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Integer"
+          "text": "Cpu_Set_Config",
+          "href": "docs/gba__bios___spec.html#L148C8"
         },
         {
           "kind": "span",
@@ -2225,7 +2147,27 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Raw.Affine_Set_Ext"
+          "text": "Raw.Cpu_Set"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
         },
         {
           "kind": "span",
@@ -2262,7 +2204,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Affine_Set",
+          "text": "Cpu_Fast_Set",
           "href": "docs/gba__bios__extended_interface___spec.html#L70C13"
         },
         {
@@ -2278,8 +2220,291 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
+          "text": "S",
+          "href": "docs/gba__bios__extended_interface___spec.html#L70C27"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "D",
+          "href": "docs/gba__bios__extended_interface___spec.html#L70C30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Config",
+          "href": "docs/gba__bios__extended_interface___spec.html#L70C43"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Cpu_Set_Config",
+          "href": "docs/gba__bios___spec.html#L148C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 71,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Cpu_Fast_Set"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 72,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 73,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "function"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bios_Checksum",
+          "href": "docs/gba__bios__extended_interface___spec.html#L73C12"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "return"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_32"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 74,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Bios_Checksum"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 75,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 76,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Affine_Set_Ext",
+          "href": "docs/gba__bios__extended_interface___spec.html#L76C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L70C25"
+          "href": "docs/gba__bios__extended_interface___spec.html#L76C29"
         },
         {
           "kind": "span",
@@ -2316,7 +2541,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L70C47"
+          "href": "docs/gba__bios__extended_interface___spec.html#L76C51"
         },
         {
           "kind": "span",
@@ -2353,23 +2578,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Count",
-          "href": "docs/gba__bios__extended_interface___spec.html#L70C68"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Stride",
-          "href": "docs/gba__bios__extended_interface___spec.html#L70C75"
+          "href": "docs/gba__bios__extended_interface___spec.html#L76C72"
         },
         {
           "kind": "span",
@@ -2400,7 +2609,222 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 71,
+      "number": 77,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Affine_Set_Ext"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 78,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 79,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Affine_Set",
+          "href": "docs/gba__bios__extended_interface___spec.html#L79C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Parameters",
+          "href": "docs/gba__bios__extended_interface___spec.html#L79C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Transform",
+          "href": "docs/gba__bios__extended_interface___spec.html#L79C47"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Count",
+          "href": "docs/gba__bios__extended_interface___spec.html#L79C68"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Stride",
+          "href": "docs/gba__bios__extended_interface___spec.html#L79C75"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Integer"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 80,
       "children": [
         {
           "kind": "span",
@@ -2424,6 +2848,26 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
           "cssClass": "identifier",
           "text": ";"
         }
@@ -2431,25 +2875,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 72,
+      "number": 81,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 73,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 74,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 75,
+      "number": 82,
       "children": [
         {
           "kind": "span",
@@ -2465,13 +2897,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 76,
+      "number": 83,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 77,
+      "number": 84,
       "children": [
         {
           "kind": "span",
@@ -2487,13 +2919,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 78,
+      "number": 85,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 79,
+      "number": 86,
       "children": [
         {
           "kind": "span",
@@ -2509,7 +2941,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 80,
+      "number": 87,
       "children": [
         {
           "kind": "span",
@@ -2525,7 +2957,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 81,
+      "number": 88,
       "children": [
         {
           "kind": "span",
@@ -2541,13 +2973,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 82,
+      "number": 89,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 83,
+      "number": 90,
       "children": [
         {
           "kind": "span",
@@ -2568,13 +3000,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Register_RAM_Reset",
-          "href": "docs/gba__bios__extended_interface___spec.html#L83C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L90C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 84,
+      "number": 91,
       "children": [
         {
           "kind": "span",
@@ -2595,13 +3027,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_External_WRAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L84C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L91C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 92,
       "children": [
         {
           "kind": "span",
@@ -2622,13 +3054,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_Internal_WRAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L85C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L92C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 93,
       "children": [
         {
           "kind": "span",
@@ -2649,13 +3081,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_Palette",
-          "href": "docs/gba__bios__extended_interface___spec.html#L86C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L93C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 94,
       "children": [
         {
           "kind": "span",
@@ -2676,13 +3108,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_VRAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L87C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L94C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 95,
       "children": [
         {
           "kind": "span",
@@ -2703,13 +3135,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_OAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L88C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L95C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 96,
       "children": [
         {
           "kind": "span",
@@ -2730,13 +3162,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset_SIO_Registers",
-          "href": "docs/gba__bios__extended_interface___spec.html#L89C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L96C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 97,
       "children": [
         {
           "kind": "span",
@@ -2757,13 +3189,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset_Sound_Registers",
-          "href": "docs/gba__bios__extended_interface___spec.html#L90C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L97C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 98,
       "children": [
         {
           "kind": "span",
@@ -2784,13 +3216,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset_Other_Registers",
-          "href": "docs/gba__bios__extended_interface___spec.html#L91C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L98C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 99,
       "children": [
         {
           "kind": "span",
@@ -2841,7 +3273,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 100,
       "children": [
         {
           "kind": "span",
@@ -2867,13 +3299,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 101,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 102,
       "children": [
         {
           "kind": "span",
@@ -2894,7 +3326,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wait_For_Interrupt",
-          "href": "docs/gba__bios__extended_interface___spec.html#L95C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L102C13"
         },
         {
           "kind": "span",
@@ -2910,7 +3342,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wait_For",
-          "href": "docs/gba__bios__extended_interface___spec.html#L95C33"
+          "href": "docs/gba__bios__extended_interface___spec.html#L102C33"
         },
         {
           "kind": "span",
@@ -2942,7 +3374,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 103,
       "children": [
         {
           "kind": "span",
@@ -2968,13 +3400,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 104,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 105,
       "children": [
         {
           "kind": "span",
@@ -2995,7 +3427,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Divide",
-          "href": "docs/gba__bios__extended_interface___spec.html#L98C12"
+          "href": "docs/gba__bios__extended_interface___spec.html#L105C12"
         },
         {
           "kind": "span",
@@ -3011,7 +3443,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/gba__bios__extended_interface___spec.html#L98C20"
+          "href": "docs/gba__bios__extended_interface___spec.html#L105C20"
         },
         {
           "kind": "span",
@@ -3027,7 +3459,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Denom",
-          "href": "docs/gba__bios__extended_interface___spec.html#L98C25"
+          "href": "docs/gba__bios__extended_interface___spec.html#L105C25"
         },
         {
           "kind": "span",
@@ -3078,7 +3510,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 106,
       "children": [
         {
           "kind": "span",
@@ -3104,13 +3536,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 107,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 108,
       "children": [
         {
           "kind": "span",
@@ -3131,7 +3563,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Remainder",
-          "href": "docs/gba__bios__extended_interface___spec.html#L101C12"
+          "href": "docs/gba__bios__extended_interface___spec.html#L108C12"
         },
         {
           "kind": "span",
@@ -3147,7 +3579,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/gba__bios__extended_interface___spec.html#L101C23"
+          "href": "docs/gba__bios__extended_interface___spec.html#L108C23"
         },
         {
           "kind": "span",
@@ -3163,7 +3595,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Denom",
-          "href": "docs/gba__bios__extended_interface___spec.html#L101C28"
+          "href": "docs/gba__bios__extended_interface___spec.html#L108C28"
         },
         {
           "kind": "span",
@@ -3214,7 +3646,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 109,
       "children": [
         {
           "kind": "span",
@@ -3240,13 +3672,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 110,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 111,
       "children": [
         {
           "kind": "span",
@@ -3267,7 +3699,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Div_Mod",
-          "href": "docs/gba__bios__extended_interface___spec.html#L104C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L111C13"
         },
         {
           "kind": "span",
@@ -3283,7 +3715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/gba__bios__extended_interface___spec.html#L104C22"
+          "href": "docs/gba__bios__extended_interface___spec.html#L111C22"
         },
         {
           "kind": "span",
@@ -3299,7 +3731,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Denom",
-          "href": "docs/gba__bios__extended_interface___spec.html#L104C27"
+          "href": "docs/gba__bios__extended_interface___spec.html#L111C27"
         },
         {
           "kind": "span",
@@ -3335,7 +3767,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Quotient",
-          "href": "docs/gba__bios__extended_interface___spec.html#L104C44"
+          "href": "docs/gba__bios__extended_interface___spec.html#L111C44"
         },
         {
           "kind": "span",
@@ -3351,7 +3783,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Remainder",
-          "href": "docs/gba__bios__extended_interface___spec.html#L104C54"
+          "href": "docs/gba__bios__extended_interface___spec.html#L111C54"
         },
         {
           "kind": "span",
@@ -3382,268 +3814,6 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Integer"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ")"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 105,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "with"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " Inline_Always"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 106,
-      "children": [
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 107,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "  "
-        },
-        {
-          "kind": "span",
-          "cssClass": "keyword",
-          "text": "procedure"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L107C13"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 108,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "("
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Source",
-          "href": "docs/gba__bios__extended_interface___spec.html#L108C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ","
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Dest",
-          "href": "docs/gba__bios__extended_interface___spec.html#L108C15"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Address",
-          "href": "docs/gba__memory___spec.html#L12C11"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 109,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Unit_Count",
-          "href": "docs/gba__bios__extended_interface___spec.html#L109C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "   "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Set_Unit_Count",
-          "href": "docs/gba__bios___spec.html#L145C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 110,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Mode",
-          "href": "docs/gba__bios__extended_interface___spec.html#L110C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "         "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Set_Mode",
-          "href": "docs/gba__bios___spec.html#L133C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ";"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 111,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "      "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Unit_Size",
-          "href": "docs/gba__bios__extended_interface___spec.html#L111C7"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Cpu_Set_Unit_Size",
-          "href": "docs/gba__bios___spec.html#L139C8"
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
         },
         {
           "kind": "span",
@@ -3706,7 +3876,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Cpu_Fast_Set",
+          "text": "Cpu_Set",
           "href": "docs/gba__bios__extended_interface___spec.html#L114C13"
         }
       ]
@@ -3792,7 +3962,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Word_Count",
+          "text": "Unit_Count",
           "href": "docs/gba__bios__extended_interface___spec.html#L116C7"
         },
         {
@@ -3861,6 +4031,49 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 118,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unit_Size",
+          "href": "docs/gba__bios__extended_interface___spec.html#L118C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Cpu_Set_Unit_Size",
+          "href": "docs/gba__bios___spec.html#L139C8"
+        },
+        {
+          "kind": "span",
           "cssClass": "text",
           "text": " "
         },
@@ -3873,7 +4086,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -3899,13 +4112,232 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 120,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 121,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Cpu_Fast_Set",
+          "href": "docs/gba__bios__extended_interface___spec.html#L121C13"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 122,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Source",
+          "href": "docs/gba__bios__extended_interface___spec.html#L122C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L122C15"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 123,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Word_Count",
+          "href": "docs/gba__bios__extended_interface___spec.html#L123C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Cpu_Set_Unit_Count",
+          "href": "docs/gba__bios___spec.html#L145C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 124,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Mode",
+          "href": "docs/gba__bios__extended_interface___spec.html#L124C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "         "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Cpu_Set_Mode",
+          "href": "docs/gba__bios___spec.html#L133C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 125,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 126,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -3921,7 +4353,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -3937,7 +4369,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 129,
       "children": [
         {
           "kind": "span",
@@ -3953,13 +4385,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 130,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -3980,13 +4412,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L124C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L131C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 132,
       "children": [
         {
           "kind": "span",
@@ -4007,7 +4439,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L125C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L132C7"
         },
         {
           "kind": "span",
@@ -4039,7 +4471,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -4050,7 +4482,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L126C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L133C7"
         },
         {
           "kind": "span",
@@ -4097,7 +4529,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -4123,13 +4555,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 135,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -4150,13 +4582,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L129C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L136C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -4177,7 +4609,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L130C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L137C7"
         },
         {
           "kind": "span",
@@ -4209,7 +4641,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 138,
       "children": [
         {
           "kind": "span",
@@ -4220,7 +4652,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L131C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L138C7"
         },
         {
           "kind": "span",
@@ -4257,7 +4689,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -4283,13 +4715,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 140,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 141,
       "children": [
         {
           "kind": "span",
@@ -4310,13 +4742,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set_Ext",
-          "href": "docs/gba__bios__extended_interface___spec.html#L134C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L141C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -4337,7 +4769,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L135C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L142C7"
         },
         {
           "kind": "span",
@@ -4369,7 +4801,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -4380,7 +4812,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L136C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L143C7"
         },
         {
           "kind": "span",
@@ -4427,7 +4859,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -4453,13 +4885,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 145,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -4475,7 +4907,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -4491,7 +4923,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 148,
       "children": [
         {
           "kind": "span",
@@ -4507,19 +4939,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 149,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 150,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -4540,7 +4972,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L144C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
         },
         {
           "kind": "span",
@@ -4556,7 +4988,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -4639,13 +5071,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 153,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 154,
       "children": [
         {
           "kind": "span",
@@ -4666,7 +5098,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L147C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L154C13"
         },
         {
           "kind": "span",
@@ -4682,7 +5114,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L147C25"
+          "href": "docs/gba__bios__extended_interface___spec.html#L154C25"
         },
         {
           "kind": "span",
@@ -4703,7 +5135,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L144C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
         },
         {
           "kind": "span",
@@ -4714,7 +5146,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -4740,19 +5172,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 156,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 157,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 158,
       "children": [
         {
           "kind": "span",
@@ -4773,7 +5205,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG_Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
         },
         {
           "kind": "span",
@@ -4789,7 +5221,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -4872,13 +5304,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 160,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -4899,7 +5331,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set_Ext",
-          "href": "docs/gba__bios__extended_interface___spec.html#L154C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L161C13"
         },
         {
           "kind": "span",
@@ -4915,7 +5347,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L154C29"
+          "href": "docs/gba__bios__extended_interface___spec.html#L161C29"
         },
         {
           "kind": "span",
@@ -4936,7 +5368,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG_Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
         },
         {
           "kind": "span",
@@ -4947,7 +5379,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -4973,19 +5405,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 163,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 164,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -5006,7 +5438,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L165C8"
         },
         {
           "kind": "span",
@@ -5022,7 +5454,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -5104,13 +5536,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 167,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 168,
       "children": [
         {
           "kind": "span",
@@ -5131,7 +5563,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Transform_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L161C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L168C8"
         },
         {
           "kind": "span",
@@ -5147,7 +5579,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -5229,13 +5661,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 170,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -5256,13 +5688,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L164C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L171C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -5283,7 +5715,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L165C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L172C7"
         },
         {
           "kind": "span",
@@ -5304,7 +5736,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L165C8"
         },
         {
           "kind": "span",
@@ -5315,7 +5747,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 173,
       "children": [
         {
           "kind": "span",
@@ -5326,7 +5758,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transforms",
-          "href": "docs/gba__bios__extended_interface___spec.html#L166C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L173C7"
         },
         {
           "kind": "span",
@@ -5357,7 +5789,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Transform_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L161C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L168C8"
         },
         {
           "kind": "span",
@@ -5373,7 +5805,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
+      "number": 174,
       "children": [
         {
           "kind": "span",
@@ -5399,19 +5831,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 168,
+      "number": 175,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 169,
+      "number": 176,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 177,
       "children": [
         {
           "kind": "span",
@@ -5432,7 +5864,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L170C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L177C8"
         },
         {
           "kind": "span",
@@ -5448,7 +5880,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 178,
       "children": [
         {
           "kind": "span",
@@ -5530,13 +5962,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 179,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -5557,13 +5989,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set_Ext",
-          "href": "docs/gba__bios__extended_interface___spec.html#L173C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L180C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 181,
       "children": [
         {
           "kind": "span",
@@ -5584,7 +6016,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L174C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L181C7"
         },
         {
           "kind": "span",
@@ -5605,7 +6037,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L170C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L177C8"
         },
         {
           "kind": "span",
@@ -5616,7 +6048,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 182,
       "children": [
         {
           "kind": "span",
@@ -5627,7 +6059,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transforms",
-          "href": "docs/gba__bios__extended_interface___spec.html#L175C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L182C7"
         },
         {
           "kind": "span",
@@ -5674,7 +6106,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -5700,13 +6132,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 184,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 185,
       "children": [
         {
           "kind": "span",

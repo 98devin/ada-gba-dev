@@ -536,10 +536,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Key_Input",
-      "docHref": "docs/gba__input___spec.html#L93C3",
+      "docHref": "docs/gba__input___spec.html#L92C3",
       "declared": "GBA.Input",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Input.ads.html#L93"
+      "srcHref": "srcs/GBA.Input.ads.html#L92"
     },
     {
       "label": "KEYCNT",
@@ -564,7 +564,7 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Leading_Nine_Bits",
-      "docHref": "docs/gba__numerics___spec.html#L115C3",
+      "docHref": "docs/gba__numerics___spec.html#L101C3",
       "declared": "GBA.Numerics",
       "declared_qualifier": ""
     },
@@ -791,6 +791,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Memory.IO_Registers",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html#L77"
+    },
+    {
+      "label": "Timers",
+      "docHref": "docs/gba__timers___spec.html#L68C3",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L68"
     },
     {
       "label": "TM0CNT_H",

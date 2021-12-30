@@ -24,24 +24,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Affine_Parameter_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L158C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L165C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L158"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L165"
     },
     {
       "label": "Affine_Parameter_Ext_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L170C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L177C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L170"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L177"
     },
     {
       "label": "Affine_Transform_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L161C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L168C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L161"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L168"
     },
     {
       "label": "Affine_Transform_Parameter",
@@ -52,10 +52,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "BG_Affine_Parameter_Ext_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L151C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L158C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L151"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L158"
     },
     {
       "label": "BG_ID",
@@ -374,10 +374,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "OBJ_Affine_Parameter_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L144C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L151C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L144"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L151"
     },
     {
       "label": "OBJ_Affine_Transform_Index",
@@ -595,6 +595,34 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Tiles.ads.html#L17"
+    },
+    {
+      "label": "Timer_ID",
+      "docHref": "docs/gba__timers___spec.html#L66C8",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L66"
+    },
+    {
+      "label": "Timer_Increment_Type",
+      "docHref": "docs/gba__timers___spec.html#L30C8",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L30"
+    },
+    {
+      "label": "Timer_Scale",
+      "docHref": "docs/gba__timers___spec.html#L15C8",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L15"
+    },
+    {
+      "label": "Timer_Value",
+      "docHref": "docs/gba__timers___spec.html#L13C11",
+      "declared": "GBA.Timers",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Timers.ads.html#L13"
     },
     {
       "label": "Timing_Mode",

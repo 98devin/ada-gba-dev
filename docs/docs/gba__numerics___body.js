@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Leading_Nine_Bits",
           "qualifier": "",
-          "line": 115,
+          "line": 101,
           "column": 3,
           "summary": [
           ],
@@ -21,7 +21,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 101,
                   "children": [
                     {
                       "kind": "span",
@@ -152,7 +152,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 102,
                   "children": [
                     {
                       "kind": "span",
@@ -408,7 +408,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 117,
+                  "number": 103,
                   "children": [
                     {
                       "kind": "span",
@@ -654,7 +654,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 118,
+                  "number": 104,
                   "children": [
                     {
                       "kind": "span",
@@ -900,7 +900,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 119,
+                  "number": 105,
                   "children": [
                     {
                       "kind": "span",
@@ -1146,7 +1146,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 120,
+                  "number": 106,
                   "children": [
                     {
                       "kind": "span",
@@ -1392,7 +1392,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 121,
+                  "number": 107,
                   "children": [
                     {
                       "kind": "span",
@@ -1638,7 +1638,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 122,
+                  "number": 108,
                   "children": [
                     {
                       "kind": "span",
@@ -1884,7 +1884,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 123,
+                  "number": 109,
                   "children": [
                     {
                       "kind": "span",
@@ -2130,7 +2130,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 124,
+                  "number": 110,
                   "children": [
                     {
                       "kind": "span",
@@ -2376,7 +2376,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 111,
                   "children": [
                     {
                       "kind": "span",
@@ -2622,7 +2622,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 112,
                   "children": [
                     {
                       "kind": "span",
@@ -2868,7 +2868,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 113,
                   "children": [
                     {
                       "kind": "span",
@@ -3114,7 +3114,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 114,
                   "children": [
                     {
                       "kind": "span",
@@ -3360,7 +3360,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 115,
                   "children": [
                     {
                       "kind": "span",
@@ -3606,7 +3606,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 116,
                   "children": [
                     {
                       "kind": "span",
@@ -3852,7 +3852,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 131,
+                  "number": 117,
                   "children": [
                     {
                       "kind": "span",
@@ -5467,7 +5467,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cos",
           "qualifier": "(body)",
-          "line": 369,
+          "line": 355,
           "column": 12,
           "summary": [
           ],
@@ -5477,7 +5477,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 369,
+                  "number": 355,
                   "children": [
                     {
                       "kind": "span",
@@ -5593,7 +5593,7 @@ GNATdoc.Documentation = {
         {
           "label": "Cos_LUT",
           "qualifier": "(body)",
-          "line": 471,
+          "line": 457,
           "column": 12,
           "summary": [
           ],
@@ -5603,7 +5603,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 471,
+                  "number": 457,
                   "children": [
                     {
                       "kind": "span",
@@ -5706,7 +5706,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "(body)",
-          "line": 256,
+          "line": 242,
           "column": 12,
           "summary": [
           ],
@@ -5716,7 +5716,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 256,
+                  "number": 242,
                   "children": [
                     {
                       "kind": "span",
@@ -5817,7 +5817,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "(body)",
-          "line": 259,
+          "line": 245,
           "column": 12,
           "summary": [
           ],
@@ -5827,7 +5827,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 259,
+                  "number": 245,
                   "children": [
                     {
                       "kind": "span",
@@ -5940,7 +5940,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "(body)",
-          "line": 271,
+          "line": 257,
           "column": 12,
           "summary": [
           ],
@@ -5950,7 +5950,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 271,
+                  "number": 257,
                   "children": [
                     {
                       "kind": "span",
@@ -6051,7 +6051,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "(body)",
-          "line": 274,
+          "line": 260,
           "column": 12,
           "summary": [
           ],
@@ -6061,7 +6061,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 274,
+                  "number": 260,
                   "children": [
                     {
                       "kind": "span",
@@ -6174,7 +6174,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "(body)",
-          "line": 286,
+          "line": 272,
           "column": 12,
           "summary": [
           ],
@@ -6184,7 +6184,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 286,
+                  "number": 272,
                   "children": [
                     {
                       "kind": "span",
@@ -6285,7 +6285,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Leading_Zeros",
           "qualifier": "(body)",
-          "line": 289,
+          "line": 275,
           "column": 12,
           "summary": [
           ],
@@ -6295,7 +6295,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 289,
+                  "number": 275,
                   "children": [
                     {
                       "kind": "span",
@@ -6408,7 +6408,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "(body)",
-          "line": 202,
+          "line": 188,
           "column": 12,
           "summary": [
           ],
@@ -6418,7 +6418,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 202,
+                  "number": 188,
                   "children": [
                     {
                       "kind": "span",
@@ -6519,7 +6519,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "(body)",
-          "line": 205,
+          "line": 191,
           "column": 12,
           "summary": [
           ],
@@ -6529,7 +6529,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 205,
+                  "number": 191,
                   "children": [
                     {
                       "kind": "span",
@@ -6642,7 +6642,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "(body)",
-          "line": 221,
+          "line": 207,
           "column": 12,
           "summary": [
           ],
@@ -6652,7 +6652,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 221,
+                  "number": 207,
                   "children": [
                     {
                       "kind": "span",
@@ -6753,7 +6753,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "(body)",
-          "line": 224,
+          "line": 210,
           "column": 12,
           "summary": [
           ],
@@ -6763,7 +6763,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 224,
+                  "number": 210,
                   "children": [
                     {
                       "kind": "span",
@@ -6876,7 +6876,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "(body)",
-          "line": 239,
+          "line": 225,
           "column": 12,
           "summary": [
           ],
@@ -6886,7 +6886,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 239,
+                  "number": 225,
                   "children": [
                     {
                       "kind": "span",
@@ -6987,7 +6987,7 @@ GNATdoc.Documentation = {
         {
           "label": "Count_Trailing_Zeros",
           "qualifier": "(body)",
-          "line": 242,
+          "line": 228,
           "column": 12,
           "summary": [
           ],
@@ -6997,7 +6997,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 242,
+                  "number": 228,
                   "children": [
                     {
                       "kind": "span",
@@ -7110,7 +7110,7 @@ GNATdoc.Documentation = {
         {
           "label": "Fixed_Sqrt",
           "qualifier": "(body)",
-          "line": 484,
+          "line": 470,
           "column": 12,
           "summary": [
           ],
@@ -7120,7 +7120,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 484,
+                  "number": 470,
                   "children": [
                     {
                       "kind": "span",
@@ -7234,357 +7234,9 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "IDiv0",
-          "qualifier": "(body)",
-          "line": 107,
-          "column": 12,
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 107,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "IDiv0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Integer"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Integer"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "LDiv0",
-          "qualifier": "(body)",
-          "line": 104,
-          "column": 12,
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 104,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "LDiv0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "V"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Long_Long_Integer"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Long_Long_Integer"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "LMul",
-          "qualifier": "(body)",
-          "line": 101,
-          "column": 12,
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 101,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "LMul"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Unsigned_64"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Unsigned_64"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "label": "Sin",
           "qualifier": "(body)",
-          "line": 362,
+          "line": 348,
           "column": 12,
           "summary": [
           ],
@@ -7594,7 +7246,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 362,
+                  "number": 348,
                   "children": [
                     {
                       "kind": "span",
@@ -7710,7 +7362,7 @@ GNATdoc.Documentation = {
         {
           "label": "Sin_Cos",
           "qualifier": "(body)",
-          "line": 338,
+          "line": 324,
           "column": 13,
           "summary": [
           ],
@@ -7720,7 +7372,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 338,
+                  "number": 324,
                   "children": [
                     {
                       "kind": "span",
@@ -7898,7 +7550,7 @@ GNATdoc.Documentation = {
         {
           "label": "Sin_Cos_LUT",
           "qualifier": "(body)",
-          "line": 474,
+          "line": 460,
           "column": 13,
           "summary": [
           ],
@@ -7908,7 +7560,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 474,
+                  "number": 460,
                   "children": [
                     {
                       "kind": "span",
@@ -8086,7 +7738,7 @@ GNATdoc.Documentation = {
         {
           "label": "Sin_Cos_Quadrant",
           "qualifier": "",
-          "line": 306,
+          "line": 292,
           "column": 13,
           "summary": [
           ],
@@ -8096,7 +7748,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 306,
+                  "number": 292,
                   "children": [
                     {
                       "kind": "span",
@@ -8117,7 +7769,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sin_Cos_Quadrant",
-                      "href": "docs/gba__numerics___spec.html#L306C13"
+                      "href": "docs/gba__numerics___spec.html#L292C13"
                     },
                     {
                       "kind": "span",
@@ -8133,7 +7785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Norm_Theta",
-                      "href": "docs/gba__numerics___spec.html#L306C31"
+                      "href": "docs/gba__numerics___spec.html#L292C31"
                     },
                     {
                       "kind": "span",
@@ -8170,7 +7822,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Sin",
-                      "href": "docs/gba__numerics___spec.html#L306C60"
+                      "href": "docs/gba__numerics___spec.html#L292C60"
                     },
                     {
                       "kind": "span",
@@ -8186,7 +7838,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Cos",
-                      "href": "docs/gba__numerics___spec.html#L306C65"
+                      "href": "docs/gba__numerics___spec.html#L292C65"
                     },
                     {
                       "kind": "span",
@@ -8228,7 +7880,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 307,
+                  "number": 293,
                   "children": [
                     {
                       "kind": "span",
@@ -8258,7 +7910,7 @@ GNATdoc.Documentation = {
           "parameters": [
             {
               "label": "Norm_Theta",
-              "line": 306,
+              "line": 292,
               "column": 31,
               "type": {
                 "label": "GBA.Numerics.Fixed_Snorm_32",
@@ -8269,7 +7921,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Sin",
-              "line": 306,
+              "line": 292,
               "column": 60,
               "type": {
                 "label": "GBA.Numerics.Fixed_Snorm_32",
@@ -8280,7 +7932,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "Cos",
-              "line": 306,
+              "line": 292,
               "column": 65,
               "type": {
                 "label": "GBA.Numerics.Fixed_Snorm_32",
@@ -8291,7 +7943,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "X",
-              "line": 309,
+              "line": 295,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8302,7 +7954,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "A0",
-              "line": 311,
+              "line": 297,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8313,7 +7965,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "A2",
-              "line": 312,
+              "line": 298,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8324,7 +7976,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "A4",
-              "line": 313,
+              "line": 299,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8335,7 +7987,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "A6",
-              "line": 314,
+              "line": 300,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8346,7 +7998,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "B1",
-              "line": 316,
+              "line": 302,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8357,7 +8009,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "B3",
-              "line": 317,
+              "line": 303,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8368,7 +8020,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "B5",
-              "line": 318,
+              "line": 304,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8379,7 +8031,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "X2",
-              "line": 320,
+              "line": 306,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8390,7 +8042,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "A",
-              "line": 322,
+              "line": 308,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8401,7 +8053,7 @@ GNATdoc.Documentation = {
             },
             {
               "label": "B",
-              "line": 323,
+              "line": 309,
               "column": 5,
               "type": {
                 "label": "GBA.Numerics.Fixed_2_30",
@@ -8415,7 +8067,7 @@ GNATdoc.Documentation = {
         {
           "label": "Sin_LUT",
           "qualifier": "(body)",
-          "line": 380,
+          "line": 366,
           "column": 12,
           "summary": [
           ],
@@ -8425,7 +8077,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 380,
+                  "number": 366,
                   "children": [
                     {
                       "kind": "span",

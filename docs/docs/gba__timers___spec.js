@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "GBA.Input",
+  "label": "GBA.Timers",
   "qualifier": "",
   "summary": [
   ],
@@ -9,11 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Key_Input",
+          "label": "Timers",
           "qualifier": "",
-          "line": 92,
+          "line": 68,
           "column": 3,
-          "src": "srcs/GBA.Input.ads.html",
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -22,12 +22,12 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 92,
+                  "number": 68,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Input"
+                      "text": "Timers"
                     },
                     {
                       "kind": "span",
@@ -46,14 +46,54 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "array"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Flags"
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_ID"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "of"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 93,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -68,7 +108,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Import, Address => KEYINPUT"
+                      "text": " Import, Address => TM0CNT_L"
                     },
                     {
                       "kind": "span",
@@ -87,11 +127,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Key",
+          "label": "Timer_ID",
           "qualifier": "",
-          "line": 9,
+          "line": 66,
           "column": 8,
-          "src": "srcs/GBA.Input.ads.html",
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -100,7 +140,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 66,
                   "children": [
                     {
                       "kind": "span",
@@ -120,8 +160,106 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L9C8"
+                      "text": "Timer_ID",
+                      "href": "docs/gba__timers___spec.html#L66C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Timer_Increment_Type",
+          "qualifier": "",
+          "line": 30,
+          "column": 8,
+          "src": "srcs/GBA.Timers.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 30,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_Increment_Type",
+                      "href": "docs/gba__timers___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
@@ -137,7 +275,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -157,14 +295,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "A_Button",
-                      "href": "docs/gba__input___spec.html#L10C7"
+                      "text": "Independent",
+                      "href": "docs/gba__timers___spec.html#L31C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -184,14 +322,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "B_Button",
-                      "href": "docs/gba__input___spec.html#L11C7"
+                      "text": "Linked_To_Previous",
+                      "href": "docs/gba__timers___spec.html#L32C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 12,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -201,75 +339,48 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": ")"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Select_Button",
-                      "href": "docs/gba__input___spec.html#L12C7"
+                      "text": ";",
+                      "href": "docs/gba__timers___spec.html#L30C8"
                     }
                   ]
-                },
-                {
-                  "kind": "line",
-                  "number": 13,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Start_Button",
-                      "href": "docs/gba__input___spec.html#L13C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 14,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Right_Direction",
-                      "href": "docs/gba__input___spec.html#L14C7"
-                    }
-                  ]
-                },
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Independent",
+              "line": 31,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Linked_To_Previous",
+              "line": 32,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Timer_Scale",
+          "qualifier": "",
+          "line": 15,
+          "column": 8,
+          "src": "srcs/GBA.Timers.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
                 {
                   "kind": "line",
                   "number": 15,
@@ -277,12 +388,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": "  "
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "cssClass": "keyword",
+                      "text": "type"
                     },
                     {
                       "kind": "span",
@@ -292,8 +403,18 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Left_Direction",
-                      "href": "docs/gba__input___spec.html#L15C7"
+                      "text": "Timer_Scale",
+                      "href": "docs/gba__timers___spec.html#L15C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
                     }
                   ]
                 },
@@ -309,7 +430,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ","
+                      "text": "("
                     },
                     {
                       "kind": "span",
@@ -319,8 +440,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Up_Direction",
-                      "href": "docs/gba__input___spec.html#L16C7"
+                      "text": "x1",
+                      "href": "docs/gba__timers___spec.html#L16C7"
                     }
                   ]
                 },
@@ -346,8 +467,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Down_Direction",
-                      "href": "docs/gba__input___spec.html#L17C7"
+                      "text": "x64",
+                      "href": "docs/gba__timers___spec.html#L17C7"
                     }
                   ]
                 },
@@ -373,8 +494,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Left_Shoulder",
-                      "href": "docs/gba__input___spec.html#L18C7"
+                      "text": "x256",
+                      "href": "docs/gba__timers___spec.html#L18C7"
                     }
                   ]
                 },
@@ -400,8 +521,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Right_Shoulder",
-                      "href": "docs/gba__input___spec.html#L19C7"
+                      "text": "x1024",
+                      "href": "docs/gba__timers___spec.html#L19C7"
                     }
                   ]
                 },
@@ -418,32 +539,12 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 21,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 16"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ";"
+                      "text": ";",
+                      "href": "docs/gba__timers___spec.html#L15C8"
                     }
                   ]
                 }
@@ -452,70 +553,28 @@ GNATdoc.Documentation = {
           ],
           "literals": [
             {
-              "label": "A_Button",
-              "line": 10,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "B_Button",
-              "line": 11,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Select_Button",
-              "line": 12,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Start_Button",
-              "line": 13,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Right_Direction",
-              "line": 14,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Left_Direction",
-              "line": 15,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Up_Direction",
+              "label": "x1",
               "line": 16,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Down_Direction",
+              "label": "x64",
               "line": 17,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Left_Shoulder",
+              "label": "x256",
               "line": 18,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Right_Shoulder",
+              "label": "x1024",
               "line": 19,
               "column": 7,
               "description": [
@@ -524,11 +583,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Key_Control_Op",
+          "label": "Timer_Value",
           "qualifier": "",
-          "line": 69,
-          "column": 8,
-          "src": "srcs/GBA.Input.ads.html",
+          "line": 13,
+          "column": 11,
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -537,7 +596,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 13,
                   "children": [
                     {
                       "kind": "span",
@@ -547,7 +606,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "type"
+                      "text": "subtype"
                     },
                     {
                       "kind": "span",
@@ -557,136 +616,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Control_Op",
-                      "href": "docs/gba__input___spec.html#L69C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 70,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disjunction",
-                      "href": "docs/gba__input___spec.html#L70C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Conjunction",
-                      "href": "docs/gba__input___spec.html#L70C20"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/gba__input___spec.html#L69C8"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Disjunction",
-              "line": 70,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Conjunction",
-              "line": 70,
-              "column": 20,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Key_Flags",
-          "qualifier": "",
-          "line": 37,
-          "column": 8,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 37,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
+                      "text": "Timer_Value",
+                      "href": "docs/gba__timers___spec.html#L13C11"
                     },
                     {
                       "kind": "span",
@@ -705,179 +636,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "mod"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "2"
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": "**"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "10"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 38,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Key_Set",
-          "qualifier": "",
-          "line": 40,
-          "column": 8,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 40,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Set",
-                      "href": "docs/gba__input___spec.html#L40C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "array"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L9C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "of"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 41,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pack, Size => 16"
+                      "text": "Unsigned_16"
                     },
                     {
                       "kind": "span",
@@ -896,91 +656,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Key_Control",
+          "label": "Timer",
           "qualifier": "",
-          "line": 95,
-          "column": 3,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 95,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Control",
-                      "href": "docs/gba__input___spec.html#L95C3"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Control_Info",
-                      "href": "docs/gba__input___spec.html#L75C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 96,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Import, Address => KEYCNT"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Key_Control_Info",
-          "qualifier": "",
-          "line": 75,
+          "line": 59,
           "column": 8,
-          "src": "srcs/GBA.Input.ads.html",
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -989,7 +669,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 75,
+                  "number": 59,
                   "children": [
                     {
                       "kind": "span",
@@ -1009,8 +689,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Control_Info",
-                      "href": "docs/gba__input___spec.html#L75C8"
+                      "text": "Timer",
+                      "href": "docs/gba__timers___spec.html#L59C8"
                     },
                     {
                       "kind": "span",
@@ -1026,7 +706,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 76,
+                  "number": 60,
                   "children": [
                     {
                       "kind": "span",
@@ -1042,7 +722,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 77,
+                  "number": 61,
                   "children": [
                     {
                       "kind": "span",
@@ -1052,93 +732,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Flags",
-                      "href": "docs/gba__input___spec.html#L77C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "               "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 78,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Requested",
-                      "href": "docs/gba__input___spec.html#L78C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 79,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Op",
-                      "href": "docs/gba__input___spec.html#L79C7"
+                      "text": "Value",
+                      "href": "docs/gba__timers___spec.html#L61C7"
                     },
                     {
                       "kind": "span",
@@ -1158,8 +753,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Control_Op",
-                      "href": "docs/gba__input___spec.html#L69C8"
+                      "text": "Timer_Value",
+                      "href": "docs/gba__timers___spec.html#L13C11"
                     },
                     {
                       "kind": "span",
@@ -1170,7 +765,345 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 80,
+                  "number": 62,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Control_Info",
+                      "href": "docs/gba__timers___spec.html#L62C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_Control_Info",
+                      "href": "docs/gba__timers___spec.html#L41C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 63,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/gba__timers___spec.html#L59C8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Value",
+              "line": 61,
+              "column": 7,
+              "type": {
+                "label": "GBA.Timers.Timer_Value",
+                "docHref": "docs/gba__timers___spec.html#L13C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Control_Info",
+              "line": 62,
+              "column": 7,
+              "type": {
+                "label": "GBA.Timers.Timer_Control_Info",
+                "docHref": "docs/gba__timers___spec.html#L41C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Timer_Control_Info",
+          "qualifier": "",
+          "line": 41,
+          "column": 8,
+          "src": "srcs/GBA.Timers.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 41,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_Control_Info",
+                      "href": "docs/gba__timers___spec.html#L41C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Scale",
+                      "href": "docs/gba__timers___spec.html#L43C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "       "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_Scale",
+                      "href": "docs/gba__timers___spec.html#L15C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 44,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Increment",
+                      "href": "docs/gba__timers___spec.html#L44C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_Increment_Type",
+                      "href": "docs/gba__timers___spec.html#L30C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 45,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Trigger_IRQ",
+                      "href": "docs/gba__timers___spec.html#L45C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enabled",
+                      "href": "docs/gba__timers___spec.html#L46C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "     "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 47,
                   "children": [
                     {
                       "kind": "span",
@@ -1196,12 +1129,12 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 81,
+                  "number": 48,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -1225,19 +1158,30 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "Flags",
-              "line": 77,
+              "label": "Scale",
+              "line": 43,
               "column": 7,
               "type": {
-                "label": "GBA.Input.Key_Flags",
-                "docHref": "docs/gba__input___spec.html#L37C8"
+                "label": "GBA.Timers.Timer_Scale",
+                "docHref": "docs/gba__timers___spec.html#L15C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Interrupt_Requested",
-              "line": 78,
+              "label": "Increment",
+              "line": 44,
+              "column": 7,
+              "type": {
+                "label": "GBA.Timers.Timer_Increment_Type",
+                "docHref": "docs/gba__timers___spec.html#L30C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Trigger_IRQ",
+              "line": 45,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -1246,12 +1190,11 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Interrupt_Op",
-              "line": 79,
+              "label": "Enabled",
+              "line": 46,
               "column": 7,
               "type": {
-                "label": "GBA.Input.Key_Control_Op",
-                "docHref": "docs/gba__input___spec.html#L69C8"
+                "label": "Boolean"
               },
               "description": [
               ]
@@ -1264,11 +1207,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "Disable_Input_Interrupt_Request",
+          "label": "Get_Count",
           "qualifier": "",
-          "line": 62,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
+          "line": 71,
+          "column": 12,
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -1277,55 +1220,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 62,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable_Input_Interrupt_Request",
-                      "href": "docs/gba__input___spec.html#L62C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "or",
-          "qualifier": "",
-          "line": 50,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 50,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -1345,7 +1240,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "\"or\""
+                      "text": "Get_Count",
+                      "href": "docs/gba__timers___spec.html#L71C12"
                     },
                     {
                       "kind": "span",
@@ -1360,24 +1256,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "K1",
-                      "href": "docs/gba__input___spec.html#L50C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "K2",
-                      "href": "docs/gba__input___spec.html#L50C22"
+                      "text": "ID",
+                      "href": "docs/gba__timers___spec.html#L71C23"
                     },
                     {
                       "kind": "span",
@@ -1397,8 +1277,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L9C8"
+                      "text": "Timer_ID",
+                      "href": "docs/gba__timers___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
@@ -1423,14 +1303,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
+                      "text": "Timer_Value",
+                      "href": "docs/gba__timers___spec.html#L13C11"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 51,
+                  "number": 72,
                   "children": [
                     {
                       "kind": "span",
@@ -1445,7 +1325,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
+                      "text": " Inline_Always"
                     },
                     {
                       "kind": "span",
@@ -1459,23 +1339,184 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "K1",
-              "line": 50,
-              "column": 18,
+              "label": "ID",
+              "line": 71,
+              "column": 23,
               "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L9C8"
+                "label": "GBA.Timers.Timer_ID",
+                "docHref": "docs/gba__timers___spec.html#L66C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Set_Initial_Value",
+          "qualifier": "",
+          "line": 74,
+          "column": 13,
+          "src": "srcs/GBA.Timers.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 74,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Set_Initial_Value",
+                      "href": "docs/gba__timers___spec.html#L74C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "ID",
+                      "href": "docs/gba__timers___spec.html#L74C32"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_ID",
+                      "href": "docs/gba__timers___spec.html#L66C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Value",
+                      "href": "docs/gba__timers___spec.html#L74C47"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_Value",
+                      "href": "docs/gba__timers___spec.html#L13C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Inline_Always"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "ID",
+              "line": 74,
+              "column": 32,
+              "type": {
+                "label": "GBA.Timers.Timer_ID",
+                "docHref": "docs/gba__timers___spec.html#L66C8"
               },
               "description": [
               ]
             },
             {
-              "label": "K2",
-              "line": 50,
-              "column": 22,
+              "label": "Value",
+              "line": 74,
+              "column": 47,
               "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L9C8"
+                "label": "GBA.Timers.Timer_Value",
+                "docHref": "docs/gba__timers___spec.html#L13C11"
               },
               "description": [
               ]
@@ -1483,11 +1524,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "or",
+          "label": "Set_Timer_Increment_Type",
           "qualifier": "",
-          "line": 53,
+          "line": 83,
           "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -1496,7 +1537,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 53,
+                  "number": 83,
                   "children": [
                     {
                       "kind": "span",
@@ -1506,7 +1547,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -1516,7 +1557,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "\"or\""
+                      "text": "Set_Timer_Increment_Type",
+                      "href": "docs/gba__timers___spec.html#L83C13"
                     },
                     {
                       "kind": "span",
@@ -1531,8 +1573,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "F",
-                      "href": "docs/gba__input___spec.html#L53C18"
+                      "text": "ID",
+                      "href": "docs/gba__timers___spec.html#L83C39"
                     },
                     {
                       "kind": "span",
@@ -1552,8 +1594,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
+                      "text": "Timer_ID",
+                      "href": "docs/gba__timers___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
@@ -1568,8 +1610,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "K",
-                      "href": "docs/gba__input___spec.html#L53C33"
+                      "text": "Increment",
+                      "href": "docs/gba__timers___spec.html#L83C54"
                     },
                     {
                       "kind": "span",
@@ -1589,40 +1631,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L9C8"
+                      "text": "Timer_Increment_Type",
+                      "href": "docs/gba__timers___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 84,
                   "children": [
                     {
                       "kind": "span",
@@ -1637,7 +1658,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
+                      "text": " Inline_Always"
                     },
                     {
                       "kind": "span",
@@ -1651,23 +1672,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "F",
-              "line": 53,
-              "column": 18,
+              "label": "ID",
+              "line": 83,
+              "column": 39,
               "type": {
-                "label": "GBA.Input.Key_Flags",
-                "docHref": "docs/gba__input___spec.html#L37C8"
+                "label": "GBA.Timers.Timer_ID",
+                "docHref": "docs/gba__timers___spec.html#L66C8"
               },
               "description": [
               ]
             },
             {
-              "label": "K",
-              "line": 53,
-              "column": 33,
+              "label": "Increment",
+              "line": 83,
+              "column": 54,
               "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L9C8"
+                "label": "GBA.Timers.Timer_Increment_Type",
+                "docHref": "docs/gba__timers___spec.html#L30C8"
               },
               "description": [
               ]
@@ -1675,191 +1696,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Read_Key_State",
+          "label": "Set_Timer_Scale",
           "qualifier": "",
-          "line": 56,
-          "column": 12,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 56,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Read_Key_State",
-                      "href": "docs/gba__input___spec.html#L56C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 57,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Read_Key_State",
-          "qualifier": "",
-          "line": 59,
-          "column": 12,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 59,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Read_Key_State",
-                      "href": "docs/gba__input___spec.html#L59C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Set",
-                      "href": "docs/gba__input___spec.html#L40C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 60,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Request_Interrupt_If_All_Pressed",
-          "qualifier": "",
-          "line": 65,
+          "line": 80,
           "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -1868,7 +1709,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 65,
+                  "number": 80,
                   "children": [
                     {
                       "kind": "span",
@@ -1888,8 +1729,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Request_Interrupt_If_All_Pressed",
-                      "href": "docs/gba__input___spec.html#L65C13"
+                      "text": "Set_Timer_Scale",
+                      "href": "docs/gba__timers___spec.html#L80C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -1899,8 +1745,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "F",
-                      "href": "docs/gba__input___spec.html#L65C46"
+                      "text": "ID",
+                      "href": "docs/gba__timers___spec.html#L80C30"
                     },
                     {
                       "kind": "span",
@@ -1920,63 +1766,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": "Timer_ID",
+                      "href": "docs/gba__timers___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "F",
-              "line": 65,
-              "column": 46,
-              "type": {
-                "label": "GBA.Input.Key_Flags",
-                "docHref": "docs/gba__input___spec.html#L37C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Request_Interrupt_If_Any_Pressed",
-          "qualifier": "",
-          "line": 64,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 64,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -1986,19 +1782,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Request_Interrupt_If_Any_Pressed",
-                      "href": "docs/gba__input___spec.html#L64C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "F",
-                      "href": "docs/gba__input___spec.html#L64C46"
+                      "text": "Scale",
+                      "href": "docs/gba__timers___spec.html#L80C45"
                     },
                     {
                       "kind": "span",
@@ -2018,241 +1803,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
+                      "text": "Timer_Scale",
+                      "href": "docs/gba__timers___spec.html#L15C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "F",
-              "line": 64,
-              "column": 46,
-              "type": {
-                "label": "GBA.Input.Key_Flags",
-                "docHref": "docs/gba__input___spec.html#L37C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Request_Interrupt_If_Key_Pressed",
-          "qualifier": "",
-          "line": 63,
-          "column": 13,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 63,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Request_Interrupt_If_Key_Pressed",
-                      "href": "docs/gba__input___spec.html#L63C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "K",
-                      "href": "docs/gba__input___spec.html#L63C46"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L9C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "K",
-              "line": 63,
-              "column": 46,
-              "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L9C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "To_Flags",
-          "qualifier": "",
-          "line": 43,
-          "column": 12,
-          "src": "srcs/GBA.Input.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 43,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "To_Flags",
-                      "href": "docs/gba__input___spec.html#L43C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "S",
-                      "href": "docs/gba__input___spec.html#L43C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Set",
-                      "href": "docs/gba__input___spec.html#L40C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 44,
+                  "number": 81,
                   "children": [
                     {
                       "kind": "span",
@@ -2281,12 +1844,23 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "S",
-              "line": 43,
-              "column": 22,
+              "label": "ID",
+              "line": 80,
+              "column": 30,
               "type": {
-                "label": "GBA.Input.Key_Set",
-                "docHref": "docs/gba__input___spec.html#L40C8"
+                "label": "GBA.Timers.Timer_ID",
+                "docHref": "docs/gba__timers___spec.html#L66C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Scale",
+              "line": 80,
+              "column": 45,
+              "type": {
+                "label": "GBA.Timers.Timer_Scale",
+                "docHref": "docs/gba__timers___spec.html#L15C8"
               },
               "description": [
               ]
@@ -2294,11 +1868,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "To_Flags",
+          "label": "Start_Timer",
           "qualifier": "",
-          "line": 46,
-          "column": 12,
-          "src": "srcs/GBA.Input.ads.html",
+          "line": 77,
+          "column": 13,
+          "src": "srcs/GBA.Timers.ads.html",
           "summary": [
           ],
           "description": [
@@ -2307,7 +1881,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 46,
+                  "number": 77,
                   "children": [
                     {
                       "kind": "span",
@@ -2317,7 +1891,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "function"
+                      "text": "procedure"
                     },
                     {
                       "kind": "span",
@@ -2327,8 +1901,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "To_Flags",
-                      "href": "docs/gba__input___spec.html#L46C12"
+                      "text": "Start_Timer",
+                      "href": "docs/gba__timers___spec.html#L77C13"
                     },
                     {
                       "kind": "span",
@@ -2343,8 +1917,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "K",
-                      "href": "docs/gba__input___spec.html#L46C22"
+                      "text": "ID",
+                      "href": "docs/gba__timers___spec.html#L77C26"
                     },
                     {
                       "kind": "span",
@@ -2364,40 +1938,19 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Key",
-                      "href": "docs/gba__input___spec.html#L9C8"
+                      "text": "Timer_ID",
+                      "href": "docs/gba__timers___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Key_Flags",
-                      "href": "docs/gba__input___spec.html#L37C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 47,
+                  "number": 78,
                   "children": [
                     {
                       "kind": "span",
@@ -2426,12 +1979,12 @@ GNATdoc.Documentation = {
           ],
           "parameters": [
             {
-              "label": "K",
-              "line": 46,
-              "column": 22,
+              "label": "ID",
+              "line": 77,
+              "column": 26,
               "type": {
-                "label": "GBA.Input.Key",
-                "docHref": "docs/gba__input___spec.html#L9C8"
+                "label": "GBA.Timers.Timer_ID",
+                "docHref": "docs/gba__timers___spec.html#L66C8"
               },
               "description": [
               ]
