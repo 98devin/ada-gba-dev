@@ -90,4 +90,20 @@ package GBA.Audio is
     end record;
 
 
+
+  type Wave_RAM_Size is
+    ( Bits_32
+    , Bits_64
+    );
+
+  for Wave_RAM_Size use
+    ( Bits_32 => 0
+    , Bits_64 => 1
+    );
+
+  type Wave_RAM_Bank_ID is range 0 .. 1;
+
+
+
+
 end GBA.Audio;
