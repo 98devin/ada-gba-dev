@@ -1,109 +1,178 @@
--- Copyright (c) 2021 Devin Hill
+-- Copyright (c) 2022 Devin Hill
 -- zlib License -- see LICENSE for details.
+
+with GBA.Memory.IO_Registers;
+with GBA.Timers;
+with System.Unsigned_Types;
+
 
 package GBA.Audio is
 
-  type Sweep_Shift_Type is range 0 .. 7;
+  use GBA.Memory.IO_Registers;
+  use GBA.Timers;
+  use System.Unsigned_Types;
 
-  type Frequency_Direction is
-    ( Increasing
-    , Decreasing
-    );
+  ----------------------------------
+  -- Master Volume/Enable Control --
+  ----------------------------------
 
-  for Frequency_Direction use
-    ( Increasing => 0
-    , Decreasing => 1
-    );
+  type Channel_Enable_Array is
+    array (1 .. 4) of Boolean
+      with Pack;
 
-  type Sweep_Duration_Type is range 0 .. 7;
-
-
-  type Sweep_Control_Info is
+  type Master_Control_Info is
     record
-      Shift            : Sweep_Shift_Type;
-      Frequency_Change : Frequency_Direction;
-      Duration         : Sweep_Duration_Type;
+      Volume_Right : Unsigned range 0 .. 7;
+      Volume_Left  : Unsigned range 0 .. 7;
+      Enable_Right : Channel_Enable_Array;
+      Enable_Left  : Channel_Enable_Array;
     end record
       with Size => 16;
 
-  for Sweep_Control_Info use
+  for Master_Control_Info use
     record
-      Shift            at 0 range 0 .. 2;
-      Frequency_Change at 0 range 3 .. 3;
-      Duration         at 0 range 4 .. 6;
+      Volume_Right at 0 range  0 ..  2;
+      Volume_Left  at 0 range  4 ..  6;
+      Enable_Right at 0 range  8 .. 11;
+      Enable_Left  at 0 range 12 .. 15;
     end record;
 
-
-  type Sound_Duration_Type is range 0 .. 63;
-
-  type Wave_Pattern_Duty_Type is range 0 .. 3;
-
-  type Envelope_Step_Type is range 0 .. 7;
-
-  type Envelope_Direction is
-    ( Increasing
-    , Decreasing
-    );
-
-  for Envelope_Direction use
-    ( Increasing => 1
-    , Decreasing => 0
-    );
-
-  type Initial_Volume_Type is range 0 .. 15;
-
-  type Duty_Length_Info is
+  type Master_Status_Info is
     record
-      Duration           : Sound_Duration_Type;
-      Wave_Pattern_Duty  : Wave_Pattern_Duty_Type;
-      Envelope_Step_Time : Envelope_Step_Type;
-      Envelope_Change    : Envelope_Direction;
-      Initial_Volume     : Initial_Volume_Type;
+      Sound_Playing : Channel_Enable_Array; -- Read-only
+      Master_Enable : Boolean;
     end record
       with Size => 16;
 
-  for Duty_Length_Info use
+  for Master_Status_Info use
     record
-      Duration           at 0 range 0  .. 5;
-      Wave_Pattern_Duty  at 0 range 6  .. 7;
-      Envelope_Step_Time at 0 range 8  .. 10;
-      Envelope_Direction at 0 range 11 .. 11;
-      Initial_Volume     at 0 range 12 .. 15;
+      Sound_Playing at 0 range 0 .. 3;
+      Master_Enable at 0 range 7 .. 7;
+    end record;
+
+  type Master_Channel_Mixing_Volume is
+    ( Vol_25
+    , Vol_50
+    , Vol_100
+    , Muted
+    ) with Size => 2;
+
+  for Master_Channel_Mixing_Volume use
+    ( Vol_25  => 0
+    , Vol_50  => 1
+    , Vol_100 => 2
+    , Muted   => 3
+    );
+
+  type Master_DMA_Mixing_Volume is
+    ( Vol_50
+    , Vol_100
+    ) with Size => 1;
+
+  for Master_DMA_Mixing_Volume use
+    ( Vol_50  => 0
+    , Vol_100 => 1
+    );
+
+
+  ---------------------------
+  -- Master Mixing Control --
+  ---------------------------
+
+  type DMA_Mixing_Info is
+    record
+      Enable_Right : Boolean;
+      Enable_Left  : Boolean;
+      Timer        : Timer_ID range 0 .. 1;
+      Reset        : Boolean;
+    end record
+      with Size => 4;
+
+  for DMA_Mixing_Info use
+    record
+      Enable_Right at 0 range 0 .. 0;
+      Enable_Left  at 0 range 1 .. 1;
+      Timer        at 0 range 2 .. 2;
+      Reset        at 0 range 3 .. 3;
+    end record;
+
+  type Master_Mixing_Info is
+    record
+      Channel_Volume : Master_Channel_Mixing_Volume;
+      DMA_A_Volume   : Master_DMA_Mixing_Volume;
+      DMA_B_Volume   : Master_DMA_Mixing_Volume;
+
+      DMA_A          : DMA_Mixing_Info;
+      DMA_B          : DMA_Mixing_Info;
+    end record;
+
+  for Master_Mixing_Info use
+    record
+      Channel_Volume at 0 range  0 ..  1;
+      DMA_A_Volume   at 0 range  2 ..  2;
+      DMA_B_Volume   at 0 range  3 ..  3;
+
+      DMA_A          at 0 range  8 .. 11;
+      DMA_B          at 0 range 12 .. 15;
     end record;
 
 
-  type Frequency_Type is range 0 .. 2047;
+  --------------------------
+  -- Bitrate/Bias Control --
+  --------------------------
 
-  type Frequency_Control_Info is
+  type Sample_Bias_Type is
+    new Unsigned range 0 .. 2**9 - 1;
+
+  type Sample_Rate_Type is
+    ( HZ_32768
+    , HZ_65536
+    , HZ_131072
+    , HZ_262144
+    ) with Size => 2;
+
+  for Sample_Rate_Type use
+    ( HZ_32768  => 0
+    , HZ_65536  => 1
+    , HZ_131072 => 2
+    , HZ_262144 => 3
+    );
+
+  type Bias_Sampling_Control_Info is
     record
-      Frequency    : Frequency_Type;
-      Use_Duration : Boolean;
-      Initial      : Boolean;
+      Bias : Sample_Bias_Type;
+      Rate : Sample_Rate_Type;
     end record
       with Size => 16;
 
-  for Frequency_Control_Info use
+  for Bias_Sampling_Control_Info use
     record
-      Frequency    at 0 range 0  .. 10;
-      Use_Duration at 0 range 14 .. 14;
-      Initial      at 0 range 15 .. 15;
+      Bias at 0 range  1 ..  9;
+      Rate at 0 range 14 .. 15;
     end record;
 
 
+  ----------------------
+  -- Master Registers --
+  ----------------------
 
-  type Wave_RAM_Size is
-    ( Bits_32
-    , Bits_64
-    );
+  Channel_Enable_Control : Master_Control_Info
+    with Address => SOUNDCNT_L, Volatile_Full_Access;
 
-  for Wave_RAM_Size use
-    ( Bits_32 => 0
-    , Bits_64 => 1
-    );
+  Channel_Mixing_Control : Master_Mixing_Info
+    with Address => SOUNDCNT_H, Volatile_Full_Access;
 
-  type Wave_RAM_Bank_ID is range 0 .. 1;
+  Channel_Status_Control : Master_Status_Info
+    with Address => SOUNDCNT_X, Volatile_Full_Access;
+
+  Bias_Sampling_Control : Bias_Sampling_Control_Info
+    with Address => SOUNDBIAS, Volatile_Full_Access;
 
 
+  DMA_A : DMA_Mixing_Info
+    renames Channel_Mixing_Control.DMA_A;
 
+  DMA_B : DMA_Mixing_Info
+    renames Channel_Mixing_Control.DMA_B;
 
 end GBA.Audio;

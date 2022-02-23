@@ -51,6 +51,7 @@ the requirements and features of this library.
     - [x] Enable/disable interrupts
 - [ ] BIOS functions
     - [x] Accessible from ARM or Thumb mode
+    - [x] Inlineable definitions for LTO support
     - [x] Halting, Stopping, Resetting
     - [x] Waiting for interrupts
     - [x] Arithmetic functions (division, arctangent, square root)
