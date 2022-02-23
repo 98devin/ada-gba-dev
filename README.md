@@ -51,6 +51,7 @@ the requirements and features of this library.
     - [x] Enable/disable interrupts
 - [ ] BIOS functions
     - [x] Accessible from ARM or Thumb mode
+    - [x] Inlineable definitions for LTO support
     - [x] Halting, Stopping, Resetting
     - [x] Waiting for interrupts
     - [x] Arithmetic functions (division, arctangent, square root)
@@ -75,9 +76,9 @@ the requirements and features of this library.
 - [x] Timers
     - [x] Timer control registers
     - [x] Some helper functions for clarity
-- [ ] Audio
-    - [ ] Audio control registers
-    - [ ] DMA-to-FIFO interface
+- [x] Audio
+    - [x] Audio control registers
+    - [] DMA-to-FIFO interface
 - [ ] Serial Communications
 - [ ] Gamepak EEPROM / Flash ROM
     - [x] Manual access

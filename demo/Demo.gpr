@@ -14,13 +14,14 @@ project Demo extends "../GBA_Program.gpr" is
         ( "Hello.adb"
         , "Sprites.adb"
         , "Timer_Test.adb"
+        , "Sound.adb"
         );
 
     package Compiler extends GBA_Program.Compiler is
 
         for Default_Switches ("Hello.adb") use
             Compiler'Default_Switches ("Ada") & ( "-marm" );
-        
+
     end Compiler;
 
 end Demo;

@@ -53,12 +53,14 @@ package GBA.DMA is
     ( Start_Immediately
     , Start_At_VBlank
     , Start_At_HBlank
+    , Start_At_Timer
     );
 
   for Timing_Mode use
     ( Start_Immediately => 0
     , Start_At_VBlank   => 1
     , Start_At_HBlank   => 2
+    , Start_At_Timer    => 3
     );
 
 
