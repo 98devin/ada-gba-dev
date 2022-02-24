@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "GBA.Interrupts",
+  "label": "GBA.Audio",
   "qualifier": "",
   "summary": [
   ],
@@ -9,128 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "All_Interrupts",
+          "label": "Channel_Enable_Array",
           "qualifier": "",
-          "line": 46,
-          "column": 3,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 46,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "All_Interrupts"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "constant"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "'"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Mod"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "-"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "1"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Constants and variables"
-    },
-    {
-      "entities": [
-        {
-          "label": "Interrupt_Flags",
-          "qualifier": "",
-          "line": 43,
+          "line": 19,
           "column": 8,
-          "src": "srcs/GBA.Interrupts.ads.html",
+          "src": "srcs/GBA.Audio.ads.html",
           "summary": [
           ],
           "description": [
@@ -139,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 43,
+                  "number": 19,
                   "children": [
                     {
                       "kind": "span",
@@ -159,8 +42,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
+                      "text": "Channel_Enable_Array",
+                      "href": "docs/gba__audio___spec.html#L19C8"
                     },
                     {
                       "kind": "span",
@@ -171,6 +54,62 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "keyword",
                       "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 20,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "array"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "1"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "4"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
                     },
                     {
                       "kind": "span",
@@ -180,7 +119,538 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "mod"
+                      "text": "of"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 21,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Pack"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Master_Channel_Mixing_Volume",
+          "qualifier": "",
+          "line": 53,
+          "column": 8,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 53,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Channel_Mixing_Volume",
+                      "href": "docs/gba__audio___spec.html#L53C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 54,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_25",
+                      "href": "docs/gba__audio___spec.html#L54C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 55,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_50",
+                      "href": "docs/gba__audio___spec.html#L55C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 56,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_100",
+                      "href": "docs/gba__audio___spec.html#L56C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 57,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Muted",
+                      "href": "docs/gba__audio___spec.html#L57C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 58,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Vol_25",
+              "line": 54,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Vol_50",
+              "line": 55,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Vol_100",
+              "line": 56,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Muted",
+              "line": 57,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Master_DMA_Mixing_Volume",
+          "qualifier": "",
+          "line": 67,
+          "column": 8,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 67,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_DMA_Mixing_Volume",
+                      "href": "docs/gba__audio___spec.html#L67C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 68,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_50",
+                      "href": "docs/gba__audio___spec.html#L68C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 69,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_100",
+                      "href": "docs/gba__audio___spec.html#L69C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 70,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 1"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Vol_50",
+              "line": 68,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Vol_100",
+              "line": 69,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sample_Bias_Type",
+          "qualifier": "",
+          "line": 124,
+          "column": 8,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 124,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sample_Bias_Type",
+                      "href": "docs/gba__audio___spec.html#L124C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 125,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "new"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
                     },
                     {
                       "kind": "span",
@@ -200,28 +670,27 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "number",
-                      "text": "14"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 44,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
+                      "text": "9"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Size => 16"
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "-"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "1"
                     },
                     {
                       "kind": "span",
@@ -235,11 +704,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Interrupt_ID",
+          "label": "Sample_Rate_Type",
           "qualifier": "",
-          "line": 7,
+          "line": 127,
           "column": 8,
-          "src": "srcs/GBA.Interrupts.ads.html",
+          "src": "srcs/GBA.Audio.ads.html",
           "summary": [
           ],
           "description": [
@@ -248,7 +717,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 7,
+                  "number": 127,
                   "children": [
                     {
                       "kind": "span",
@@ -268,8 +737,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
+                      "text": "Sample_Rate_Type",
+                      "href": "docs/gba__audio___spec.html#L127C8"
                     },
                     {
                       "kind": "span",
@@ -285,7 +754,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 8,
+                  "number": 128,
                   "children": [
                     {
                       "kind": "span",
@@ -305,14 +774,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "VBlank",
-                      "href": "docs/gba__interrupts___spec.html#L8C7"
+                      "text": "HZ_32768",
+                      "href": "docs/gba__audio___spec.html#L128C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 9,
+                  "number": 129,
                   "children": [
                     {
                       "kind": "span",
@@ -332,14 +801,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "HBlank",
-                      "href": "docs/gba__interrupts___spec.html#L9C7"
+                      "text": "HZ_65536",
+                      "href": "docs/gba__audio___spec.html#L129C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 10,
+                  "number": 130,
                   "children": [
                     {
                       "kind": "span",
@@ -359,14 +828,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "VCounter_Match",
-                      "href": "docs/gba__interrupts___spec.html#L10C7"
+                      "text": "HZ_131072",
+                      "href": "docs/gba__audio___spec.html#L130C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 11,
+                  "number": 131,
                   "children": [
                     {
                       "kind": "span",
@@ -386,284 +855,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Timer_0_Overflow",
-                      "href": "docs/gba__interrupts___spec.html#L11C7"
+                      "text": "HZ_262144",
+                      "href": "docs/gba__audio___spec.html#L131C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 12,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Timer_1_Overflow",
-                      "href": "docs/gba__interrupts___spec.html#L12C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 13,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Timer_2_Overflow",
-                      "href": "docs/gba__interrupts___spec.html#L13C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 14,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Timer_3_Overflow",
-                      "href": "docs/gba__interrupts___spec.html#L14C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 15,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Serial_Communication",
-                      "href": "docs/gba__interrupts___spec.html#L15C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 16,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_0",
-                      "href": "docs/gba__interrupts___spec.html#L16C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 17,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_1",
-                      "href": "docs/gba__interrupts___spec.html#L17C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 18,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_2",
-                      "href": "docs/gba__interrupts___spec.html#L18C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 19,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "DMA_3",
-                      "href": "docs/gba__interrupts___spec.html#L19C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 20,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Keypad",
-                      "href": "docs/gba__interrupts___spec.html#L20C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 21,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Game_Pak",
-                      "href": "docs/gba__interrupts___spec.html#L21C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 22,
+                  "number": 132,
                   "children": [
                     {
                       "kind": "span",
@@ -674,17 +873,333 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "HZ_32768",
+              "line": 128,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "HZ_65536",
+              "line": 129,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "HZ_131072",
+              "line": 130,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "HZ_262144",
+              "line": 131,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Simple types"
+    },
+    {
+      "entities": [
+        {
+          "label": "Bias_Sampling_Control",
+          "qualifier": "",
+          "line": 168,
+          "column": 3,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 168,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bias_Sampling_Control",
+                      "href": "docs/gba__audio___spec.html#L168C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bias_Sampling_Control_Info",
+                      "href": "docs/gba__audio___spec.html#L141C8"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 23,
+                  "number": 169,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUNDBIAS, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Bias_Sampling_Control_Info",
+          "qualifier": "",
+          "line": 141,
+          "column": 8,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 141,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bias_Sampling_Control_Info",
+                      "href": "docs/gba__audio___spec.html#L141C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 142,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 143,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bias",
+                      "href": "docs/gba__audio___spec.html#L143C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sample_Bias_Type",
+                      "href": "docs/gba__audio___spec.html#L124C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 144,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Rate",
+                      "href": "docs/gba__audio___spec.html#L144C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sample_Rate_Type",
+                      "href": "docs/gba__audio___spec.html#L127C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 145,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 146,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -706,118 +1221,501 @@ GNATdoc.Documentation = {
               ]
             }
           ],
-          "literals": [
+          "fields": [
             {
-              "label": "VBlank",
-              "line": 8,
+              "label": "Bias",
+              "line": 143,
               "column": 7,
+              "type": {
+                "label": "GBA.Audio.Sample_Bias_Type",
+                "docHref": "docs/gba__audio___spec.html#L124C8"
+              },
               "description": [
               ]
             },
             {
-              "label": "HBlank",
-              "line": 9,
+              "label": "Rate",
+              "line": 144,
               "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "VCounter_Match",
-              "line": 10,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Timer_0_Overflow",
-              "line": 11,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Timer_1_Overflow",
-              "line": 12,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Timer_2_Overflow",
-              "line": 13,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Timer_3_Overflow",
-              "line": 14,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Serial_Communication",
-              "line": 15,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "DMA_0",
-              "line": 16,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "DMA_1",
-              "line": 17,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "DMA_2",
-              "line": 18,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "DMA_3",
-              "line": 19,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Keypad",
-              "line": 20,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Game_Pak",
-              "line": 21,
-              "column": 7,
+              "type": {
+                "label": "GBA.Audio.Sample_Rate_Type",
+                "docHref": "docs/gba__audio___spec.html#L127C8"
+              },
               "description": [
               ]
             }
           ]
-        }
-      ],
-      "label": "Simple types"
-    },
-    {
-      "entities": [
+        },
         {
-          "label": "Interrupt_Handler",
+          "label": "Channel_Enable_Control",
           "qualifier": "",
-          "line": 56,
+          "line": 159,
+          "column": 3,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 159,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "----------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 160,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-- Master Registers --"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 161,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "----------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 162,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 163,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Enable_Control"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Control_Info"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 164,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUNDCNT_L, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_Mixing_Control",
+          "qualifier": "",
+          "line": 162,
+          "column": 3,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 162,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Mixing_Control",
+                      "href": "docs/gba__audio___spec.html#L162C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Mixing_Info",
+                      "href": "docs/gba__audio___spec.html#L99C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 163,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUNDCNT_H, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_Status_Control",
+          "qualifier": "",
+          "line": 165,
+          "column": 3,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 165,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Status_Control",
+                      "href": "docs/gba__audio___spec.html#L165C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Status_Info",
+                      "href": "docs/gba__audio___spec.html#L40C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 166,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUNDCNT_X, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "DMA_A",
+          "qualifier": "",
+          "line": 172,
+          "column": 3,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 172,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_A",
+                      "href": "docs/gba__audio___spec.html#L172C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Mixing_Info",
+                      "href": "docs/gba__audio___spec.html#L82C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 173,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "renames"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Mixing_Control.DMA_A",
+                      "href": "docs/gba__audio___spec.html#L105C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "DMA_B",
+          "qualifier": "",
+          "line": 175,
+          "column": 3,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 175,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_B",
+                      "href": "docs/gba__audio___spec.html#L175C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Mixing_Info",
+                      "href": "docs/gba__audio___spec.html#L82C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 176,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "renames"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Mixing_Control.DMA_B",
+                      "href": "docs/gba__audio___spec.html#L106C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "DMA_Mixing_Info",
+          "qualifier": "",
+          "line": 82,
           "column": 8,
-          "src": "srcs/GBA.Interrupts.ads.html",
+          "src": "srcs/GBA.Audio.ads.html",
           "summary": [
           ],
           "description": [
@@ -826,49 +1724,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 56,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "           "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Access types"
-    },
-    {
-      "entities": [
-        {
-          "label": "Acknowledge_Interrupt",
-          "qualifier": "",
-          "line": 90,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 90,
+                  "number": 82,
                   "children": [
                     {
                       "kind": "span",
@@ -878,7 +1734,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "type"
                     },
                     {
                       "kind": "span",
@@ -888,8 +1744,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Acknowledge_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L90C13"
+                      "text": "DMA_Mixing_Info",
+                      "href": "docs/gba__audio___spec.html#L82C8"
                     },
                     {
                       "kind": "span",
@@ -898,1106 +1754,11 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L90C36"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "cssClass": "keyword",
+                      "text": "is"
                     }
                   ]
                 },
-                {
-                  "kind": "line",
-                  "number": 91,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 90,
-              "column": 36,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Acknowledge_Interrupt",
-          "qualifier": "",
-          "line": 93,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 93,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Acknowledge_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L93C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flags",
-                      "href": "docs/gba__interrupts___spec.html#L93C36"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 94,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Flags",
-              "line": 93,
-              "column": 36,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L43C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Attach_Interrupt_Handler",
-          "qualifier": "",
-          "line": 97,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 97,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Attach_Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L97C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 98,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L98C6"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Handler",
-                      "href": "docs/gba__interrupts___spec.html#L98C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "not"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "null"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L56C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 99,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 98,
-              "column": 6,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Handler",
-              "line": 98,
-              "column": 25,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L56C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Attach_Interrupt_Handler_And_Save",
-          "qualifier": "",
-          "line": 101,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 101,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Attach_Interrupt_Handler_And_Save",
-                      "href": "docs/gba__interrupts___spec.html#L101C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 102,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L102C6"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Handler",
-                      "href": "docs/gba__interrupts___spec.html#L102C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "not"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "null"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L56C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Old_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L102C63"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L56C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 103,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 102,
-              "column": 6,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Handler",
-              "line": 102,
-              "column": 25,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L56C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Old_Handler",
-              "line": 102,
-              "column": 63,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L56C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Detach_Interrupt_Handler",
-          "qualifier": "",
-          "line": 105,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 105,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Detach_Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L105C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L105C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 106,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 105,
-              "column": 39,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Detach_Interrupt_Handler_And_Save",
-          "qualifier": "",
-          "line": 108,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 108,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Detach_Interrupt_Handler_And_Save",
-                      "href": "docs/gba__interrupts___spec.html#L108C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L108C48"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Old_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L108C67"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Handler",
-                      "href": "docs/gba__interrupts___spec.html#L56C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 109,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 108,
-              "column": 48,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Old_Handler",
-              "line": 108,
-              "column": 67,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Handler",
-                "docHref": "docs/gba__interrupts___spec.html#L56C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable_Interrupt",
-          "qualifier": "",
-          "line": 80,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 80,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L80C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L80C32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 81,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 80,
-              "column": 32,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable_Interrupt",
-          "qualifier": "",
-          "line": 83,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
                 {
                   "kind": "line",
                   "number": 83,
@@ -2005,65 +1766,12 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L83C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flags",
-                      "href": "docs/gba__interrupts___spec.html#L83C32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
+                      "text": "record"
                     }
                   ]
                 },
@@ -2074,94 +1782,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Flags",
-              "line": 83,
-              "column": 32,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L43C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable_Interrupts_And_Save",
-          "qualifier": "",
-          "line": 86,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 86,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Disable_Interrupts_And_Save",
-                      "href": "docs/gba__interrupts___spec.html#L86C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flags",
-                      "href": "docs/gba__interrupts___spec.html#L86C42"
+                      "text": "Enable_Right",
+                      "href": "docs/gba__audio___spec.html#L84C7"
                     },
                     {
                       "kind": "span",
@@ -2180,8 +1807,40 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "out"
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 85,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable_Left",
+                      "href": "docs/gba__audio___spec.html#L85C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -2191,13 +1850,95 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
+                      "text": "Boolean"
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 86,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer",
+                      "href": "docs/gba__audio___spec.html#L86C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Timer_ID",
+                      "href": "docs/gba__timers___spec.html#L66C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "1"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
                     }
                   ]
                 },
@@ -2208,7 +1949,75 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Reset",
+                      "href": "docs/gba__audio___spec.html#L87C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "        "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 88,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
                       "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 89,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
                     },
                     {
                       "kind": "span",
@@ -2218,7 +2027,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Inline"
+                      "text": " Size => 4"
                     },
                     {
                       "kind": "span",
@@ -2230,14 +2039,43 @@ GNATdoc.Documentation = {
               ]
             }
           ],
-          "parameters": [
+          "fields": [
             {
-              "label": "Flags",
+              "label": "Enable_Right",
+              "line": 84,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Enable_Left",
+              "line": 85,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Timer",
               "line": 86,
-              "column": 42,
+              "column": 7,
               "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L43C8"
+                "label": ""
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Reset",
+              "line": 87,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
               },
               "description": [
               ]
@@ -2245,11 +2083,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "Disable_Receiving_Interrupts",
+          "label": "Master_Control_Info",
           "qualifier": "",
-          "line": 66,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
+          "line": 23,
+          "column": 8,
+          "src": "srcs/GBA.Audio.ads.html",
           "summary": [
           ],
           "description": [
@@ -2258,7 +2096,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 66,
+                  "number": 23,
                   "children": [
                     {
                       "kind": "span",
@@ -2268,7 +2106,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "procedure"
+                      "text": "type"
                     },
                     {
                       "kind": "span",
@@ -2278,14 +2116,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Disable_Receiving_Interrupts",
-                      "href": "docs/gba__interrupts___spec.html#L66C13"
+                      "text": "Master_Control_Info",
+                      "href": "docs/gba__audio___spec.html#L23C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 67,
+                  "number": 24,
                   "children": [
                     {
                       "kind": "span",
@@ -2295,76 +2143,24 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": "record"
                     }
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Disable_Receiving_Interrupts",
-          "qualifier": "",
-          "line": 69,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
+                },
                 {
                   "kind": "line",
-                  "number": 69,
+                  "number": 25,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Disable_Receiving_Interrupts",
-                      "href": "docs/gba__interrupts___spec.html#L69C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enabled",
-                      "href": "docs/gba__interrupts___spec.html#L69C43"
+                      "text": "Volume_Right",
+                      "href": "docs/gba__audio___spec.html#L25C7"
                     },
                     {
                       "kind": "span",
@@ -2383,8 +2179,845 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "keyword",
-                      "text": "out"
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 26,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Volume_Left",
+                      "href": "docs/gba__audio___spec.html#L26C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 27,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable_Right",
+                      "href": "docs/gba__audio___spec.html#L27C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Enable_Array",
+                      "href": "docs/gba__audio___spec.html#L19C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 28,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Enable_Left",
+                      "href": "docs/gba__audio___spec.html#L28C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Enable_Array",
+                      "href": "docs/gba__audio___spec.html#L19C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 29,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 30,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Volume_Right",
+              "line": 25,
+              "column": 7,
+              "type": {
+                "label": "Unsigned"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Volume_Left",
+              "line": 26,
+              "column": 7,
+              "type": {
+                "label": "Unsigned"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Enable_Right",
+              "line": 27,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.Channel_Enable_Array",
+                "docHref": "docs/gba__audio___spec.html#L19C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Enable_Left",
+              "line": 28,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.Channel_Enable_Array",
+                "docHref": "docs/gba__audio___spec.html#L19C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Master_Mixing_Info",
+          "qualifier": "",
+          "line": 99,
+          "column": 8,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 99,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Mixing_Info",
+                      "href": "docs/gba__audio___spec.html#L99C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 100,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 101,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Volume",
+                      "href": "docs/gba__audio___spec.html#L101C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Channel_Mixing_Volume",
+                      "href": "docs/gba__audio___spec.html#L53C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 102,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_A_Volume",
+                      "href": "docs/gba__audio___spec.html#L102C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_DMA_Mixing_Volume",
+                      "href": "docs/gba__audio___spec.html#L67C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 103,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_B_Volume",
+                      "href": "docs/gba__audio___spec.html#L103C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_DMA_Mixing_Volume",
+                      "href": "docs/gba__audio___spec.html#L67C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 104,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 105,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_A",
+                      "href": "docs/gba__audio___spec.html#L105C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Mixing_Info",
+                      "href": "docs/gba__audio___spec.html#L82C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 106,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_B",
+                      "href": "docs/gba__audio___spec.html#L106C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "DMA_Mixing_Info",
+                      "href": "docs/gba__audio___spec.html#L82C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 107,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/gba__audio___spec.html#L99C8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Channel_Volume",
+              "line": 101,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.Master_Channel_Mixing_Volume",
+                "docHref": "docs/gba__audio___spec.html#L53C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_A_Volume",
+              "line": 102,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.Master_DMA_Mixing_Volume",
+                "docHref": "docs/gba__audio___spec.html#L67C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_B_Volume",
+              "line": 103,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.Master_DMA_Mixing_Volume",
+                "docHref": "docs/gba__audio___spec.html#L67C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_A",
+              "line": 105,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.DMA_Mixing_Info",
+                "docHref": "docs/gba__audio___spec.html#L82C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "DMA_B",
+              "line": 106,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.DMA_Mixing_Info",
+                "docHref": "docs/gba__audio___spec.html#L82C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Master_Status_Info",
+          "qualifier": "",
+          "line": 40,
+          "column": 8,
+          "src": "srcs/GBA.Audio.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Status_Info",
+                      "href": "docs/gba__audio___spec.html#L40C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 41,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 42,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sound_Playing",
+                      "href": "docs/gba__audio___spec.html#L42C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Enable_Array",
+                      "href": "docs/gba__audio___spec.html#L19C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-- Read-only"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 43,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Master_Enable",
+                      "href": "docs/gba__audio___spec.html#L43C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
                     },
                     {
                       "kind": "span",
@@ -2399,13 +3032,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": ")"
+                      "text": ";"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 70,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -2415,12 +3048,38 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 45,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
                       "text": "with"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Inline"
+                      "text": " Size => 16"
                     },
                     {
                       "kind": "span",
@@ -2432,815 +3091,33 @@ GNATdoc.Documentation = {
               ]
             }
           ],
-          "parameters": [
+          "fields": [
             {
-              "label": "Enabled",
-              "line": 69,
-              "column": 43,
+              "label": "Sound_Playing",
+              "line": 42,
+              "column": 7,
               "type": {
-                "label": "Boolean"
+                "label": "GBA.Audio.Channel_Enable_Array",
+                "docHref": "docs/gba__audio___spec.html#L19C8"
               },
               "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable_Interrupt",
-          "qualifier": "",
-          "line": 73,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
                 {
-                  "kind": "line",
-                  "number": 73,
+                  "kind": "paragraph",
                   "children": [
                     {
                       "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L73C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__interrupts___spec.html#L73C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 74,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
+                      "text": "Read-only\n"
                     }
                   ]
                 }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 73,
-              "column": 31,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable_Interrupt",
-          "qualifier": "",
-          "line": 76,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 76,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable_Interrupt",
-                      "href": "docs/gba__interrupts___spec.html#L76C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Flags",
-                      "href": "docs/gba__interrupts___spec.html#L76C31"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 77,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Flags",
-              "line": 76,
-              "column": 31,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L43C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable_Receiving_Interrupts",
-          "qualifier": "",
-          "line": 60,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 60,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable_Receiving_Interrupts",
-                      "href": "docs/gba__interrupts___spec.html#L60C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enabled",
-                      "href": "docs/gba__interrupts___spec.html#L60C42"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boolean"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 61,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "Enabled",
-              "line": 60,
-              "column": 42,
-              "type": {
-                "label": "Boolean"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Enable_Receiving_Interrupts",
-          "qualifier": "",
-          "line": 63,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 63,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Enable_Receiving_Interrupts",
-                      "href": "docs/gba__interrupts___spec.html#L63C13"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 64,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "or",
-          "qualifier": "",
-          "line": 49,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 49,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "\"or\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I1",
-                      "href": "docs/gba__interrupts___spec.html#L49C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I2",
-                      "href": "docs/gba__interrupts___spec.html#L49C22"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 50,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "I1",
-              "line": 49,
-              "column": 18,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
               ]
             },
             {
-              "label": "I2",
-              "line": 49,
-              "column": 22,
+              "label": "Master_Enable",
+              "line": 43,
+              "column": 7,
               "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "or",
-          "qualifier": "",
-          "line": 52,
-          "column": 13,
-          "src": "srcs/GBA.Interrupts.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 52,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "\"or\""
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "F",
-                      "href": "docs/gba__interrupts___spec.html#L52C18"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "I",
-                      "href": "docs/gba__interrupts___spec.html#L52C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_ID",
-                      "href": "docs/gba__interrupts___spec.html#L7C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Interrupt_Flags",
-                      "href": "docs/gba__interrupts___spec.html#L43C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 53,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "F",
-              "line": 52,
-              "column": 18,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_Flags",
-                "docHref": "docs/gba__interrupts___spec.html#L43C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "I",
-              "line": 52,
-              "column": 39,
-              "type": {
-                "label": "GBA.Interrupts.Interrupt_ID",
-                "docHref": "docs/gba__interrupts___spec.html#L7C8"
+                "label": "Boolean"
               },
               "description": [
               ]
@@ -3248,7 +3125,7 @@ GNATdoc.Documentation = {
           ]
         }
       ],
-      "label": "Subprograms"
+      "label": "Record types"
     }
   ]
 };

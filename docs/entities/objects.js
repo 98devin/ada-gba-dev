@@ -2,18 +2,6 @@ GNATdoc.EntitiesCategory = {
   "label": "Constants & Variables",
   "entities": [
     {
-      "label": "Acknowledge_BIOS_Flags",
-      "docHref": "docs/gba__interrupts___spec.html#L27C3",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Acknowledge_Flags",
-      "docHref": "docs/gba__interrupts___spec.html#L24C3",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": ""
-    },
-    {
       "label": "All_Interrupts",
       "docHref": "docs/gba__interrupts___spec.html#L46C3",
       "declared": "GBA.Interrupts",
@@ -196,13 +184,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L78"
     },
     {
-      "label": "BG_Offsets",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L170C3",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L170"
-    },
-    {
       "label": "BG_Palette_16x16",
       "docHref": "docs/gba__display__palettes___spec.html#L84C3",
       "declared": "GBA.Display.Palettes",
@@ -222,13 +203,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Palettes",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Palettes.ads.html#L78"
-    },
-    {
-      "label": "BG_Transforms",
-      "docHref": "docs/gba__display__backgrounds___spec.html#L173C3",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L173"
     },
     {
       "label": "BLDALPHA",
@@ -253,24 +227,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Channel_Addresses",
-      "docHref": "docs/gba__dma___spec.html#L115C3",
+      "docHref": "docs/gba__dma___spec.html#L117C3",
       "declared": "GBA.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.DMA.ads.html#L115"
+      "srcHref": "srcs/GBA.DMA.ads.html#L117"
     },
     {
       "label": "Channel_Array_View",
-      "docHref": "docs/gba__dma___spec.html#L134C3",
+      "docHref": "docs/gba__dma___spec.html#L136C3",
       "declared": "GBA.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.DMA.ads.html#L134"
-    },
-    {
-      "label": "Current_Key_State",
-      "docHref": "docs/gba__input__buffered___spec.html#L35C3",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Input.Buffered.ads.html#L35"
+      "srcHref": "srcs/GBA.DMA.ads.html#L136"
     },
     {
       "label": "DISPCNT",
@@ -399,18 +366,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html#L104"
     },
     {
-      "label": "Enabled_Flags",
-      "docHref": "docs/gba__interrupts___spec.html#L21C3",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Enabled_Master",
-      "docHref": "docs/gba__interrupts___spec.html#L18C3",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": ""
-    },
-    {
       "label": "FIFO_A",
       "docHref": "docs/gba__memory__io_registers___spec.html#L83C3",
       "declared": "GBA.Memory.IO_Registers",
@@ -446,12 +401,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html#L160"
     },
     {
-      "label": "Handlers",
-      "docHref": "docs/gba__interrupts___spec.html#L49C3",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": ""
-    },
-    {
       "label": "Horizontal_Dimensions",
       "docHref": "docs/gba__display__windows___spec.html#L68C3",
       "declared": "GBA.Display.Windows",
@@ -485,12 +434,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.BIOS.Raw.Thumb",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L15"
-    },
-    {
-      "label": "Interrupt_Dispatcher",
-      "docHref": "docs/gba__interrupts___spec.html#L55C3",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": ""
     },
     {
       "label": "IRF",
@@ -554,19 +497,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Memory.IO_Registers",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html#L139"
-    },
-    {
-      "label": "Last_Key_State",
-      "docHref": "docs/gba__input__buffered___spec.html#L34C3",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Input.Buffered.ads.html#L34"
-    },
-    {
-      "label": "Leading_Nine_Bits",
-      "docHref": "docs/gba__numerics___spec.html#L101C3",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": ""
     },
     {
       "label": "MOSAIC",
@@ -854,12 +784,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Memory.IO_Registers",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Memory.IO_Registers.ads.html#L121"
-    },
-    {
-      "label": "Use_Full_Word",
-      "docHref": "docs/gba__dma__generic_interfaces___spec.html#L7C3",
-      "declared": "GBA.DMA.Generic_Interfaces",
-      "declared_qualifier": ""
     },
     {
       "label": "VCOUNT",

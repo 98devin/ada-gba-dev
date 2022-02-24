@@ -128,11 +128,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L23"
     },
     {
+      "label": "Channel_Enable_Array",
+      "docHref": "docs/gba__audio___spec.html#L19C8",
+      "declared": "GBA.Audio",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.ads.html#L19"
+    },
+    {
       "label": "Channel_ID",
-      "docHref": "docs/gba__dma___spec.html#L108C8",
+      "docHref": "docs/gba__dma___spec.html#L110C8",
       "declared": "GBA.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.DMA.ads.html#L108"
+      "srcHref": "srcs/GBA.DMA.ads.html#L110"
     },
     {
       "label": "Character_Mapping_Style",
@@ -219,6 +226,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L14"
     },
     {
+      "label": "Envelope_Direction",
+      "docHref": "docs/gba__audio__psg___spec.html#L30C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L30"
+    },
+    {
+      "label": "Envelope_Duration_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L27C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L27"
+    },
+    {
       "label": "External_WRAM_Address",
       "docHref": "docs/gba__memory___spec.html#L18C11",
       "declared": "GBA.Memory",
@@ -289,6 +310,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.ads.html#L34"
     },
     {
+      "label": "Frequency_Direction",
+      "docHref": "docs/gba__audio__psg___spec.html#L69C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L69"
+    },
+    {
+      "label": "Initial_Volume_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L40C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L40"
+    },
+    {
       "label": "Internal_WRAM_Address",
       "docHref": "docs/gba__memory___spec.html#L21C11",
       "declared": "GBA.Memory",
@@ -357,6 +392,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Allocation",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Allocation.ads.html#L25"
+    },
+    {
+      "label": "Master_Channel_Mixing_Volume",
+      "docHref": "docs/gba__audio___spec.html#L53C8",
+      "declared": "GBA.Audio",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.ads.html#L53"
+    },
+    {
+      "label": "Master_DMA_Mixing_Volume",
+      "docHref": "docs/gba__audio___spec.html#L67C8",
+      "declared": "GBA.Audio",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.ads.html#L67"
     },
     {
       "label": "Mat",
@@ -527,6 +576,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Memory.ads.html#L39"
     },
     {
+      "label": "Sample_Bias_Type",
+      "docHref": "docs/gba__audio___spec.html#L124C8",
+      "declared": "GBA.Audio",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.ads.html#L124"
+    },
+    {
+      "label": "Sample_Rate_Type",
+      "docHref": "docs/gba__audio___spec.html#L127C8",
+      "declared": "GBA.Audio",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.ads.html#L127"
+    },
+    {
       "label": "Screen_Block_16",
       "docHref": "docs/gba__display__tiles___spec.html#L108C8",
       "declared": "GBA.Display.Tiles",
@@ -553,6 +616,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.DMA.ads.html#L28"
+    },
+    {
+      "label": "Sweep_Duration_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L79C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L79"
+    },
+    {
+      "label": "Sweep_Shift_Amount",
+      "docHref": "docs/gba__audio__psg___spec.html#L66C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L66"
     },
     {
       "label": "System_Call",
@@ -646,11 +723,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Windows.ads.html#L11"
     },
     {
+      "label": "Tone_Duration_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L10C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L10"
+    },
+    {
+      "label": "Tone_Frequency_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L101C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L101"
+    },
+    {
       "label": "Transfer_Count_Type",
-      "docHref": "docs/gba__dma___spec.html#L65C8",
+      "docHref": "docs/gba__dma___spec.html#L67C8",
       "declared": "GBA.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.DMA.ads.html#L65"
+      "srcHref": "srcs/GBA.DMA.ads.html#L67"
     },
     {
       "label": "Unit_Size",
@@ -700,6 +791,34 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Memory",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Memory.ads.html#L33"
+    },
+    {
+      "label": "Wave_Duty_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L13C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L13"
+    },
+    {
+      "label": "Wave_RAM_Bank_ID",
+      "docHref": "docs/gba__audio__psg___spec.html#L134C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L134"
+    },
+    {
+      "label": "Wave_RAM_Size_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L124C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L124"
+    },
+    {
+      "label": "Wave_Volume_Type",
+      "docHref": "docs/gba__audio__psg___spec.html#L152C8",
+      "declared": "GBA.Audio.PSG",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.Audio.PSG.ads.html#L152"
     },
     {
       "label": "Window_Region",

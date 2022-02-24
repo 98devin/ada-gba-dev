@@ -1,5 +1,5 @@
 GNATdoc.Documentation = {
-  "label": "GBA.Display.Backgrounds",
+  "label": "GBA.Audio.PSG",
   "qualifier": "",
   "summary": [
   ],
@@ -9,238 +9,11 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "BG_Control",
+          "label": "Envelope_Direction",
           "qualifier": "",
-          "line": 78,
-          "column": 3,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 78,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Control"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "array"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "of"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Control_Info"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 79,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Import, Volatile_Components, Address => BG0CNT"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Constants and variables"
-    },
-    {
-      "entities": [
-        {
-          "label": "Affine_BG_ID",
-          "qualifier": "",
-          "line": 142,
-          "column": 11,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 142,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "subtype"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "range"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_2"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ".."
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_3"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "BG_ID",
-          "qualifier": "",
-          "line": 34,
+          "line": 30,
           "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "src": "srcs/GBA.Audio.PSG.ads.html",
           "summary": [
           ],
           "description": [
@@ -249,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 34,
+                  "number": 30,
                   "children": [
                     {
                       "kind": "span",
@@ -269,8 +42,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
+                      "text": "Envelope_Direction",
+                      "href": "docs/gba__audio__psg___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
@@ -286,7 +59,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 35,
+                  "number": 31,
                   "children": [
                     {
                       "kind": "span",
@@ -306,14 +79,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_0",
-                      "href": "docs/gba__display__backgrounds___spec.html#L35C7"
+                      "text": "Decreasing",
+                      "href": "docs/gba__audio__psg___spec.html#L31C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 36,
+                  "number": 32,
                   "children": [
                     {
                       "kind": "span",
@@ -333,68 +106,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_1",
-                      "href": "docs/gba__display__backgrounds___spec.html#L36C7"
+                      "text": "Increasing",
+                      "href": "docs/gba__audio__psg___spec.html#L32C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 37,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_2",
-                      "href": "docs/gba__display__backgrounds___spec.html#L37C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 38,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_3",
-                      "href": "docs/gba__display__backgrounds___spec.html#L38C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 39,
+                  "number": 33,
                   "children": [
                     {
                       "kind": "span",
@@ -410,7 +129,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": ";",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
+                      "href": "docs/gba__audio__psg___spec.html#L30C8"
                     }
                   ]
                 }
@@ -419,29 +138,15 @@ GNATdoc.Documentation = {
           ],
           "literals": [
             {
-              "label": "BG_0",
-              "line": 35,
+              "label": "Decreasing",
+              "line": 31,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "BG_1",
-              "line": 36,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "BG_2",
-              "line": 37,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "BG_3",
-              "line": 38,
+              "label": "Increasing",
+              "line": 32,
               "column": 7,
               "description": [
               ]
@@ -449,11 +154,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "BG_Kind",
+          "label": "Envelope_Duration_Type",
           "qualifier": "",
-          "line": 41,
+          "line": 27,
           "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "src": "srcs/GBA.Audio.PSG.ads.html",
           "summary": [
           ],
           "description": [
@@ -462,7 +167,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 41,
+                  "number": 27,
                   "children": [
                     {
                       "kind": "span",
@@ -482,8 +187,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Kind",
-                      "href": "docs/gba__display__backgrounds___spec.html#L41C8"
+                      "text": "Envelope_Duration_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L27C8"
                     },
                     {
                       "kind": "span",
@@ -499,304 +204,12 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 42,
+                  "number": 28,
                   "children": [
                     {
                       "kind": "span",
                       "cssClass": "text",
                       "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Regular",
-                      "href": "docs/gba__display__backgrounds___spec.html#L42C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 43,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine",
-                      "href": "docs/gba__display__backgrounds___spec.html#L43C7"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 44,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";",
-                      "href": "docs/gba__display__backgrounds___spec.html#L41C8"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "literals": [
-            {
-              "label": "Regular",
-              "line": 42,
-              "column": 7,
-              "description": [
-              ]
-            },
-            {
-              "label": "Affine",
-              "line": 43,
-              "column": 7,
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "BG_Reference_Point_Coordinate",
-          "qualifier": "",
-          "line": 108,
-          "column": 11,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 108,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "subtype"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 109,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "GBA.Numerics.Fixed_20_8",
-                      "href": "docs/gba__numerics___spec.html#L22C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "BG_Scroll_Offset",
-          "qualifier": "",
-          "line": 51,
-          "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 51,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "new"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Integer_16"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "BG_Size",
-          "qualifier": "",
-          "line": 47,
-          "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 47,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Size",
-                      "href": "docs/gba__display__backgrounds___spec.html#L47C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
                     },
                     {
                       "kind": "span",
@@ -825,29 +238,13 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "number",
-                      "text": "3"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 48,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 2"
+                      "text": "7"
                     },
                     {
                       "kind": "span",
@@ -861,11 +258,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "BG_Transform_Info_Array",
+          "label": "Frequency_Direction",
           "qualifier": "",
-          "line": 138,
+          "line": 69,
           "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "src": "srcs/GBA.Audio.PSG.ads.html",
           "summary": [
           ],
           "description": [
@@ -874,7 +271,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 138,
+                  "number": 69,
                   "children": [
                     {
                       "kind": "span",
@@ -894,8 +291,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Transform_Info_Array",
-                      "href": "docs/gba__display__backgrounds___spec.html#L138C8"
+                      "text": "Frequency_Direction",
+                      "href": "docs/gba__audio__psg___spec.html#L69C8"
                     },
                     {
                       "kind": "span",
@@ -911,142 +308,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 139,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "array"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Natural"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "range"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "<>"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "of"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Transform_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L125C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Boundary_Behavior",
-          "qualifier": "",
-          "line": 23,
-          "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 23,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boundary_Behavior",
-                      "href": "docs/gba__display__backgrounds___spec.html#L23C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 24,
+                  "number": 70,
                   "children": [
                     {
                       "kind": "span",
@@ -1066,14 +328,14 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Cutoff",
-                      "href": "docs/gba__display__backgrounds___spec.html#L24C7"
+                      "text": "Increasing",
+                      "href": "docs/gba__audio__psg___spec.html#L70C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 25,
+                  "number": 71,
                   "children": [
                     {
                       "kind": "span",
@@ -1093,14 +355,976 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Wrap",
-                      "href": "docs/gba__display__backgrounds___spec.html#L25C7"
+                      "text": "Decreasing",
+                      "href": "docs/gba__audio__psg___spec.html#L71C7"
                     }
                   ]
                 },
                 {
                   "kind": "line",
-                  "number": 26,
+                  "number": 72,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/gba__audio__psg___spec.html#L69C8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Increasing",
+              "line": 70,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Decreasing",
+              "line": 71,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Initial_Volume_Type",
+          "qualifier": "",
+          "line": 40,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 40,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Initial_Volume_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L40C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 41,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "15"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sweep_Duration_Type",
+          "qualifier": "",
+          "line": 79,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 79,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sweep_Duration_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L79C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 80,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Sweep_Shift_Amount",
+          "qualifier": "",
+          "line": 66,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 66,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sweep_Shift_Amount",
+                      "href": "docs/gba__audio__psg___spec.html#L66C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 67,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Tone_Duration_Type",
+          "qualifier": "",
+          "line": 10,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 10,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Tone_Duration_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L10C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 11,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "63"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Tone_Frequency_Type",
+          "qualifier": "",
+          "line": 101,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 101,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Tone_Frequency_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L101C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 102,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2047"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Wave_Duty_Type",
+          "qualifier": "",
+          "line": 13,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 13,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Wave_Duty_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L13C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 14,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Duty_125",
+                      "href": "docs/gba__audio__psg___spec.html#L14C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 15,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Duty_250",
+                      "href": "docs/gba__audio__psg___spec.html#L15C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 16,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Duty_500",
+                      "href": "docs/gba__audio__psg___spec.html#L16C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 17,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Duty_750",
+                      "href": "docs/gba__audio__psg___spec.html#L17C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 18,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";",
+                      "href": "docs/gba__audio__psg___spec.html#L13C8"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Duty_125",
+              "line": 14,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Duty_250",
+              "line": 15,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Duty_500",
+              "line": 16,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Duty_750",
+              "line": 17,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Wave_RAM_Bank_ID",
+          "qualifier": "",
+          "line": 134,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 134,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Wave_RAM_Bank_ID",
+                      "href": "docs/gba__audio__psg___spec.html#L134C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 135,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "mod"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "2"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Wave_RAM_Size_Type",
+          "qualifier": "",
+          "line": 124,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 124,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Wave_RAM_Size_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L124C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 125,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bits_32",
+                      "href": "docs/gba__audio__psg___spec.html#L125C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 126,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bits_64",
+                      "href": "docs/gba__audio__psg___spec.html#L126C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 127,
                   "children": [
                     {
                       "kind": "span",
@@ -1125,7 +1349,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Size => 2"
+                      "text": " Size => 1"
                     },
                     {
                       "kind": "span",
@@ -1139,32 +1363,27 @@ GNATdoc.Documentation = {
           ],
           "literals": [
             {
-              "label": "Cutoff",
-              "line": 24,
+              "label": "Bits_32",
+              "line": 125,
               "column": 7,
               "description": [
               ]
             },
             {
-              "label": "Wrap",
-              "line": 25,
+              "label": "Bits_64",
+              "line": 126,
               "column": 7,
               "description": [
               ]
             }
           ]
-        }
-      ],
-      "label": "Simple types"
-    },
-    {
-      "entities": [
+        },
         {
-          "label": "BG_Control_Info",
+          "label": "Wave_Volume_Type",
           "qualifier": "",
-          "line": 54,
+          "line": 152,
           "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "src": "srcs/GBA.Audio.PSG.ads.html",
           "summary": [
           ],
           "description": [
@@ -1173,7 +1392,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 54,
+                  "number": 152,
                   "children": [
                     {
                       "kind": "span",
@@ -1193,8 +1412,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Control_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L54C8"
+                      "text": "Wave_Volume_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L152C8"
                     },
                     {
                       "kind": "span",
@@ -1210,7 +1429,1281 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 55,
+                  "number": 153,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Muted",
+                      "href": "docs/gba__audio__psg___spec.html#L153C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 154,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_100",
+                      "href": "docs/gba__audio__psg___spec.html#L154C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 155,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_50",
+                      "href": "docs/gba__audio__psg___spec.html#L155C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 156,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_25",
+                      "href": "docs/gba__audio__psg___spec.html#L156C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 157,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Vol_75",
+                      "href": "docs/gba__audio__psg___spec.html#L157C7"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 158,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "literals": [
+            {
+              "label": "Muted",
+              "line": 153,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Vol_100",
+              "line": 154,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Vol_50",
+              "line": 155,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Vol_25",
+              "line": 156,
+              "column": 7,
+              "description": [
+              ]
+            },
+            {
+              "label": "Vol_75",
+              "line": 157,
+              "column": 7,
+              "description": [
+              ]
+            }
+          ]
+        }
+      ],
+      "label": "Simple types"
+    },
+    {
+      "entities": [
+        {
+          "label": "Channel_1_Freq",
+          "qualifier": "",
+          "line": 193,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 193,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_1_Freq",
+                      "href": "docs/gba__audio__psg___spec.html#L193C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Frequency_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L104C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 194,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND1CNT_X, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_1_Sweep",
+          "qualifier": "",
+          "line": 187,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 187,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 188,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-- Channel 1 Registers --"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 189,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 190,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 191,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_1_Sweep"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Sweep_Info"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 192,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND1CNT_L, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_1_Tone",
+          "qualifier": "",
+          "line": 190,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 190,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_1_Tone",
+                      "href": "docs/gba__audio__psg___spec.html#L190C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Tone_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L43C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 191,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND1CNT_H, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_2_Freq",
+          "qualifier": "",
+          "line": 204,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 204,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_2_Freq",
+                      "href": "docs/gba__audio__psg___spec.html#L204C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Frequency_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L104C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 205,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND2CNT_H, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_2_Tone",
+          "qualifier": "",
+          "line": 201,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 201,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 202,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-- Channel 2 Registers --"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 203,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 204,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 205,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_2_Tone"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Tone_Info"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 206,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND2CNT_L, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_3_Duration_Volume",
+          "qualifier": "",
+          "line": 215,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 215,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_3_Duration_Volume",
+                      "href": "docs/gba__audio__psg___spec.html#L215C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Wave_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L168C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 216,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND3CNT_H, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_3_Freq",
+          "qualifier": "",
+          "line": 218,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 218,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_3_Freq",
+                      "href": "docs/gba__audio__psg___spec.html#L218C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Frequency_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L104C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 219,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND3CNT_X, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_3_Wave",
+          "qualifier": "",
+          "line": 212,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 212,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 213,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-- Channel 3 Registers --"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 214,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 215,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 216,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_3_Wave"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Bank_Select_Info"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 217,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND3CNT_L, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_4_Freq",
+          "qualifier": "",
+          "line": 229,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 229,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_4_Freq",
+                      "href": "docs/gba__audio__psg___spec.html#L229C3"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Frequency_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L104C8"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 230,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND4CNT_H, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_4_Tone",
+          "qualifier": "",
+          "line": 226,
+          "column": 3,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 226,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 227,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-- Channel 4 Registers --"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 228,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "comment",
+                      "text": "-------------------------"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 229,
+                  "children": [
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 230,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_4_Tone"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Tone_Info"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 231,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Address => SOUND4CNT_L, Volatile_Full_Access"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_Bank_Select_Info",
+          "qualifier": "",
+          "line": 137,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 137,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Bank_Select_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L137C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 138,
                   "children": [
                     {
                       "kind": "span",
@@ -1226,7 +2719,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 56,
+                  "number": 139,
                   "children": [
                     {
                       "kind": "span",
@@ -1236,13 +2729,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Priority",
-                      "href": "docs/gba__display__backgrounds___spec.html#L56C7"
+                      "text": "Size",
+                      "href": "docs/gba__audio__psg___spec.html#L139C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "      "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -1257,8 +2750,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Display_Priority",
-                      "href": "docs/gba__display___spec.html#L46C8"
+                      "text": "Wave_RAM_Size_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L124C8"
                     },
                     {
                       "kind": "span",
@@ -1269,7 +2762,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 57,
+                  "number": 140,
                   "children": [
                     {
                       "kind": "span",
@@ -1279,13 +2772,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Tile_Block",
-                      "href": "docs/gba__display__backgrounds___spec.html#L57C7"
+                      "text": "Bank",
+                      "href": "docs/gba__audio__psg___spec.html#L140C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
+                      "text": "   "
                     },
                     {
                       "kind": "span",
@@ -1300,8 +2793,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Tile_Block_Index",
-                      "href": "docs/gba__display__tiles___spec.html#L21C8"
+                      "text": "Wave_RAM_Bank_ID",
+                      "href": "docs/gba__audio__psg___spec.html#L134C8"
                     },
                     {
                       "kind": "span",
@@ -1312,7 +2805,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 58,
+                  "number": 141,
                   "children": [
                     {
                       "kind": "span",
@@ -1322,8 +2815,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Enable_Mosaic",
-                      "href": "docs/gba__display__backgrounds___spec.html#L58C7"
+                      "text": "Enable",
+                      "href": "docs/gba__audio__psg___spec.html#L141C7"
                     },
                     {
                       "kind": "span",
@@ -1354,179 +2847,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 59,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Color_Mode",
-                      "href": "docs/gba__display__backgrounds___spec.html#L59C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Palette_Mode",
-                      "href": "docs/gba__display__palettes___spec.html#L12C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 60,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Screen_Block",
-                      "href": "docs/gba__display__backgrounds___spec.html#L60C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Screen_Block_Index",
-                      "href": "docs/gba__display__tiles___spec.html#L24C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 61,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boundary_Mode",
-                      "href": "docs/gba__display__backgrounds___spec.html#L61C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Boundary_Behavior",
-                      "href": "docs/gba__display__backgrounds___spec.html#L23C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 62,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Size",
-                      "href": "docs/gba__display__backgrounds___spec.html#L62C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "          "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Size",
-                      "href": "docs/gba__display__backgrounds___spec.html#L47C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 63,
+                  "number": 142,
                   "children": [
                     {
                       "kind": "span",
@@ -1552,7 +2873,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 64,
+                  "number": 143,
                   "children": [
                     {
                       "kind": "span",
@@ -1581,30 +2902,301 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "Priority",
-              "line": 56,
+              "label": "Size",
+              "line": 139,
               "column": 7,
               "type": {
-                "label": "GBA.Display.Display_Priority",
-                "docHref": "docs/gba__display___spec.html#L46C8"
+                "label": "GBA.Audio.PSG.Wave_RAM_Size_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L124C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Tile_Block",
-              "line": 57,
+              "label": "Bank",
+              "line": 140,
               "column": 7,
               "type": {
-                "label": "GBA.Display.Tiles.Tile_Block_Index",
-                "docHref": "docs/gba__display__tiles___spec.html#L21C8"
+                "label": "GBA.Audio.PSG.Wave_RAM_Bank_ID",
+                "docHref": "docs/gba__audio__psg___spec.html#L134C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Enable_Mosaic",
-              "line": 58,
+              "label": "Enable",
+              "line": 141,
+              "column": 7,
+              "type": {
+                "label": "Boolean"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_Frequency_Info",
+          "qualifier": "",
+          "line": 104,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 104,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Frequency_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L104C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 105,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 106,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Frequency",
+                      "href": "docs/gba__audio__psg___spec.html#L106C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Tone_Frequency_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L101C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 107,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Use_Duration",
+                      "href": "docs/gba__audio__psg___spec.html#L107C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 108,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Initial",
+                      "href": "docs/gba__audio__psg___spec.html#L108C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Boolean"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 109,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 110,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Frequency",
+              "line": 106,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.PSG.Tone_Frequency_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L101C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Use_Duration",
+              "line": 107,
               "column": 7,
               "type": {
                 "label": "Boolean"
@@ -1613,45 +3205,11 @@ GNATdoc.Documentation = {
               ]
             },
             {
-              "label": "Color_Mode",
-              "line": 59,
+              "label": "Initial",
+              "line": 108,
               "column": 7,
               "type": {
-                "label": "GBA.Display.Palettes.Palette_Mode",
-                "docHref": "docs/gba__display__palettes___spec.html#L12C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Screen_Block",
-              "line": 60,
-              "column": 7,
-              "type": {
-                "label": "GBA.Display.Tiles.Screen_Block_Index",
-                "docHref": "docs/gba__display__tiles___spec.html#L24C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Boundary_Mode",
-              "line": 61,
-              "column": 7,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Boundary_Behavior",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L23C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Size",
-              "line": 62,
-              "column": 7,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Size",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L47C8"
+                "label": "Boolean"
               },
               "description": [
               ]
@@ -1659,11 +3217,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "BG_Offset_Info",
+          "label": "Channel_Sweep_Info",
           "qualifier": "",
           "line": 82,
           "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "src": "srcs/GBA.Audio.PSG.ads.html",
           "summary": [
           ],
           "description": [
@@ -1692,8 +3250,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Offset_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L82C8"
+                      "text": "Channel_Sweep_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L82C8"
                     },
                     {
                       "kind": "span",
@@ -1735,29 +3293,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L84C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
+                      "text": "Shift",
+                      "href": "docs/gba__audio__psg___spec.html#L84C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L84C10"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
+                      "text": "            "
                     },
                     {
                       "kind": "span",
@@ -1772,8 +3314,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
+                      "text": "Sweep_Shift_Amount",
+                      "href": "docs/gba__audio__psg___spec.html#L66C8"
                     },
                     {
                       "kind": "span",
@@ -1789,174 +3331,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "end"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 86,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "      "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Size => 32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "fields": [
-            {
-              "label": "X",
-              "line": 84,
-              "column": 7,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
-              "line": 84,
-              "column": 10,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "BG_Reference_Point",
-          "qualifier": "",
-          "line": 112,
-          "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 112,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L112C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 113,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "record"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 114,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
                       "text": "      "
                     },
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L114C7"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L114C10"
+                      "text": "Frequency_Change",
+                      "href": "docs/gba__audio__psg___spec.html#L85C7"
                     },
                     {
                       "kind": "span",
@@ -1976,8 +3357,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
+                      "text": "Frequency_Direction",
+                      "href": "docs/gba__audio__psg___spec.html#L69C8"
                     },
                     {
                       "kind": "span",
@@ -1988,7 +3369,50 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 115,
+                  "number": 86,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Duration",
+                      "href": "docs/gba__audio__psg___spec.html#L86C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Sweep_Duration_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L79C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 87,
                   "children": [
                     {
                       "kind": "span",
@@ -2014,7 +3438,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 116,
+                  "number": 88,
                   "children": [
                     {
                       "kind": "span",
@@ -2029,7 +3453,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Size => 64"
+                      "text": " Size => 16"
                     },
                     {
                       "kind": "span",
@@ -2043,23 +3467,34 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "X",
-              "line": 114,
+              "label": "Shift",
+              "line": 84,
               "column": 7,
               "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
+                "label": "GBA.Audio.PSG.Sweep_Shift_Amount",
+                "docHref": "docs/gba__audio__psg___spec.html#L66C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Y",
-              "line": 114,
-              "column": 10,
+              "label": "Frequency_Change",
+              "line": 85,
+              "column": 7,
               "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
+                "label": "GBA.Audio.PSG.Frequency_Direction",
+                "docHref": "docs/gba__audio__psg___spec.html#L69C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Duration",
+              "line": 86,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.PSG.Sweep_Duration_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L79C8"
               },
               "description": [
               ]
@@ -2067,11 +3502,11 @@ GNATdoc.Documentation = {
           ]
         },
         {
-          "label": "BG_Transform_Info",
+          "label": "Channel_Tone_Info",
           "qualifier": "",
-          "line": 125,
+          "line": 43,
           "column": 8,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
+          "src": "srcs/GBA.Audio.PSG.ads.html",
           "summary": [
           ],
           "description": [
@@ -2080,7 +3515,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 125,
+                  "number": 43,
                   "children": [
                     {
                       "kind": "span",
@@ -2100,8 +3535,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Transform_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L125C8"
+                      "text": "Channel_Tone_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L43C8"
                     },
                     {
                       "kind": "span",
@@ -2117,7 +3552,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 126,
+                  "number": 44,
                   "children": [
                     {
                       "kind": "span",
@@ -2133,7 +3568,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 127,
+                  "number": 45,
                   "children": [
                     {
                       "kind": "span",
@@ -2143,8 +3578,137 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Affine_Matrix",
-                      "href": "docs/gba__display__backgrounds___spec.html#L127C7"
+                      "text": "Duration",
+                      "href": "docs/gba__audio__psg___spec.html#L45C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "          "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Tone_Duration_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L10C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 46,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Wave_Duty",
+                      "href": "docs/gba__audio__psg___spec.html#L46C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "         "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Wave_Duty_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L13C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 47,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Envelope_Duration",
+                      "href": "docs/gba__audio__psg___spec.html#L47C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Envelope_Duration_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L27C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 48,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Envelope_Change",
+                      "href": "docs/gba__audio__psg___spec.html#L48C7"
                     },
                     {
                       "kind": "span",
@@ -2164,8 +3728,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Affine_Transform_Matrix",
-                      "href": "docs/gba__numerics___spec.html#L93C8"
+                      "text": "Envelope_Direction",
+                      "href": "docs/gba__audio__psg___spec.html#L30C8"
                     },
                     {
                       "kind": "span",
@@ -2176,7 +3740,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 128,
+                  "number": 49,
                   "children": [
                     {
                       "kind": "span",
@@ -2186,13 +3750,13 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L128C7"
+                      "text": "Initial_Volume",
+                      "href": "docs/gba__audio__psg___spec.html#L49C7"
                     },
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " "
+                      "text": "    "
                     },
                     {
                       "kind": "span",
@@ -2207,8 +3771,8 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "BG_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L112C8"
+                      "text": "Initial_Volume_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L40C8"
                     },
                     {
                       "kind": "span",
@@ -2219,7 +3783,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 129,
+                  "number": 50,
                   "children": [
                     {
                       "kind": "span",
@@ -2245,7 +3809,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 130,
+                  "number": 51,
                   "children": [
                     {
                       "kind": "span",
@@ -2260,7 +3824,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Size => 128"
+                      "text": " Size => 16"
                     },
                     {
                       "kind": "span",
@@ -2274,23 +3838,325 @@ GNATdoc.Documentation = {
           ],
           "fields": [
             {
-              "label": "Affine_Matrix",
-              "line": 127,
+              "label": "Duration",
+              "line": 45,
               "column": 7,
               "type": {
-                "label": "GBA.Numerics.Affine_Transform_Matrix",
-                "docHref": "docs/gba__numerics___spec.html#L93C8"
+                "label": "GBA.Audio.PSG.Tone_Duration_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L10C8"
               },
               "description": [
               ]
             },
             {
-              "label": "Reference_Point",
-              "line": 128,
+              "label": "Wave_Duty",
+              "line": 46,
               "column": 7,
               "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L112C8"
+                "label": "GBA.Audio.PSG.Wave_Duty_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L13C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Envelope_Duration",
+              "line": 47,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.PSG.Envelope_Duration_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L27C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Envelope_Change",
+              "line": 48,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.PSG.Envelope_Direction",
+                "docHref": "docs/gba__audio__psg___spec.html#L30C8"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Initial_Volume",
+              "line": 49,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.PSG.Initial_Volume_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L40C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Channel_Wave_Info",
+          "qualifier": "",
+          "line": 168,
+          "column": 8,
+          "src": "srcs/GBA.Audio.PSG.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 168,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "type"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Channel_Wave_Info",
+                      "href": "docs/gba__audio__psg___spec.html#L168C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "is"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 169,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 170,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Duration",
+                      "href": "docs/gba__audio__psg___spec.html#L170C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Unsigned"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "range"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "0"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ".."
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "number",
+                      "text": "255"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 171,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Volume",
+                      "href": "docs/gba__audio__psg___spec.html#L171C7"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "   "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Wave_Volume_Type",
+                      "href": "docs/gba__audio__psg___spec.html#L152C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 172,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "end"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "record"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 173,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "      "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Size => 16"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "fields": [
+            {
+              "label": "Duration",
+              "line": 170,
+              "column": 7,
+              "type": {
+                "label": "Unsigned"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Volume",
+              "line": 171,
+              "column": 7,
+              "type": {
+                "label": "GBA.Audio.PSG.Wave_Volume_Type",
+                "docHref": "docs/gba__audio__psg___spec.html#L152C8"
               },
               "description": [
               ]
@@ -2299,1930 +4165,6 @@ GNATdoc.Documentation = {
         }
       ],
       "label": "Record types"
-    },
-    {
-      "entities": [
-        {
-          "label": "Affine_Transform_Address",
-          "qualifier": "",
-          "line": 144,
-          "column": 12,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 144,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_Transform_Address",
-                      "href": "docs/gba__display__backgrounds___spec.html#L144C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L144C38"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Address",
-                      "href": "docs/gba__memory___spec.html#L12C11"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 145,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 144,
-              "column": 38,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Affine_Matrix",
-          "qualifier": "",
-          "line": 159,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 159,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Affine_Matrix",
-                      "href": "docs/gba__display__backgrounds___spec.html#L159C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L159C32"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Matrix",
-                      "href": "docs/gba__display__backgrounds___spec.html#L159C51"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_Transform_Matrix",
-                      "href": "docs/gba__numerics___spec.html#L93C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 160,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 159,
-              "column": 32,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Matrix",
-              "line": 159,
-              "column": 51,
-              "type": {
-                "label": "GBA.Numerics.Affine_Transform_Matrix",
-                "docHref": "docs/gba__numerics___spec.html#L93C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Offset",
-          "qualifier": "",
-          "line": 95,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 95,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L95C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L95C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L95C37"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L95C40"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 96,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 95,
-              "column": 25,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "X",
-              "line": 95,
-              "column": 37,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
-              "line": 95,
-              "column": 40,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Offset",
-          "qualifier": "",
-          "line": 98,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 98,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L98C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L98C25"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Offsets",
-                      "href": "docs/gba__display__backgrounds___spec.html#L98C37"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Offset_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L82C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 99,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 98,
-              "column": 25,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Offsets",
-              "line": 98,
-              "column": 37,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Offset_Info",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L82C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Offset_X",
-          "qualifier": "",
-          "line": 101,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 101,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Offset_X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L101C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 102,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 101,
-              "column": 27,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 101,
-              "column": 39,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Offset_Y",
-          "qualifier": "",
-          "line": 104,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 104,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Offset_Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L104C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L104C27"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L34C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L104C39"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Scroll_Offset",
-                      "href": "docs/gba__display__backgrounds___spec.html#L51C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 105,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 104,
-              "column": 27,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L34C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 104,
-              "column": 39,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Scroll_Offset",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L51C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Reference_Point",
-          "qualifier": "",
-          "line": 153,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 153,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L153C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L153C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L153C53"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ","
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L153C56"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 154,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 153,
-              "column": 34,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "X",
-              "line": 153,
-              "column": 53,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Y",
-              "line": 153,
-              "column": 56,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Reference_Point",
-          "qualifier": "",
-          "line": 156,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 156,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L156C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L156C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L156C53"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point",
-                      "href": "docs/gba__display__backgrounds___spec.html#L112C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 157,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 156,
-              "column": 34,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Reference_Point",
-              "line": 156,
-              "column": 53,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L112C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Reference_X",
-          "qualifier": "",
-          "line": 147,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 147,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Reference_X",
-                      "href": "docs/gba__display__backgrounds___spec.html#L147C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L147C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L147C49"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 148,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 147,
-              "column": 30,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 147,
-              "column": 49,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Reference_Y",
-          "qualifier": "",
-          "line": 150,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 150,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Reference_Y",
-                      "href": "docs/gba__display__backgrounds___spec.html#L150C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L150C30"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Value",
-                      "href": "docs/gba__display__backgrounds___spec.html#L150C49"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Reference_Point_Coordinate",
-                      "href": "docs/gba__display__backgrounds___spec.html#L108C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 151,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 150,
-              "column": 30,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Value",
-              "line": 150,
-              "column": 49,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Reference_Point_Coordinate",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L108C11"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Transform",
-          "qualifier": "",
-          "line": 162,
-          "column": 13,
-          "src": "srcs/GBA.Display.Backgrounds.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 162,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Transform",
-                      "href": "docs/gba__display__backgrounds___spec.html#L162C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG",
-                      "href": "docs/gba__display__backgrounds___spec.html#L162C28"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Affine_BG_ID",
-                      "href": "docs/gba__display__backgrounds___spec.html#L142C11"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Transform",
-                      "href": "docs/gba__display__backgrounds___spec.html#L162C47"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "BG_Transform_Info",
-                      "href": "docs/gba__display__backgrounds___spec.html#L125C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 163,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "BG",
-              "line": 162,
-              "column": 28,
-              "type": {
-                "label": "GBA.Display.Backgrounds.Affine_BG_ID",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L142C11"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Transform",
-              "line": 162,
-              "column": 47,
-              "type": {
-                "label": "GBA.Display.Backgrounds.BG_Transform_Info",
-                "docHref": "docs/gba__display__backgrounds___spec.html#L125C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Subprograms"
     }
   ]
 };

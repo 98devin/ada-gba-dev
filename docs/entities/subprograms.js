@@ -3,18 +3,6 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "*",
-      "docHref": "docs/gba__numerics__matrices___body.html#L66C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "*",
-      "docHref": "docs/gba__numerics__matrices___body.html#L75C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "*",
       "docHref": "docs/gba__numerics__matrices___spec.html#L50C13",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
@@ -26,18 +14,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L62"
-    },
-    {
-      "label": "*",
-      "docHref": "docs/gba__numerics__vectors___body.html#L44C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "*",
-      "docHref": "docs/gba__numerics__vectors___body.html#L53C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
     },
     {
       "label": "*",
@@ -55,18 +31,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "+",
-      "docHref": "docs/gba__numerics___body.html#L52C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "+",
-      "docHref": "docs/gba__numerics___body.html#L75C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "+",
       "docHref": "docs/gba__numerics___spec.html#L58C13",
       "declared": "GBA.Numerics",
       "declared_qualifier": "",
@@ -78,18 +42,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Numerics",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.ads.html#L76"
-    },
-    {
-      "label": "+",
-      "docHref": "docs/gba__numerics__matrices___body.html#L62C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "+",
-      "docHref": "docs/gba__numerics__matrices___body.html#L71C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
     },
     {
       "label": "+",
@@ -107,18 +59,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "+",
-      "docHref": "docs/gba__numerics__vectors___body.html#L40C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "+",
-      "docHref": "docs/gba__numerics__vectors___body.html#L49C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "+",
       "docHref": "docs/gba__numerics__vectors___spec.html#L22C13",
       "declared": "GBA.Numerics.Vectors",
       "declared_qualifier": "",
@@ -130,30 +70,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Numerics.Vectors",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Vectors.ads.html#L34"
-    },
-    {
-      "label": "-",
-      "docHref": "docs/gba__numerics___body.html#L60C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "-",
-      "docHref": "docs/gba__numerics___body.html#L68C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "-",
-      "docHref": "docs/gba__numerics___body.html#L83C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "-",
-      "docHref": "docs/gba__numerics___body.html#L91C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "-",
@@ -185,18 +101,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "-",
-      "docHref": "docs/gba__numerics__matrices___body.html#L64C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "-",
-      "docHref": "docs/gba__numerics__matrices___body.html#L73C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "-",
       "docHref": "docs/gba__numerics__matrices___spec.html#L47C13",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
@@ -208,18 +112,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L59"
-    },
-    {
-      "label": "-",
-      "docHref": "docs/gba__numerics__vectors___body.html#L42C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "-",
-      "docHref": "docs/gba__numerics__vectors___body.html#L51C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
     },
     {
       "label": "-",
@@ -237,18 +129,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "/",
-      "docHref": "docs/gba__numerics__matrices___body.html#L68C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "/",
-      "docHref": "docs/gba__numerics__matrices___body.html#L77C13",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "/",
       "docHref": "docs/gba__numerics__matrices___spec.html#L53C13",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
@@ -260,18 +140,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L65"
-    },
-    {
-      "label": "/",
-      "docHref": "docs/gba__numerics__vectors___body.html#L46C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
-    },
-    {
-      "label": "/",
-      "docHref": "docs/gba__numerics__vectors___body.html#L55C13",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(renaming)"
     },
     {
       "label": "/",
@@ -289,18 +157,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Acknowledge_Interrupt",
-      "docHref": "docs/gba__interrupts___body.html#L111C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Acknowledge_Interrupt",
-      "docHref": "docs/gba__interrupts___body.html#L118C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Acknowledge_Interrupt",
       "docHref": "docs/gba__interrupts___spec.html#L90C13",
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
@@ -312,30 +168,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Interrupts.ads.html#L93"
-    },
-    {
-      "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L101C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L113C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L132C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Affine_Set",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L153C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Affine_Set",
@@ -388,24 +220,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Affine_Set_Ext",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L125C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Affine_Set_Ext",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L143C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Affine_Set_Ext",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L166C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Affine_Set_Ext",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L76C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
@@ -448,22 +262,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Affine_Transform_Address",
-      "docHref": "docs/gba__display__backgrounds___body.html#L28C12",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Affine_Transform_Address",
       "docHref": "docs/gba__display__backgrounds___spec.html#L144C12",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L144"
-    },
-    {
-      "label": "Affine_Transform_Address",
-      "docHref": "docs/gba__display__objects___body.html#L43C12",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Affine_Transform_Address",
@@ -495,22 +297,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Are_All_Down",
-      "docHref": "docs/gba__input__buffered___body.html#L49C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Are_All_Down",
       "docHref": "docs/gba__input__buffered___spec.html#L14C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L14"
-    },
-    {
-      "label": "Are_All_Down",
-      "docHref": "docs/gba__input__unbuffered___body.html#L13C12",
-      "declared": "GBA.Input.Unbuffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Are_All_Down",
@@ -521,12 +311,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Are_Any_Down",
-      "docHref": "docs/gba__input__buffered___body.html#L33C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Are_Any_Down",
       "docHref": "docs/gba__input__buffered___spec.html#L13C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
@@ -534,28 +318,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Are_Any_Down",
-      "docHref": "docs/gba__input__unbuffered___body.html#L10C12",
-      "declared": "GBA.Input.Unbuffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Are_Any_Down",
       "docHref": "docs/gba__input__unbuffered___spec.html#L11C12",
       "declared": "GBA.Input.Unbuffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Unbuffered.ads.html#L11"
-    },
-    {
-      "label": "As_Flags",
-      "docHref": "docs/gba__interrupts___spec.html#L33C12",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "As_Shape_And_Scale",
-      "docHref": "docs/gba__display__objects___body.html#L35C13",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "As_Shape_And_Scale",
@@ -566,22 +332,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "As_Size",
-      "docHref": "docs/gba__display__objects___body.html#L29C12",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "As_Size",
       "docHref": "docs/gba__display__objects___spec.html#L102C12",
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Objects.ads.html#L102"
-    },
-    {
-      "label": "Attach_Interrupt_Handler",
-      "docHref": "docs/gba__interrupts___body.html#L127C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Attach_Interrupt_Handler",
@@ -592,28 +346,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Attach_Interrupt_Handler_And_Save",
-      "docHref": "docs/gba__interrupts___body.html#L133C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Attach_Interrupt_Handler_And_Save",
       "docHref": "docs/gba__interrupts___spec.html#L101C13",
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Interrupts.ads.html#L101"
-    },
-    {
-      "label": "Attributes_Of_Object",
-      "docHref": "docs/gba__display__objects___body.html#L46C12",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Attributes_Of_Object",
-      "docHref": "docs/gba__display__objects___body.html#L52C12",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Attributes_Of_Object",
@@ -652,22 +388,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Col",
-      "docHref": "docs/gba__numerics__matrices___body.html#L97C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Col",
       "docHref": "docs/gba__numerics__matrices___spec.html#L24C12",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L24"
-    },
-    {
-      "label": "Cos",
-      "docHref": "docs/gba__numerics___body.html#L355C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Cos",
@@ -678,52 +402,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cos_LUT",
-      "docHref": "docs/gba__numerics___body.html#L457C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Cos_LUT",
       "docHref": "docs/gba__numerics___spec.html#L134C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.ads.html#L134"
-    },
-    {
-      "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L242C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L245C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L257C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L260C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L272C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Leading_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L275C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Count_Leading_Zeros",
@@ -769,42 +451,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L188C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L191C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L207C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L210C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L225C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Trailing_Zeros",
-      "docHref": "docs/gba__numerics___body.html#L228C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Count_Trailing_Zeros",
       "docHref": "docs/gba__numerics___spec.html#L143C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "",
@@ -847,12 +493,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Cpu_Fast_Set",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L76C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Cpu_Fast_Set",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L70C13",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "(renaming)",
@@ -878,12 +518,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.BIOS.Raw.Thumb",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L56"
-    },
-    {
-      "label": "Cpu_Set",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L61C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Cpu_Set",
@@ -928,36 +562,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Allocation.ads.html#L54"
     },
     {
-      "label": "Default_Interrupt_Dispatcher",
-      "docHref": "docs/gba__interrupts___body.html#L53C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Default_Interrupt_Dispatcher",
-      "docHref": "docs/gba__interrupts___spec.html#L114C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Interrupts.ads.html#L114"
-    },
-    {
-      "label": "Detach_Interrupt_Handler",
-      "docHref": "docs/gba__interrupts___body.html#L140C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
       "label": "Detach_Interrupt_Handler",
       "docHref": "docs/gba__interrupts___spec.html#L105C13",
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Interrupts.ads.html#L105"
-    },
-    {
-      "label": "Detach_Interrupt_Handler_And_Save",
-      "docHref": "docs/gba__interrupts___body.html#L145C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Detach_Interrupt_Handler_And_Save",
@@ -968,12 +577,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Determinant",
-      "docHref": "docs/gba__numerics__matrices___body.html#L123C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Determinant",
       "docHref": "docs/gba__numerics__matrices___spec.html#L74C12",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
@@ -981,28 +584,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable_Input_Interrupt_Request",
-      "docHref": "docs/gba__input___body.html#L37C13",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Disable_Input_Interrupt_Request",
       "docHref": "docs/gba__input___spec.html#L62C13",
       "declared": "GBA.Input",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.ads.html#L62"
-    },
-    {
-      "label": "Disable_Interrupt",
-      "docHref": "docs/gba__interrupts___body.html#L95C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Disable_Interrupt",
-      "docHref": "docs/gba__interrupts___body.html#L100C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Disable_Interrupt",
@@ -1020,28 +605,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Disable_Interrupts_And_Save",
-      "docHref": "docs/gba__interrupts___body.html#L105C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Disable_Interrupts_And_Save",
       "docHref": "docs/gba__interrupts___spec.html#L86C13",
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Interrupts.ads.html#L86"
-    },
-    {
-      "label": "Disable_Receiving_Interrupts",
-      "docHref": "docs/gba__interrupts___body.html#L71C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Disable_Receiving_Interrupts",
-      "docHref": "docs/gba__interrupts___body.html#L77C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Disable_Receiving_Interrupts",
@@ -1056,12 +623,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Interrupts.ads.html#L69"
-    },
-    {
-      "label": "Div_Mod",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L53C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Div_Mod",
@@ -1114,22 +675,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Divide",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L47C12",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Divide",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L105C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L105"
-    },
-    {
-      "label": "Dot",
-      "docHref": "docs/gba__numerics__vectors___body.html#L58C12",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Dot",
@@ -1139,53 +688,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.Vectors.ads.html#L46"
     },
     {
-      "label": "EDiv",
-      "docHref": "docs/gba__numerics__matrices___spec.html#L49C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "EDiv",
-      "docHref": "docs/gba__numerics__vectors___spec.html#L27C12",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "EMul",
-      "docHref": "docs/gba__numerics__matrices___spec.html#L46C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "EMul",
-      "docHref": "docs/gba__numerics__vectors___spec.html#L24C12",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Enable_Display_Element",
-      "docHref": "docs/gba__display___body.html#L16C13",
-      "declared": "GBA.Display",
-      "declared_qualifier": "(body)"
-    },
-    {
       "label": "Enable_Display_Element",
       "docHref": "docs/gba__display___spec.html#L76C13",
       "declared": "GBA.Display",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.ads.html#L76"
-    },
-    {
-      "label": "Enable_Interrupt",
-      "docHref": "docs/gba__interrupts___body.html#L85C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Enable_Interrupt",
-      "docHref": "docs/gba__interrupts___body.html#L90C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Enable_Interrupt",
@@ -1203,28 +710,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Enable_Mosaic",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L22C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Enable_Mosaic",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L24C13",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L24"
-    },
-    {
-      "label": "Enable_Receiving_Interrupts",
-      "docHref": "docs/gba__interrupts___body.html#L61C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Enable_Receiving_Interrupts",
-      "docHref": "docs/gba__interrupts___body.html#L66C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Enable_Receiving_Interrupts",
@@ -1242,22 +731,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Fixed_Sqrt",
-      "docHref": "docs/gba__numerics___body.html#L470C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Fixed_Sqrt",
       "docHref": "docs/gba__numerics___spec.html#L115C12",
       "declared": "GBA.Numerics",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.ads.html#L115"
-    },
-    {
-      "label": "From_Cols",
-      "docHref": "docs/gba__numerics__matrices___body.html#L81C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "From_Cols",
@@ -1268,22 +745,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "From_Rows",
-      "docHref": "docs/gba__numerics__matrices___body.html#L89C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "From_Rows",
       "docHref": "docs/gba__numerics__matrices___spec.html#L21C12",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L21"
-    },
-    {
-      "label": "Get_Count",
-      "docHref": "docs/gba__timers___body.html#L7C12",
-      "declared": "GBA.Timers",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Get_Count",
@@ -1336,12 +801,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "ID",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L7C12",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "ID",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L12C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
@@ -1356,22 +815,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Inverse",
-      "docHref": "docs/gba__numerics__matrices___body.html#L128C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Inverse",
       "docHref": "docs/gba__numerics__matrices___spec.html#L77C12",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L77"
-    },
-    {
-      "label": "Is_Key_Down",
-      "docHref": "docs/gba__input__buffered___body.html#L17C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Is_Key_Down",
@@ -1382,12 +829,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Is_Key_Down",
-      "docHref": "docs/gba__input__unbuffered___body.html#L7C12",
-      "declared": "GBA.Input.Unbuffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Is_Key_Down",
       "docHref": "docs/gba__input__unbuffered___spec.html#L10C12",
       "declared": "GBA.Input.Unbuffered",
       "declared_qualifier": "",
@@ -1395,16 +836,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Is_Transfer_Ongoing",
-      "docHref": "docs/gba__dma___body.html#L25C12",
-      "declared": "GBA.DMA",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Is_Transfer_Ongoing",
-      "docHref": "docs/gba__dma___spec.html#L146C12",
+      "docHref": "docs/gba__dma___spec.html#L148C12",
       "declared": "GBA.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.DMA.ads.html#L146"
+      "srcHref": "srcs/GBA.DMA.ads.html#L148"
     },
     {
       "label": "Mark",
@@ -1422,22 +857,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Memcopy",
-      "docHref": "docs/gba__dma__generic_interfaces___body.html#L38C13",
-      "declared": "GBA.DMA.Generic_Interfaces",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Memcopy",
       "docHref": "docs/gba__dma__generic_interfaces___spec.html#L21C13",
       "declared": "GBA.DMA.Generic_Interfaces",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html#L21"
-    },
-    {
-      "label": "Memcopy_Info",
-      "docHref": "docs/gba__dma__generic_interfaces___body.html#L21C12",
-      "declared": "GBA.DMA.Generic_Interfaces",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Memcopy_Info",
@@ -1448,22 +871,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Memset",
-      "docHref": "docs/gba__dma__generic_interfaces___body.html#L32C13",
-      "declared": "GBA.DMA.Generic_Interfaces",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Memset",
       "docHref": "docs/gba__dma__generic_interfaces___spec.html#L18C13",
       "declared": "GBA.DMA.Generic_Interfaces",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.DMA.Generic_Interfaces.ads.html#L18"
-    },
-    {
-      "label": "Memset_Info",
-      "docHref": "docs/gba__dma__generic_interfaces___body.html#L10C12",
-      "declared": "GBA.DMA.Generic_Interfaces",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Memset_Info",
@@ -1474,22 +885,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mosaic_Enabled",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L13C12",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Mosaic_Enabled",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L18C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L18"
-    },
-    {
-      "label": "Move_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L73C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Move_Offset",
@@ -1500,28 +899,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Move_Reference_Point",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L149C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Move_Reference_Point",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L81C13",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L81"
-    },
-    {
-      "label": "Mul",
-      "docHref": "docs/gba__numerics__matrices___body.html#L107C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Mul",
-      "docHref": "docs/gba__numerics__matrices___body.html#L115C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Mul",
@@ -1539,28 +920,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L41C12",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Offset",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L35C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L35"
-    },
-    {
-      "label": "or",
-      "docHref": "docs/gba__input___body.html#L26C13",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "or",
-      "docHref": "docs/gba__input___body.html#L29C13",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "or",
@@ -1578,18 +941,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "or",
-      "docHref": "docs/gba__interrupts___body.html#L40C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "or",
-      "docHref": "docs/gba__interrupts___body.html#L43C13",
-      "declared": "GBA.Interrupts",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "or",
       "docHref": "docs/gba__interrupts___spec.html#L49C13",
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
@@ -1604,22 +955,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Pointwise",
-      "docHref": "docs/gba__numerics__matrices___body.html#L10C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Pointwise",
       "docHref": "docs/gba__numerics__matrices___spec.html#L37C12",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L37"
-    },
-    {
-      "label": "Pointwise",
-      "docHref": "docs/gba__numerics__vectors___body.html#L7C12",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Pointwise",
@@ -1630,28 +969,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Priority",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L10C12",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Priority",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L15C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L15"
-    },
-    {
-      "label": "Read_Key_State",
-      "docHref": "docs/gba__input___body.html#L33C12",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Read_Key_State",
-      "docHref": "docs/gba__input___body.html#L34C12",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Read_Key_State",
@@ -1669,46 +990,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Reference_Point",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L114C12",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Reference_Point",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L65C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L65"
-    },
-    {
-      "label": "Refresh_Affine_Matrix",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L96C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Refresh_Offset_Register",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L35C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Refresh_Reference_Point",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L102C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Refresh_Transform_Info",
-      "docHref": "docs/gba__display__backgrounds__refs___spec.html#L90C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Register_RAM_Reset",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L12C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Register_RAM_Reset",
@@ -1754,22 +1039,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Remainder",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L50C12",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Remainder",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L108C12",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L108"
-    },
-    {
-      "label": "Request_HBlank_Interrupt",
-      "docHref": "docs/gba__display___body.html#L27C13",
-      "declared": "GBA.Display",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Request_HBlank_Interrupt",
@@ -1780,22 +1053,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Request_Interrupt_If_All_Pressed",
-      "docHref": "docs/gba__input___body.html#L61C13",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Request_Interrupt_If_All_Pressed",
       "docHref": "docs/gba__input___spec.html#L65C13",
       "declared": "GBA.Input",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.ads.html#L65"
-    },
-    {
-      "label": "Request_Interrupt_If_Any_Pressed",
-      "docHref": "docs/gba__input___body.html#L52C13",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Request_Interrupt_If_Any_Pressed",
@@ -1806,22 +1067,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Request_Interrupt_If_Key_Pressed",
-      "docHref": "docs/gba__input___body.html#L42C13",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Request_Interrupt_If_Key_Pressed",
       "docHref": "docs/gba__input___spec.html#L63C13",
       "declared": "GBA.Input",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.ads.html#L63"
-    },
-    {
-      "label": "Request_VBlank_Interrupt",
-      "docHref": "docs/gba__display___body.html#L22C13",
-      "declared": "GBA.Display",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Request_VBlank_Interrupt",
@@ -1832,22 +1081,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Row",
-      "docHref": "docs/gba__numerics__matrices___body.html#L102C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Row",
       "docHref": "docs/gba__numerics__matrices___spec.html#L27C12",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L27"
-    },
-    {
-      "label": "Scalar",
-      "docHref": "docs/gba__numerics__matrices___body.html#L22C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Scalar",
@@ -1858,22 +1095,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Scalar",
-      "docHref": "docs/gba__numerics__vectors___body.html#L15C12",
-      "declared": "GBA.Numerics.Vectors",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Scalar",
       "docHref": "docs/gba__numerics__vectors___spec.html#L19C12",
       "declared": "GBA.Numerics.Vectors",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Vectors.ads.html#L19"
-    },
-    {
-      "label": "Screen_Block_Address",
-      "docHref": "docs/gba__display__tiles___body.html#L15C12",
-      "declared": "GBA.Display.Tiles",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Screen_Block_Address",
@@ -1884,22 +1109,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Affine_Matrix",
-      "docHref": "docs/gba__display__backgrounds___body.html#L51C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Affine_Matrix",
       "docHref": "docs/gba__display__backgrounds___spec.html#L159C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L159"
-    },
-    {
-      "label": "Set_Display_Mode",
-      "docHref": "docs/gba__display___body.html#L7C13",
-      "declared": "GBA.Display",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Display_Mode",
@@ -1910,12 +1123,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Initial_Value",
-      "docHref": "docs/gba__timers___body.html#L10C13",
-      "declared": "GBA.Timers",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Initial_Value",
       "docHref": "docs/gba__timers___spec.html#L74C13",
       "declared": "GBA.Timers",
       "declared_qualifier": "",
@@ -1923,28 +1130,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Object_Attributes",
-      "docHref": "docs/gba__display__objects___body.html#L58C13",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Object_Attributes",
       "docHref": "docs/gba__display__objects___spec.html#L174C13",
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Objects.ads.html#L174"
-    },
-    {
-      "label": "Set_Offset",
-      "docHref": "docs/gba__display__backgrounds___body.html#L17C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Offset",
-      "docHref": "docs/gba__display__backgrounds___body.html#L22C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Offset",
@@ -1962,18 +1151,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L44C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L51C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Offset",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L38C13",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
@@ -1988,22 +1165,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Offset_X",
-      "docHref": "docs/gba__display__backgrounds___body.html#L7C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Offset_X",
       "docHref": "docs/gba__display__backgrounds___spec.html#L101C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L101"
-    },
-    {
-      "label": "Set_Offset_X",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L58C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Offset_X",
@@ -2014,22 +1179,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Offset_Y",
-      "docHref": "docs/gba__display__backgrounds___body.html#L12C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Offset_Y",
       "docHref": "docs/gba__display__backgrounds___spec.html#L104C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L104"
-    },
-    {
-      "label": "Set_Offset_Y",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L65C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Offset_Y",
@@ -2040,28 +1193,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Priority",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L16C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Priority",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L21C13",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L21"
-    },
-    {
-      "label": "Set_Reference_Point",
-      "docHref": "docs/gba__display__backgrounds___body.html#L41C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Reference_Point",
-      "docHref": "docs/gba__display__backgrounds___body.html#L46C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Reference_Point",
@@ -2079,18 +1214,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Reference_Point",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L120C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Reference_Point",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L128C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Reference_Point",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L68C13",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
@@ -2105,22 +1228,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Reference_X",
-      "docHref": "docs/gba__display__backgrounds___body.html#L31C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Reference_X",
       "docHref": "docs/gba__display__backgrounds___spec.html#L147C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L147"
-    },
-    {
-      "label": "Set_Reference_X",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L135C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Reference_X",
@@ -2131,22 +1242,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Reference_Y",
-      "docHref": "docs/gba__display__backgrounds___body.html#L36C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Reference_Y",
       "docHref": "docs/gba__display__backgrounds___spec.html#L150C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.ads.html#L150"
-    },
-    {
-      "label": "Set_Reference_Y",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L142C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Reference_Y",
@@ -2157,22 +1256,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Timer_Increment_Type",
-      "docHref": "docs/gba__timers___body.html#L27C13",
-      "declared": "GBA.Timers",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Timer_Increment_Type",
       "docHref": "docs/gba__timers___spec.html#L83C13",
       "declared": "GBA.Timers",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Timers.ads.html#L83"
-    },
-    {
-      "label": "Set_Timer_Scale",
-      "docHref": "docs/gba__timers___body.html#L22C13",
-      "declared": "GBA.Timers",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Set_Timer_Scale",
@@ -2183,12 +1270,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Set_Transform",
-      "docHref": "docs/gba__display__backgrounds___body.html#L56C13",
-      "declared": "GBA.Display.Backgrounds",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Set_Transform",
       "docHref": "docs/gba__display__backgrounds___spec.html#L162C13",
       "declared": "GBA.Display.Backgrounds",
       "declared_qualifier": "",
@@ -2196,22 +1277,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Setup_DMA_Transfer",
-      "docHref": "docs/gba__dma___body.html#L7C13",
-      "declared": "GBA.DMA",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Setup_DMA_Transfer",
-      "docHref": "docs/gba__dma___spec.html#L140C13",
+      "docHref": "docs/gba__dma___spec.html#L142C13",
       "declared": "GBA.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.DMA.ads.html#L140"
-    },
-    {
-      "label": "Sin",
-      "docHref": "docs/gba__numerics___body.html#L348C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
+      "srcHref": "srcs/GBA.DMA.ads.html#L142"
     },
     {
       "label": "Sin",
@@ -2222,12 +1291,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sin_Cos",
-      "docHref": "docs/gba__numerics___body.html#L324C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Sin_Cos",
       "docHref": "docs/gba__numerics___spec.html#L125C13",
       "declared": "GBA.Numerics",
       "declared_qualifier": "",
@@ -2235,28 +1298,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Sin_Cos_LUT",
-      "docHref": "docs/gba__numerics___body.html#L460C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Sin_Cos_LUT",
       "docHref": "docs/gba__numerics___spec.html#L137C13",
       "declared": "GBA.Numerics",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.ads.html#L137"
-    },
-    {
-      "label": "Sin_Cos_Quadrant",
-      "docHref": "docs/gba__numerics___spec.html#L292C13",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": ""
-    },
-    {
-      "label": "Sin_LUT",
-      "docHref": "docs/gba__numerics___body.html#L366C12",
-      "declared": "GBA.Numerics",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Sin_LUT",
@@ -2316,12 +1361,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Start_Timer",
-      "docHref": "docs/gba__timers___body.html#L15C13",
-      "declared": "GBA.Timers",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Start_Timer",
       "docHref": "docs/gba__timers___spec.html#L77C13",
       "declared": "GBA.Timers",
       "declared_qualifier": "",
@@ -2350,16 +1389,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Stop_Ongoing_Transfer",
-      "docHref": "docs/gba__dma___body.html#L19C13",
-      "declared": "GBA.DMA",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Stop_Ongoing_Transfer",
-      "docHref": "docs/gba__dma___spec.html#L150C13",
+      "docHref": "docs/gba__dma___spec.html#L152C13",
       "declared": "GBA.DMA",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.DMA.ads.html#L150"
+      "srcHref": "srcs/GBA.DMA.ads.html#L152"
     },
     {
       "label": "Storage_Size",
@@ -2377,12 +1410,6 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Tile_Block_Address",
-      "docHref": "docs/gba__display__tiles___body.html#L10C12",
-      "declared": "GBA.Display.Tiles",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Tile_Block_Address",
       "docHref": "docs/gba__display__tiles___spec.html#L28C12",
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
@@ -2390,28 +1417,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "To_Affine_Transform",
-      "docHref": "docs/gba__numerics__matrices___body.html#L34C12",
-      "declared": "GBA.Numerics.Matrices",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "To_Affine_Transform",
       "docHref": "docs/gba__numerics__matrices___spec.html#L30C12",
       "declared": "GBA.Numerics.Matrices",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Numerics.Matrices.ads.html#L30"
-    },
-    {
-      "label": "To_Flags",
-      "docHref": "docs/gba__input___body.html#L16C12",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "To_Flags",
-      "docHref": "docs/gba__input___body.html#L19C12",
-      "declared": "GBA.Input",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "To_Flags",
@@ -2429,22 +1438,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Transform",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L108C12",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Transform",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L62C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L62"
-    },
-    {
-      "label": "Update_Control_Info",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L28C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Update_Control_Info",
@@ -2455,22 +1452,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Update_Key_State",
-      "docHref": "docs/gba__input__buffered___body.html#L10C13",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Update_Key_State",
       "docHref": "docs/gba__input__buffered___spec.html#L10C13",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L10"
-    },
-    {
-      "label": "Update_Offset",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L83C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Update_Offset",
@@ -2481,22 +1466,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Update_Transform",
-      "docHref": "docs/gba__display__backgrounds__refs___body.html#L157C13",
-      "declared": "GBA.Display.Backgrounds.Refs",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Update_Transform",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L86C13",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L86"
-    },
-    {
-      "label": "Wait_For_Interrupt",
-      "docHref": "docs/gba__bios__extended_interface___body.html#L91C13",
-      "declared": "GBA.BIOS.Extended_Interface",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Wait_For_Interrupt",
@@ -2549,22 +1522,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Was_Key_Held",
-      "docHref": "docs/gba__input__buffered___body.html#L26C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Was_Key_Held",
       "docHref": "docs/gba__input__buffered___spec.html#L24C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L24"
-    },
-    {
-      "label": "Was_Key_Pressed",
-      "docHref": "docs/gba__input__buffered___body.html#L20C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Was_Key_Pressed",
@@ -2575,22 +1536,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Was_Key_Released",
-      "docHref": "docs/gba__input__buffered___body.html#L23C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Was_Key_Released",
       "docHref": "docs/gba__input__buffered___spec.html#L20C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L20"
-    },
-    {
-      "label": "Was_Key_Untouched",
-      "docHref": "docs/gba__input__buffered___body.html#L29C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Was_Key_Untouched",
@@ -2601,22 +1550,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Were_All_Held",
-      "docHref": "docs/gba__input__buffered___body.html#L58C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Were_All_Held",
       "docHref": "docs/gba__input__buffered___spec.html#L26C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L26"
-    },
-    {
-      "label": "Were_All_Pressed",
-      "docHref": "docs/gba__input__buffered___body.html#L52C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Were_All_Pressed",
@@ -2627,22 +1564,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Were_All_Released",
-      "docHref": "docs/gba__input__buffered___body.html#L55C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Were_All_Released",
       "docHref": "docs/gba__input__buffered___spec.html#L22C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L22"
-    },
-    {
-      "label": "Were_All_Untouched",
-      "docHref": "docs/gba__input__buffered___body.html#L61C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Were_All_Untouched",
@@ -2653,22 +1578,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Were_Any_Held",
-      "docHref": "docs/gba__input__buffered___body.html#L42C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Were_Any_Held",
       "docHref": "docs/gba__input__buffered___spec.html#L25C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L25"
-    },
-    {
-      "label": "Were_Any_Pressed",
-      "docHref": "docs/gba__input__buffered___body.html#L36C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Were_Any_Pressed",
@@ -2679,22 +1592,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Were_Any_Released",
-      "docHref": "docs/gba__input__buffered___body.html#L39C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
-    },
-    {
-      "label": "Were_Any_Released",
       "docHref": "docs/gba__input__buffered___spec.html#L21C12",
       "declared": "GBA.Input.Buffered",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Input.Buffered.ads.html#L21"
-    },
-    {
-      "label": "Were_Any_Untouched",
-      "docHref": "docs/gba__input__buffered___body.html#L45C12",
-      "declared": "GBA.Input.Buffered",
-      "declared_qualifier": "(body)"
     },
     {
       "label": "Were_Any_Untouched",

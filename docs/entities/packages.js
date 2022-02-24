@@ -3,12 +3,6 @@ GNATdoc.EntitiesCategory = {
   "entities": [
     {
       "label": "Stack_Arena",
-      "docHref": "docs/gba__allocation___stack_arena___body.html#L7C16",
-      "declared": "GBA.Allocation",
-      "declared_qualifier": "(nested, body)"
-    },
-    {
-      "label": "Stack_Arena",
       "docHref": "docs/gba__allocation___stack_arena___spec.html#L19C11",
       "declared": "GBA.Allocation",
       "declared_qualifier": "(nested)",

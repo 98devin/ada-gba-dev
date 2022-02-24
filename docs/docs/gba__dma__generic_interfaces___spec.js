@@ -85,7 +85,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_ID",
-                      "href": "docs/gba__dma___spec.html#L108C8"
+                      "href": "docs/gba__dma___spec.html#L110C8"
                     },
                     {
                       "kind": "span",
@@ -175,7 +175,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Count_Type",
-                      "href": "docs/gba__dma___spec.html#L65C8"
+                      "href": "docs/gba__dma___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -225,7 +225,7 @@ GNATdoc.Documentation = {
               "column": 23,
               "type": {
                 "label": "GBA.DMA.Channel_ID",
-                "docHref": "docs/gba__dma___spec.html#L108C8"
+                "docHref": "docs/gba__dma___spec.html#L110C8"
               },
               "description": [
               ]
@@ -258,7 +258,7 @@ GNATdoc.Documentation = {
               "column": 69,
               "type": {
                 "label": "GBA.DMA.Transfer_Count_Type",
-                "docHref": "docs/gba__dma___spec.html#L65C8"
+                "docHref": "docs/gba__dma___spec.html#L67C8"
               },
               "description": [
               ]
@@ -342,7 +342,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Count_Type",
-                      "href": "docs/gba__dma___spec.html#L65C8"
+                      "href": "docs/gba__dma___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -373,7 +373,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Info",
-                      "href": "docs/gba__dma___spec.html#L67C8"
+                      "href": "docs/gba__dma___spec.html#L69C8"
                     }
                   ]
                 },
@@ -413,7 +413,7 @@ GNATdoc.Documentation = {
               "column": 27,
               "type": {
                 "label": "GBA.DMA.Transfer_Count_Type",
-                "docHref": "docs/gba__dma___spec.html#L65C8"
+                "docHref": "docs/gba__dma___spec.html#L67C8"
               },
               "description": [
               ]
@@ -497,7 +497,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Channel_ID",
-                      "href": "docs/gba__dma___spec.html#L108C8"
+                      "href": "docs/gba__dma___spec.html#L110C8"
                     },
                     {
                       "kind": "span",
@@ -587,7 +587,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Count_Type",
-                      "href": "docs/gba__dma___spec.html#L65C8"
+                      "href": "docs/gba__dma___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -637,7 +637,7 @@ GNATdoc.Documentation = {
               "column": 23,
               "type": {
                 "label": "GBA.DMA.Channel_ID",
-                "docHref": "docs/gba__dma___spec.html#L108C8"
+                "docHref": "docs/gba__dma___spec.html#L110C8"
               },
               "description": [
               ]
@@ -670,7 +670,7 @@ GNATdoc.Documentation = {
               "column": 69,
               "type": {
                 "label": "GBA.DMA.Transfer_Count_Type",
-                "docHref": "docs/gba__dma___spec.html#L65C8"
+                "docHref": "docs/gba__dma___spec.html#L67C8"
               },
               "description": [
               ]
@@ -754,7 +754,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Count_Type",
-                      "href": "docs/gba__dma___spec.html#L65C8"
+                      "href": "docs/gba__dma___spec.html#L67C8"
                     },
                     {
                       "kind": "span",
@@ -785,7 +785,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transfer_Info",
-                      "href": "docs/gba__dma___spec.html#L67C8"
+                      "href": "docs/gba__dma___spec.html#L69C8"
                     }
                   ]
                 },
@@ -825,7 +825,7 @@ GNATdoc.Documentation = {
               "column": 26,
               "type": {
                 "label": "GBA.DMA.Transfer_Count_Type",
-                "docHref": "docs/gba__dma___spec.html#L65C8"
+                "docHref": "docs/gba__dma___spec.html#L67C8"
               },
               "description": [
               ]

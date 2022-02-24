@@ -8,6 +8,14 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/GBA.Allocation.ads.html"
   },
   {
+    "label": "GBA.Audio.ads",
+    "srcHref": "srcs/GBA.Audio.ads.html"
+  },
+  {
+    "label": "GBA.Audio.PSG.ads",
+    "srcHref": "srcs/GBA.Audio.PSG.ads.html"
+  },
+  {
     "label": "GBA.BIOS.ads",
     "srcHref": "srcs/GBA.BIOS.ads.html"
   },
