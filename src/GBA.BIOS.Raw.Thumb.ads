@@ -68,6 +68,34 @@ package GBA.BIOS.Raw.Thumb is
     with Import, External_Name => IMPORT_PREFIX & "obj_affine_set";
 
 
+  procedure Bit_Unpack (Src, Dest : Address; Config : Address)
+    with Import, External_Name => IMPORT_PREFIX & "bit_unpack";
+
+  procedure LZ77_Decompress_Write8 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "lz77_decompress_write8";
+
+  procedure LZ77_Decompress_Write16 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "lz77_decompress_write16";
+
+  procedure Huffman_Decompress_Write32 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "huff_decompress_write32";
+
+  procedure Run_Length_Decompress_Write8 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "rl_decompress_write8";
+
+  procedure Run_Length_Decompress_Write16 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "rl_decompress_write16";
+
+
+  procedure Diff_Unfilter8_Write8 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "diff_unfilter8_write8";
+
+  procedure Diff_Unfilter8_Write16 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "diff_unfilter8_write16";
+
+  procedure Diff_Unfilter16_Write16 (Data : Address; Dest : Address)
+    with Import, External_Name => IMPORT_PREFIX & "diff_unfilter16_write16";
+
   package Generic_Interface is new GBA.BIOS.Generic_Interface;
 
 end GBA.BIOS.Raw.Thumb;

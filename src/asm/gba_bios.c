@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) 2022 Devin Hill
+ * zlib License -- see LICENSE for details.
+ */
+
 
 #include <stdint.h>
 #include <stdbool.h>
