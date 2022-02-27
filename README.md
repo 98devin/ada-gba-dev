@@ -55,14 +55,14 @@ the requirements and features of this library.
         - [x] Default interrupt handler in Ada + Asm
         - [x] Per-interrupt callbacks
         - [x] Enable/disable interrupts
-    - [~] BIOS functions
+    - [ ] BIOS functions
         - [x] Accessible from ARM or Thumb mode
         - [x] Inlineable definitions for LTO support
         - [x] Halting, Stopping, Resetting
         - [x] Waiting for interrupts
         - [x] Arithmetic functions (division, arctangent, square root)
         - [x] Memory copy functions
-        - [ ] Decompression routines
+        - [x] Decompression routines
         - [x] BG and OBJ affine matrix computation routines
         - [ ] Sound driver functionality
     - [x] Display control
