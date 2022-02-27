@@ -7,7 +7,7 @@ GNATdoc.Documentation = {
   ],
   "instantiation": {
     "label": "GBA.BIOS.Generic_Interface",
-    "docHref": "docs/gba__bios__generic_interface___spec.html#L51C18"
+    "docHref": "docs/gba__bios__generic_interface___spec.html#L61C18"
   },
   "entities": [
   ]

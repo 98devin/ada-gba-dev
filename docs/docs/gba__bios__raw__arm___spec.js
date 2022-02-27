@@ -825,6 +825,205 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "Bit_Unpack",
+          "qualifier": "",
+          "line": 71,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 71,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Bit_Unpack",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L71C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Src",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L71C25"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ","
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L71C30"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Config",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L71C46"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 72,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"bit_unpack\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Src",
+              "line": 71,
+              "column": 25,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 71,
+              "column": 30,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Config",
+              "line": 71,
+              "column": 46,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "Cpu_Fast_Set",
           "qualifier": "",
           "line": 56,
@@ -1216,6 +1415,522 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "GBA.BIOS.Cpu_Set_Config",
                 "docHref": "docs/gba__bios___spec.html#L148C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Diff_Unfilter16_Write16",
+          "qualifier": "",
+          "line": 96,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 96,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Diff_Unfilter16_Write16",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L96C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L96C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L96C54"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 97,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"diff_unfilter16_write16\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 96,
+              "column": 38,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 96,
+              "column": 54,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Diff_Unfilter8_Write16",
+          "qualifier": "",
+          "line": 93,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 93,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Diff_Unfilter8_Write16",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L93C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L93C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L93C53"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 94,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"diff_unfilter8_write16\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 93,
+              "column": 37,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 93,
+              "column": 53,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Diff_Unfilter8_Write8",
+          "qualifier": "",
+          "line": 90,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 90,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Diff_Unfilter8_Write8",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L90C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L90C36"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L90C52"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 91,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"diff_unfilter8_write8\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 90,
+              "column": 36,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 90,
+              "column": 52,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
               },
               "description": [
               ]
@@ -1697,6 +2412,522 @@ GNATdoc.Documentation = {
           ]
         },
         {
+          "label": "Huffman_Decompress_Write32",
+          "qualifier": "",
+          "line": 80,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 80,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Huffman_Decompress_Write32",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L80C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L80C41"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L80C57"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 81,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"huff_decompress_write32\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 80,
+              "column": 41,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 80,
+              "column": 57,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "LZ77_Decompress_Write16",
+          "qualifier": "",
+          "line": 77,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 77,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "LZ77_Decompress_Write16",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L77C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L77C38"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L77C54"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 78,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"lz77_decompress_write16\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 77,
+              "column": 38,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 77,
+              "column": 54,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "LZ77_Decompress_Write8",
+          "qualifier": "",
+          "line": 74,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 74,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "LZ77_Decompress_Write8",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L74C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L74C37"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L74C53"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 75,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"lz77_decompress_write8\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 74,
+              "column": 37,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 74,
+              "column": 53,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
           "label": "Register_RAM_Reset",
           "qualifier": "",
           "line": 23,
@@ -1814,6 +3045,350 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "GBA.BIOS.Register_RAM_Reset_Flags",
                 "docHref": "docs/gba__bios___spec.html#L108C8"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Run_Length_Decompress_Write16",
+          "qualifier": "",
+          "line": 86,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 86,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Run_Length_Decompress_Write16",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L86C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L86C44"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L86C60"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 87,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"rl_decompress_write16\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 86,
+              "column": 44,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 86,
+              "column": 60,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            }
+          ]
+        },
+        {
+          "label": "Run_Length_Decompress_Write8",
+          "qualifier": "",
+          "line": 83,
+          "column": 13,
+          "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
+          "summary": [
+          ],
+          "description": [
+            {
+              "kind": "code",
+              "children": [
+                {
+                  "kind": "line",
+                  "number": 83,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "  "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "procedure"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Run_Length_Decompress_Write8",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L83C13"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "("
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Data",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L83C43"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Dest",
+                      "href": "docs/gba__bios__raw__arm___spec.html#L83C59"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ":"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": "Address",
+                      "href": "docs/gba__memory___spec.html#L12C11"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ")"
+                    }
+                  ]
+                },
+                {
+                  "kind": "line",
+                  "number": 84,
+                  "children": [
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "    "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Import, External_Name => IMPORT_PREFIX & \"rl_decompress_write8\""
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "identifier",
+                      "text": ";"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "label": "Data",
+              "line": 83,
+              "column": 43,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
+              },
+              "description": [
+              ]
+            },
+            {
+              "label": "Dest",
+              "line": 83,
+              "column": 59,
+              "type": {
+                "label": "GBA.Memory.Address",
+                "docHref": "docs/gba__memory___spec.html#L12C11"
               },
               "description": [
               ]
@@ -2358,7 +3933,7 @@ GNATdoc.Documentation = {
         {
           "label": "Generic_Interface",
           "qualifier": "(generic instantiation)",
-          "line": 71,
+          "line": 99,
           "column": 11,
           "src": "srcs/GBA.BIOS.Raw.Arm.ads.html",
           "summary": [
@@ -2369,7 +3944,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 71,
+                  "number": 99,
                   "children": [
                     {
                       "kind": "span",
@@ -2428,7 +4003,7 @@ GNATdoc.Documentation = {
           ],
           "instantiation": {
             "label": "GBA.BIOS.Generic_Interface",
-            "docHref": "docs/gba__bios__generic_interface___spec.html#L51C18"
+            "docHref": "docs/gba__bios__generic_interface___spec.html#L61C18"
           }
         }
       ],

@@ -2041,7 +2041,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "S",
+          "text": "Src",
           "href": "docs/gba__bios__extended_interface___spec.html#L67C22"
         },
         {
@@ -2057,8 +2057,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "D",
-          "href": "docs/gba__bios__extended_interface___spec.html#L67C25"
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L67C27"
         },
         {
           "kind": "span",
@@ -2095,7 +2095,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Config",
-          "href": "docs/gba__bios__extended_interface___spec.html#L67C38"
+          "href": "docs/gba__bios__extended_interface___spec.html#L67C43"
         },
         {
           "kind": "span",
@@ -2220,7 +2220,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "S",
+          "text": "Src",
           "href": "docs/gba__bios__extended_interface___spec.html#L70C27"
         },
         {
@@ -2236,8 +2236,8 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "D",
-          "href": "docs/gba__bios__extended_interface___spec.html#L70C30"
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L70C32"
         },
         {
           "kind": "span",
@@ -2274,7 +2274,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Config",
-          "href": "docs/gba__bios__extended_interface___spec.html#L70C43"
+          "href": "docs/gba__bios__extended_interface___spec.html#L70C48"
         },
         {
           "kind": "span",
@@ -2890,8 +2890,114 @@ GNATdoc.SourceFile = {
         },
         {
           "kind": "span",
-          "cssClass": "comment",
-          "text": "-- More convenient interfaces to Raw functions --"
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack",
+          "href": "docs/gba__bios__extended_interface___spec.html#L82C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Src",
+          "href": "docs/gba__bios__extended_interface___spec.html#L82C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L82C30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Config",
+          "href": "docs/gba__bios__extended_interface___spec.html#L82C46"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
         }
       ]
     },
@@ -2899,11 +3005,1394 @@ GNATdoc.SourceFile = {
       "kind": "line",
       "number": 83,
       "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Bit_Unpack"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
       ]
     },
     {
       "kind": "line",
       "number": 84,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 85,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "LZ77_Decompress_Write8",
+          "href": "docs/gba__bios__extended_interface___spec.html#L85C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L85C37"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L85C53"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 86,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.LZ77_Decompress_Write8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 87,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 88,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "LZ77_Decompress_Write16",
+          "href": "docs/gba__bios__extended_interface___spec.html#L88C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L88C38"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L88C54"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 89,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.LZ77_Decompress_Write16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 90,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 91,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Huffman_Decompress_Write32",
+          "href": "docs/gba__bios__extended_interface___spec.html#L91C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L91C41"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L91C57"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 92,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Huffman_Decompress_Write32"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 93,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 94,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Run_Length_Decompress_Write8",
+          "href": "docs/gba__bios__extended_interface___spec.html#L94C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L94C43"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L94C59"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 95,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Run_Length_Decompress_Write8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 96,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 97,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Run_Length_Decompress_Write16",
+          "href": "docs/gba__bios__extended_interface___spec.html#L97C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L97C44"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L97C60"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 98,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Run_Length_Decompress_Write16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 99,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 100,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Diff_Unfilter8_Write8",
+          "href": "docs/gba__bios__extended_interface___spec.html#L100C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L100C36"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L100C52"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 101,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Diff_Unfilter8_Write8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 102,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 103,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Diff_Unfilter8_Write16",
+          "href": "docs/gba__bios__extended_interface___spec.html#L103C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L103C37"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L103C53"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 104,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Diff_Unfilter8_Write16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 105,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 106,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Diff_Unfilter16_Write16",
+          "href": "docs/gba__bios__extended_interface___spec.html#L106C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data",
+          "href": "docs/gba__bios__extended_interface___spec.html#L106C38"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L106C54"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 107,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "renames"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Raw.Diff_Unfilter16_Write16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 108,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 109,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 110,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "comment",
+          "text": "-- More convenient interfaces to Raw functions --"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 111,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 112,
       "children": [
         {
           "kind": "span",
@@ -2919,13 +4408,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 85,
+      "number": 113,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 86,
+      "number": 114,
       "children": [
         {
           "kind": "span",
@@ -2941,7 +4430,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 87,
+      "number": 115,
       "children": [
         {
           "kind": "span",
@@ -2957,7 +4446,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 88,
+      "number": 116,
       "children": [
         {
           "kind": "span",
@@ -2973,13 +4462,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 89,
+      "number": 117,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 90,
+      "number": 118,
       "children": [
         {
           "kind": "span",
@@ -3000,13 +4489,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Register_RAM_Reset",
-          "href": "docs/gba__bios__extended_interface___spec.html#L90C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L118C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 91,
+      "number": 119,
       "children": [
         {
           "kind": "span",
@@ -3027,13 +4516,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_External_WRAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L91C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L119C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 92,
+      "number": 120,
       "children": [
         {
           "kind": "span",
@@ -3054,13 +4543,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_Internal_WRAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L92C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L120C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 93,
+      "number": 121,
       "children": [
         {
           "kind": "span",
@@ -3081,13 +4570,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_Palette",
-          "href": "docs/gba__bios__extended_interface___spec.html#L93C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L121C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 94,
+      "number": 122,
       "children": [
         {
           "kind": "span",
@@ -3108,13 +4597,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_VRAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L94C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L122C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 95,
+      "number": 123,
       "children": [
         {
           "kind": "span",
@@ -3135,13 +4624,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Clear_OAM",
-          "href": "docs/gba__bios__extended_interface___spec.html#L95C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L123C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 96,
+      "number": 124,
       "children": [
         {
           "kind": "span",
@@ -3162,13 +4651,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset_SIO_Registers",
-          "href": "docs/gba__bios__extended_interface___spec.html#L96C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L124C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 97,
+      "number": 125,
       "children": [
         {
           "kind": "span",
@@ -3189,13 +4678,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset_Sound_Registers",
-          "href": "docs/gba__bios__extended_interface___spec.html#L97C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L125C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 98,
+      "number": 126,
       "children": [
         {
           "kind": "span",
@@ -3216,13 +4705,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Reset_Other_Registers",
-          "href": "docs/gba__bios__extended_interface___spec.html#L98C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L126C7"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 99,
+      "number": 127,
       "children": [
         {
           "kind": "span",
@@ -3273,7 +4762,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 100,
+      "number": 128,
       "children": [
         {
           "kind": "span",
@@ -3299,13 +4788,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 101,
+      "number": 129,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 102,
+      "number": 130,
       "children": [
         {
           "kind": "span",
@@ -3326,7 +4815,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wait_For_Interrupt",
-          "href": "docs/gba__bios__extended_interface___spec.html#L102C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L130C13"
         },
         {
           "kind": "span",
@@ -3342,7 +4831,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Wait_For",
-          "href": "docs/gba__bios__extended_interface___spec.html#L102C33"
+          "href": "docs/gba__bios__extended_interface___spec.html#L130C33"
         },
         {
           "kind": "span",
@@ -3374,7 +4863,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 103,
+      "number": 131,
       "children": [
         {
           "kind": "span",
@@ -3400,13 +4889,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 104,
+      "number": 132,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 105,
+      "number": 133,
       "children": [
         {
           "kind": "span",
@@ -3427,7 +4916,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Divide",
-          "href": "docs/gba__bios__extended_interface___spec.html#L105C12"
+          "href": "docs/gba__bios__extended_interface___spec.html#L133C12"
         },
         {
           "kind": "span",
@@ -3443,7 +4932,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/gba__bios__extended_interface___spec.html#L105C20"
+          "href": "docs/gba__bios__extended_interface___spec.html#L133C20"
         },
         {
           "kind": "span",
@@ -3459,7 +4948,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Denom",
-          "href": "docs/gba__bios__extended_interface___spec.html#L105C25"
+          "href": "docs/gba__bios__extended_interface___spec.html#L133C25"
         },
         {
           "kind": "span",
@@ -3510,7 +4999,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 106,
+      "number": 134,
       "children": [
         {
           "kind": "span",
@@ -3536,13 +5025,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 107,
+      "number": 135,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 108,
+      "number": 136,
       "children": [
         {
           "kind": "span",
@@ -3563,7 +5052,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Remainder",
-          "href": "docs/gba__bios__extended_interface___spec.html#L108C12"
+          "href": "docs/gba__bios__extended_interface___spec.html#L136C12"
         },
         {
           "kind": "span",
@@ -3579,7 +5068,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/gba__bios__extended_interface___spec.html#L108C23"
+          "href": "docs/gba__bios__extended_interface___spec.html#L136C23"
         },
         {
           "kind": "span",
@@ -3595,7 +5084,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Denom",
-          "href": "docs/gba__bios__extended_interface___spec.html#L108C28"
+          "href": "docs/gba__bios__extended_interface___spec.html#L136C28"
         },
         {
           "kind": "span",
@@ -3646,7 +5135,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 109,
+      "number": 137,
       "children": [
         {
           "kind": "span",
@@ -3672,13 +5161,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 110,
+      "number": 138,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 111,
+      "number": 139,
       "children": [
         {
           "kind": "span",
@@ -3699,7 +5188,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Div_Mod",
-          "href": "docs/gba__bios__extended_interface___spec.html#L111C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L139C13"
         },
         {
           "kind": "span",
@@ -3715,7 +5204,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Num",
-          "href": "docs/gba__bios__extended_interface___spec.html#L111C22"
+          "href": "docs/gba__bios__extended_interface___spec.html#L139C22"
         },
         {
           "kind": "span",
@@ -3731,7 +5220,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Denom",
-          "href": "docs/gba__bios__extended_interface___spec.html#L111C27"
+          "href": "docs/gba__bios__extended_interface___spec.html#L139C27"
         },
         {
           "kind": "span",
@@ -3767,7 +5256,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Quotient",
-          "href": "docs/gba__bios__extended_interface___spec.html#L111C44"
+          "href": "docs/gba__bios__extended_interface___spec.html#L139C44"
         },
         {
           "kind": "span",
@@ -3783,7 +5272,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Remainder",
-          "href": "docs/gba__bios__extended_interface___spec.html#L111C54"
+          "href": "docs/gba__bios__extended_interface___spec.html#L139C54"
         },
         {
           "kind": "span",
@@ -3824,7 +5313,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 112,
+      "number": 140,
       "children": [
         {
           "kind": "span",
@@ -3850,13 +5339,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 113,
+      "number": 141,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 114,
+      "number": 142,
       "children": [
         {
           "kind": "span",
@@ -3877,13 +5366,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Cpu_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L114C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L142C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 115,
+      "number": 143,
       "children": [
         {
           "kind": "span",
@@ -3904,7 +5393,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/gba__bios__extended_interface___spec.html#L115C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L143C7"
         },
         {
           "kind": "span",
@@ -3920,7 +5409,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dest",
-          "href": "docs/gba__bios__extended_interface___spec.html#L115C15"
+          "href": "docs/gba__bios__extended_interface___spec.html#L143C15"
         },
         {
           "kind": "span",
@@ -3952,7 +5441,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 116,
+      "number": 144,
       "children": [
         {
           "kind": "span",
@@ -3963,7 +5452,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Unit_Count",
-          "href": "docs/gba__bios__extended_interface___spec.html#L116C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L144C7"
         },
         {
           "kind": "span",
@@ -3995,7 +5484,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 117,
+      "number": 145,
       "children": [
         {
           "kind": "span",
@@ -4006,7 +5495,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mode",
-          "href": "docs/gba__bios__extended_interface___spec.html#L117C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L145C7"
         },
         {
           "kind": "span",
@@ -4038,7 +5527,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 118,
+      "number": 146,
       "children": [
         {
           "kind": "span",
@@ -4049,7 +5538,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Unit_Size",
-          "href": "docs/gba__bios__extended_interface___spec.html#L118C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L146C7"
         },
         {
           "kind": "span",
@@ -4086,7 +5575,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 119,
+      "number": 147,
       "children": [
         {
           "kind": "span",
@@ -4112,13 +5601,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 120,
+      "number": 148,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 121,
+      "number": 149,
       "children": [
         {
           "kind": "span",
@@ -4139,13 +5628,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Cpu_Fast_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L121C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L149C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 122,
+      "number": 150,
       "children": [
         {
           "kind": "span",
@@ -4166,7 +5655,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Source",
-          "href": "docs/gba__bios__extended_interface___spec.html#L122C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L150C7"
         },
         {
           "kind": "span",
@@ -4182,7 +5671,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Dest",
-          "href": "docs/gba__bios__extended_interface___spec.html#L122C15"
+          "href": "docs/gba__bios__extended_interface___spec.html#L150C15"
         },
         {
           "kind": "span",
@@ -4214,7 +5703,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 123,
+      "number": 151,
       "children": [
         {
           "kind": "span",
@@ -4225,7 +5714,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Word_Count",
-          "href": "docs/gba__bios__extended_interface___spec.html#L123C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L151C7"
         },
         {
           "kind": "span",
@@ -4257,7 +5746,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 124,
+      "number": 152,
       "children": [
         {
           "kind": "span",
@@ -4268,7 +5757,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Mode",
-          "href": "docs/gba__bios__extended_interface___spec.html#L124C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L152C7"
         },
         {
           "kind": "span",
@@ -4305,7 +5794,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 125,
+      "number": 153,
       "children": [
         {
           "kind": "span",
@@ -4331,13 +5820,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 126,
+      "number": 154,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 127,
+      "number": 155,
       "children": [
         {
           "kind": "span",
@@ -4353,7 +5842,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 128,
+      "number": 156,
       "children": [
         {
           "kind": "span",
@@ -4369,7 +5858,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 129,
+      "number": 157,
       "children": [
         {
           "kind": "span",
@@ -4385,13 +5874,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 130,
+      "number": 158,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 131,
+      "number": 159,
       "children": [
         {
           "kind": "span",
@@ -4412,13 +5901,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L131C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L159C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 132,
+      "number": 160,
       "children": [
         {
           "kind": "span",
@@ -4439,7 +5928,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L132C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L160C7"
         },
         {
           "kind": "span",
@@ -4471,7 +5960,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 133,
+      "number": 161,
       "children": [
         {
           "kind": "span",
@@ -4482,7 +5971,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L133C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L161C7"
         },
         {
           "kind": "span",
@@ -4529,7 +6018,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 134,
+      "number": 162,
       "children": [
         {
           "kind": "span",
@@ -4555,13 +6044,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 135,
+      "number": 163,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 136,
+      "number": 164,
       "children": [
         {
           "kind": "span",
@@ -4582,13 +6071,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L136C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L164C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 137,
+      "number": 165,
       "children": [
         {
           "kind": "span",
@@ -4609,7 +6098,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L137C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L165C7"
         },
         {
           "kind": "span",
@@ -4641,7 +6130,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 138,
+      "number": 166,
       "children": [
         {
           "kind": "span",
@@ -4652,7 +6141,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L138C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L166C7"
         },
         {
           "kind": "span",
@@ -4689,7 +6178,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 139,
+      "number": 167,
       "children": [
         {
           "kind": "span",
@@ -4715,13 +6204,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 140,
+      "number": 168,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 141,
+      "number": 169,
       "children": [
         {
           "kind": "span",
@@ -4742,13 +6231,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set_Ext",
-          "href": "docs/gba__bios__extended_interface___spec.html#L141C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L169C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 142,
+      "number": 170,
       "children": [
         {
           "kind": "span",
@@ -4769,7 +6258,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L142C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L170C7"
         },
         {
           "kind": "span",
@@ -4801,7 +6290,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 143,
+      "number": 171,
       "children": [
         {
           "kind": "span",
@@ -4812,7 +6301,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transform",
-          "href": "docs/gba__bios__extended_interface___spec.html#L143C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L171C7"
         },
         {
           "kind": "span",
@@ -4859,7 +6348,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 144,
+      "number": 172,
       "children": [
         {
           "kind": "span",
@@ -4885,13 +6374,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 145,
+      "number": 173,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 146,
+      "number": 174,
       "children": [
         {
           "kind": "span",
@@ -4907,7 +6396,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 147,
+      "number": 175,
       "children": [
         {
           "kind": "span",
@@ -4923,7 +6412,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 148,
+      "number": 176,
       "children": [
         {
           "kind": "span",
@@ -4939,19 +6428,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 149,
+      "number": 177,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 150,
+      "number": 178,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 151,
+      "number": 179,
       "children": [
         {
           "kind": "span",
@@ -4972,7 +6461,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L179C8"
         },
         {
           "kind": "span",
@@ -4988,7 +6477,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 152,
+      "number": 180,
       "children": [
         {
           "kind": "span",
@@ -5071,13 +6560,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 153,
+      "number": 181,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 154,
+      "number": 182,
       "children": [
         {
           "kind": "span",
@@ -5098,7 +6587,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L154C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L182C13"
         },
         {
           "kind": "span",
@@ -5114,7 +6603,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L154C25"
+          "href": "docs/gba__bios__extended_interface___spec.html#L182C25"
         },
         {
           "kind": "span",
@@ -5135,7 +6624,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "OBJ_Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L151C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L179C8"
         },
         {
           "kind": "span",
@@ -5146,7 +6635,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 155,
+      "number": 183,
       "children": [
         {
           "kind": "span",
@@ -5172,19 +6661,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 156,
+      "number": 184,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 157,
+      "number": 185,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 158,
+      "number": 186,
       "children": [
         {
           "kind": "span",
@@ -5205,7 +6694,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG_Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L186C8"
         },
         {
           "kind": "span",
@@ -5221,7 +6710,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 159,
+      "number": 187,
       "children": [
         {
           "kind": "span",
@@ -5304,13 +6793,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 160,
+      "number": 188,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 161,
+      "number": 189,
       "children": [
         {
           "kind": "span",
@@ -5331,7 +6820,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set_Ext",
-          "href": "docs/gba__bios__extended_interface___spec.html#L161C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L189C13"
         },
         {
           "kind": "span",
@@ -5347,7 +6836,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L161C29"
+          "href": "docs/gba__bios__extended_interface___spec.html#L189C29"
         },
         {
           "kind": "span",
@@ -5368,7 +6857,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "BG_Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L158C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L186C8"
         },
         {
           "kind": "span",
@@ -5379,7 +6868,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 162,
+      "number": 190,
       "children": [
         {
           "kind": "span",
@@ -5405,19 +6894,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 163,
+      "number": 191,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 164,
+      "number": 192,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 165,
+      "number": 193,
       "children": [
         {
           "kind": "span",
@@ -5438,7 +6927,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L165C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L193C8"
         },
         {
           "kind": "span",
@@ -5454,7 +6943,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 166,
+      "number": 194,
       "children": [
         {
           "kind": "span",
@@ -5536,13 +7025,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 167,
+      "number": 195,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 168,
+      "number": 196,
       "children": [
         {
           "kind": "span",
@@ -5563,7 +7052,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Transform_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L168C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L196C8"
         },
         {
           "kind": "span",
@@ -5579,7 +7068,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 169,
+      "number": 197,
       "children": [
         {
           "kind": "span",
@@ -5661,13 +7150,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 170,
+      "number": 198,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 171,
+      "number": 199,
       "children": [
         {
           "kind": "span",
@@ -5688,13 +7177,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set",
-          "href": "docs/gba__bios__extended_interface___spec.html#L171C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L199C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 172,
+      "number": 200,
       "children": [
         {
           "kind": "span",
@@ -5715,7 +7204,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L172C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L200C7"
         },
         {
           "kind": "span",
@@ -5736,7 +7225,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L165C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L193C8"
         },
         {
           "kind": "span",
@@ -5747,7 +7236,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 173,
+      "number": 201,
       "children": [
         {
           "kind": "span",
@@ -5758,7 +7247,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transforms",
-          "href": "docs/gba__bios__extended_interface___spec.html#L173C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L201C7"
         },
         {
           "kind": "span",
@@ -5789,7 +7278,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Transform_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L168C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L196C8"
         },
         {
           "kind": "span",
@@ -5805,7 +7294,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 174,
+      "number": 202,
       "children": [
         {
           "kind": "span",
@@ -5831,19 +7320,19 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 175,
+      "number": 203,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 176,
+      "number": 204,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 177,
+      "number": 205,
       "children": [
         {
           "kind": "span",
@@ -5864,7 +7353,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L177C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L205C8"
         },
         {
           "kind": "span",
@@ -5880,7 +7369,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 178,
+      "number": 206,
       "children": [
         {
           "kind": "span",
@@ -5962,13 +7451,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 179,
+      "number": 207,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 180,
+      "number": 208,
       "children": [
         {
           "kind": "span",
@@ -5989,13 +7478,13 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Set_Ext",
-          "href": "docs/gba__bios__extended_interface___spec.html#L180C13"
+          "href": "docs/gba__bios__extended_interface___spec.html#L208C13"
         }
       ]
     },
     {
       "kind": "line",
-      "number": 181,
+      "number": 209,
       "children": [
         {
           "kind": "span",
@@ -6016,7 +7505,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Parameters",
-          "href": "docs/gba__bios__extended_interface___spec.html#L181C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L209C7"
         },
         {
           "kind": "span",
@@ -6037,7 +7526,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Affine_Parameter_Ext_Array",
-          "href": "docs/gba__bios__extended_interface___spec.html#L177C8"
+          "href": "docs/gba__bios__extended_interface___spec.html#L205C8"
         },
         {
           "kind": "span",
@@ -6048,7 +7537,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 182,
+      "number": 210,
       "children": [
         {
           "kind": "span",
@@ -6059,7 +7548,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "Transforms",
-          "href": "docs/gba__bios__extended_interface___spec.html#L182C7"
+          "href": "docs/gba__bios__extended_interface___spec.html#L210C7"
         },
         {
           "kind": "span",
@@ -6106,7 +7595,7 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 183,
+      "number": 211,
       "children": [
         {
           "kind": "span",
@@ -6132,13 +7621,2457 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 184,
+      "number": 212,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 185,
+      "number": 213,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 214,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack_Width",
+          "href": "docs/gba__bios__extended_interface___spec.html#L214C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "new"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_8"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 215,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Static_Predicate => Bit_Unpack_Width "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "in"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " 1 | 2 | 4 | 8 | 16 | 32"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 216,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "subtype"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Src_Unpack_Width",
+          "href": "docs/gba__bios__extended_interface___spec.html#L216C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack_Width",
+          "href": "docs/gba__bios__extended_interface___spec.html#L214C8"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 217,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Static_Predicate => Bit_Src_Unpack_Width < 16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 218,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 219,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_31",
+          "href": "docs/gba__bios__extended_interface___spec.html#L219C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "**"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "31"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 220,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 221,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack_Config",
+          "href": "docs/gba__bios__extended_interface___spec.html#L221C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 222,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 223,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Src_Data_Bytes",
+          "href": "docs/gba__bios__extended_interface___spec.html#L223C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_16"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 224,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Src_Data_Width",
+          "href": "docs/gba__bios__extended_interface___spec.html#L224C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Src_Unpack_Width",
+          "href": "docs/gba__bios__extended_interface___spec.html#L216C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 225,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dst_Data_Width",
+          "href": "docs/gba__bios__extended_interface___spec.html#L225C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack_Width",
+          "href": "docs/gba__bios__extended_interface___spec.html#L214C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 226,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data_Offset",
+          "href": "docs/gba__bios__extended_interface___spec.html#L226C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_31",
+          "href": "docs/gba__bios__extended_interface___spec.html#L219C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 227,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Offset_Zeros",
+          "href": "docs/gba__bios__extended_interface___spec.html#L227C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Boolean"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 228,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 229,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Size => 64"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 230,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 231,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "for"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack_Config",
+          "href": "docs/gba__bios__extended_interface___spec.html#L221C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 232,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 233,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Src_Data_Bytes"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "15"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 234,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Src_Data_Width"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 235,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dst_Data_Width"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "3"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 236,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Data_Offset"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 237,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Offset_Zeros"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "   "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "31"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "31"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 238,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 239,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 240,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "procedure"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack",
+          "href": "docs/gba__bios__extended_interface___spec.html#L240C13"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Src",
+          "href": "docs/gba__bios__extended_interface___spec.html#L240C25"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Dest",
+          "href": "docs/gba__bios__extended_interface___spec.html#L240C30"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Address",
+          "href": "docs/gba__memory___spec.html#L12C11"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Config",
+          "href": "docs/gba__bios__extended_interface___spec.html#L240C46"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Bit_Unpack_Config",
+          "href": "docs/gba__bios__extended_interface___spec.html#L221C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 241,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Inline_Always"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 242,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 243,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 244,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Compression_Type",
+          "href": "docs/gba__bios__extended_interface___spec.html#L244C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 245,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "LZ77",
+          "href": "docs/gba__bios__extended_interface___spec.html#L245C7"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 246,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Huffman",
+          "href": "docs/gba__bios__extended_interface___spec.html#L246C7"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 247,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Run_Length_Encoded",
+          "href": "docs/gba__bios__extended_interface___spec.html#L247C7"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 248,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Diff_Filtered",
+          "href": "docs/gba__bios__extended_interface___spec.html#L248C7"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 249,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Size => 4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 250,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 251,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "for"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Compression_Type",
+          "href": "docs/gba__bios__extended_interface___spec.html#L244C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 252,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "("
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "LZ77"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "               "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "1"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 253,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Huffman"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "            "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 254,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Run_Length_Encoded"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "3"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 255,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ","
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Diff_Filtered"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "=>"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "8"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 256,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ")"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 257,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 258,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_4",
+          "href": "docs/gba__bios__extended_interface___spec.html#L258C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "**"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 259,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_24",
+          "href": "docs/gba__bios__extended_interface___spec.html#L259C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "mod"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "2"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "**"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "24"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 260,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 261,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "type"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Decompress_Data_Header",
+          "href": "docs/gba__bios__extended_interface___spec.html#L261C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "is"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 262,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 263,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Kind",
+          "href": "docs/gba__bios__extended_interface___spec.html#L263C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "              "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Compression_Type",
+          "href": "docs/gba__bios__extended_interface___spec.html#L244C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 264,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Kind_Metadata",
+          "href": "docs/gba__bios__extended_interface___spec.html#L264C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_4",
+          "href": "docs/gba__bios__extended_interface___spec.html#L258C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":="
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 265,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Uncompressed_Size",
+          "href": "docs/gba__bios__extended_interface___spec.html#L265C7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ":"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Unsigned_24",
+          "href": "docs/gba__bios__extended_interface___spec.html#L259C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 266,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 267,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "with"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " Size => 32"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 268,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 269,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "for"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Decompress_Data_Header",
+          "href": "docs/gba__bios__extended_interface___spec.html#L261C8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "use"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 270,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 271,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Kind"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "              "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "4"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "7"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 272,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Kind_Metadata"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "     "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "  "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "3"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 273,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "      "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": "Uncompressed_Size"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "at"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "0"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "range"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "8"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ".."
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "number",
+          "text": "31"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 274,
+      "children": [
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": "    "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "end"
+        },
+        {
+          "kind": "span",
+          "cssClass": "text",
+          "text": " "
+        },
+        {
+          "kind": "span",
+          "cssClass": "keyword",
+          "text": "record"
+        },
+        {
+          "kind": "span",
+          "cssClass": "identifier",
+          "text": ";"
+        }
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 275,
+      "children": [
+      ]
+    },
+    {
+      "kind": "line",
+      "number": 276,
       "children": [
         {
           "kind": "span",

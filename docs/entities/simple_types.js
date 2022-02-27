@@ -24,24 +24,24 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Affine_Parameter_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L165C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L193C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L165"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L193"
     },
     {
       "label": "Affine_Parameter_Ext_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L177C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L205C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L177"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L205"
     },
     {
       "label": "Affine_Transform_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L168C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L196C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L168"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L196"
     },
     {
       "label": "Affine_Transform_Parameter",
@@ -52,10 +52,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "BG_Affine_Parameter_Ext_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L158C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L186C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L158"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L186"
     },
     {
       "label": "BG_ID",
@@ -114,6 +114,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Memory.ads.html#L15"
     },
     {
+      "label": "Bit_Src_Unpack_Width",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L216C11",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L216"
+    },
+    {
+      "label": "Bit_Unpack_Width",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L214C8",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L214"
+    },
+    {
       "label": "Bitmap_Frame_Choice",
       "docHref": "docs/gba__display___spec.html#L91C8",
       "declared": "GBA.Display",
@@ -161,6 +175,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Palettes",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Palettes.ads.html#L42"
+    },
+    {
+      "label": "Compression_Type",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L244C8",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L244"
     },
     {
       "label": "Cpu_Set_Mode",
@@ -423,10 +444,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "OBJ_Affine_Parameter_Array",
-      "docHref": "docs/gba__bios__extended_interface___spec.html#L151C8",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L179C8",
       "declared": "GBA.BIOS.Extended_Interface",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L151"
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L179"
     },
     {
       "label": "OBJ_Affine_Transform_Index",
@@ -749,6 +770,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.DMA.ads.html#L41"
+    },
+    {
+      "label": "Unsigned_24",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L259C8",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L259"
+    },
+    {
+      "label": "Unsigned_31",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L219C8",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L219"
+    },
+    {
+      "label": "Unsigned_4",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L258C8",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L258"
     },
     {
       "label": "Unsigned_5",

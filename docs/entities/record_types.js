@@ -86,6 +86,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Audio.ads.html#L141"
     },
     {
+      "label": "Bit_Unpack_Config",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L221C8",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L221"
+    },
+    {
       "label": "Channel_1_Freq",
       "docHref": "docs/gba__audio__psg___spec.html#L193C3",
       "declared": "GBA.Audio.PSG",
@@ -231,6 +238,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.BIOS",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.ads.html#L148"
+    },
+    {
+      "label": "Decompress_Data_Header",
+      "docHref": "docs/gba__bios__extended_interface___spec.html#L261C8",
+      "declared": "GBA.BIOS.Extended_Interface",
+      "declared_qualifier": "",
+      "srcHref": "srcs/GBA.BIOS.Extended_Interface.ads.html#L261"
     },
     {
       "label": "Display_Control",
