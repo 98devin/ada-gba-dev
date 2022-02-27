@@ -64,10 +64,10 @@ package GBA.BIOS.Extended_Interface is
   function Arc_Tan (X, Y : Fixed_2_14) return Radians_16
     renames Raw.Arc_Tan with Inline_Always;
 
-  procedure Cpu_Set (S, D : Address; Config : Cpu_Set_Config)
+  procedure Cpu_Set (Src, Dest : Address; Config : Cpu_Set_Config)
     renames Raw.Cpu_Set with Inline_Always;
 
-  procedure Cpu_Fast_Set (S, D : Address; Config : Cpu_Set_Config)
+  procedure Cpu_Fast_Set (Src, Dest : Address; Config : Cpu_Set_Config)
     renames Raw.Cpu_Fast_Set with Inline_Always;
 
   function Bios_Checksum return Unsigned_32
@@ -78,6 +78,34 @@ package GBA.BIOS.Extended_Interface is
 
   procedure Affine_Set (Parameters : Address; Transform : Address; Count, Stride : Integer)
     renames Raw.Affine_Set with Inline_Always;
+
+  procedure Bit_Unpack (Src, Dest : Address; Config : Address)
+    renames Raw.Bit_Unpack with Inline_Always;
+
+  procedure LZ77_Decompress_Write8 (Data : Address; Dest : Address)
+    renames Raw.LZ77_Decompress_Write8 with Inline_Always;
+
+  procedure LZ77_Decompress_Write16 (Data : Address; Dest : Address)
+    renames Raw.LZ77_Decompress_Write16 with Inline_Always;
+
+  procedure Huffman_Decompress_Write32 (Data : Address; Dest : Address)
+    renames Raw.Huffman_Decompress_Write32 with Inline_Always;
+
+  procedure Run_Length_Decompress_Write8 (Data : Address; Dest : Address)
+    renames Raw.Run_Length_Decompress_Write8 with Inline_Always;
+
+  procedure Run_Length_Decompress_Write16 (Data : Address; Dest : Address)
+    renames Raw.Run_Length_Decompress_Write16 with Inline_Always;
+
+  procedure Diff_Unfilter8_Write8 (Data : Address; Dest : Address)
+    renames Raw.Diff_Unfilter8_Write8 with Inline_Always;
+
+  procedure Diff_Unfilter8_Write16 (Data : Address; Dest : Address)
+    renames Raw.Diff_Unfilter8_Write16 with Inline_Always;
+
+  procedure Diff_Unfilter16_Write16 (Data : Address; Dest : Address)
+    renames Raw.Diff_Unfilter16_Write16 with Inline_Always;
+
 
   -- More convenient interfaces to Raw functions --
 
@@ -181,5 +209,68 @@ package GBA.BIOS.Extended_Interface is
     ( Parameters : Affine_Parameter_Ext_Array;
       Transforms : out BG_Transform_Info_Array )
     with Inline_Always;
+
+
+  type Bit_Unpack_Width is new Unsigned_8
+    with Static_Predicate => Bit_Unpack_Width in 1 | 2 | 4 | 8 | 16 | 32;
+  subtype Bit_Src_Unpack_Width is Bit_Unpack_Width
+    with Static_Predicate => Bit_Src_Unpack_Width < 16;
+
+  type Unsigned_31 is mod 2 ** 31;
+
+  type Bit_Unpack_Config is
+    record
+      Src_Data_Bytes : Unsigned_16;
+      Src_Data_Width : Bit_Src_Unpack_Width;
+      Dst_Data_Width : Bit_Unpack_Width;
+      Data_Offset    : Unsigned_31;
+      Offset_Zeros   : Boolean;
+    end record
+      with Size => 64;
+
+  for Bit_Unpack_Config use
+    record
+      Src_Data_Bytes at 0 range  0 .. 15;
+      Src_Data_Width at 2 range  0 ..  7;
+      Dst_Data_Width at 3 range  0 ..  7;
+      Data_Offset    at 4 range  0 .. 30;
+      Offset_Zeros   at 4 range 31 .. 31;
+    end record;
+
+  procedure Bit_Unpack (Src, Dest : Address; Config : Bit_Unpack_Config)
+    with Inline_Always;
+
+
+  type Compression_Type is
+    ( LZ77
+    , Huffman
+    , Run_Length_Encoded
+    , Diff_Filtered
+    ) with Size => 4;
+
+  for Compression_Type use
+    ( LZ77               => 1
+    , Huffman            => 2
+    , Run_Length_Encoded => 3
+    , Diff_Filtered      => 8
+    );
+
+  type Unsigned_4  is mod 2 ** 4;
+  type Unsigned_24 is mod 2 ** 24;
+
+  type Decompress_Data_Header is
+    record
+      Kind              : Compression_Type;
+      Kind_Metadata     : Unsigned_4 := 0;
+      Uncompressed_Size : Unsigned_24;
+    end record
+      with Size => 32;
+
+  for Decompress_Data_Header use
+    record
+      Kind              at 0 range 4 ..  7;
+      Kind_Metadata     at 0 range 0 ..  3;
+      Uncompressed_Size at 0 range 8 .. 31;
+    end record;
 
 end GBA.BIOS.Extended_Interface;

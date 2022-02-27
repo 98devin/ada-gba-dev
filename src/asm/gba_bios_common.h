@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2022 Devin Hill
+ * zlib License -- see LICENSE for details.
+ */
 
 #ifndef BIOS_FN_NAME
 #define BIOS_FN_NAME(name) name
@@ -147,5 +151,90 @@ void BIOS_FN_NAME(obj_affine_set) (register void *a0, register void *a1, registe
   register int32_t r3 asm("r3") = a3;
   __asm__ volatile (
     "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x0F)), "r"(r0), "r"(r1), "r"(r2), "r"(r3) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(bit_unpack) (register void *a0, register void *a1, register void *a2)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  register void *r2 asm("r2") = a2;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x10)), "r"(r0), "r"(r1), "r"(r2) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(lz77_decompress_write8) (register void *a0, register void *a1)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x11)), "r"(r0), "r"(r1) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(lz77_decompress_write16) (register void *a0, register void *a1)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x12)), "r"(r0), "r"(r1) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(huff_decompress_write32) (register void *a0, register void *a1)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x13)), "r"(r0), "r"(r1) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(rl_decompress_write8) (register void *a0, register void *a1)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x14)), "r"(r0), "r"(r1) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(rl_decompress_write16) (register void *a0, register void *a1)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x15)), "r"(r0), "r"(r1) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(diff_unfilter8_write8) (register void *a0, register void *a1, register void *a2)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  register void *r2 asm("r2") = a2;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x16)), "r"(r0), "r"(r1), "r"(r2) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(diff_unfilter8_write16) (register void *a0, register void *a1, register void *a2)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  register void *r2 asm("r2") = a2;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x17)), "r"(r0), "r"(r1), "r"(r2) : "memory"
+  );
+}
+
+void BIOS_FN_NAME(diff_unfilter16_write16) (register void *a0, register void *a1, register void *a2)
+{
+  register void *r0 asm("r0") = a0;
+  register void *r1 asm("r1") = a1;
+  register void *r2 asm("r2") = a2;
+  __asm__ volatile (
+    "svc %[code] \n\t" :: [code] "I"(BIOS_SVC_NUM(0x18)), "r"(r0), "r"(r1), "r"(r2) : "memory"
   );
 }

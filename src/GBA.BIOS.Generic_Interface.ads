@@ -37,8 +37,8 @@ generic
   with function Sqrt (N : Unsigned_32) return Unsigned_16 is <>;
   with function Arc_Tan (X, Y : Fixed_2_14) return Radians_16 is <>;
 
-  with procedure Cpu_Set      (S, D : Address; Config : Cpu_Set_Config) is <>;
-  with procedure Cpu_Fast_Set (S, D : Address; Config : Cpu_Set_Config) is <>;
+  with procedure Cpu_Set      (Src, Dest : Address; Config : Cpu_Set_Config) is <>;
+  with procedure Cpu_Fast_Set (Src, Dest : Address; Config : Cpu_Set_Config) is <>;
 
   with function Bios_Checksum return Unsigned_32 is <>;
 
@@ -48,4 +48,14 @@ generic
   with procedure Affine_Set
     (Parameters : Address; Transform : Address; Count, Stride : Integer) is <>;
 
+  with procedure Bit_Unpack (Src, Dest : Address; Config : Address) is <>;
+  with procedure LZ77_Decompress_Write8 (Data : Address; Dest : Address) is <>;
+  with procedure LZ77_Decompress_Write16 (Data : Address; Dest : Address) is <>;
+  with procedure Huffman_Decompress_Write32 (Data : Address; Dest : Address) is <>;
+  with procedure Run_Length_Decompress_Write8 (Data : Address; Dest : Address) is <>;
+  with procedure Run_Length_Decompress_Write16 (Data : Address; Dest : Address) is <>;
+
+  with procedure Diff_Unfilter8_Write8 (Data : Address; Dest : Address) is <>;
+  with procedure Diff_Unfilter8_Write16 (Data : Address; Dest : Address) is <>;
+  with procedure Diff_Unfilter16_Write16 (Data : Address; Dest : Address) is <>;
 package GBA.BIOS.Generic_Interface is end;

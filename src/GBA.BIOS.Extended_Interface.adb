@@ -175,4 +175,15 @@ package body GBA.BIOS.Extended_Interface is
       );
   end;
 
+
+  procedure Bit_Unpack (Src, Dest : Address; Config : Bit_Unpack_Config) is
+  begin
+    Bit_Unpack
+      ( Src
+      , Dest
+      , Config'Address
+      );
+  end;
+
+
 end GBA.BIOS.Extended_Interface;
