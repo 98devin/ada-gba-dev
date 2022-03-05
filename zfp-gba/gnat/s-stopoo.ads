@@ -2,12 +2,16 @@
 --                                                                          --
 --                         GNAT COMPILER COMPONENTS                         --
 --                                                                          --
---                   S Y S T E M . P O O L _ G L O B A L                    --
+--                 S Y S T E M . S T O R A G E _ P O O L S                  --
 --                                                                          --
 --                                 S p e c                                  --
 --                                                                          --
 --                                                                          --
---        Copyright (C) 1992,1993,1994 Free Software Foundation, Inc.       --
+--          Copyright (C) 1992-1999 Free Software Foundation, Inc.          --
+--                                                                          --
+-- This specification is derived from the Ada Reference Manual for use with --
+-- GNAT. The copyright notice above, and the license provisions that follow --
+-- apply solely to the  contents of the part following the private keyword. --
 --                                                                          --
 -- GNAT is free software;  you can  redistribute it  and/or modify it under --
 -- terms of the  GNU General Public License as published  by the Free Soft- --
@@ -31,49 +35,47 @@
 -- Extensive contributions were provided by Ada Core Technologies Inc.      --
 --                                                                          --
 ------------------------------------------------------------------------------
--- GBADA: Modified to use linear bump allocation.                           --
+-- GBADA: Specify type as interface rather than Limited_Controlled          --
+-- GBADA: Specify Mark/Release pool subtype                                 --
 ------------------------------------------------------------------------------
 
---  Storage pool corresponding to default global storage pool used for types
---  for which no storage pool is specified.
-
-with System;
 with System.Storage_Elements;
-with System.Allocation.Linear_Pools;
-with System.Allocation.Memory;
 
-pragma Elaborate (System.Allocation.Memory);
+package System.Storage_Pools is
+   pragma Preelaborate (System.Storage_Pools);
 
-package System.Pool_Global is
-
-   package SAL renames System.Allocation.Linear_Pools;
-   package SAM renames System.Allocation.Memory;
-   package SSE renames System.Storage_Elements;
-
-   --  Pool object used by the compiler when implicit Storage Pool objects are
-   --  explicitly referred to. For instance when writing something like:
-   --     for T'Storage_Pool use Q'Storage_Pool;
-   --  and Q'Storage_Pool hasn't been defined explicitly.
-   Global_Pool_Object : SAL.Linear_Pool renames SAM.Heap;
-
-   function Storage_Size
-      (Pool : SAL.Linear_Pool) return System.Storage_Elements.Storage_Count
-      renames SAL.Storage_Size;
+   type Root_Storage_Pool is limited interface;
 
    procedure Allocate
-     (Pool         : in out SAL.Linear_Pool;
-      Address      : out System.Address;
-      Storage_Size : SSE.Storage_Count;
-      Alignment    : SSE.Storage_Count)
-      renames SAL.Allocate;
+     (Pool                     : in out Root_Storage_Pool;
+      Storage_Address          : out Address;
+      Size_In_Storage_Elements : System.Storage_Elements.Storage_Count;
+      Alignment                : System.Storage_Elements.Storage_Count)
+   is abstract;
 
-   --  Deallocation in an arena can only be done by saving and restoring
-   --  a watermark in the System.Allocation.Memory.Heap object.
    procedure Deallocate
-     (Pool         : in out SAL.Linear_Pool;
-      Address      : System.Address;
-      Storage_Size : SSE.Storage_Count;
-      Alignment    : SSE.Storage_Count)
-         is null;
+     (Pool                     : in out Root_Storage_Pool;
+      Storage_Address          : Address;
+      Size_In_Storage_Elements : System.Storage_Elements.Storage_Count;
+      Alignment                : System.Storage_Elements.Storage_Count)
+   is null;
 
-end System.Pool_Global;
+   function Storage_Size
+     (Pool : Root_Storage_Pool)
+      return System.Storage_Elements.Storage_Count
+   is abstract;
+
+   type Marker is new Address;
+
+   type Mark_Release_Storage_Pool is limited interface and Root_Storage_Pool;
+
+   function Mark
+      (Pool : Mark_Release_Storage_Pool) return Marker
+      is abstract;
+
+   procedure Release
+      (Pool : in out Mark_Release_Storage_Pool;
+       Mark : Marker)
+      is abstract;
+
+end System.Storage_Pools;

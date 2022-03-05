@@ -4,17 +4,16 @@
 
 with System.Allocation.Memory;
 
-with System.Allocation.Arenas;
-use  System.Allocation.Arenas;
+with System.Allocation.Linear_Pools;
+use  System.Allocation.Linear_Pools;
 
 package GBA.Memory.Default_Heaps is
 
   IWRAM_Heap_Start : constant Character
     with Import, External_Name => "__iheap_start";
 
-  IWRAM_Heap : Heap_Arena
-    := Create_Arena (IWRAM_Heap_Start'Address, Internal_WRAM_Address'Last);
+  IWRAM_Heap : Linear_Pool (IWRAM_Heap_Start'Address, Internal_WRAM_Address'Last);
 
-  EWRAM_Heap : Heap_Arena renames System.Allocation.Memory.Heap;
+  EWRAM_Heap : Linear_Pool renames System.Allocation.Memory.Heap;
 
 end GBA.Memory.Default_Heaps;

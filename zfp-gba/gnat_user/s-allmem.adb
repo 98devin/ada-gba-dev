@@ -5,7 +5,7 @@ package body System.Allocation.Memory is
 
    function Alloc (Size : size_t) return System.Address
    is
-      use all type SAA.Heap_Arena;
+      use all type SAL.Linear_Pool;
 
       Max_Align : constant := Standard'Maximum_Alignment;
       Res       : Address;

@@ -1,60 +1,64 @@
 -- Copyright (c) 2021 Devin Hill
 -- zlib License -- see LICENSE for details.
 
-
 with System;
-use  System;
-
+with System.Storage_Pools;
 with System.Storage_Elements;
+with System.Allocation.Linear_Pools;
+
+use  System;
 use  System.Storage_Elements;
-
-with System.Allocation.Arenas;
-use  System.Allocation.Arenas;
-
+use  System.Allocation.Linear_Pools;
 package GBA.Allocation is
-  pragma Elaborate_Body;
 
-  generic
-    Size : Storage_Count;
-  package Stack_Arena is
+  subtype Storage_Pool is
+    System.Storage_Pools.Root_Storage_Pool;
 
-    Storage : Local_Arena (Size);
+  subtype Mark_Release_Storage_Pool is
+    System.Storage_Pools.Mark_Release_Storage_Pool;
 
-  end Stack_Arena;
+  subtype Marker is
+    System.Storage_Pools.Marker;
 
-  subtype Marker      is System.Allocation.Arenas.Marker;
-  subtype Heap_Arena  is System.Allocation.Arenas.Heap_Arena;
-  subtype Local_Arena is System.Allocation.Arenas.Local_Arena;
+  subtype Linear_Pool is
+    System.Allocation.Linear_Pools.Linear_Pool;
 
+  subtype Owning_Linear_Pool is
+    System.Allocation.Linear_Pools.Owning_Linear_Pool;
 
-  function Storage_Size (Pool : Heap_Arena) return Storage_Count
-    renames System.Allocation.Arenas.Storage_Size;
+  procedure Allocate
+    (Pool                    : in out Linear_Pool;
+    Storage_Address          : out Address;
+    Size_In_Storage_Elements : System.Storage_Elements.Storage_Count;
+    Alignment                : System.Storage_Elements.Storage_Count)
+  renames System.Allocation.Linear_Pools.Allocate;
 
-  function Storage_Size (Pool : Local_Arena) return Storage_Count
-    renames System.Allocation.Arenas.Storage_Size;
-
-
-  function Mark (Pool : Heap_Arena) return Marker
-    renames System.Allocation.Arenas.Mark;
-
-  function Mark (Pool : Local_Arena) return Marker
-    renames System.Allocation.Arenas.Mark;
-
-
-  procedure Release (Pool : in out Heap_Arena; Mark : Marker)
-    renames System.Allocation.Arenas.Release;
-
-  procedure Release (Pool : in out Local_Arena; Mark : Marker)
-    renames System.Allocation.Arenas.Release;
+  procedure Allocate
+    (Pool                    : in out Owning_Linear_Pool;
+    Storage_Address          : out Address;
+    Size_In_Storage_Elements : System.Storage_Elements.Storage_Count;
+    Alignment                : System.Storage_Elements.Storage_Count)
+  renames System.Allocation.Linear_Pools.Allocate;
 
 
-  function Create_Arena (Start_Address, End_Address : Address)
-    return Heap_Arena renames System.Allocation.Arenas.Create_Arena;
+  function Storage_Size (Pool : Linear_Pool) return Storage_Count
+    renames System.Allocation.Linear_Pools.Storage_Size;
 
-  function Create_Arena (Local_Size : SSE.Storage_Count)
-    return Local_Arena renames System.Allocation.Arenas.Create_Arena;
+  function Storage_Size (Pool : Owning_Linear_Pool) return Storage_Count
+    renames System.Allocation.Linear_Pools.Storage_Size;
 
-  procedure Init_Arena (Pool : in out Local_Arena)
-    renames System.Allocation.Arenas.Init_Arena;
+
+  function Mark (Pool : Linear_Pool) return Marker
+    renames System.Allocation.Linear_Pools.Mark;
+
+  function Mark (Pool : Owning_Linear_Pool) return Marker
+    renames System.Allocation.Linear_Pools.Mark;
+
+
+  procedure Release (Pool : in out Linear_Pool; Mark : Marker)
+    renames System.Allocation.Linear_Pools.Release;
+
+  procedure Release (Pool : in out Owning_Linear_Pool; Mark : Marker)
+    renames System.Allocation.Linear_Pools.Release;
 
 end GBA.Allocation;

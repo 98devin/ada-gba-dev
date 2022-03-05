@@ -2,13 +2,13 @@
 --  zlib License -- see LICENSE for details.
 
 with System.Parameters;
-with System.Allocation.Arenas;
+with System.Allocation.Linear_Pools;
 with System.Storage_Elements;
 
 package System.Allocation.Memory is
 
    package SP renames System.Parameters;
-   package SAA renames System.Allocation.Arenas;
+   package SAL renames System.Allocation.Linear_Pools;
    package SSE renames System.Storage_Elements;
 
    Heap_Start : constant Character
@@ -21,8 +21,7 @@ package System.Allocation.Memory is
    pragma Import (C, Heap_End, "__eheap_end");
    --  The address of the variable is the end of the heap
 
-   Heap : SAA.Heap_Arena :=
-      SAA.Create_Arena (Heap_Start'Address, Heap_End'Address);
+   Heap : SAL.Linear_Pool (Heap_Start'Address, Heap_End'Address);
 
    type size_t is mod 2 ** Standard'Address_Size;
    --  Note: the reason we redefine this here instead of using the

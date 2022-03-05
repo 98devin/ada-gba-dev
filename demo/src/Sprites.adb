@@ -5,40 +5,30 @@
 with GBA.BIOS;
 with GBA.BIOS.Arm;
 with GBA.BIOS.Thumb;
-
 with GBA.Display;
 with GBA.Display.Backgrounds;
 with GBA.Display.Objects;
 with GBA.Display.Palettes;
 with GBA.Display.Tiles;
-
 with GBA.Memory;
-
 with GBA.Numerics;
-
 with GBA.Input;
 with GBA.Input.Buffered;
-
 with GBA.Interrupts;
-
 with Interfaces;
 
 procedure Sprites is
 
   use GBA.BIOS;
   use GBA.BIOS.Arm;
-
   use GBA.Display;
   use GBA.Display.Backgrounds;
   use GBA.Display.Objects;
   use GBA.Display.Palettes;
   use GBA.Display.Tiles;
-
   use GBA.Input;
   use GBA.Input.Buffered;
-
   use GBA.Numerics;
-
   use Interfaces;
 
 
@@ -76,8 +66,8 @@ procedure Sprites is
   Tile_Blue_ID  : constant OBJ_Tile_Index := 2;
   Tile_Green_ID : constant OBJ_Tile_Index := 3;
 
-  function Initial_Attributes_State (Tile : OBJ_Tile_Index) return OBJ_Attributes;
-  pragma Machine_Attribute (Initial_Attributes_State, "target", "thumb");
+  function Initial_Attributes_State (Tile : OBJ_Tile_Index) return OBJ_Attributes
+    with Inline_Always;
 
   function Initial_Attributes_State (Tile : OBJ_Tile_Index)
     return OBJ_Attributes is
@@ -124,12 +114,13 @@ procedure Sprites is
   Y_Center : constant OBJ_Y_Coordinate :=  76;
 
   procedure Set_Position (ID : OBJ_ID; X : OBJ_X_Coordinate; Y : OBJ_Y_Coordinate)
-    with Linker_Section => ".iwram" is
-    Attrs : OBJ_Attributes := Attributes_Of_Object (ID);
+    with Inline_Always is
+    Attrs : OBJ_Attributes renames Object_Attribute_Memory (ID).Attributes;
   begin
-    Attrs.X := X_Center + X;
-    Attrs.Y := Y_Center + Y;
-    Set_Object_Attributes (ID, Attrs);
+    Attrs := (Attrs with delta
+      X => X_Center + X,
+      Y => Y_Center + Y
+    );
   end;
 
 
@@ -154,9 +145,9 @@ begin
     , (31, 16, 15)
     );
 
-  Set_Object_Attributes (0, Initial_Attributes_State (Tile_Red_ID));
-  Set_Object_Attributes (1, Initial_Attributes_State (Tile_Blue_ID));
-  Set_Object_Attributes (2, Initial_Attributes_State (Tile_Green_ID));
+  Object_Attribute_Memory (0).Attributes := Initial_Attributes_State (Tile_Red_ID);
+  Object_Attribute_Memory (1).Attributes := Initial_Attributes_State (Tile_Blue_ID);
+  Object_Attribute_Memory (2).Attributes := Initial_Attributes_State (Tile_Green_ID);
 
   GBA.Interrupts.Enable_Receiving_Interrupts;
   GBA.Interrupts.Enable_Interrupt (GBA.Interrupts.VBlank);

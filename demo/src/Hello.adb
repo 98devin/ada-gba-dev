@@ -2,12 +2,10 @@
 -- zlib License -- see LICENSE for details.
 
 
-with GBA.Refs;
-
+with GBA.Allocation;
 with GBA.BIOS;
 with GBA.BIOS.Arm;
 with GBA.BIOS.Memset;
-
 with GBA.Display;
 with GBA.Display.Tiles;
 with GBA.Display.Backgrounds;
@@ -15,39 +13,33 @@ with GBA.Display.Backgrounds.Refs;
 with GBA.Display.Objects;
 with GBA.Display.Palettes;
 with GBA.Display.Windows;
-
-with GBA.Allocation;
-use  GBA.Allocation;
-
 with GBA.Memory;
 with GBA.Memory.Default_Heaps;
-
 with GBA.Numerics;
 with GBA.Numerics.Vectors;
 with GBA.Numerics.Matrices;
-
 with GBA.Interrupts;
-
 with GBA.Input;
 with GBA.Input.Buffered;
+with GBA.Refs;
 
-with Interfaces; use Interfaces;
-
-with System.Machine_Code; use System.Machine_Code;
+with Interfaces;
+with System.Unsigned_Types;
 
 procedure Hello is
 
+  use GBA.Allocation;
   use GBA.BIOS;
   use GBA.BIOS.Arm;
-
   use GBA.Display;
   use GBA.Display.Palettes;
   use GBA.Display.Backgrounds;
-
+  use GBA.Memory.Default_Heaps;
   use GBA.Numerics;
-
   use GBA.Input;
   use GBA.Input.Buffered;
+  use Interfaces;
+  use System.Unsigned_Types;
 
   use all type GBA.Refs.BG_Ref;
 
