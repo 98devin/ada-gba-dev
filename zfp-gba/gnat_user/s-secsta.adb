@@ -5,8 +5,8 @@ package body System.Secondary_Stack is
 
    use all type SS_Stack;
 
-   Sec_Stack : aliased SS_Stack
-      (SSE.Storage_Count (Default_Secondary_Stack_Size))
+   Sec_Stacks : aliased array (1 .. Binder_Sec_Stacks_Count)
+      of aliased SS_Stack (SSE.Storage_Count (Default_Secondary_Stack_Size))
       with Import, Address => Default_Sized_SS_Pool;
 
    -------------------
@@ -15,7 +15,7 @@ package body System.Secondary_Stack is
 
    function Get_Sec_Stack return SS_Stack_Ptr is
    begin
-      return Sec_Stack'Unrestricted_Access;
+      return Sec_Stacks (1)'Unrestricted_Access;
    end Get_Sec_Stack;
 
    -----------------
@@ -27,7 +27,7 @@ package body System.Secondary_Stack is
       Storage_Size : SSE.Storage_Count) is
    begin
       Allocate
-         (Sec_Stack
+         (Sec_Stacks (1)
          , Addr
          , Storage_Size
          , Standard'Maximum_Alignment
@@ -40,7 +40,7 @@ package body System.Secondary_Stack is
 
    function SS_Mark return SAL.Marker is
    begin
-      return Mark (Sec_Stack);
+      return Mark (Sec_Stacks (1));
    end SS_Mark;
 
    ----------------
@@ -49,15 +49,15 @@ package body System.Secondary_Stack is
 
    procedure SS_Release (M : SAL.Marker) is
    begin
-      Release (Sec_Stack, M);
+      Release (Sec_Stacks (1), M);
    end SS_Release;
 
 begin
 
    --  We need to manually initialize the secondary stack allocator
    --  since we use `Import` which will skip default initialization.
-   if Binder_Sec_Stacks_Count /= 0 then
+   for Sec_Stack of Sec_Stacks loop
       Reset (Sec_Stack);
-   end if;
+   end loop;
 
 end System.Secondary_Stack;

@@ -2,7 +2,7 @@
 -- zlib License -- see LICENSE for details.
 
 
-with GBA.Allocation;
+with HLI.Allocation;
 with GBA.BIOS;
 with GBA.BIOS.Arm;
 with GBA.BIOS.Memset;
@@ -28,7 +28,7 @@ with System.Unsigned_Types;
 
 procedure Hello is
 
-  use GBA.Allocation;
+  use HLI.Allocation;
   use GBA.BIOS;
   use GBA.BIOS.Arm;
   use GBA.Display;

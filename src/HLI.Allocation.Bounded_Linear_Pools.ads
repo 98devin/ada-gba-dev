@@ -9,16 +9,8 @@ with System.Allocation.Linear_Pools;
 use  System;
 use  System.Storage_Elements;
 use  System.Allocation.Linear_Pools;
-package GBA.Allocation is
 
-  subtype Storage_Pool is
-    System.Storage_Pools.Root_Storage_Pool;
-
-  subtype Mark_Release_Storage_Pool is
-    System.Storage_Pools.Mark_Release_Storage_Pool;
-
-  subtype Marker is
-    System.Storage_Pools.Marker;
+package HLI.Allocation.Bounded_Linear_Pools is
 
   subtype Linear_Pool is
     System.Allocation.Linear_Pools.Linear_Pool;
@@ -61,4 +53,4 @@ package GBA.Allocation is
   procedure Release (Pool : in out Owning_Linear_Pool; Mark : Marker)
     renames System.Allocation.Linear_Pools.Release;
 
-end GBA.Allocation;
+end HLI.Allocation.Bounded_Linear_Pools;

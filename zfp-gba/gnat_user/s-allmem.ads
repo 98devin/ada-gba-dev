@@ -28,7 +28,7 @@ package System.Allocation.Memory is
    --  definition in Interfaces.C is that we do not want to drag in
    --  all of Interfaces.C just because System.Memory is used.
 
-   function Alloc (Size : size_t) return System.Address
-      with Convention => C, Export, External_Name => "__gnat_malloc";
+   --  function Alloc (Size : size_t) return System.Address
+   --    with Convention => C, Export, External_Name => "__gnat_malloc";
 
 end System.Allocation.Memory;

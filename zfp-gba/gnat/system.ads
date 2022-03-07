@@ -35,18 +35,33 @@
 ------------------------------------------------------------------------------
 
 pragma Restrictions (No_Anonymous_Allocators);
+pragma Restrictions (No_Dependence => Ada.Asynchronous_Task_Control);
+pragma Restrictions (No_Dependence => Ada.Calendar);
+pragma Restrictions (No_Dependence => Ada.Execution_Time.Group_Budget);
+pragma Restrictions (No_Dependence => Ada.Execution_Time.Timers);
+pragma Restrictions (No_Dependence => Ada.Task_Attributes);
+pragma Restrictions (No_Dynamic_Attachment);
+pragma Restrictions (No_Dynamic_Priorities);
 pragma Restrictions (No_Exception_Propagation);
 pragma Restrictions (No_Exception_Registration);
 pragma Restrictions (No_Finalization);
 pragma Restrictions (No_Floating_Point);
+pragma Restrictions (No_Implicit_Heap_Allocations);
 pragma Restrictions (No_IO);
+pragma Restrictions (No_Local_Protected_Objects);
+pragma Restrictions (No_Local_Timing_Events);
 pragma Restrictions (No_Multiple_Elaboration);
-pragma Restrictions (No_Streams);
---  pragma Restrictions (No_Tagged_Type_Registration);
+pragma Restrictions (No_Protected_Type_Allocators);
+pragma Restrictions (No_Relative_Delay);
+pragma Restrictions (No_Requeue_Statements);
+pragma Restrictions (No_Select_Statements);
+pragma Restrictions (No_Specific_Termination_Handlers);
+--  pragma Restrictions (No_Standard_Allocators_After_Elaboration);
+pragma Restrictions (No_Task_Allocators);
+pragma Restrictions (No_Task_Hierarchy);
+pragma Restrictions (No_Task_Termination);
 pragma Restrictions (No_Tasking);
-pragma Restrictions (No_Unchecked_Deallocation);
-pragma Restrictions (Static_Dispatch_Tables);
-pragma Profile (Ravenscar);
+pragma Restrictions (Simple_Barriers);
 
 pragma Discard_Names;
 --  Disable explicitly the generation of names associated with entities in
@@ -157,7 +172,7 @@ private
    Fractional_Fixed_Ops      : constant Boolean := True;
    Frontend_Exceptions       : constant Boolean := False;
    Frontend_Layout           : constant Boolean := False;
-   Functions_Return_By_DSP   : constant Boolean := False;
+   Functions_Return_By_DSP   : constant Boolean := True;
    Machine_Overflows         : constant Boolean := False;
    Machine_Rounds            : constant Boolean := True;
    Preallocated_Stacks       : constant Boolean := True;
