@@ -2,7 +2,7 @@
 -- zlib License -- see LICENSE for details.
 
 with GBA.BIOS;
-with GBA.BIOS.Arm;
+with GBA.BIOS.Thumb;
 with GBA.Display;
 with GBA.DMA;
 with GBA.Input;
@@ -25,7 +25,7 @@ with Ada.Unchecked_Deallocation;
 
 procedure Data_Structures is
 
-  use GBA.BIOS.Arm;
+  use GBA.BIOS.Thumb;
   use GBA.Display;
   use GBA.Interrupts;
   use GBA.Input;
