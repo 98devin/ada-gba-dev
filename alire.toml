@@ -1,0 +1,13 @@
+name = "gba"
+description = "Embedded development library for the Game Boy Advance"
+version = "0.2.0"
+
+authors = ["Devin Hill"]
+maintainers = ["Devin Hill <98devin@gmail.com>"]
+maintainers-logins = ["98devin"]
+
+project-files = ["gba-rts/runtime_build.gpr", "GBA.gpr", "demo/Demo.gpr"]
+
+[[depends-on]]
+gnat_arm_elf = "*"
+gprbuild     = "*"

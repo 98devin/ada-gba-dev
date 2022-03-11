@@ -44,7 +44,7 @@ abstract project GBA_Program is
             , "-freg-struct-return"
             , "-fstrict-volatile-bitfields"
             , "-flto"
-            , "-ffat-lto-objects"
+            -- , "-ffat-lto-objects"
             , "-fverbose-asm"
             , "-save-temps"
             );

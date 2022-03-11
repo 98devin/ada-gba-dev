@@ -1,6 +1,7 @@
 .vscode/
 bin/
 adalib/
+alire/
 obj/
 docs/
 *.exe

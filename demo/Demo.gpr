@@ -2,7 +2,7 @@
 -- zlib License -- see LICENSE for details.
 
 
-with "../GBADA.gpr";
+with "../GBA.gpr";
 
 project Demo extends "../GBA_Program.gpr" is
 
