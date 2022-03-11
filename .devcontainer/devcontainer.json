@@ -1,0 +1,38 @@
+{
+    "name": "ada-gba",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".",
+    },
+    "settings": {
+        "terminal.integrated.profiles.linux": {
+            "bash": {
+                "path": "bash",
+                "icon": "terminal-bash"
+            },
+            "fish": {
+                "path": "fish"
+            },
+            "pwsh": {
+                "path": "pwsh",
+                "icon": "terminal-powershell"
+            }
+        },
+        "terminal.integrated.defaultProfile.linux": "fish"
+    },
+    "extensions": [
+        "AdaCore.ada",
+        "be5invis.theme-verdandi",
+        "bmalehorn.vscode-fish",
+        "bungcip.better-toml",
+        "dan-c-underwood.arm",
+        "Entomy.ada",
+        "Entomy.ada-snippets",
+        "equinusocio.vsc-material-theme-icons",
+        "fabiospampinato.vscode-diff",
+        "jasonlhy.hungry-delete",
+        "PKief.material-icon-theme",
+        "wayou.vscode-todo-highlight",
+        "wraith13.bracket-lens",
+    ]
+}
