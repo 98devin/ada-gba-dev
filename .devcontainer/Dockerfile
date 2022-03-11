@@ -15,8 +15,9 @@ RUN mkdir /alire
 RUN alr toolchain --install gnat_arm_elf --disable-assistant --install-dir=/alire
 RUN alr toolchain --install gprbuild     --disable-assistant --install-dir=/alire
 
-RUN export PATH=/alire/gnat_arm_elf*/bin:/alire/gprbuild*/bin:$PATH
-
 RUN chsh -s fish
+SHELL [ "fish", "-c" ]
+
+RUN set -U fish_user_paths /alire/(ls /alire)/bin $fish_user_paths
 
 ENTRYPOINT [ "fish" ]
