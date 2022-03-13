@@ -8,9 +8,9 @@ RUN apt-get install -y \
     git wget curl sudo unzip gcc g++ apt-transport-https
 
 # install gba related tools
-COPY ./tools tools
-RUN gcc tools/src/gbafix.c -o /usr/bin/gbafix
-RUN g++ tools/src/gbalzss.cpp -o /usr/bin/gbalzss
+RUN git clone https://github.com/devkitPro/gba-tools.git
+RUN gcc gba-tools/src/gbafix.c -o /usr/bin/gbafix
+RUN g++ gba-tools/src/gbalzss.cpp -o /usr/bin/gbalzss
 
 # install alire
 ARG ALR_VER=1.1.2
