@@ -7,6 +7,4 @@ docs/
 *.exe
 *.o
 *.gba
-*.ps1
-*.fish
 *.zip
