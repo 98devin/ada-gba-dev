@@ -5,7 +5,12 @@ ARG DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get upgrade
 
 RUN apt-get install -y \
-    git wget curl sudo unzip gcc apt-transport-https
+    git wget curl sudo unzip gcc g++ apt-transport-https
+
+# install gba related tools
+COPY ./tools tools
+RUN gcc tools/src/gbafix.c -o /usr/bin/gbafix
+RUN g++ tools/src/gbalzss.cpp -o /usr/bin/gbalzss
 
 # install alire
 ARG ALR_VER=1.1.2
