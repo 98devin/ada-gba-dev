@@ -549,10 +549,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Object_Attribute_Memory",
-      "docHref": "docs/gba__display__objects___spec.html#L191C3",
+      "docHref": "docs/gba__display__objects___spec.html#L173C3",
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L191"
+      "srcHref": "srcs/GBA.Display.Objects.ads.html#L173"
     },
     {
       "label": "POSTFLG",

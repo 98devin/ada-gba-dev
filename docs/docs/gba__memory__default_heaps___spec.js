@@ -99,7 +99,7 @@ GNATdoc.Documentation = {
         {
           "label": "EWRAM_Heap",
           "qualifier": "",
-          "line": 18,
+          "line": 17,
           "column": 3,
           "src": "srcs/GBA.Memory.Default_Heaps.ads.html",
           "summary": [
@@ -110,7 +110,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 18,
+                  "number": 17,
                   "children": [
                     {
                       "kind": "span",
@@ -121,7 +121,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "EWRAM_Heap",
-                      "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
+                      "href": "docs/gba__memory__default_heaps___spec.html#L17C3"
                     },
                     {
                       "kind": "span",
@@ -141,7 +141,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Heap_Arena"
+                      "text": "Linear_Pool"
                     },
                     {
                       "kind": "span",
@@ -162,7 +162,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "System.Allocation.Memory.Heap",
-                      "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
+                      "href": "docs/gba__memory__default_heaps___spec.html#L17C3"
                     },
                     {
                       "kind": "span",
@@ -220,33 +220,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Heap_Arena"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 16,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":="
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Create_Arena"
+                      "text": "Linear_Pool"
                     },
                     {
                       "kind": "span",

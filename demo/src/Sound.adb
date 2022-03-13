@@ -1,7 +1,7 @@
 -- Copyright (c) 2022 Devin Hill
 -- zlib License -- see LICENSE for details.
 
-with GBA.Allocation;
+with HLI.Allocation;
 with GBA.Audio;
 with GBA.Audio.PSG;
 with GBA.BIOS;
@@ -19,7 +19,7 @@ with System.Unsigned_Types;
 
 procedure Sound is
 
-  use GBA.Allocation;
+  use HLI.Allocation;
   use GBA.Audio;
   use GBA.Audio.PSG;
   use GBA.BIOS.Arm;

@@ -11,7 +11,7 @@ GNATdoc.Documentation = {
         {
           "label": "Object_Attribute_Memory",
           "qualifier": "",
-          "line": 191,
+          "line": 173,
           "column": 3,
           "src": "srcs/GBA.Display.Objects.ads.html",
           "summary": [
@@ -22,7 +22,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 191,
+                  "number": 173,
                   "children": [
                     {
                       "kind": "span",
@@ -61,28 +61,8 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
-                      "cssClass": "number",
-                      "text": "0"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
                       "cssClass": "identifier",
-                      "text": ".."
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "number",
-                      "text": "127"
+                      "text": "OBJ_ID"
                     },
                     {
                       "kind": "span",
@@ -113,7 +93,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 192,
+                  "number": 174,
                   "children": [
                     {
                       "kind": "span",
@@ -1726,124 +1706,9 @@ GNATdoc.Documentation = {
     {
       "entities": [
         {
-          "label": "OAM_Attributes_Ptr",
-          "qualifier": "",
-          "line": 164,
-          "column": 8,
-          "src": "srcs/GBA.Display.Objects.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 164,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OAM_Attributes_Ptr",
-                      "href": "docs/gba__display__objects___spec.html#L164C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "access"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "all"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Volatile_OBJ_Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L161C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 165,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Storage_Size => 0, Volatile"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ],
-      "label": "Access types"
-    },
-    {
-      "entities": [
-        {
           "label": "OAM_Entry",
           "qualifier": "",
-          "line": 178,
+          "line": 160,
           "column": 8,
           "src": "srcs/GBA.Display.Objects.ads.html",
           "summary": [
@@ -1854,7 +1719,7 @@ GNATdoc.Documentation = {
               "children": [
                 {
                   "kind": "line",
-                  "number": 178,
+                  "number": 160,
                   "children": [
                     {
                       "kind": "span",
@@ -1875,7 +1740,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "OAM_Entry",
-                      "href": "docs/gba__display__objects___spec.html#L178C8"
+                      "href": "docs/gba__display__objects___spec.html#L160C8"
                     },
                     {
                       "kind": "span",
@@ -1901,7 +1766,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 179,
+                  "number": 161,
                   "children": [
                     {
                       "kind": "span",
@@ -1917,7 +1782,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 180,
+                  "number": 162,
                   "children": [
                     {
                       "kind": "span",
@@ -1928,7 +1793,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L180C7"
+                      "href": "docs/gba__display__objects___spec.html#L162C7"
                     },
                     {
                       "kind": "span",
@@ -1958,8 +1823,23 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "identifier",
-                      "text": "Volatile_OBJ_Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L161C8"
+                      "text": "OBJ_Attributes",
+                      "href": "docs/gba__display__objects___spec.html#L116C8"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": "             "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Volatile"
                     },
                     {
                       "kind": "span",
@@ -1970,7 +1850,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 181,
+                  "number": 163,
                   "children": [
                     {
                       "kind": "span",
@@ -1981,7 +1861,7 @@ GNATdoc.Documentation = {
                       "kind": "span",
                       "cssClass": "identifier",
                       "text": "Transform_Parameter",
-                      "href": "docs/gba__display__objects___spec.html#L181C7"
+                      "href": "docs/gba__display__objects___spec.html#L163C7"
                     },
                     {
                       "kind": "span",
@@ -2016,6 +1896,21 @@ GNATdoc.Documentation = {
                     },
                     {
                       "kind": "span",
+                      "cssClass": "text",
+                      "text": " "
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "keyword",
+                      "text": "with"
+                    },
+                    {
+                      "kind": "span",
+                      "cssClass": "text",
+                      "text": " Volatile"
+                    },
+                    {
+                      "kind": "span",
                       "cssClass": "identifier",
                       "text": ";"
                     }
@@ -2023,7 +1918,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 182,
+                  "number": 164,
                   "children": [
                     {
                       "kind": "span",
@@ -2049,7 +1944,7 @@ GNATdoc.Documentation = {
                 },
                 {
                   "kind": "line",
-                  "number": 183,
+                  "number": 165,
                   "children": [
                     {
                       "kind": "span",
@@ -2064,7 +1959,7 @@ GNATdoc.Documentation = {
                     {
                       "kind": "span",
                       "cssClass": "text",
-                      "text": " Size => 64, Volatile"
+                      "text": " Size => 64"
                     },
                     {
                       "kind": "span",
@@ -2079,18 +1974,18 @@ GNATdoc.Documentation = {
           "fields": [
             {
               "label": "Attributes",
-              "line": 180,
+              "line": 162,
               "column": 7,
               "type": {
-                "label": "GBA.Display.Objects.Volatile_OBJ_Attributes",
-                "docHref": "docs/gba__display__objects___spec.html#L161C8"
+                "label": "GBA.Display.Objects.OBJ_Attributes",
+                "docHref": "docs/gba__display__objects___spec.html#L116C8"
               },
               "description": [
               ]
             },
             {
               "label": "Transform_Parameter",
-              "line": 181,
+              "line": 163,
               "column": 7,
               "type": {
                 "label": "GBA.Numerics.Affine_Transform_Parameter",
@@ -3245,106 +3140,6 @@ GNATdoc.Documentation = {
               ]
             }
           ]
-        },
-        {
-          "label": "Volatile_OBJ_Attributes",
-          "qualifier": "",
-          "line": 161,
-          "column": 8,
-          "src": "srcs/GBA.Display.Objects.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 161,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "type"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Volatile_OBJ_Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L161C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "is"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "new"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OBJ_Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L116C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 162,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Volatile"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "label": "Record types"
@@ -3923,468 +3718,6 @@ GNATdoc.Documentation = {
               "type": {
                 "label": "GBA.Display.Objects.OBJ_Scale",
                 "docHref": "docs/gba__display__objects___spec.html#L67C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Attributes_Of_Object",
-          "qualifier": "",
-          "line": 168,
-          "column": 12,
-          "src": "srcs/GBA.Display.Objects.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 168,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Attributes_Of_Object",
-                      "href": "docs/gba__display__objects___spec.html#L168C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__display__objects___spec.html#L168C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OBJ_ID",
-                      "href": "docs/gba__display__objects___spec.html#L20C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OAM_Attributes_Ptr",
-                      "href": "docs/gba__display__objects___spec.html#L164C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 169,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Pure_Function, Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 168,
-              "column": 34,
-              "type": {
-                "label": "GBA.Display.Objects.OBJ_ID",
-                "docHref": "docs/gba__display__objects___spec.html#L20C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Attributes_Of_Object",
-          "qualifier": "",
-          "line": 171,
-          "column": 12,
-          "src": "srcs/GBA.Display.Objects.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 171,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "function"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Attributes_Of_Object",
-                      "href": "docs/gba__display__objects___spec.html#L171C12"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__display__objects___spec.html#L171C34"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OBJ_ID",
-                      "href": "docs/gba__display__objects___spec.html#L20C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "return"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OBJ_Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L116C8"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 172,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline_Always"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 171,
-              "column": 34,
-              "type": {
-                "label": "GBA.Display.Objects.OBJ_ID",
-                "docHref": "docs/gba__display__objects___spec.html#L20C8"
-              },
-              "description": [
-              ]
-            }
-          ]
-        },
-        {
-          "label": "Set_Object_Attributes",
-          "qualifier": "",
-          "line": 174,
-          "column": 13,
-          "src": "srcs/GBA.Display.Objects.ads.html",
-          "summary": [
-          ],
-          "description": [
-            {
-              "kind": "code",
-              "children": [
-                {
-                  "kind": "line",
-                  "number": 174,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "  "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "procedure"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Set_Object_Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L174C13"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "("
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "ID",
-                      "href": "docs/gba__display__objects___spec.html#L174C36"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OBJ_ID",
-                      "href": "docs/gba__display__objects___spec.html#L20C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L174C49"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ":"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": "OBJ_Attributes",
-                      "href": "docs/gba__display__objects___spec.html#L116C8"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ")"
-                    }
-                  ]
-                },
-                {
-                  "kind": "line",
-                  "number": 175,
-                  "children": [
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": "    "
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "keyword",
-                      "text": "with"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "text",
-                      "text": " Inline"
-                    },
-                    {
-                      "kind": "span",
-                      "cssClass": "identifier",
-                      "text": ";"
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": [
-            {
-              "label": "ID",
-              "line": 174,
-              "column": 36,
-              "type": {
-                "label": "GBA.Display.Objects.OBJ_ID",
-                "docHref": "docs/gba__display__objects___spec.html#L20C8"
-              },
-              "description": [
-              ]
-            },
-            {
-              "label": "Attributes",
-              "line": 174,
-              "column": 49,
-              "type": {
-                "label": "GBA.Display.Objects.OBJ_Attributes",
-                "docHref": "docs/gba__display__objects___spec.html#L116C8"
               },
               "description": [
               ]

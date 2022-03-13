@@ -2458,7 +2458,8 @@ GNATdoc.Documentation = {
               "line": 25,
               "column": 7,
               "type": {
-                "label": "Unsigned"
+                "label": "Unsigned",
+                "docHref": "docs/unsigned___spec.html#L46C9"
               },
               "description": [
               ]
@@ -2468,7 +2469,8 @@ GNATdoc.Documentation = {
               "line": 26,
               "column": 7,
               "type": {
-                "label": "Unsigned"
+                "label": "Unsigned",
+                "docHref": "docs/unsigned___spec.html#L46C9"
               },
               "description": [
               ]

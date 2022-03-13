@@ -5,16 +5,6 @@ GNATdoc.DocumentationIndex = [
     "file": "docs/gba___spec.html"
   },
   {
-    "label": "GBA.Allocation",
-    "qualifier": "",
-    "file": "docs/gba__allocation___spec.html"
-  },
-  {
-    "label": "GBA.Allocation.Stack_Arena",
-    "qualifier": "(nested)",
-    "file": "docs/gba__allocation___stack_arena___spec.html"
-  },
-  {
     "label": "GBA.Audio",
     "qualifier": "",
     "file": "docs/gba__audio___spec.html"
@@ -193,5 +183,40 @@ GNATdoc.DocumentationIndex = [
     "label": "GBA.Timers",
     "qualifier": "",
     "file": "docs/gba__timers___spec.html"
+  },
+  {
+    "label": "HLI",
+    "qualifier": "",
+    "file": "docs/hli___spec.html"
+  },
+  {
+    "label": "HLI.Allocation",
+    "qualifier": "",
+    "file": "docs/hli__allocation___spec.html"
+  },
+  {
+    "label": "HLI.Allocation.Bounded_Arena_Pools",
+    "qualifier": "",
+    "file": "docs/hli__allocation__bounded_arena_pools___spec.html"
+  },
+  {
+    "label": "HLI.Allocation.Bounded_Linear_Pools",
+    "qualifier": "",
+    "file": "docs/hli__allocation__bounded_linear_pools___spec.html"
+  },
+  {
+    "label": "HLI.Collections",
+    "qualifier": "",
+    "file": "docs/hli__collections___spec.html"
+  },
+  {
+    "label": "HLI.Collections.Bounded_Vectors",
+    "qualifier": "",
+    "file": "docs/hli__collections__bounded_vectors___spec.html"
+  },
+  {
+    "label": "HLI.Collections.Bounded_Vectors.Iterators",
+    "qualifier": "(generic instantiation)",
+    "file": "docs/hli__collections__bounded_vectors___iterators___spec.html"
   }
 ];

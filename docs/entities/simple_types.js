@@ -51,6 +51,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.ads.html#L90"
     },
     {
+      "label": "Arena_Storage",
+      "docHref": "docs/hli__allocation__bounded_arena_pools___spec.html#L62C8",
+      "declared": "HLI.Allocation.Bounded_Arena_Pools",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Allocation.Bounded_Arena_Pools.ads.html#L62"
+    },
+    {
       "label": "BG_Affine_Parameter_Ext_Array",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L186C8",
       "declared": "GBA.BIOS.Extended_Interface",
@@ -133,6 +140,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.ads.html#L91"
+    },
+    {
+      "label": "Block_Data_Array",
+      "docHref": "docs/hli__allocation__bounded_arena_pools___spec.html#L47C8",
+      "declared": "HLI.Allocation.Bounded_Arena_Pools",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Allocation.Bounded_Arena_Pools.ads.html#L47"
     },
     {
       "label": "Boundary_Behavior",
@@ -409,10 +423,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Marker",
-      "docHref": "docs/gba__allocation___spec.html#L25C11",
-      "declared": "GBA.Allocation",
+      "docHref": "docs/hli__allocation___spec.html#L16C11",
+      "declared": "HLI.Allocation",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L25"
+      "srcHref": "srcs/HLI.Allocation.ads.html#L16"
     },
     {
       "label": "Master_Channel_Mixing_Volume",

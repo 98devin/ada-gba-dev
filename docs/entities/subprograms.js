@@ -275,6 +275,20 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Objects.ads.html#L112"
     },
     {
+      "label": "Allocate",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L21C13",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L21"
+    },
+    {
+      "label": "Allocate",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L28C13",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L28"
+    },
+    {
       "label": "Arc_Tan",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L64C12",
       "declared": "GBA.BIOS.Extended_Interface",
@@ -352,20 +366,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Interrupts.ads.html#L101"
     },
     {
-      "label": "Attributes_Of_Object",
-      "docHref": "docs/gba__display__objects___spec.html#L168C12",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L168"
-    },
-    {
-      "label": "Attributes_Of_Object",
-      "docHref": "docs/gba__display__objects___spec.html#L171C12",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L171"
-    },
-    {
       "label": "Bios_Checksum",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L73C12",
       "declared": "GBA.BIOS.Extended_Interface",
@@ -413,6 +413,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.BIOS.Raw.Thumb",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L71"
+    },
+    {
+      "label": "Bottom",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L71C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "(renaming)",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L71"
+    },
+    {
+      "label": "Bottom",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L72C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "(renaming)",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L72"
     },
     {
       "label": "Col",
@@ -576,18 +590,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L53"
     },
     {
-      "label": "Create_Arena",
-      "docHref": "docs/gba__allocation___spec.html#L51C12",
-      "declared": "GBA.Allocation",
+      "label": "Create_With_Capacity",
+      "docHref": "docs/hli__allocation__bounded_arena_pools___spec.html#L21C12",
+      "declared": "HLI.Allocation.Bounded_Arena_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L51"
-    },
-    {
-      "label": "Create_Arena",
-      "docHref": "docs/gba__allocation___spec.html#L54C12",
-      "declared": "GBA.Allocation",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L54"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Arena_Pools.ads.html#L21"
     },
     {
       "label": "Detach_Interrupt_Handler",
@@ -779,6 +786,34 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.Vectors.ads.html#L46"
     },
     {
+      "label": "Element",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L77C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L77"
+    },
+    {
+      "label": "Element",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L78C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L78"
+    },
+    {
+      "label": "Element_Mut",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L74C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L74"
+    },
+    {
+      "label": "Element_Mut",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L75C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L75"
+    },
+    {
       "label": "Enable_Display_Element",
       "docHref": "docs/gba__display___spec.html#L76C13",
       "declared": "GBA.Display",
@@ -819,6 +854,20 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Interrupts",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Interrupts.ads.html#L63"
+    },
+    {
+      "label": "First",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L62C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L62"
+    },
+    {
+      "label": "First",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L63C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L63"
     },
     {
       "label": "Fixed_Sqrt",
@@ -891,6 +940,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.BIOS.Raw.Thumb.ads.html#L20"
     },
     {
+      "label": "Has_Element",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L27C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L27"
+    },
+    {
       "label": "Huffman_Decompress_Write32",
       "docHref": "docs/gba__bios__extended_interface___spec.html#L91C13",
       "declared": "GBA.BIOS.Extended_Interface",
@@ -919,11 +975,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L12"
     },
     {
-      "label": "Init_Arena",
-      "docHref": "docs/gba__allocation___spec.html#L57C13",
-      "declared": "GBA.Allocation",
+      "label": "Index",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L28C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L57"
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L28"
     },
     {
       "label": "Inverse",
@@ -952,6 +1008,27 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.DMA.ads.html#L148"
+    },
+    {
+      "label": "Iterate",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L45C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L45"
+    },
+    {
+      "label": "Last",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L65C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L65"
+    },
+    {
+      "label": "Last",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L66C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L66"
     },
     {
       "label": "LZ77_Decompress_Write16",
@@ -997,17 +1074,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Mark",
-      "docHref": "docs/gba__allocation___spec.html#L37C12",
-      "declared": "GBA.Allocation",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L43C12",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L37"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L43"
     },
     {
       "label": "Mark",
-      "docHref": "docs/gba__allocation___spec.html#L40C12",
-      "declared": "GBA.Allocation",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L46C12",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L40"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L46"
     },
     {
       "label": "Memcopy",
@@ -1122,11 +1199,53 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.Vectors.ads.html#L15"
     },
     {
+      "label": "Pop",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L53C13",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L53"
+    },
+    {
+      "label": "Pop",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L54C13",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L54"
+    },
+    {
       "label": "Priority",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L15C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L15"
+    },
+    {
+      "label": "Push",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L48C13",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L48"
+    },
+    {
+      "label": "Push",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L49C13",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L49"
+    },
+    {
+      "label": "Push",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L50C13",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L50"
+    },
+    {
+      "label": "Push",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L51C13",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L51"
     },
     {
       "label": "Read_Key_State",
@@ -1179,17 +1298,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Release",
-      "docHref": "docs/gba__allocation___spec.html#L44C13",
-      "declared": "GBA.Allocation",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L50C13",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L44"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L50"
     },
     {
       "label": "Release",
-      "docHref": "docs/gba__allocation___spec.html#L47C13",
-      "declared": "GBA.Allocation",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L53C13",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L47"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L53"
     },
     {
       "label": "Remainder",
@@ -1323,13 +1442,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Timers",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Timers.ads.html#L74"
-    },
-    {
-      "label": "Set_Object_Attributes",
-      "docHref": "docs/gba__display__objects___spec.html#L174C13",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L174"
     },
     {
       "label": "Set_Offset",
@@ -1592,17 +1704,17 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "Storage_Size",
-      "docHref": "docs/gba__allocation___spec.html#L30C12",
-      "declared": "GBA.Allocation",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L36C12",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L30"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L36"
     },
     {
       "label": "Storage_Size",
-      "docHref": "docs/gba__allocation___spec.html#L33C12",
-      "declared": "GBA.Allocation",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L39C12",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L33"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L39"
     },
     {
       "label": "Tile_Block_Address",
@@ -1633,11 +1745,60 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Input.ads.html#L46"
     },
     {
+      "label": "Top",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L68C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "(renaming)",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L68"
+    },
+    {
+      "label": "Top",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L69C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "(renaming)",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L69"
+    },
+    {
       "label": "Transform",
       "docHref": "docs/gba__display__backgrounds__refs___spec.html#L62C12",
       "declared": "GBA.Display.Backgrounds.Refs",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Backgrounds.Refs.ads.html#L62"
+    },
+    {
+      "label": "Try_Index",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L81C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L81"
+    },
+    {
+      "label": "Try_Pop",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L59C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L59"
+    },
+    {
+      "label": "Try_Pop",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L60C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L60"
+    },
+    {
+      "label": "Try_Push",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L56C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L56"
+    },
+    {
+      "label": "Try_Push",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L57C12",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L57"
     },
     {
       "label": "Update_Control_Info",

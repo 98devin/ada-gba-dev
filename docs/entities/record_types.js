@@ -37,6 +37,13 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Numerics.ads.html#L93"
     },
     {
+      "label": "Arena_Block",
+      "docHref": "docs/hli__allocation__bounded_arena_pools___spec.html#L51C8",
+      "declared": "HLI.Allocation.Bounded_Arena_Pools",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Allocation.Bounded_Arena_Pools.ads.html#L51"
+    },
+    {
       "label": "BG_Control_Info",
       "docHref": "docs/gba__display__backgrounds___spec.html#L54C8",
       "declared": "GBA.Display.Backgrounds",
@@ -233,11 +240,25 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Palettes.ads.html#L25"
     },
     {
+      "label": "Constant_Element_Ref",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L21C8",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L21"
+    },
+    {
       "label": "Cpu_Set_Config",
       "docHref": "docs/gba__bios___spec.html#L148C8",
       "declared": "GBA.BIOS",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.BIOS.ads.html#L148"
+    },
+    {
+      "label": "Cursor",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L25C8",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L25"
     },
     {
       "label": "Decompress_Data_Header",
@@ -324,18 +345,18 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Audio.ads.html#L82"
     },
     {
-      "label": "EWRAM_Heap",
-      "docHref": "docs/gba__memory__default_heaps___spec.html#L18C3",
-      "declared": "GBA.Memory.Default_Heaps",
+      "label": "Element_Ref",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L18C8",
+      "declared": "HLI.Collections.Bounded_Vectors",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Memory.Default_Heaps.ads.html#L18"
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L18"
     },
     {
-      "label": "Heap_Arena",
-      "docHref": "docs/gba__allocation___spec.html#L26C11",
-      "declared": "GBA.Allocation",
+      "label": "EWRAM_Heap",
+      "docHref": "docs/gba__memory__default_heaps___spec.html#L17C3",
+      "declared": "GBA.Memory.Default_Heaps",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L26"
+      "srcHref": "srcs/GBA.Memory.Default_Heaps.ads.html#L17"
     },
     {
       "label": "IWRAM_Heap",
@@ -359,11 +380,11 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Input.ads.html#L75"
     },
     {
-      "label": "Local_Arena",
-      "docHref": "docs/gba__allocation___spec.html#L27C11",
-      "declared": "GBA.Allocation",
+      "label": "Linear_Pool",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L15C11",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L27"
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L15"
     },
     {
       "label": "Master_Control_Info",
@@ -388,10 +409,10 @@ GNATdoc.EntitiesCategory = {
     },
     {
       "label": "OAM_Entry",
-      "docHref": "docs/gba__display__objects___spec.html#L178C8",
+      "docHref": "docs/gba__display__objects___spec.html#L160C8",
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L178"
+      "srcHref": "srcs/GBA.Display.Objects.ads.html#L160"
     },
     {
       "label": "OBJ_Attributes",
@@ -399,6 +420,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Objects",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Objects.ads.html#L116"
+    },
+    {
+      "label": "Owning_Linear_Pool",
+      "docHref": "docs/hli__allocation__bounded_linear_pools___spec.html#L18C11",
+      "declared": "HLI.Allocation.Bounded_Linear_Pools",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html#L18"
     },
     {
       "label": "Reg_BG_Ref",
@@ -436,13 +464,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Display.Tiles.ads.html#L69"
     },
     {
-      "label": "Storage",
-      "docHref": "docs/gba__allocation___stack_arena___spec.html#L21C5",
-      "declared": "GBA.Allocation.Stack_Arena",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Allocation.ads.html#L21"
-    },
-    {
       "label": "Timer",
       "docHref": "docs/gba__timers___spec.html#L59C8",
       "declared": "GBA.Timers",
@@ -462,13 +483,6 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.DMA",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.DMA.ads.html#L69"
-    },
-    {
-      "label": "Volatile_OBJ_Attributes",
-      "docHref": "docs/gba__display__objects___spec.html#L161C8",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L161"
     },
     {
       "label": "Window_Display_Control_Info",

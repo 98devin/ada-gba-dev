@@ -84,7 +84,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "System.Allocation.Arenas"
+          "text": "System.Allocation.Linear_Pools"
         },
         {
           "kind": "span",
@@ -110,7 +110,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "System.Allocation.Arenas"
+          "text": "System.Allocation.Linear_Pools"
         },
         {
           "kind": "span",
@@ -275,33 +275,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Heap_Arena"
-        }
-      ]
-    },
-    {
-      "kind": "line",
-      "number": 16,
-      "children": [
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": "    "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": ":="
-        },
-        {
-          "kind": "span",
-          "cssClass": "text",
-          "text": " "
-        },
-        {
-          "kind": "span",
-          "cssClass": "identifier",
-          "text": "Create_Arena"
+          "text": "Linear_Pool"
         },
         {
           "kind": "span",
@@ -368,13 +342,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 17,
+      "number": 16,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 18,
+      "number": 17,
       "children": [
         {
           "kind": "span",
@@ -385,7 +359,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "EWRAM_Heap",
-          "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
+          "href": "docs/gba__memory__default_heaps___spec.html#L17C3"
         },
         {
           "kind": "span",
@@ -405,7 +379,7 @@ GNATdoc.SourceFile = {
         {
           "kind": "span",
           "cssClass": "identifier",
-          "text": "Heap_Arena"
+          "text": "Linear_Pool"
         },
         {
           "kind": "span",
@@ -426,7 +400,7 @@ GNATdoc.SourceFile = {
           "kind": "span",
           "cssClass": "identifier",
           "text": "System.Allocation.Memory.Heap",
-          "href": "docs/gba__memory__default_heaps___spec.html#L18C3"
+          "href": "docs/gba__memory__default_heaps___spec.html#L17C3"
         },
         {
           "kind": "span",
@@ -437,13 +411,13 @@ GNATdoc.SourceFile = {
     },
     {
       "kind": "line",
-      "number": 19,
+      "number": 18,
       "children": [
       ]
     },
     {
       "kind": "line",
-      "number": 20,
+      "number": 19,
       "children": [
         {
           "kind": "span",

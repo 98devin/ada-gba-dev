@@ -4,10 +4,6 @@ GNATdoc.SourceFileIndex = [
     "srcHref": "srcs/GBA.ads.html"
   },
   {
-    "label": "GBA.Allocation.ads",
-    "srcHref": "srcs/GBA.Allocation.ads.html"
-  },
-  {
     "label": "GBA.Audio.ads",
     "srcHref": "srcs/GBA.Audio.ads.html"
   },
@@ -142,5 +138,29 @@ GNATdoc.SourceFileIndex = [
   {
     "label": "GBA.Timers.ads",
     "srcHref": "srcs/GBA.Timers.ads.html"
+  },
+  {
+    "label": "HLI.ads",
+    "srcHref": "srcs/HLI.ads.html"
+  },
+  {
+    "label": "HLI.Allocation.ads",
+    "srcHref": "srcs/HLI.Allocation.ads.html"
+  },
+  {
+    "label": "HLI.Allocation.Bounded_Arena_Pools.ads",
+    "srcHref": "srcs/HLI.Allocation.Bounded_Arena_Pools.ads.html"
+  },
+  {
+    "label": "HLI.Allocation.Bounded_Linear_Pools.ads",
+    "srcHref": "srcs/HLI.Allocation.Bounded_Linear_Pools.ads.html"
+  },
+  {
+    "label": "HLI.Collections.ads",
+    "srcHref": "srcs/HLI.Collections.ads.html"
+  },
+  {
+    "label": "HLI.Collections.Bounded_Vectors.ads",
+    "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html"
   }
 ];

@@ -5,8 +5,8 @@
 abstract project GBA_Program is
 
     for Languages use ("Ada", "Asm_Cpp", "C");
-    for Target use "arm-sweetada-eabi";
-    for Runtime ("Ada") use GBA_Program'Project_Dir & "zfp-gba";
+    for Target use "arm-eabi";
+    for Runtime ("Ada") use GBA_Program'Project_Dir & "gba-rts";
 
     package Naming is
         for Casing use "mixedcase";
@@ -66,7 +66,7 @@ abstract project GBA_Program is
             ( "-gnatp"
             , "-gnatj80"
             , "-gnatX"
-            -- , "-gnatn"
+            , "-gnatn"
             , "-O2"
             , "-g"
             );

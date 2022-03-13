@@ -157,30 +157,12 @@ package GBA.Display.Objects is
       Palette_Index   at 4 range 12 .. 15;
     end record;
 
-
-  type Volatile_OBJ_Attributes is new OBJ_Attributes
-    with Volatile;
-
-  type OAM_Attributes_Ptr is access all Volatile_OBJ_Attributes
-    with Storage_Size => 0, Volatile;
-
-
-  function Attributes_Of_Object (ID : OBJ_ID) return OAM_Attributes_Ptr
-    with Pure_Function, Inline_Always;
-
-  function Attributes_Of_Object (ID : OBJ_ID) return OBJ_Attributes
-    with Inline_Always;
-
-  procedure Set_Object_Attributes (ID : OBJ_ID; Attributes : OBJ_Attributes)
-    with Inline;
-
-
   type OAM_Entry is limited
     record
-      Attributes          : aliased Volatile_OBJ_Attributes;
-      Transform_Parameter : aliased Affine_Transform_Parameter;
+      Attributes          : aliased OBJ_Attributes             with Volatile;
+      Transform_Parameter : aliased Affine_Transform_Parameter with Volatile;
     end record
-      with Size => 64, Volatile;
+      with Size => 64;
 
   for OAM_Entry use
     record
@@ -188,7 +170,7 @@ package GBA.Display.Objects is
       Transform_Parameter at 6 range 0 .. 15;
     end record;
 
-  Object_Attribute_Memory : array (0 .. 127) of OAM_Entry
+  Object_Attribute_Memory : array (OBJ_ID) of OAM_Entry
     with Import, Volatile_Components, Address => OAM_Address'First;
 
 

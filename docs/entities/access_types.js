@@ -23,13 +23,6 @@ GNATdoc.EntitiesCategory = {
       "srcHref": "srcs/GBA.Interrupts.ads.html#L56"
     },
     {
-      "label": "OAM_Attributes_Ptr",
-      "docHref": "docs/gba__display__objects___spec.html#L164C8",
-      "declared": "GBA.Display.Objects",
-      "declared_qualifier": "",
-      "srcHref": "srcs/GBA.Display.Objects.ads.html#L164"
-    },
-    {
       "label": "Palette_16_Ptr",
       "docHref": "docs/gba__display__palettes___spec.html#L59C8",
       "declared": "GBA.Display.Palettes",
@@ -77,6 +70,13 @@ GNATdoc.EntitiesCategory = {
       "declared": "GBA.Display.Tiles",
       "declared_qualifier": "",
       "srcHref": "srcs/GBA.Display.Tiles.ads.html#L104"
+    },
+    {
+      "label": "Vector_Ptr",
+      "docHref": "docs/hli__collections__bounded_vectors___spec.html#L97C8",
+      "declared": "HLI.Collections.Bounded_Vectors",
+      "declared_qualifier": "",
+      "srcHref": "srcs/HLI.Collections.Bounded_Vectors.ads.html#L97"
     }
   ]
 };
