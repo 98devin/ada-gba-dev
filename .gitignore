@@ -1,11 +1,10 @@
 .vscode/
 bin/
 adalib/
+alire/
 obj/
 docs/
 *.exe
 *.o
 *.gba
-*.ps1
-*.fish
 *.zip

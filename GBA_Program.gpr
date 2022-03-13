@@ -5,7 +5,7 @@
 abstract project GBA_Program is
 
     for Languages use ("Ada", "Asm_Cpp", "C");
-    for Target use "arm-sweetada-eabi";
+    for Target use "arm-eabi";
     for Runtime ("Ada") use GBA_Program'Project_Dir & "gba-rts";
 
     package Naming is

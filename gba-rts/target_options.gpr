@@ -18,6 +18,7 @@ abstract project Target_Options is
         "-mthumb",
         "-ffunction-sections",
         "-fdata-sections",
+        "-flto",
         "-nostdlib",
         "-nolibc");
 
