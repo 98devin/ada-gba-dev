@@ -10,4 +10,11 @@ project-files = ["gba-rts/runtime_build.gpr", "GBA.gpr", "demo/Demo.gpr"]
 
 [[depends-on]]
 gnat_arm_elf = "*"
-gprbuild     = "*"
+
+[[actions]]
+type    = "post-build"
+command = [ "./package.ps1", "demo/bin/" ]
+
+# [[actions]]
+# type    = "post-build"
+# command = "./package.ps1 tests/bin/"
