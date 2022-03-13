@@ -1,11 +1,11 @@
 FROM ubuntu:focal
 
-ARG RUNTIME=noninteractive
+ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update && apt-get upgrade
 
 RUN apt-get install -y \
-    git wget curl sudo unzip apt-transport-https software-properties-common
+    git wget curl sudo unzip gcc apt-transport-https
 
 # install alire
 ARG ALR_VER=1.1.2
@@ -19,6 +19,7 @@ RUN dpkg -i packages-microsoft-prod.deb
 RUN apt-get update
 RUN apt-get install -y powershell
 
+# install GNAT arm toolchain
 RUN mkdir /alire
 RUN alr toolchain --install gnat_arm_elf --disable-assistant --install-dir=/alire
 RUN alr toolchain --install gprbuild     --disable-assistant --install-dir=/alire
@@ -26,20 +27,10 @@ RUN alr toolchain --install gprbuild     --disable-assistant --install-dir=/alir
 RUN chsh -s pwsh
 SHELL [ "pwsh", "-c" ]
 
-RUN <<EOF
+RUN PowerShellGet\Install-Module posh-git -Scope AllUsers -Force
+RUN Add-PoshGitToProfile -AllHosts
 
-Install-Module posh-git -Scope CurrentUser -Force
-Add-PoshGitToProfile -AllHosts
-
-EOF
-
-RUN echo <<EOF >> $profile
-
-foreach ($alire_lib in Get-ChildItem /alire) {
-    $env:PATH += ":$($alire_lib.FullName)/bin"
-}
-
-EOF
-
+ADD ./setup-path.ps1 .
+RUN . ./setup-path.ps1
 
 ENTRYPOINT [ "pwsh" ]
