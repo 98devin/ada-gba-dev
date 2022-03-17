@@ -15,7 +15,6 @@ project Demo extends "../GBA_Program.gpr" is
         , "Sprites.adb"
         , "Timer_Test.adb"
         , "Sound.adb"
-        , "Data_Structures.adb"
         );
 
     package Compiler extends GBA_Program.Compiler is

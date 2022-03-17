@@ -6,7 +6,7 @@ authors = ["Devin Hill"]
 maintainers = ["Devin Hill <98devin@gmail.com>"]
 maintainers-logins = ["98devin"]
 
-project-files = ["gba-rts/runtime_build.gpr", "GBA.gpr", "demo/Demo.gpr"]
+project-files = ["gba-rts/runtime_build.gpr", "GBA.gpr", "demo/Demo.gpr", "tests/Tests.gpr"]
 
 [[depends-on]]
 gnat_arm_elf = "*"
@@ -15,6 +15,14 @@ gnat_arm_elf = "*"
 type    = "post-build"
 command = [ "./package.ps1", "demo/bin/" ]
 
-# [[actions]]
-# type    = "post-build"
-# command = "./package.ps1 tests/bin/"
+[[actions]]
+type    = "pre-build"
+command = [ "./package.ps1", "demo/bin", "-Clear" ]
+
+[[actions]]
+type    = "post-build"
+command = [ "./package.ps1", "tests/bin/" ]
+
+[[actions]]
+type    = "pre-build"
+command = [ "./package.ps1", "tests/bin", "-Clear" ]

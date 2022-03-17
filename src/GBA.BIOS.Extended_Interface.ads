@@ -220,21 +220,21 @@ package GBA.BIOS.Extended_Interface is
 
   type Bit_Unpack_Config is
     record
-      Src_Data_Bytes : Unsigned_16;
-      Src_Data_Width : Bit_Src_Unpack_Width;
-      Dst_Data_Width : Bit_Unpack_Width;
-      Data_Offset    : Unsigned_31;
-      Offset_Zeros   : Boolean;
+      Src_Data_Bytes  : Unsigned_16;
+      Src_Data_Width  : Bit_Src_Unpack_Width;
+      Dest_Data_Width : Bit_Unpack_Width;
+      Data_Offset     : Unsigned_31;
+      Offset_Zeros    : Boolean;
     end record
       with Size => 64;
 
   for Bit_Unpack_Config use
     record
-      Src_Data_Bytes at 0 range  0 .. 15;
-      Src_Data_Width at 2 range  0 ..  7;
-      Dst_Data_Width at 3 range  0 ..  7;
-      Data_Offset    at 4 range  0 .. 30;
-      Offset_Zeros   at 4 range 31 .. 31;
+      Src_Data_Bytes  at 0 range  0 .. 15;
+      Src_Data_Width  at 2 range  0 ..  7;
+      Dest_Data_Width at 3 range  0 ..  7;
+      Data_Offset     at 4 range  0 .. 30;
+      Offset_Zeros    at 4 range 31 .. 31;
     end record;
 
   procedure Bit_Unpack (Src, Dest : Address; Config : Bit_Unpack_Config)
