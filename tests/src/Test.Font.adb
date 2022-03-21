@@ -2,7 +2,11 @@
 --  Copyright (c) 2022 Devin Hill
 --  zlib License -- see LICENSE for details.
 
+with System;
+
 package body Test.Font is
+
+  use all type System.Address;
 
   Font_Begin : Character
     with Import, External_Name => "font_begin";

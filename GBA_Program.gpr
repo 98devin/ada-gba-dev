@@ -66,8 +66,8 @@ abstract project GBA_Program is
             ( "-gnatp"
             , "-gnatj80"
             , "-gnatX"
-            , "-gnatn"
-            , "-O2"
+            -- , "-gnatn"
+            , "-O3"
             , "-g"
             );
 
@@ -93,7 +93,7 @@ abstract project GBA_Program is
             , "-T" & Linker_File
             , "-Wl,-gc-sections,-flto"
             , "-Wno-lto-type-mismatch"
-            , "-g3"
+            , "-g"
             );
     end Linker;
 

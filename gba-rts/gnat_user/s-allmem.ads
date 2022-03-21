@@ -23,12 +23,12 @@ package System.Allocation.Memory is
 
    Heap : SAL.Linear_Pool (Heap_Start'Address, Heap_End'Address);
 
-   type size_t is mod 2 ** Standard'Address_Size;
+   subtype size_t is SSE.Storage_Count;
    --  Note: the reason we redefine this here instead of using the
    --  definition in Interfaces.C is that we do not want to drag in
    --  all of Interfaces.C just because System.Memory is used.
 
-   --  function Alloc (Size : size_t) return System.Address
-   --    with Convention => C, Export, External_Name => "__gnat_malloc";
+   function Alloc (Size : size_t) return System.Address
+      with Convention => C, Export, External_Name => "__gnat_malloc";
 
 end System.Allocation.Memory;
