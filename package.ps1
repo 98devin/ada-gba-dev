@@ -22,7 +22,7 @@ foreach ($Exe in Get-ChildItem $FilePath | Where-Object Extension -eq "") {
 
     Write-Output "Building artifacts for $($Exe.Name)"
     arm-eabi-objcopy -O binary $Exe.FullName $BinFileName
-    arm-eabi-objdump -dS $Exe.FullName > $AsmFileName
+    arm-eabi-objdump -d -S --source-comment="@ " $Exe.FullName > $AsmFileName
     arm-eabi-objdump -t $Exe.FullName > $SymFileName
 
     cp $BinFileName $GbaFileName

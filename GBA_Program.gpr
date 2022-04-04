@@ -47,6 +47,7 @@ abstract project GBA_Program is
             , "-ffat-lto-objects"
             , "-fverbose-asm"
             , "-save-temps"
+            , "-g"
             );
 
         Ada_Style_Options :=
@@ -67,8 +68,8 @@ abstract project GBA_Program is
             , "-gnatj80"
             , "-gnatX"
             -- , "-gnatn"
+            , "-gnatD=120"
             , "-O3"
-            , "-g"
             );
 
         case Code_Linkage is
@@ -87,7 +88,7 @@ abstract project GBA_Program is
 
         for Required_Switches use
             ( "-nostartfiles"
-            , "-nodefaultlibs"
+            -- , "-nodefaultlibs"
             , "-nolibc"
             , "-static"
             , "-T" & Linker_File

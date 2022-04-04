@@ -39,6 +39,8 @@ procedure Data_Structures is
 
   use System.Nonlocal_Jumps;
 
+  use Test;
+
 
   V : Integer := 0
     with Export;
@@ -82,24 +84,34 @@ procedure Data_Structures is
   end Begin_And_Set;
 
 
-  procedure Example_Schedule (Scheduler : Test.Scheduler_Ref) is
+  procedure Example_Schedule (Scheduler : in out Test_Schedule'Class) with No_Inline;
+  pragma Machine_Attribute (Example_Schedule, "target", "arm");
 
-    procedure Dummy_Run (Handler : Test.Handler_Ref) is null;
+  procedure Example_Schedule (Scheduler : in out Test_Schedule'Class) is
+    procedure Dummy (Handler : Test_Handler'Class) is null;
   begin
-    Scheduler.Add ("Worcestershire [what!]", Dummy_Run'Access);
-    Scheduler.Add ("Test Two", Dummy_Run'Access);
-    Scheduler.Add ("Test Three", Dummy_Run'Access);
-    Scheduler.Add ("Test Four", Dummy_Run'Access);
-    Scheduler.Add ("Test ;p", Dummy_Run'Access);
+    Scheduler.Add_Test ("Wahoo", Dummy'Unrestricted_Access);
+    Scheduler.Add_Test ("Wahee", Dummy'Unrestricted_Access);
+    Scheduler.Add_Test ("Wahaa", Dummy'Unrestricted_Access);
+    declare
+      S : Test_Schedule'Class := Scheduler.Add_Group ("Group1");
+    begin
+      S.Add_Test ("Wahuu", Dummy'Unrestricted_Access);
+    end;
   end Example_Schedule;
+
+  A : Positive := -1;
 
 begin
 
   Test.Initialize_Framework;
 
-  Begin_And_Set;
-
-  Test.Run_Top_Level_Tests (Example_Schedule'Access);
+  declare
+    Scheduler : Test_Schedule'Class := Get_Main_Schedule;
+  begin
+    Example_Schedule (Scheduler);
+    Scheduler.Run;
+  end;
 
   loop
     Wait_For_VBlank;

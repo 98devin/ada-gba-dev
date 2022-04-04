@@ -33,20 +33,28 @@
 -- Extensive contributions were provided by Ada Core Technologies Inc.      --
 --                                                                          --
 ------------------------------------------------------------------------------
+pragma Task_Dispatching_Policy (FIFO_Within_Priorities);
+pragma Locking_Policy (Ceiling_Locking);
+pragma Detect_Blocking;
 
+pragma Restrictions (No_Abort_Statements);
 pragma Restrictions (No_Anonymous_Allocators);
+pragma Restrictions (No_Delay);
 pragma Restrictions (No_Dependence => Ada.Asynchronous_Task_Control);
 pragma Restrictions (No_Dependence => Ada.Calendar);
 pragma Restrictions (No_Dependence => Ada.Execution_Time.Group_Budget);
 pragma Restrictions (No_Dependence => Ada.Execution_Time.Timers);
+--  pragma Restrictions (No_Dependence => Ada.Real_Time);
 pragma Restrictions (No_Dependence => Ada.Task_Attributes);
 pragma Restrictions (No_Dynamic_Attachment);
 pragma Restrictions (No_Dynamic_Priorities);
+pragma Restrictions (No_Entry_Calls_In_Elaboration_Code);
 pragma Restrictions (No_Exception_Propagation);
 pragma Restrictions (No_Exception_Registration);
 pragma Restrictions (No_Finalization);
 pragma Restrictions (No_Floating_Point);
 pragma Restrictions (No_Implicit_Heap_Allocations);
+pragma Restrictions (No_Implicit_Task_Allocations);
 pragma Restrictions (No_IO);
 pragma Restrictions (No_Local_Protected_Objects);
 pragma Restrictions (No_Local_Timing_Events);
@@ -57,11 +65,15 @@ pragma Restrictions (No_Requeue_Statements);
 pragma Restrictions (No_Select_Statements);
 pragma Restrictions (No_Specific_Termination_Handlers);
 --  pragma Restrictions (No_Standard_Allocators_After_Elaboration);
+pragma Restrictions (No_Task_At_Interrupt_Priority);
 pragma Restrictions (No_Task_Allocators);
+pragma Restrictions (No_Task_Attributes_Package);
 pragma Restrictions (No_Task_Hierarchy);
 pragma Restrictions (No_Task_Termination);
 pragma Restrictions (No_Tasking);
 pragma Restrictions (Simple_Barriers);
+pragma Restrictions (Static_Priorities);
+--  pragma Profile (Ravenscar);
 
 pragma Discard_Names;
 --  Disable explicitly the generation of names associated with entities in
@@ -186,6 +198,6 @@ private
    Support_Long_Shifts       : constant Boolean := True;
    Suppress_Standard_Library : constant Boolean := True;
    Use_Ada_Main_Program_Name : constant Boolean := False;
-   ZCX_By_Default            : constant Boolean := True;
+   ZCX_By_Default            : constant Boolean := False;
 
 end System;

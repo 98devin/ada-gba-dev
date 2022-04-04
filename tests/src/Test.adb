@@ -2,15 +2,14 @@
 --  Copyright (c) 2022 Devin Hill
 --  zlib License -- see LICENSE for details.
 
-with System.Nonlocal_Jumps;
-
 with GBA.Display.Backgrounds;
 with GBA.Display.Palettes;
 with GBA.Display.Tiles;
+with GBA.Input;
+with GBA.Input.Buffered;
 
 with Test.Font;
 with Test.Progress;
-with Test.Status;
 
 package body Test is
 
@@ -20,11 +19,12 @@ package body Test is
   use GBA.Display.Backgrounds;
   use GBA.Display.Palettes;
   use GBA.Interrupts;
+  use GBA.Input;
+  use GBA.Input.Buffered;
   use GBA.Memory;
   use GBA.Memory.IO_Registers;
 
   use Test.Progress;
-  use Test.Status;
 
   use Interfaces;
 
@@ -49,12 +49,15 @@ package body Test is
     ( Line        : Integer;
       Progress    : Progress_Type;
       Status      : Status_Type
-    ) is
+    )
+  is
+    type Screen_Dim is mod 32;
+    Screen_Line : Integer := Integer (Screen_Dim'Mod (Line - 1)) + 1;
   begin
     Fill_Progress_Bar
       ( Status     => Status
       , Progress   => Progress
-      , Tiles_Addr => Screen_BG (Line, 1)'Address
+      , Tiles_Addr => Screen_BG (Screen_Line, 1)'Address
       );
   end Write_Progress;
 
@@ -66,10 +69,12 @@ package body Test is
       Clear_After : Boolean := False
     )
   is
-    Screen_X : Integer := Start_At;
+    type Screen_Dim is mod 32;
+    Screen_Line : Integer := Integer (Screen_Dim'Mod (Line - 1)) + 1;
+    Screen_X    : Integer := Start_At;
   begin
     for I in Text'Range loop
-      Screen_FG (Line, Screen_X) :=
+      Screen_FG (Screen_Line, Screen_X) :=
         ( Tile            => Character'Pos (Text (I))
         , Palette_Index   => 0
         , Flip_Horizontal => False
@@ -80,7 +85,7 @@ package body Test is
     end loop;
     if Clear_After then
       while Screen_X in Screen_FG'Range(2) loop
-        Screen_FG (Line, Screen_X) :=
+        Screen_FG (Screen_Line, Screen_X) :=
           ( Tile            => Character'Pos (' ')
           , Palette_Index   => 0
           , Flip_Horizontal => False
@@ -90,6 +95,31 @@ package body Test is
       end loop;
     end if;
   end Write_Text;
+
+
+  Desired_Top_Line   : Positive         := 1;
+  Current_Top_Offset : BG_Scroll_Offset := 0;
+
+  function Desired_Top_Offset return BG_Scroll_Offset is
+    ( BG_Scroll_Offset (Desired_Top_Line - 1) * 8 );
+
+  procedure Process_Line_Scroll is
+  begin
+    if Current_Top_Offset = Desired_Top_Offset then
+      return;
+    end if;
+    declare
+      Line_Diff : BG_Scroll_Offset := (Desired_Top_Offset - Current_Top_Offset) / 8;
+    begin
+      if Line_Diff = 0 then
+        Line_Diff := (if Desired_Top_Offset > Current_Top_Offset then 1 else -1);
+      end if;
+
+      Current_Top_Offset := @ + Line_Diff;
+      Set_Offset_Y (BG_0, Value => Current_Top_Offset);
+      Set_Offset_Y (BG_1, Value => Current_Top_Offset);
+    end;
+  end Process_Line_Scroll;
 
 
   procedure Initialize_Framework is
@@ -195,119 +225,181 @@ package body Test is
     end loop;
   end Initialize_Framework;
 
+  -----------
+  -- Utils --
+  -----------
 
-  type Counting_Scheduler is new Test_Scheduler with
-    record
-      Test_Count : Integer := 0;
-    end record;
-
-  overriding
-  procedure Add
-    ( Scheduler : in out Counting_Scheduler;
-      Name      : Test_String;
-      Run       : not null access procedure (Handler : Handler_Ref) );
-
-  overriding
-  procedure Group
-    ( Scheduler : in out Counting_Scheduler;
-      Name      : Test_String;
-      Schedule  : not null access procedure (Scheduler : Scheduler_Ref) );
-
-
-  overriding
-  procedure Add
-    ( Scheduler : in out Counting_Scheduler;
-      Name      : Test_String;
-      Run       : not null access procedure (Handler : Handler_Ref) ) is
+  procedure Append (List : in out Test_Item_List; Item : Test_Item_Ptr) is
   begin
-    Scheduler.Test_Count := @ + 1;
-  end Add;
+    if List.First = null then
+      Item.Prev  := null;
+      Item.Next  := null;
 
-  overriding
-  procedure Group
-    ( Scheduler : in out Counting_Scheduler;
-      Name      : Test_String;
-      Schedule  : not null access procedure (Scheduler : Scheduler_Ref) ) is
-  begin
-    Scheduler.Test_Count := @ + 1;
-  end Group;
+      List.First := Item;
+      List.Last  := Item;
+    else
+      Item.Prev      := List.Last;
+      Item.Next      := null;
 
-
-  type Show_Names_Scheduler is new Counting_Scheduler with
-    null record;
-
-  overriding
-  procedure Add
-    ( Scheduler : in out Show_Names_Scheduler;
-      Name      : Test_String;
-      Run       : not null access procedure (Handler : Handler_Ref) );
-
-  overriding
-  procedure Group
-    ( Scheduler : in out Show_Names_Scheduler;
-      Name      : Test_String;
-      Schedule  : not null access procedure (Scheduler : Scheduler_Ref) );
-
-  overriding
-  procedure Add
-    ( Scheduler : in out Show_Names_Scheduler;
-      Name      : Test_String;
-      Run       : not null access procedure (Handler : Handler_Ref) ) is
-  begin
-    Counting_Scheduler (Scheduler).Add (Name, Run);
-    if Scheduler.Test_Count <= 20 then
-      Write_Text (Scheduler.Test_Count, Name, Clear_After => True);
+      List.Last.Next := Item;
+      List.Last      := Item;
     end if;
-  end Add;
+  end Append;
+
+  function Length (List : Test_Item_List) return Integer is
+    Count : Integer := 0;
+    Item  : access Test_Item := List.First;
+  begin
+    while Item /= null loop
+      Count := @ + 1;
+      Item  := Item.Next;
+    end loop;
+    return Count;
+  end Length;
+
+  -------------------
+  -- Main_Schedule --
+  -------------------
 
   overriding
-  procedure Group
-    ( Scheduler : in out Show_Names_Scheduler;
-      Name      : Test_String;
-      Schedule  : not null access procedure (Scheduler : Scheduler_Ref) ) is
+  procedure Add_Test (Schedule : in out Main_Schedule; Name : Test_String; Run : Test_Runner_Procedure) is
+    T : Test_Item_Ptr := new Test_Item (Item_Test);
   begin
-    Counting_Scheduler (Scheduler).Group (Name, Schedule);
-    if Scheduler.Test_Count <= 20 then
-      Write_Text (Scheduler.Test_Count, Name, Clear_After => True);
-    end if;
-  end Group;
+    T.Test_Value.Name   := new Test_String'(Name);
+    T.Test_Value.Runner := Run;
 
+    Append (Schedule.Items, T);
+  end Add_Test;
 
-  procedure Run_Top_Level_Tests
-    ( Schedule : not null access procedure (Scheduler : Scheduler_Ref) ) is
+  overriding
+  function Add_Group (Schedule : in out Main_Schedule; Name : Test_String) return Test_Schedule'Class is
+    G : Test_Item_Ptr := new Test_Item (Item_Group);
+  begin
+    G.Group_Value.Name := new Test_String'(Name);
 
-    Counter : Scheduler_Ref := new Show_Names_Scheduler;
+    Append (Schedule.Items, G);
+    return Group_Schedule'( Items => G.Group_Value.Items'Access );
+  end Add_Group;
+
+  overriding
+  procedure Run (Schedule : in out Main_Schedule) is
+    Line : Integer := 1;
+    Item : Test_Item_Ptr := Schedule.Items.First;
+  begin
+    while Item /= null and then Line <= 20 loop
+      case Item.Kind is
+      when Item_Test =>
+        Write_Text (Line, Item.Test_Value.Name.all,  Clear_After => True);
+      when Item_Group =>
+        Write_Text (Line, Item.Group_Value.Name.all, Clear_After => True);
+      end case;
+
+      Item := Item.Next;
+      Line := Line + 1;
+    end loop;
+
+    loop
+      Update_Key_State;
+
+      if Was_Key_Pressed (Up_Direction) then
+        Desired_Top_Line := Positive'Max (1, @ - 1);
+      elsif Was_Key_Pressed (Down_Direction) then
+        Desired_Top_Line := @ + 1;
+      end if;
+
+      Process_Line_Scroll;
+      Wait_For_VBlank;
+    end loop;
+  end Run;
+
+  --------------------
+  -- Group_Schedule --
+  --------------------
+
+  overriding
+  procedure Add_Test  (Schedule : in out Group_Schedule; Name : Test_String; Run : Test_Runner_Procedure) is
+    T : Test_Item_Ptr := new Test_Item (Item_Test);
+  begin
+    T.Test_Value.Name   := new Test_String'(Name);
+    T.Test_Value.Runner := Run;
+
+    Append (Schedule.Items.all, T);
+  end Add_Test;
+
+  overriding
+  function Add_Group (Schedule : in out Group_Schedule; Name : Test_String) return Test_Schedule'Class is
+    G : Test_Item_Ptr := new Test_Item (Item_Group);
+  begin
+    G.Group_Value.Name := new Test_String'(Name);
+
+    Append (Schedule.Items.all, G);
+    return Group_Schedule'( Items => G.Group_Value.Items'Access );
+  end Add_Group;
+
+  overriding
+  procedure Run (Schedule : in out Group_Schedule) is
+  begin
+    null;
+  end Run;
+
+  ------------------
+  -- Main_Handler --
+  ------------------
+
+  overriding
+  procedure Assert (Handler : Main_Handler; Expect : Boolean; Desc : Test_String) is
+  begin
+    null;
+  end Assert;
+
+  -----------------------
+  -- Get_Main_Schedule --
+  -----------------------
+
+  function Get_Main_Schedule return Test_Schedule'Class is
+  begin
+    return M : Main_Schedule := (others => <>);
+  end Get_Main_Schedule;
+
+  -------------------------
+  -- Last_Chance_Handler --
+  -------------------------
+
+  procedure Last_Chance_Handler
+    ( Msg : System.Address; Line : Integer ) is
+
+    use all type System.Byte;
+
+    Byte_Msg : array (1 .. 30) of System.Byte
+      with Address => Msg;
+
+    Byte_End : Integer := 30;
 
   begin
+    for I in 1 .. 20 loop
+      Write_Progress (Line => I, Progress => 30.0, Status => Failure);
+      Write_Text (Line => I, Text => "", Start_At => 1, Clear_After => True);
+    end loop;
 
-    Schedule (Counter);
+    for I in 1 .. 30 loop
+      if Byte_Msg (I) = 0 then
+        Byte_End := I;
+        exit;
+      end if;
+    end loop;
 
     declare
-      Progress     : Progress_Type := 0.0;
-      Max_Progress : Progress_Type := 1.0 * Show_Names_Scheduler (Counter.all).Test_Count;
+      Str_Msg : Test_String (1 .. Byte_End)
+        with Address => Msg;
     begin
-      loop
-        declare
-          Current_Progress : Progress_Type := Progress_Type'(Progress / Max_Progress) * 30.0;
-        begin
-          for I in Screen_BG'Range(2) loop
-            Write_Progress (Line => I, Progress => Current_Progress, Status => In_Progress);
-          end loop;
-
-          if Progress = Max_Progress then
-            Progress := 0.0;
-          else
-            Progress := @ + 0.125;
-          end if;
-        end;
-
-        Wait_For_VBlank;
-        Wait_For_VBlank;
-        Wait_For_VBlank;
-      end loop;
+      Write_Text (Line => 1, Text => Str_Msg, Start_At => 1,                  Clear_After => False);
+      Write_Text (Line => 1, Text => ":",     Start_At => Str_Msg'Length + 1, Clear_After => False);
+      Write_Text (Line => 1, Text => "100",   Start_At => Str_Msg'Length + 2, Clear_After => True);
     end;
 
-  end Run_Top_Level_Tests;
-
+    loop
+      null;
+    end loop;
+  end Last_Chance_Handler;
 
 end Test;
