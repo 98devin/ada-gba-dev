@@ -1,23 +1,29 @@
-@--------------------------------------------------------------------------------
-@ ldiv.s
-@--------------------------------------------------------------------------------
-@ Provides an implementation of signed 64-bit division
-@ Taken with permission from github.com/JoaoBaptMG/gba-modern (2021-05-23)
+@===============================================================================
+@
+@ ABI:
+@    __aeabi_ldivmod
+@ Support:
+@    __agbabi_ldiv
+@
+@ Taken with permission from github.com/JoaoBaptMG/gba-modern (2020-11-17)
 @ Modified for libagbabi
-@--------------------------------------------------------------------------------
+@
+@===============================================================================
 
-@ r0:r1: the numerator / r2:r3: the denominator
-@ after it, r0:r1 has the quotient and r2:r3 has the modulo
-    .section .iwram.__aeabi_ldivmod, "ax", %progbits
-    .align 2
     .arm
-    .global __aeabi_ldivmod
-    .type __aeabi_ldivmod STT_FUNC
-__aeabi_ldivmod:
+    .align 2
 
-    .global __aeabi_ldiv
-    .type __aeabi_ldiv STT_FUNC
-__aeabi_ldiv:
+    @ r0:r1: the numerator / r2:r3: the denominator
+    @ after it, r0:r1 has the quotient and r2:r3 has the modulo
+    .section .iwram.__aeabi_ldivmod, "ax", %progbits
+    .global __aeabi_ldivmod
+    .type __aeabi_ldivmod, %function
+__aeabi_ldivmod:
+    @ Fallthrough
+
+    .global __agbabi_ldiv
+    .type __agbabi_ldiv, %function
+__agbabi_ldiv:
     @ Test division by zero
     cmp     r3, #0
     cmpeq   r2, #0
@@ -46,12 +52,12 @@ __aeabi_ldiv:
     @ Check if the high register of the denominator is zero
     cmp     r3, #0
     adreq   lr, .skipRoutinePastZero
-    .extern __agbabi_unsafe_uluidiv
-    beq     __agbabi_unsafe_uluidiv
+    .extern __agbabi_unsafe_uluidivmod
+    beq     __agbabi_unsafe_uluidivmod
 
     @ Call the unsigned division
-    .extern __agbabi_unsafe_uldiv
-    bl      __agbabi_unsafe_uldiv
+    .extern __agbabi_unsafe_uldivmod
+    bl      __agbabi_unsafe_uldivmod
 
 .skipRoutinePastZero:
     @ This moves "numerator is negative" to overflow flag and

@@ -1,4 +1,4 @@
--- Copyright (c) 2021 Devin Hill
+-- Copyright (c) 2023 Devin Hill
 -- zlib License -- see LICENSE for details.
 
 
@@ -56,7 +56,7 @@ abstract project GBA_Program is
 
         Ada_Warning_Options :=
             ( "-gnatwA"
-            , "-gnatw_a.a.Bc.cDEI.ij.kmO.pqr.rv.wx"
+            , "-gnatw_a.a.Bc.cDEI.i.kmO.pq.rv.wx"
             , "-gnatwe"
             );
 

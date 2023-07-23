@@ -1,33 +1,42 @@
-@--------------------------------------------------------------------------------
-@ uldiv.s
-@--------------------------------------------------------------------------------
-@ Provides an implementation of unsigned 64-bit division
-@ Taken with permission from github.com/JoaoBaptMG/gba-modern (2021-05-23)
+@===============================================================================
+@
+@ ABI:
+@    __aeabi_uldivmod
+@ Support:
+@    __agbabi_uldiv, __agbabi_unsafe_uldivmod
+@
+@ Taken with permission from github.com/JoaoBaptMG/gba-modern (2020-11-17)
 @ Modified for libagbabi
-@--------------------------------------------------------------------------------
+@
+@===============================================================================
 
-@ Source code adapted from the 32-bit/32-bit routine to work with 64-bit numerators
-@ Original source code in https://www.chiark.greenend.org.uk/~theom/riscos/docs/ultimate/a252div.txt
-@ r0:r1: the numerator / r2:r3: the denominator
-@ after it, r0:r1 has the quotient and r2:r3 has the modulo
+    .arm
+    .align 2
+
+    @ Source code adapted from the 32-bit/32-bit routine to work with 64-bit numerators
+    @ Original source code in https://www.chiark.greenend.org.uk/~theom/riscos/docs/ultimate/a252div.txt
+    @ r0:r1: the numerator / r2:r3: the denominator
+    @ after it, r0:r1 has the quotient and r2:r3 has the modulo
     .section .iwram.__aeabi_uldivmod, "ax", %progbits
     .align 2
     .arm
     .global __aeabi_uldivmod
-    .type __aeabi_uldivmod STT_FUNC
+    .type __aeabi_uldivmod, %function
 __aeabi_uldivmod:
+    @ Fallthrough
 
-    .global __aeabi_uldiv
-    .type __aeabi_uldiv STT_FUNC
-__aeabi_uldiv:
+    .global __agbabi_uldiv
+    .type __agbabi_uldiv, %function
+__agbabi_uldiv:
     @ Check if the high word of the denominator is zero
     cmp     r3, #0
     .extern __agbabi_uluidiv
     beq     __agbabi_uluidiv
+    @ Fallthrough
 
-    .global __agbabi_unsafe_uldiv
-    .type __agbabi_unsafe_uldiv STT_FUNC
-__agbabi_unsafe_uldiv:
+    .global __agbabi_unsafe_uldivmod
+    .type __agbabi_unsafe_uldivmod, %function
+__agbabi_unsafe_uldivmod:
     @ Check if the denominator is greater than the numerator and exit early if so
     cmp     r1, r3
     cmpeq   r0, r2

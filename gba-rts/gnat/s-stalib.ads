@@ -30,6 +30,8 @@
 ------------------------------------------------------------------------------
 -- SweetAda SFP cutted-down version                                         --
 ------------------------------------------------------------------------------
+-- GBADA: Remove "pragma Compiler_Unit_Warning;"                            --
+------------------------------------------------------------------------------
 
 --  This package is included in all programs. It contains declarations that
 --  are required to be part of every Ada program. A special mechanism is
@@ -45,8 +47,6 @@
 --  The binder unconditionally includes s-stalib.ali, which ensures that this
 --  package and the packages it references are included in all Ada programs,
 --  together with the included data.
-
-pragma Compiler_Unit_Warning;
 
 --  with Ada.Unchecked_Conversion;
 
@@ -121,118 +121,100 @@ package System.Standard_Library is
    --  required, since Gigi is supposed to add a Nul to each name ???
 
    Constraint_Error_Name : constant String := "CONSTRAINT_ERROR" & ASCII.NUL;
-   Program_Error_Name    : constant String := "PROGRAM_ERROR"    & ASCII.NUL;
-   Storage_Error_Name    : constant String := "STORAGE_ERROR"    & ASCII.NUL;
-   Tasking_Error_Name    : constant String := "TASKING_ERROR"    & ASCII.NUL;
-   Abort_Signal_Name     : constant String := "_ABORT_SIGNAL"    & ASCII.NUL;
+   Program_Error_Name    : constant String := "PROGRAM_ERROR" & ASCII.NUL;
+   Storage_Error_Name    : constant String := "STORAGE_ERROR" & ASCII.NUL;
+   Tasking_Error_Name    : constant String := "TASKING_ERROR" & ASCII.NUL;
+   Abort_Signal_Name     : constant String := "_ABORT_SIGNAL" & ASCII.NUL;
 
-   Numeric_Error_Name    : constant String := "NUMERIC_ERROR"    & ASCII.NUL;
+   Numeric_Error_Name : constant String := "NUMERIC_ERROR" & ASCII.NUL;
    --  This is used only in the Ada 83 case, but it is not worth having a
    --  separate version of s-stalib.ads for use in Ada 83 mode.
 
    Constraint_Error_Def : aliased Exception_Data :=
-     (Not_Handled_By_Others => False,
-      Lang                  => 'A',
+     (Not_Handled_By_Others => False, Lang => 'A',
       Name_Length           => Constraint_Error_Name'Length,
-      Full_Name             => Constraint_Error_Name'Address,
-      HTable_Ptr            => null,
-      Foreign_Data          => Null_Address,
-      Raise_Hook            => null);
+      Full_Name => Constraint_Error_Name'Address, HTable_Ptr => null,
+      Foreign_Data          => Null_Address, Raise_Hook => null);
 
    Numeric_Error_Def : aliased Exception_Data :=
-     (Not_Handled_By_Others => False,
-      Lang                  => 'A',
+     (Not_Handled_By_Others => False, Lang => 'A',
       Name_Length           => Numeric_Error_Name'Length,
-      Full_Name             => Numeric_Error_Name'Address,
-      HTable_Ptr            => null,
-      Foreign_Data          => Null_Address,
-      Raise_Hook            => null);
+      Full_Name             => Numeric_Error_Name'Address, HTable_Ptr => null,
+      Foreign_Data          => Null_Address, Raise_Hook => null);
 
    Program_Error_Def : aliased Exception_Data :=
-     (Not_Handled_By_Others => False,
-      Lang                  => 'A',
+     (Not_Handled_By_Others => False, Lang => 'A',
       Name_Length           => Program_Error_Name'Length,
-      Full_Name             => Program_Error_Name'Address,
-      HTable_Ptr            => null,
-      Foreign_Data          => Null_Address,
-      Raise_Hook            => null);
+      Full_Name             => Program_Error_Name'Address, HTable_Ptr => null,
+      Foreign_Data          => Null_Address, Raise_Hook => null);
 
    Storage_Error_Def : aliased Exception_Data :=
-     (Not_Handled_By_Others => False,
-      Lang                  => 'A',
+     (Not_Handled_By_Others => False, Lang => 'A',
       Name_Length           => Storage_Error_Name'Length,
-      Full_Name             => Storage_Error_Name'Address,
-      HTable_Ptr            => null,
-      Foreign_Data          => Null_Address,
-      Raise_Hook            => null);
+      Full_Name             => Storage_Error_Name'Address, HTable_Ptr => null,
+      Foreign_Data          => Null_Address, Raise_Hook => null);
 
    Tasking_Error_Def : aliased Exception_Data :=
-     (Not_Handled_By_Others => False,
-      Lang                  => 'A',
+     (Not_Handled_By_Others => False, Lang => 'A',
       Name_Length           => Tasking_Error_Name'Length,
-      Full_Name             => Tasking_Error_Name'Address,
-      HTable_Ptr            => null,
-      Foreign_Data          => Null_Address,
-      Raise_Hook            => null);
+      Full_Name             => Tasking_Error_Name'Address, HTable_Ptr => null,
+      Foreign_Data          => Null_Address, Raise_Hook => null);
 
    Abort_Signal_Def : aliased Exception_Data :=
-     (Not_Handled_By_Others => True,
-      Lang                  => 'A',
+     (Not_Handled_By_Others => True, Lang => 'A',
       Name_Length           => Abort_Signal_Name'Length,
-      Full_Name             => Abort_Signal_Name'Address,
-      HTable_Ptr            => null,
-      Foreign_Data          => Null_Address,
-      Raise_Hook            => null);
+      Full_Name             => Abort_Signal_Name'Address, HTable_Ptr => null,
+      Foreign_Data          => Null_Address, Raise_Hook => null);
 
    pragma Export (C, Constraint_Error_Def, "constraint_error");
-   pragma Export (C, Numeric_Error_Def,    "numeric_error");
-   pragma Export (C, Program_Error_Def,    "program_error");
-   pragma Export (C, Storage_Error_Def,    "storage_error");
-   pragma Export (C, Tasking_Error_Def,    "tasking_error");
-   pragma Export (C, Abort_Signal_Def,     "_abort_signal");
+   pragma Export (C, Numeric_Error_Def, "numeric_error");
+   pragma Export (C, Program_Error_Def, "program_error");
+   pragma Export (C, Storage_Error_Def, "storage_error");
+   pragma Export (C, Tasking_Error_Def, "tasking_error");
+   pragma Export (C, Abort_Signal_Def, "_abort_signal");
 
    --  Binder variables
 
-   main_priority : Integer
-      with Export, External_Name => "__gl_main_priority";
-   time_slice_val : Integer
-      with Export, External_Name => "__gl_time_slice_val";
-   wc_encoding : Integer
-      with Export, External_Name => "__gl_wc_encoding";
-   locking_policy : Integer
-      with Export, External_Name => "__gl_locking_policy";
-   queuing_policy : Integer
-      with Export, External_Name => "__gl_queuing_policy";
-   task_dispatching_policy : Integer
-      with Export, External_Name => "__gl_task_dispatching_policy";
-   priority_specific_dispatching : Integer
-      with Export, External_Name => "__gl_priority_specific_dispatching";
-   num_specific_dispatching : Integer
-      with Export, External_Name => "__gl_num_specific_dispatching";
-   main_cpu : Integer
-      with Export, External_Name => "__gl_main_cpu";
-   interrupt_states : Integer
-      with Export, External_Name => "__gl_interrupt_states";
-   num_interrupt_states : Integer
-      with Export, External_Name => "__gl_num_interrupt_states";
-   unreserve_all_interrupts : Integer
-      with Export, External_Name => "__gl_unreserve_all_interrupts";
-   detect_blocking : Integer
-      with Export, External_Name => "__gl_detect_blocking";
-   default_stack_size : Integer
-      with Export, External_Name => "__gl_default_stack_size";
+   main_priority                 : Integer with
+     Export, External_Name => "__gl_main_priority";
+   time_slice_val                : Integer with
+     Export, External_Name => "__gl_time_slice_val";
+   wc_encoding                   : Integer with
+     Export, External_Name => "__gl_wc_encoding";
+   locking_policy                : Integer with
+     Export, External_Name => "__gl_locking_policy";
+   queuing_policy                : Integer with
+     Export, External_Name => "__gl_queuing_policy";
+   task_dispatching_policy       : Integer with
+     Export, External_Name => "__gl_task_dispatching_policy";
+   priority_specific_dispatching : Integer with
+     Export, External_Name => "__gl_priority_specific_dispatching";
+   num_specific_dispatching      : Integer with
+     Export, External_Name => "__gl_num_specific_dispatching";
+   main_cpu                      : Integer with
+     Export, External_Name => "__gl_main_cpu";
+   interrupt_states              : Integer with
+     Export, External_Name => "__gl_interrupt_states";
+   num_interrupt_states          : Integer with
+     Export, External_Name => "__gl_num_interrupt_states";
+   unreserve_all_interrupts      : Integer with
+     Export, External_Name => "__gl_unreserve_all_interrupts";
+   detect_blocking               : Integer with
+     Export, External_Name => "__gl_detect_blocking";
+   default_stack_size            : Integer with
+     Export, External_Name => "__gl_default_stack_size";
 
-   procedure GNAT_Initialize is null
-      with Export, External_Name => "__gnat_initialize";
+   procedure GNAT_Initialize is null with
+     Export, External_Name => "__gnat_initialize";
 
-   procedure GNAT_Finalize is null
-      with Export, External_Name => "__gnat_finalize";
+   procedure GNAT_Finalize is null with
+     Export, External_Name => "__gnat_finalize";
 
-   procedure GNAT_Runtime_Initialize is null
-      with Export, External_Name => "__gnat_runtime_initialize";
+   procedure GNAT_Runtime_Initialize is null with
+     Export, External_Name => "__gnat_runtime_initialize";
 
-   procedure GNAT_Runtime_Finalize is null
-      with Export, External_Name => "__gnat_runtime_finalize";
+   procedure GNAT_Runtime_Finalize is null with
+     Export, External_Name => "__gnat_runtime_finalize";
 
    procedure Adafinal is null;
 

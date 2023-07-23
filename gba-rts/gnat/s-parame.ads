@@ -31,6 +31,7 @@
 -- SweetAda SFP cutted-down version                                         --
 ------------------------------------------------------------------------------
 -- GBADA: De-parametrized version                                           --
+-- GBADA: Remove "pragma Compiler_Unit_Warning;"                            --
 ------------------------------------------------------------------------------
 
 --  Default version used when no target-specific version is provided
@@ -49,8 +50,6 @@
 
 --  Note: do not introduce any pragma Inline statements into this unit, since
 --  otherwise the relinking and rebinding capability would be deactivated.
-
-pragma Compiler_Unit_Warning;
 
 package System.Parameters is
    pragma Pure;
