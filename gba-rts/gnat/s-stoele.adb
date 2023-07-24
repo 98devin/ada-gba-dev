@@ -28,8 +28,8 @@
 -- Extensive contributions were provided by Ada Core Technologies Inc.      --
 --                                                                          --
 ------------------------------------------------------------------------------
-
-pragma Compiler_Unit_Warning;
+-- GBADA: Remove "pragma Compiler_Unit_Warning;"                            --
+------------------------------------------------------------------------------
 
 with Ada.Unchecked_Conversion;
 
@@ -44,10 +44,10 @@ package body System.Storage_Elements is
    --  Note qualification below of To_Address to avoid ambiguities systems
    --  where Address is a visible integer type.
 
-   function To_Address is
-     new Ada.Unchecked_Conversion (Storage_Offset, Address);
-   function To_Offset  is
-     new Ada.Unchecked_Conversion (Address, Storage_Offset);
+   function To_Address is new Ada.Unchecked_Conversion
+     (Storage_Offset, Address);
+   function To_Offset is new Ada.Unchecked_Conversion
+     (Address, Storage_Offset);
 
    --  Conversion to/from integers
 
@@ -80,14 +80,16 @@ package body System.Storage_Elements is
 
    function "+" (Left : Address; Right : Storage_Offset) return Address is
    begin
-      return Storage_Elements.To_Address
-        (To_Integer (Left) + To_Integer (To_Address (Right)));
+      return
+        Storage_Elements.To_Address
+          (To_Integer (Left) + To_Integer (To_Address (Right)));
    end "+";
 
    function "+" (Left : Storage_Offset; Right : Address) return Address is
    begin
-      return Storage_Elements.To_Address
-        (To_Integer (To_Address (Left)) + To_Integer (Right));
+      return
+        Storage_Elements.To_Address
+          (To_Integer (To_Address (Left)) + To_Integer (Right));
    end "+";
 
    ---------
@@ -96,14 +98,17 @@ package body System.Storage_Elements is
 
    function "-" (Left : Address; Right : Storage_Offset) return Address is
    begin
-      return Storage_Elements.To_Address
-        (To_Integer (Left) - To_Integer (To_Address (Right)));
+      return
+        Storage_Elements.To_Address
+          (To_Integer (Left) - To_Integer (To_Address (Right)));
    end "-";
 
    function "-" (Left, Right : Address) return Storage_Offset is
    begin
-      return To_Offset (Storage_Elements.To_Address
-                         (To_Integer (Left) - To_Integer (Right)));
+      return
+        To_Offset
+          (Storage_Elements.To_Address
+             (To_Integer (Left) - To_Integer (Right)));
    end "-";
 
    -----------
@@ -111,13 +116,11 @@ package body System.Storage_Elements is
    -----------
 
    function "mod"
-     (Left  : Address;
-      Right : Storage_Offset) return Storage_Offset
+     (Left : Address; Right : Storage_Offset) return Storage_Offset
    is
    begin
       if Right > 0 then
-         return Storage_Offset
-           (To_Integer (Left) mod Integer_Address (Right));
+         return Storage_Offset (To_Integer (Left) mod Integer_Address (Right));
 
          --  The negative case makes no sense since it is a case of a mod where
          --  the left argument is unsigned and the right argument is signed. In

@@ -1,19 +1,21 @@
-@--------------------------------------------------------------------------------
-@ memmove.s
-@--------------------------------------------------------------------------------
-@ Implementations of:
-@   __aeabi_memmove8, __aeabi_memmove4 and __aeabi_memmove
-@   (void *dest, const void *src, size_t n)
-@ memmove8 is an alias of memmove4
-@ memmove4 dest & src are word-aligned
-@ __agbabi_memmove2 dest & src are half-word-aligned
-@--------------------------------------------------------------------------------
+@===============================================================================
+@
+@ ABI:
+@    __aeabi_memmove, __aeabi_memmove4, __aeabi_memmove8
+@ Standard:
+@    memmove
+@
+@ Copyright (C) 2021-2023 agbabi contributors
+@ For conditions of distribution and use, see copyright notice in LICENSE.md
+@
+@===============================================================================
+
+    .arm
+    .align 2
 
     .section .iwram.__aeabi_memmove, "ax", %progbits
-    .align 2
-    .arm
     .global __aeabi_memmove
-    .type __aeabi_memmove STT_FUNC
+    .type __aeabi_memmove, %function
 __aeabi_memmove:
     cmp     r0, r1
     .extern __agbabi_rmemcpy
@@ -22,35 +24,31 @@ __aeabi_memmove:
     b       __aeabi_memcpy
 
     .global __aeabi_memmove8
-    .type __aeabi_memmove8 STT_FUNC
+    .type __aeabi_memmove8, %function
 __aeabi_memmove8:
     .global __aeabi_memmove4
-    .type __aeabi_memmove4 STT_FUNC
+    .type __aeabi_memmove4, %function
 __aeabi_memmove4:
     cmp     r0, r1
-    .extern __agbabi_rmemcpy4
-    bgt     __agbabi_rmemcpy4
+    .extern __agbabi_rmemcpy
+    bgt     __agbabi_rmemcpy
     .extern __aeabi_memcpy4
     b       __aeabi_memcpy4
 
-    .global __agbabi_memmove2
-    .type __agbabi_memmove2 STT_FUNC
-__agbabi_memmove2:
+    .global __agbabi_memmove1
+    .type __agbabi_memmove1, %function
+__agbabi_memmove1:
     cmp     r0, r1
-    .extern __agbabi_rmemcpy2
-    bgt     __agbabi_rmemcpy2
-    .extern __agbabi_memcpy2
-    b       __agbabi_memcpy2
+    .extern __agbabi_rmemcpy1
+    bgt     __agbabi_rmemcpy1
+    .extern __agbabi_memcpy1
+    b       __agbabi_memcpy1
 
     .section .iwram.memmove, "ax", %progbits
-    .align 2
-    .arm
     .global memmove
-    .type memmove STT_FUNC
+    .type memmove, %function
 memmove:
     push    {r0, lr}
-    cmp     r0, r1
-    bgt     __agbabi_rmemcpy
-    b       __aeabi_memcpy
+    bl      __aeabi_memmove
     pop     {r0, lr}
     bx      lr

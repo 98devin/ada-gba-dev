@@ -30,8 +30,8 @@
 ------------------------------------------------------------------------------
 -- SweetAda SFP cutted-down version                                         --
 ------------------------------------------------------------------------------
-
-pragma Compiler_Unit_Warning;
+-- GBADA: Remove "pragma Compiler_Unit_Warning;"                            --
+------------------------------------------------------------------------------
 
 package body System.Exception_Table is
 

@@ -32,12 +32,12 @@
 -- Extensive contributions were provided by Ada Core Technologies Inc.      --
 --                                                                          --
 ------------------------------------------------------------------------------
+-- GBADA: Remove "pragma Compiler_Unit_Warning;"                            --
+------------------------------------------------------------------------------
 
 --  Warning: declarations in this package are ambiguous with respect to the
 --  extra declarations that can be introduced into System using Extend_System.
 --  It is a good idea to avoid use clauses for this package.
-
-pragma Compiler_Unit_Warning;
 
 with System.Parameters;
 

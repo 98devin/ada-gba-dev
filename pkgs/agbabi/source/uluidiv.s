@@ -1,34 +1,39 @@
-@--------------------------------------------------------------------------------
-@ uluidiv.s
-@--------------------------------------------------------------------------------
-@ Provides an implementation of unsigned 64-bit division with 32-bit denominator
-@ Taken with permission from github.com/JoaoBaptMG/gba-modern (2021-05-23)
+@===============================================================================
+@
+@ Support:
+@    __agbabi_uluidiv, __agbabi_uluidivmod, __agbabi_unsafe_uluidivmod
+@
+@ Taken with permission from github.com/JoaoBaptMG/gba-modern (2020-11-17)
 @ Modified for libagbabi
-@--------------------------------------------------------------------------------
+@
+@===============================================================================
 
-@ Source code adapted from the 32-bit/32-bit routine to work with 64-bit numerators
-@ Original source code in https://www.chiark.greenend.org.uk/~theom/riscos/docs/ultimate/a252div.txt
-@ r0:r1: the numerator / r2: the denominator
-@ after it, r0:r1 has the quotient and r2 has the modulo. r3 = 0 to be compatible with uldivmod
-    .section .iwram.__agbabi_uluidivmod, "ax", %progbits
-    .align 2
     .arm
+    .align 2
+
+    @ Source code adapted from the 32-bit/32-bit routine to work with 64-bit numerators
+    @ Original source code in https://www.chiark.greenend.org.uk/~theom/riscos/docs/ultimate/a252div.txt
+    @ r0:r1: the numerator / r2: the denominator
+    @ after it, r0:r1 has the quotient and r2 has the modulo. r3 = 0 to be compatible with uldivmod
+    .section .iwram.__agbabi_uluidivmod, "ax", %progbits
     .global __agbabi_uluidivmod
-    .type __agbabi_uluidivmod STT_FUNC
+    .type __agbabi_uluidivmod, %function
 __agbabi_uluidivmod:
+    @ Fallthrough
 
     .global __agbabi_uluidiv
-    .type __agbabi_uluidiv STT_FUNC
+    .type __agbabi_uluidiv, %function
 __agbabi_uluidiv:
 
     @ Check for division by zero
     cmp     r2, #0
     .extern __aeabi_ldiv0
     beq     __aeabi_ldiv0
+    @ Fallthrough
 
-    .global __agbabi_unsafe_uluidiv
-    .type __agbabi_unsafe_uluidiv STT_FUNC
-__agbabi_unsafe_uluidiv:
+    .global __agbabi_unsafe_uluidivmod
+    .type __agbabi_unsafe_uluidivmod, %function
+__agbabi_unsafe_uluidivmod:
     @ If the second word is 0, just do normal 32x32 division
     cmp     r1, #0
     beq     .LbridgeTo32
@@ -87,8 +92,8 @@ __agbabi_unsafe_uluidiv:
 .LbridgeTo32:
     mov     r1, r2          @ move the denominator to the actual position
     push    {lr}            @ prepare to call the subroutine
-    .extern __agbabi_unsafe_uidiv
-    bl      __agbabi_unsafe_uidiv  @ call the 32x32 routine
+    .extern __agbabi_unsafe_uidivmod
+    bl      __agbabi_unsafe_uidivmod  @ call the 32x32 routine
     pop     {lr}            @ pop the link register
     mov     r2, r1          @ move the remainder to the desired location
     mov     r1, #0          @ zero-out the most significant words

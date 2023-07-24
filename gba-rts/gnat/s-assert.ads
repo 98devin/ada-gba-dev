@@ -28,6 +28,8 @@
 -- Extensive contributions were provided by Ada Core Technologies Inc.      --
 --                                                                          --
 ------------------------------------------------------------------------------
+-- GBADA: Remove "pragma Compiler_Unit_Warning;"                            --
+------------------------------------------------------------------------------
 
 --  This package provides support for assertions (including pragma Assert,
 --  pragma Debug, and Precondition/Postcondition/Predicate/Invariant aspects
@@ -35,8 +37,6 @@
 
 --  This unit may be used directly from an application program by providing
 --  an appropriate WITH, and the interface can be expected to remain stable.
-
-pragma Compiler_Unit_Warning;
 
 package System.Assertions is
 

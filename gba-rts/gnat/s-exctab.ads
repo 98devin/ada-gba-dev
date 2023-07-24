@@ -30,12 +30,12 @@
 ------------------------------------------------------------------------------
 -- SweetAda SFP cutted-down version                                         --
 ------------------------------------------------------------------------------
+-- GBADA: Remove "pragma Compiler_Unit_Warning;"                            --
+------------------------------------------------------------------------------
 
 --  This package implements the interface used to maintain a table of
 --  registered exception names, for the implementation of the mapping
 --  of names to exceptions (used for exception streams and attributes)
-
-pragma Compiler_Unit_Warning;
 
 with System.Standard_Library;
 

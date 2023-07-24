@@ -1,9 +1,8 @@
--- Copyright (c) 2021 Devin Hill
+-- Copyright (c) 2023 Devin Hill
 -- zlib License -- see LICENSE for details.
 
-
 with GBA.Input;
-use  GBA.Input;
+use GBA.Input;
 
 package GBA.Input.Buffered is
 

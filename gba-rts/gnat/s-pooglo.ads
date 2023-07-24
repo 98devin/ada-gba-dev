@@ -37,7 +37,6 @@
 --  Storage pool corresponding to default global storage pool used for types
 --  for which no storage pool is specified.
 
-with System;
 with System.Storage_Elements;
 with System.Allocation.Linear_Pools;
 with System.Allocation.Memory;

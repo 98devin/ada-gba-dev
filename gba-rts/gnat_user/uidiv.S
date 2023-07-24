@@ -1,35 +1,39 @@
-@--------------------------------------------------------------------------------
-@ uidiv.s
-@--------------------------------------------------------------------------------
-@ Provides an implementation of unsigned division
+@===============================================================================
+@
+@ ABI:
+@    __aeabi_uidiv, __aeabi_uidivmod
+@ Support:
+@    __agbabi_unsafe_uidivmod
+@
 @ Taken with permission from github.com/JoaoBaptMG/gba-modern (2020-11-17)
 @ Modified for libagbabi
-@--------------------------------------------------------------------------------
+@
+@===============================================================================
 
-@ Source code taken from https://www.chiark.greenend.org.uk/~theom/riscos/docs/ultimate/a252div.txt
-@ r0: the numerator / r1: the denominator
-@ after it, r0 has the quotient and r1 has the modulo
-    .section .iwram.__aeabi_uidivmod, "ax", %progbits
-    .align 2
     .arm
+    .align 2
+
+    .section .iwram.__aeabi_uidivmod, "ax", %progbits
     .global __aeabi_uidivmod
-    .type __aeabi_uidivmod STT_FUNC
+    .type __aeabi_uidivmod, %function
 __aeabi_uidivmod:
+    @ Fallthrough
 
     .global __aeabi_uidiv
-    .type __aeabi_uidiv STT_FUNC
+    .type __aeabi_uidiv, %function
 __aeabi_uidiv:
 
     @ Check for division by zero
     cmp     r1, #0
     .extern __aeabi_idiv0
     beq     __aeabi_idiv0
+    @ Fallthrough
 
-    .global __agbabi_unsafe_uidiv
-    .type __agbabi_unsafe_uidiv STT_FUNC
-__agbabi_unsafe_uidiv:
+    .global __agbabi_unsafe_uidivmod
+    .type __agbabi_unsafe_uidivmod, %function
+__agbabi_unsafe_uidivmod:
     @ If n < d, just bail out as well
-    cmp     r0, r1      @ n, d
+    cmp     r0, r1    @ n, d
     movlo   r1, r0    @ mod = n
     movlo   r0, #0    @ quot = 0
     bxlo    lr
